@@ -1,0 +1,1042 @@
+{
+  "base_instance_id": "coauthor:creative:173cae0bcc714ba29bfeab4004d7fa85",
+  "constraint": "even_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 273,
+  "family_index": 2,
+  "job_id": "123_coauthor_even_count_kna_t3_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 64,
+  "n_low": 2,
+  "prompt_mode": "chat_continuation",
+  "prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The people feel tricked. The rest of the world was progressing while the United States was isolating. The world is now very advanced, and the US is just catching up. The rest of the world now wants to help the United States recover, they want to show that they were not wrong in going into isolation.\n\nThere is value in isolation and the United States has preserved many traditions. The other countries have something to learn from America, and vice versa. It is a perfect opportunity for the two to come together and learn from each other. Only time would tell if people were evolved enough to truly work together or if interactions would eventually lead to yet another World War. Fighting seems to be a part of human nature and it is usually just a matter of time before it happens. \n\nBut people are also interested in things that make them successful.",
+  "reference_single_token_nfa_states": 11,
+  "reference_text": " Once the US proved to other countries that they have helpful knowledge to share they were under much less of a threat. Many people want to do the right thing but also think of themselves. It is also human nature to be self-centered. It was up the US to balance these needs to fight and think of yourself.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 776617888,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "balance",
+      "token_ids": [
+        7915
+      ],
+      "token_length": 1,
+      "token_text": " balance"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "proved",
+      "token_ids": [
+        18089
+      ],
+      "token_length": 1,
+      "token_text": " proved"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "helpful",
+      "token_ids": [
+        10631
+      ],
+      "token_length": 1,
+      "token_text": " helpful"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "27ea6095f176f5b1f3fee3dd4b1b81319eed3eaf8284fb59416f280213f8e358",
+  "source_split": "test",
+  "structural_cell_index": 123,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      7915
+    ],
+    [
+      18089
+    ],
+    [
+      10631
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    7915,
+    18089,
+    10631
+  ],
+  "tracked_token_texts": [
+    " balance",
+    " proved",
+    " helpful"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    2574,
+    1414,
+    25,
+    198,
+    26093,
+    4196,
+    4843,
+    14016,
+    11,
+    660,
+    279,
+    16185,
+    314,
+    279,
+    1814,
+    7003,
+    310,
+    220,
+    20,
+    15,
+    1578,
+    314,
+    7077,
+    29310,
+    494,
+    799,
+    2361,
+    303,
+    1906,
+    310,
+    5190,
+    4945,
+    24979,
+    13,
+    220,
+    20,
+    15,
+    1578,
+    2843,
+    11,
+    279,
+    3516,
+    4042,
+    3905,
+    680,
+    314,
+    57962,
+    11,
+    1132,
+    310,
+    3827,
+    421,
+    874,
+    799,
+    745,
+    3804,
+    1083,
+    29310,
+    13,
+    561,
+    1208,
+    2579,
+    13665,
+    290,
+    13,
+    561,
+    2645,
+    314,
+    279,
+    1814,
+    557,
+    73039,
+    1345,
+    279,
+    3516,
+    4042,
+    557,
+    12720,
+    1060,
+    13,
+    561,
+    1814,
+    369,
+    1381,
+    1546,
+    10530,
+    11,
+    321,
+    279,
+    2201,
+    369,
+    1066,
+    31973,
+    685,
+    13,
+    561,
+    2645,
+    314,
+    279,
+    1814,
+    1381,
+    6587,
+    310,
+    1438,
+    279,
+    3516,
+    4042,
+    11394,
+    11,
+    781,
+    1318,
+    310,
+    1420,
+    421,
+    781,
+    998,
+    524,
+    4808,
+    303,
+    2019,
+    1083,
+    29310,
+    13,
+    271,
+    3733,
+    369,
+    869,
+    303,
+    29310,
+    321,
+    279,
+    3516,
+    4042,
+    682,
+    32471,
+    1599,
+    29893,
+    13,
+    561,
+    975,
+    5656,
+    599,
+    2414,
+    310,
+    3827,
+    494,
+    4994,
+    11,
+    321,
+    16282,
+    43782,
+    13,
+    1049,
+    369,
+    264,
+    4574,
+    6429,
+    364,
+    279,
+    1330,
+    310,
+    2445,
+    3658,
+    321,
+    3827,
+    494,
+    1754,
+    975,
+    13,
+    8020,
+    854,
+    1000,
+    3184,
+    413,
+    1208,
+    998,
+    26990,
+    3213,
+    310,
+    9149,
+    944,
+    3658,
+    466,
+    413,
+    21207,
+    1000,
+    9297,
+    2895,
+    310,
+    3482,
+    2361,
+    4196,
+    4843,
+    13,
+    47659,
+    4816,
+    310,
+    381,
+    264,
+    919,
+    314,
+    3611,
+    6775,
+    321,
+    424,
+    369,
+    5802,
+    1066,
+    264,
+    4766,
+    314,
+    854,
+    1518,
+    424,
+    8311,
+    13,
+    4558,
+    3850,
+    1208,
+    513,
+    1048,
+    7763,
+    303,
+    2433,
+    421,
+    1236,
+    1070,
+    6635,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 243,
+  "prompt_token_ids_sha256": "c41d14a4c62eba212f6ab593d4dc0d489294d675567d9259e535647befb04d5b",
+  "prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "token_classes": {
+    "piece_000": [
+      7915
+    ],
+    "piece_001": [
+      18089
+    ],
+    "piece_002": [
+      10631
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 7915,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 11,
+  "unrolled_states": 678,
+  "compiled_constraint": {
+    "schema_version": 1,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 11,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          6
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          9
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          7915
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          18089
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          10631
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 64,
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      2574,
+      1414,
+      25,
+      198,
+      26093,
+      4196,
+      4843,
+      14016,
+      11,
+      660,
+      279,
+      16185,
+      314,
+      279,
+      1814,
+      7003,
+      310,
+      220,
+      20,
+      15,
+      1578,
+      314,
+      7077,
+      29310,
+      494,
+      799,
+      2361,
+      303,
+      1906,
+      310,
+      5190,
+      4945,
+      24979,
+      13,
+      220,
+      20,
+      15,
+      1578,
+      2843,
+      11,
+      279,
+      3516,
+      4042,
+      3905,
+      680,
+      314,
+      57962,
+      11,
+      1132,
+      310,
+      3827,
+      421,
+      874,
+      799,
+      745,
+      3804,
+      1083,
+      29310,
+      13,
+      561,
+      1208,
+      2579,
+      13665,
+      290,
+      13,
+      561,
+      2645,
+      314,
+      279,
+      1814,
+      557,
+      73039,
+      1345,
+      279,
+      3516,
+      4042,
+      557,
+      12720,
+      1060,
+      13,
+      561,
+      1814,
+      369,
+      1381,
+      1546,
+      10530,
+      11,
+      321,
+      279,
+      2201,
+      369,
+      1066,
+      31973,
+      685,
+      13,
+      561,
+      2645,
+      314,
+      279,
+      1814,
+      1381,
+      6587,
+      310,
+      1438,
+      279,
+      3516,
+      4042,
+      11394,
+      11,
+      781,
+      1318,
+      310,
+      1420,
+      421,
+      781,
+      998,
+      524,
+      4808,
+      303,
+      2019,
+      1083,
+      29310,
+      13,
+      271,
+      3733,
+      369,
+      869,
+      303,
+      29310,
+      321,
+      279,
+      3516,
+      4042,
+      682,
+      32471,
+      1599,
+      29893,
+      13,
+      561,
+      975,
+      5656,
+      599,
+      2414,
+      310,
+      3827,
+      494,
+      4994,
+      11,
+      321,
+      16282,
+      43782,
+      13,
+      1049,
+      369,
+      264,
+      4574,
+      6429,
+      364,
+      279,
+      1330,
+      310,
+      2445,
+      3658,
+      321,
+      3827,
+      494,
+      1754,
+      975,
+      13,
+      8020,
+      854,
+      1000,
+      3184,
+      413,
+      1208,
+      998,
+      26990,
+      3213,
+      310,
+      9149,
+      944,
+      3658,
+      466,
+      413,
+      21207,
+      1000,
+      9297,
+      2895,
+      310,
+      3482,
+      2361,
+      4196,
+      4843,
+      13,
+      47659,
+      4816,
+      310,
+      381,
+      264,
+      919,
+      314,
+      3611,
+      6775,
+      321,
+      424,
+      369,
+      5802,
+      1066,
+      264,
+      4766,
+      314,
+      854,
+      1518,
+      424,
+      8311,
+      13,
+      4558,
+      3850,
+      1208,
+      513,
+      1048,
+      7763,
+      303,
+      2433,
+      421,
+      1236,
+      1070,
+      6635,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "even_count",
+      "label": "positive even count",
+      "rule": "At least one tracked phrase ('balance', 'proved', 'helpful') must have a positive even number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "123_coauthor_even_count_kna_t3_rep1",
+      "design_index": 273,
+      "structural_cell_index": 123,
+      "replicate_index": 1,
+      "seed": 776617888,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "07c05d4d4fbaf2345ad11ccd8c7b6e9afaef89c6627bd6db2b16860005d92ab3"
+        },
+        "hmm_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "identity_sha256": "150780fa5392bdaaf9c2cdcad3fc1a0f9430542559d2aa3239de212a60c8d3d0"
+        },
+        "model_provenance_sha256": "c9fdbbef675b992502b19c6fa3169060a6c38735389465e75b2cff1d394ca231"
+      }
+    },
+    "sha256": "6bfff758479c54563b3e590c42e16bf060c3cdd6b90ba9551c812bc5f87af936"
+  }
+}
