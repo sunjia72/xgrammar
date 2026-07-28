@@ -58,7 +58,7 @@ def _compiled_payload(
     # The wildcard accepts either the named class or the residual "other"
     # class for one content token, followed by EOS.
     body: dict[str, Any] = {
-        "schema_version": 1,
+        "schema_version": runner.COMPILED_SCHEMA_VERSION,
         "kind": "compiled_token_partition_nfa",
         "token_classes": [
             {"name": "keyword", "symbol_id": 0, "token_ids": [1]},
@@ -73,8 +73,9 @@ def _compiled_payload(
         },
         "other_symbol_id": 1,
         "stop_symbol_id": 2,
-        "n_low": 2,
-        "n": 2,
+        "n_low": runner.EXPECTED_N_LOW,
+        "n": runner.EXPECTED_N,
+        "length_contract": runner.EXPECTED_LENGTH_CONTRACT,
         "prompt_token_ids": [0],
         "tokenizer_fingerprint": {
             "vocab_size": 5,
@@ -85,6 +86,19 @@ def _compiled_payload(
         "provenance": {} if provenance is None else provenance,
     }
     return {**body, "sha256": _digest(body)}
+
+
+def _unrolled_state_count() -> int:
+    compiled = runner.CompiledConstraint.parse(_compiled_payload())
+    unrolled = runner.unroll_nfa(
+        compiled.nfa,
+        n=compiled.n,
+        n_low=compiled.n_low,
+    )
+    return sum(len(layer) for layer in unrolled.layers)
+
+
+TINY_UNROLLED_STATES = _unrolled_state_count()
 
 
 def _job_payload(
@@ -108,12 +122,14 @@ def _job_payload(
     return {
         "job_id": job_id,
         "design_index": index,
+        "structural_cell_index": index // 3,
+        "replicate_index": index % 3,
         "constraint": family,
         "prompt_token_ids": [0],
-        "n_low": 2,
-        "n": 2,
+        "n_low": runner.EXPECTED_N_LOW,
+        "n": runner.EXPECTED_N,
         "nfa_states": 3,
-        "unrolled_states": 3,
+        "unrolled_states": TINY_UNROLLED_STATES,
         "seed": index,
         "dataset": "tiny",
         "compiled_constraint": _compiled_payload(provenance=provenance),
@@ -139,6 +155,37 @@ def _model_provenance() -> dict[str, Any]:
     return {**body, "sha256": _digest(body)}
 
 
+def _execution_selection(
+    rows: list[dict[str, Any]],
+    *,
+    replicate_indices: list[int] | None = None,
+) -> dict[str, Any]:
+    selected = list(rows)
+    if replicate_indices is not None:
+        selected = [
+            row
+            for row in selected
+            if row.get("replicate_index") in replicate_indices
+        ]
+    ids = [str(row["job_id"]) for row in selected]
+    body = {
+        "schema_version": 1,
+        "selection_order": "canonical_workload_order",
+        "operation_order": ["replicate_filter", "max_jobs_prefix"],
+        "replicate_indices": replicate_indices,
+        "max_jobs": None,
+        "source_instances": len(rows),
+        "instances_after_replicate_filter": len(selected),
+        "selected_instances": len(selected),
+        "selected_family_counts": dict(
+            Counter(str(row["constraint"]) for row in selected)
+        ),
+        "selected_job_ids": ids,
+        "selected_job_ids_sha256": _digest(ids),
+    }
+    return {**body, "sha256": _digest(body)}
+
+
 def _workload_payload() -> dict[str, Any]:
     model_provenance = _model_provenance()
     model_reference = runner._model_provenance_reference(model_provenance)
@@ -153,13 +200,20 @@ def _workload_payload() -> dict[str, Any]:
     counts = Counter(str(row["constraint"]) for row in rows)
     return {
         "kind": "compiled_keyword_dataset",
-        "schema_version": 3,
+        "schema_version": runner.WORKLOAD_SCHEMA_VERSION,
         "dataset": "tiny",
         "benchmark_name": "tiny-current-schema",
+        "total_instances": 500,
+        "length_interval_including_eos": [
+            runner.EXPECTED_N_LOW,
+            runner.EXPECTED_N,
+        ],
+        "length_contract": runner.EXPECTED_LENGTH_CONTRACT,
         "model_provenance": model_provenance,
         "family_counts": dict(counts),
         "jobs": rows,
         "jobs_sha256": _digest(rows),
+        "execution_selection": _execution_selection(rows),
     }
 
 
@@ -250,7 +304,10 @@ def test_compiled_constraint_parses_and_rejects_authenticated_malformation() -> 
         runner.TokenClass("keyword", 0, (1,)),
     )
     assert (compiled.other_symbol_id, compiled.stop_symbol_id) == (1, 2)
-    assert (compiled.n_low, compiled.n) == (2, 2)
+    assert (compiled.n_low, compiled.n) == (
+        runner.EXPECTED_N_LOW,
+        runner.EXPECTED_N,
+    )
 
     tampered = copy.deepcopy(payload)
     tampered["n"] = 3
@@ -343,6 +400,38 @@ def test_current_500_job_workload_loads_and_rejects_reauthenticated_tamper(
     _write_payload(tampered_path, tampered)
     with pytest.raises(ValueError, match="row and compiled constraint differ"):
         runner.Workload.load(tampered_path)
+
+
+def test_compiled_artifact_requires_explicit_terminal_eos_contract() -> None:
+    payload = _compiled_payload()
+    del payload["length_contract"]
+    payload["sha256"] = _digest(
+        {key: value for key, value in payload.items() if key != "sha256"}
+    )
+
+    with pytest.raises(ValueError, match="length contract"):
+        runner.CompiledConstraint.parse(payload)
+
+
+def test_workload_honors_authenticated_execution_selection(
+    tmp_path: Path,
+) -> None:
+    payload = _workload_payload()
+    payload["execution_selection"] = _execution_selection(
+        payload["jobs"], replicate_indices=[0]
+    )
+    path = tmp_path / "selected.json"
+    _write_payload(path, payload)
+
+    workload = runner.Workload.load(path)
+
+    assert len(workload.jobs) == 167
+    assert {job.source["replicate_index"] for job in workload.jobs} == {0}
+
+    del payload["execution_selection"]
+    _write_payload(path, payload)
+    with pytest.raises(ValueError, match="execution_selection"):
+        runner.Workload.load(path)
 
 
 @pytest.mark.parametrize(

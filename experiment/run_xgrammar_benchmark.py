@@ -2,7 +2,7 @@
 """Run XGrammar on one authenticated compiled keyword workload.
 
 The runner is deliberately family-agnostic.  It consumes only the method-neutral
-``compiled_constraint`` embedded in each schema-v3 workload row: an NFA, a token
+``compiled_constraint`` embedded in each schema-v4 workload row: an NFA, a token
 partition, EOS-inclusive length bounds, and the exact prompt token IDs.
 """
 
@@ -30,7 +30,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Mapping, Sequence
+from typing import Any, Collection, Mapping, Sequence
 
 os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
 
@@ -51,14 +51,17 @@ from nfa_fpras.automata import NFA, WILDCARD, make_nfa, unroll_nfa  # noqa: E402
 
 
 METHOD = "xgrammar"
-RUNNER_VERSION = 2
+RUNNER_VERSION = 3
 RESULT_SCHEMA_VERSION = 1
 WORKLOAD_KIND = "compiled_keyword_dataset"
-WORKLOAD_SCHEMA_VERSION = 3
+WORKLOAD_SCHEMA_VERSION = 4
 COMPILED_KIND = "compiled_token_partition_nfa"
-COMPILED_SCHEMA_VERSION = 1
+COMPILED_SCHEMA_VERSION = 2
+TERMINAL_EOS_LENGTH_CONTRACT_SCHEMA_VERSION = 1
+EXPECTED_N_LOW = 2
+EXPECTED_N = 65
 DEFAULT_MODEL = Path("/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B")
-DEFAULT_OUTPUT_ROOT = EXPERIMENT_ROOT / "results_xgrammar_all10_n64"
+DEFAULT_OUTPUT_ROOT = EXPERIMENT_ROOT / "results_xgrammar_all10_content64_total65"
 PRIVATE_CODEPOINT_BASE = 0x10000
 MAX_CODEPOINT = 0x10FFFF
 _ACTIVE: set[int] = set()
@@ -79,6 +82,26 @@ _FAILURE_KINDS = {
 }
 
 
+def _terminal_eos_length_contract(n_low: int, n: int) -> dict[str, Any]:
+    """Mirror the method-neutral compiled-artifact length contract."""
+
+    if not 1 <= n_low <= n:
+        raise ValueError("terminal-EOS bounds must satisfy 1 <= n_low <= n")
+    return {
+        "schema_version": TERMINAL_EOS_LENGTH_CONTRACT_SCHEMA_VERSION,
+        "content_token_interval": [n_low - 1, n - 1],
+        "total_token_interval_including_eos": [n_low, n],
+        "terminal_eos_tokens": 1,
+        "eos_counts_toward_total": True,
+        "eos_counts_toward_content": False,
+    }
+
+
+EXPECTED_LENGTH_CONTRACT = _terminal_eos_length_contract(
+    EXPECTED_N_LOW, EXPECTED_N
+)
+
+
 def _canonical_bytes(value: Any) -> bytes:
     return json.dumps(
         value,
@@ -91,6 +114,66 @@ def _canonical_bytes(value: Any) -> bytes:
 
 def _digest(value: Any) -> str:
     return hashlib.sha256(_canonical_bytes(value)).hexdigest()
+
+
+def _selected_job_ids(
+    payload: Mapping[str, Any], rows: Sequence[Mapping[str, Any]]
+) -> tuple[str, ...]:
+    """Authenticate and resolve the canonical schema-v4 execution view."""
+
+    selection = payload.get("execution_selection")
+    if not isinstance(selection, Mapping):
+        raise ValueError("compiled dataset has no valid execution_selection")
+    body = dict(selection)
+    supplied = body.pop("sha256", None)
+    if not isinstance(supplied, str) or supplied != _digest(body):
+        raise ValueError("workload execution_selection digest mismatch")
+    replicas = body.get("replicate_indices")
+    if replicas is not None and (
+        not isinstance(replicas, list)
+        or any(
+            isinstance(value, bool)
+            or not isinstance(value, int)
+            or value < 0
+            for value in replicas
+        )
+        or replicas != sorted(set(replicas))
+    ):
+        raise ValueError("execution_selection replicate_indices is invalid")
+    max_jobs = body.get("max_jobs")
+    if max_jobs is not None and (
+        isinstance(max_jobs, bool)
+        or not isinstance(max_jobs, int)
+        or max_jobs <= 0
+    ):
+        raise ValueError("execution_selection max_jobs is invalid")
+    selected = list(rows)
+    if replicas is not None:
+        selected = [
+            row for row in selected if row.get("replicate_index") in replicas
+        ]
+    after_replicas = len(selected)
+    if max_jobs is not None:
+        selected = selected[:max_jobs]
+    selected_ids = [str(row["job_id"]) for row in selected]
+    expected = {
+        "schema_version": 1,
+        "selection_order": "canonical_workload_order",
+        "operation_order": ["replicate_filter", "max_jobs_prefix"],
+        "replicate_indices": replicas,
+        "max_jobs": max_jobs,
+        "source_instances": len(rows),
+        "instances_after_replicate_filter": after_replicas,
+        "selected_instances": len(selected),
+        "selected_family_counts": dict(
+            Counter(str(row["constraint"]) for row in selected)
+        ),
+        "selected_job_ids": selected_ids,
+        "selected_job_ids_sha256": _digest(selected_ids),
+    }
+    if body != expected or not selected_ids:
+        raise ValueError("workload execution_selection differs")
+    return tuple(selected_ids)
 
 
 def _file_digest(path: Path) -> str:
@@ -305,6 +388,8 @@ class CompiledConstraint:
             or other != len(classes)
             or stop != alphabet_size - 1
             or not 1 <= n_low <= n
+            or body.get("length_contract")
+            != _terminal_eos_length_contract(n_low, n)
         ):
             raise ValueError("compiled NFA alphabet or length contract is invalid")
         nfa = make_nfa(state_count, initials, finals, stop, edges)
@@ -446,17 +531,38 @@ class Workload:
             payload.get("kind") != WORKLOAD_KIND
             or payload.get("schema_version") != WORKLOAD_SCHEMA_VERSION
         ):
-            raise ValueError("only current compiled dataset schema v3 is supported")
+            raise ValueError("only current compiled dataset schema v4 is supported")
         rows = payload.get("jobs")
         if not isinstance(rows, list) or len(rows) != 500:
             raise ValueError("current dataset workload must contain exactly 500 jobs")
+        if (
+            payload.get("total_instances") != 500
+            or payload.get("length_interval_including_eos")
+            != [EXPECTED_N_LOW, EXPECTED_N]
+            or payload.get("length_contract") != EXPECTED_LENGTH_CONTRACT
+        ):
+            raise ValueError(
+                "current dataset terminal-EOS length contract differs"
+            )
         supplied = payload.get("jobs_sha256")
         if not isinstance(supplied, str) or supplied != _digest(rows):
             raise ValueError("workload jobs digest mismatch")
-        jobs = tuple(Job.parse(row, index) for index, row in enumerate(rows))
-        if len({job.job_id for job in jobs}) != len(jobs):
+        all_jobs = tuple(
+            Job.parse(row, index) for index, row in enumerate(rows)
+        )
+        if any(
+            (job.compiled.n_low, job.compiled.n)
+            != (EXPECTED_N_LOW, EXPECTED_N)
+            for job in all_jobs
+        ):
+            raise ValueError(
+                "compiled job terminal-EOS length bounds differ"
+            )
+        if len({job.job_id for job in all_jobs}) != len(all_jobs):
             raise ValueError("workload job IDs are not unique")
-        counts = Counter(str(job.source.get("constraint")) for job in jobs)
+        counts = Counter(
+            str(job.source.get("constraint")) for job in all_jobs
+        )
         if len(counts) != 10 or payload.get("family_counts") != dict(counts):
             raise ValueError("current workload must contain the authenticated ten families")
         dataset = payload.get("dataset")
@@ -494,11 +600,11 @@ class Workload:
                 )
         model_reference = _model_provenance_reference(provenance)
         fingerprint_sha256s = {
-            _digest(job.compiled.tokenizer_fingerprint) for job in jobs
+            _digest(job.compiled.tokenizer_fingerprint) for job in all_jobs
         }
         if len(fingerprint_sha256s) != 1:
             raise ValueError("compiled tokenizer fingerprints differ across jobs")
-        for job in jobs:
+        for job in all_jobs:
             artifact_provenance = job.compiled.provenance
             if (
                 job.source.get("dataset") != dataset
@@ -512,6 +618,8 @@ class Workload:
                 raise ValueError(
                     f"{job.job_id}: workload and artifact provenance differ"
                 )
+        selected_ids = set(_selected_job_ids(payload, rows))
+        jobs = tuple(job for job in all_jobs if job.job_id in selected_ids)
         return cls(
             path.resolve(),
             raw,
@@ -1829,9 +1937,16 @@ def _runtime_identity(
     }
 
 
-def _parse_indices(raw: str | None, count: int) -> set[int] | None:
+def _parse_indices(
+    raw: str | None, available: int | Collection[int]
+) -> set[int] | None:
     if raw is None:
         return None
+    allowed = (
+        set(range(available))
+        if isinstance(available, int)
+        else {int(value) for value in available}
+    )
     result: set[int] = set()
     for part in raw.split(","):
         if "-" in part:
@@ -1839,8 +1954,10 @@ def _parse_indices(raw: str | None, count: int) -> set[int] | None:
             result.update(range(low, high + 1))
         else:
             result.add(int(part))
-    if not result or min(result) < 0 or max(result) >= count:
-        raise ValueError("selected indices are outside the workload")
+    if not result or not result <= allowed:
+        raise ValueError(
+            "selected indices are outside the execution_selection"
+        )
     return result
 
 
@@ -1953,7 +2070,9 @@ def _launcher(args: argparse.Namespace) -> int:
     if (args.resume or args.aggregate_only) and args.run_dir is None:
         raise ValueError("--resume/--aggregate_only requires --run_dir")
     workload = Workload.load(args.workload.resolve())
-    selected = _parse_indices(args.indices, len(workload.jobs))
+    selected = _parse_indices(
+        args.indices, {job.design_index for job in workload.jobs}
+    )
     gpus = _resolve_gpus(args.gpus)
     if args.dry_run:
         result = {
