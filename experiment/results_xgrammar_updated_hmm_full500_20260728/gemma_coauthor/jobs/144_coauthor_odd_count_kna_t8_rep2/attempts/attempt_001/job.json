@@ -1,0 +1,2202 @@
+{
+  "base_instance_id": "coauthor:creative:7edc4eee07cd44db9a01e28f1ef20064",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 444,
+  "family_index": 7,
+  "job_id": "144_coauthor_odd_count_kna_t8_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen. You see yourself as a baby, being born, and then growing up.  It's eerie.  You look just the same but are dressed and act differently.  You glance around at all the yous present in the theater.  Again, you look the same basically but carry yourself and are dressed differently.  Some of the yous you were bear scars.  There are at least a couple in wheelchairs. One of you has a white cane.  All these yous have experienced different lives.  Look down there at the end is one of you breathing into a paper bag in the midst of a panic attack.\n\nYou are all reincarnations of the same person, yet are different.  Some of you are rail thin.  Some of you are dressed opulently.  Some of you have darker and lighter skin but you are all recognizably you.",
+  "reference_single_token_nfa_states": 34,
+  "reference_text": "  What a kick.  You hope that there will be an opportunity to chat after the film.  Where is this theater anyway, is it heaven or is it hell?  You are all here, so it must be one of those.\n\nI wonder if these yous are good people or bad people?",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 409476882,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "anyway",
+      "token_ids": [
+        17498
+      ],
+      "token_length": 1,
+      "token_text": " anyway"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "opportunity",
+      "token_ids": [
+        5506
+      ],
+      "token_length": 1,
+      "token_text": " opportunity"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "chat",
+      "token_ids": [
+        11184
+      ],
+      "token_length": 1,
+      "token_text": " chat"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "kick",
+      "token_ids": [
+        12261
+      ],
+      "token_length": 1,
+      "token_text": " kick"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "hell",
+      "token_ids": [
+        17786
+      ],
+      "token_length": 1,
+      "token_text": " hell"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "heaven",
+      "token_ids": [
+        20808
+      ],
+      "token_length": 1,
+      "token_text": " heaven"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.29592394,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "hope",
+      "token_ids": [
+        4614
+      ],
+      "token_length": 1,
+      "token_text": " hope"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.11360238,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "film",
+      "token_ids": [
+        4103
+      ],
+      "token_length": 1,
+      "token_text": " film"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "b056a24a3f98107efd8540e464fa11dd288b3a9b38b9a1caf272bc9c8a754eb5",
+  "source_split": "train",
+  "structural_cell_index": 144,
+  "t": 8,
+  "total_tracked_keyword_tokens": 8,
+  "tracked_keyword_token_ids": [
+    [
+      17498
+    ],
+    [
+      5506
+    ],
+    [
+      11184
+    ],
+    [
+      12261
+    ],
+    [
+      17786
+    ],
+    [
+      20808
+    ],
+    [
+      4614
+    ],
+    [
+      4103
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    17498,
+    5506,
+    11184,
+    12261,
+    17786,
+    20808,
+    4614,
+    4103
+  ],
+  "tracked_token_texts": [
+    " anyway",
+    " opportunity",
+    " chat",
+    " kick",
+    " hell",
+    " heaven",
+    " hope",
+    " film"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    4420,
+    611,
+    1778,
+    236764,
+    611,
+    3196,
+    528,
+    496,
+    29729,
+    607,
+    496,
+    1548,
+    529,
+    1032,
+    1331,
+    1015,
+    1385,
+    1133,
+    611,
+    236761,
+    1599,
+    1586,
+    855,
+    600,
+    901,
+    659,
+    822,
+    3527,
+    128179,
+    847,
+    236764,
+    532,
+    4949,
+    611,
+    784,
+    3654,
+    10685,
+    822,
+    2148,
+    1972,
+    580,
+    506,
+    2563,
+    4322,
+    236761,
+    1599,
+    1460,
+    5869,
+    618,
+    496,
+    7205,
+    236764,
+    1646,
+    8132,
+    236764,
+    532,
+    1299,
+    6730,
+    872,
+    236761,
+    138,
+    1509,
+    236789,
+    236751,
+    146419,
+    236761,
+    138,
+    3048,
+    1385,
+    1164,
+    506,
+    1638,
+    840,
+    659,
+    25215,
+    532,
+    1134,
+    22793,
+    236761,
+    138,
+    3048,
+    36670,
+    2101,
+    657,
+    784,
+    506,
+    611,
+    236751,
+    1861,
+    528,
+    506,
+    25922,
+    236761,
+    138,
+    31711,
+    236764,
+    611,
+    1385,
+    506,
+    1638,
+    11874,
+    840,
+    6081,
+    5869,
+    532,
+    659,
+    25215,
+    22793,
+    236761,
+    138,
+    9401,
+    529,
+    506,
+    611,
+    236751,
+    611,
+    964,
+    10591,
+    69927,
+    236761,
+    138,
+    3810,
+    659,
+    657,
+    3198,
+    496,
+    4628,
+    528,
+    164366,
+    236761,
+    3656,
+    529,
+    611,
+    815,
+    496,
+    2173,
+    44354,
+    236761,
+    138,
+    3243,
+    1239,
+    611,
+    236751,
+    735,
+    9763,
+    1607,
+    6176,
+    236761,
+    138,
+    13908,
+    1679,
+    993,
+    657,
+    506,
+    1345,
+    563,
+    886,
+    529,
+    611,
+    25638,
+    1131,
+    496,
+    3627,
+    5693,
+    528,
+    506,
+    38362,
+    529,
+    496,
+    33050,
+    4657,
+    236761,
+    108,
+    3048,
+    659,
+    784,
+    128179,
+    847,
+    529,
+    506,
+    1638,
+    1589,
+    236764,
+    3819,
+    659,
+    1607,
+    236761,
+    138,
+    9401,
+    529,
+    611,
+    659,
+    9459,
+    11202,
+    236761,
+    138,
+    9401,
+    529,
+    611,
+    659,
+    25215,
+    1395,
+    140644,
+    236761,
+    138,
+    9401,
+    529,
+    611,
+    735,
+    45356,
+    532,
+    28279,
+    5716,
+    840,
+    611,
+    659,
+    784,
+    4726,
+    685,
+    2579,
+    611,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 258,
+  "prompt_token_ids_sha256": "01dd1b0bdce9dbe670604eb1c1eaaf49dfd6d9ac5f4ccc204a372347cf44ca2d",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen. You see yourself as a baby, being born, and then growing up.  It's eerie.  You look just the same but are dressed and act differently.  You glance around at all the yous present in the theater.  Again, you look the same basically but carry yourself and are dressed differently.  Some of the yous you were bear scars.  There are at least a couple in wheelchairs. One of you has a white cane.  All these yous have experienced different lives.  Look down there at the end is one of you breathing into a paper bag in the midst of a panic attack.\n\nYou are all reincarnations of the same person, yet are different.  Some of you are rail thin.  Some of you are dressed opulently.  Some of you have darker and lighter skin but you are all recognizably you.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 237,
+  "source_prompt_token_ids_sha256": "544be0d7cc7a7468ab6d0195981504a0b8b73469be742a7920d038589c8cf6ef",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen. You see yourself as a baby, being born, and then growing up.  It's eerie.  You look just the same but are dressed and act differently.  You glance around at all the yous present in the theater.  Again, you look the same basically but carry yourself and are dressed differently.  Some of the yous you were bear scars.  There are at least a couple in wheelchairs. One of you has a white cane.  All these yous have experienced different lives.  Look down there at the end is one of you breathing into a paper bag in the midst of a panic attack.\n\nYou are all reincarnations of the same person, yet are different.  Some of you are rail thin.  Some of you are dressed opulently.  Some of you have darker and lighter skin but you are all recognizably you.",
+  "task_prompt_text_utf8_sha256": "f02c02242f896da02e52d535f3cf44045fc253fcafdcea60e4c81a7da7d88485",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      17498
+    ],
+    "piece_001": [
+      5506
+    ],
+    "piece_002": [
+      11184
+    ],
+    "piece_003": [
+      12261
+    ],
+    "piece_004": [
+      17786
+    ],
+    "piece_005": [
+      20808
+    ],
+    "piece_006": [
+      4614
+    ],
+    "piece_007": [
+      4103
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 17498,
+  "distinct_tracked_piece_tokens": 8,
+  "nfa_states": 18,
+  "unrolled_states": 1143,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 18,
+      "alphabet_size": 11,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          1,
+          16
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          0,
+          2,
+          16
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          3,
+          16
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          4,
+          14
+        ],
+        [
+          0,
+          4,
+          16
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          5,
+          13
+        ],
+        [
+          0,
+          5,
+          14
+        ],
+        [
+          0,
+          5,
+          16
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          15
+        ],
+        [
+          0,
+          6,
+          16
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          4
+        ],
+        [
+          0,
+          7,
+          6
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          10
+        ],
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          0,
+          7,
+          14
+        ],
+        [
+          0,
+          7,
+          17
+        ],
+        [
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          8,
+          4
+        ],
+        [
+          0,
+          8,
+          6
+        ],
+        [
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          8,
+          10
+        ],
+        [
+          0,
+          8,
+          12
+        ],
+        [
+          0,
+          8,
+          14
+        ],
+        [
+          0,
+          8,
+          16
+        ],
+        [
+          0,
+          9,
+          2
+        ],
+        [
+          0,
+          9,
+          4
+        ],
+        [
+          0,
+          9,
+          6
+        ],
+        [
+          0,
+          9,
+          8
+        ],
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          0,
+          9,
+          12
+        ],
+        [
+          0,
+          9,
+          14
+        ],
+        [
+          0,
+          9,
+          16
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          2,
+          8,
+          2
+        ],
+        [
+          2,
+          9,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          8,
+          3
+        ],
+        [
+          3,
+          9,
+          3
+        ],
+        [
+          3,
+          10,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          4
+        ],
+        [
+          4,
+          9,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          5,
+          8,
+          5
+        ],
+        [
+          5,
+          9,
+          5
+        ],
+        [
+          5,
+          10,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          6
+        ],
+        [
+          6,
+          9,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          7,
+          9,
+          7
+        ],
+        [
+          7,
+          10,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          9,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          8
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          9
+        ],
+        [
+          9,
+          9,
+          9
+        ],
+        [
+          9,
+          10,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          10,
+          8,
+          10
+        ],
+        [
+          10,
+          9,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          10
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          11,
+          8,
+          11
+        ],
+        [
+          11,
+          9,
+          11
+        ],
+        [
+          11,
+          10,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          13
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          12,
+          8,
+          12
+        ],
+        [
+          12,
+          9,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          12
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          13,
+          8,
+          13
+        ],
+        [
+          13,
+          9,
+          13
+        ],
+        [
+          13,
+          10,
+          1
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          15
+        ],
+        [
+          14,
+          7,
+          14
+        ],
+        [
+          14,
+          8,
+          14
+        ],
+        [
+          14,
+          9,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          6,
+          14
+        ],
+        [
+          15,
+          7,
+          15
+        ],
+        [
+          15,
+          8,
+          15
+        ],
+        [
+          15,
+          9,
+          15
+        ],
+        [
+          15,
+          10,
+          1
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          16
+        ],
+        [
+          16,
+          5,
+          16
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          16,
+          7,
+          17
+        ],
+        [
+          16,
+          8,
+          16
+        ],
+        [
+          16,
+          9,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          17
+        ],
+        [
+          17,
+          5,
+          17
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          17,
+          7,
+          16
+        ],
+        [
+          17,
+          8,
+          17
+        ],
+        [
+          17,
+          9,
+          17
+        ],
+        [
+          17,
+          10,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          17498
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          5506
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          11184
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          12261
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          17786
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          20808
+        ]
+      },
+      {
+        "name": "piece_006",
+        "symbol_id": 6,
+        "token_ids": [
+          4614
+        ]
+      },
+      {
+        "name": "piece_007",
+        "symbol_id": 7,
+        "token_ids": [
+          4103
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 8,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 9,
+    "stop_symbol_id": 10,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      4420,
+      611,
+      1778,
+      236764,
+      611,
+      3196,
+      528,
+      496,
+      29729,
+      607,
+      496,
+      1548,
+      529,
+      1032,
+      1331,
+      1015,
+      1385,
+      1133,
+      611,
+      236761,
+      1599,
+      1586,
+      855,
+      600,
+      901,
+      659,
+      822,
+      3527,
+      128179,
+      847,
+      236764,
+      532,
+      4949,
+      611,
+      784,
+      3654,
+      10685,
+      822,
+      2148,
+      1972,
+      580,
+      506,
+      2563,
+      4322,
+      236761,
+      1599,
+      1460,
+      5869,
+      618,
+      496,
+      7205,
+      236764,
+      1646,
+      8132,
+      236764,
+      532,
+      1299,
+      6730,
+      872,
+      236761,
+      138,
+      1509,
+      236789,
+      236751,
+      146419,
+      236761,
+      138,
+      3048,
+      1385,
+      1164,
+      506,
+      1638,
+      840,
+      659,
+      25215,
+      532,
+      1134,
+      22793,
+      236761,
+      138,
+      3048,
+      36670,
+      2101,
+      657,
+      784,
+      506,
+      611,
+      236751,
+      1861,
+      528,
+      506,
+      25922,
+      236761,
+      138,
+      31711,
+      236764,
+      611,
+      1385,
+      506,
+      1638,
+      11874,
+      840,
+      6081,
+      5869,
+      532,
+      659,
+      25215,
+      22793,
+      236761,
+      138,
+      9401,
+      529,
+      506,
+      611,
+      236751,
+      611,
+      964,
+      10591,
+      69927,
+      236761,
+      138,
+      3810,
+      659,
+      657,
+      3198,
+      496,
+      4628,
+      528,
+      164366,
+      236761,
+      3656,
+      529,
+      611,
+      815,
+      496,
+      2173,
+      44354,
+      236761,
+      138,
+      3243,
+      1239,
+      611,
+      236751,
+      735,
+      9763,
+      1607,
+      6176,
+      236761,
+      138,
+      13908,
+      1679,
+      993,
+      657,
+      506,
+      1345,
+      563,
+      886,
+      529,
+      611,
+      25638,
+      1131,
+      496,
+      3627,
+      5693,
+      528,
+      506,
+      38362,
+      529,
+      496,
+      33050,
+      4657,
+      236761,
+      108,
+      3048,
+      659,
+      784,
+      128179,
+      847,
+      529,
+      506,
+      1638,
+      1589,
+      236764,
+      3819,
+      659,
+      1607,
+      236761,
+      138,
+      9401,
+      529,
+      611,
+      659,
+      9459,
+      11202,
+      236761,
+      138,
+      9401,
+      529,
+      611,
+      659,
+      25215,
+      1395,
+      140644,
+      236761,
+      138,
+      9401,
+      529,
+      611,
+      735,
+      45356,
+      532,
+      28279,
+      5716,
+      840,
+      611,
+      659,
+      784,
+      4726,
+      685,
+      2579,
+      611,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('anyway', 'opportunity', 'chat', 'kick', 'hell', 'heaven', 'hope', 'film') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "144_coauthor_odd_count_kna_t8_rep2",
+      "design_index": 444,
+      "structural_cell_index": 144,
+      "replicate_index": 2,
+      "seed": 409476882,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "a01e8c9578143d432458a3c6a6a9f8705cccb2c5af2f133c95b736963d1fe5c1"
+  }
+}

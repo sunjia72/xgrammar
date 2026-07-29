@@ -1,0 +1,1349 @@
+{
+  "base_instance_id": "coauthor:creative:fe4fd11d3f6e4386bf7ec81819c5ff10",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 179,
+  "family_index": 29,
+  "job_id": "029_coauthor_kth_last_k48_t1_rep1",
+  "k": 48,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 49,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nThe year is 3102, and the people of the world await the country of Larkinson to open up its borders once again. The country had chose to go into isolation 7 years ago, due to pressures from other countries in asking for its natural resources. For Larkinson had a resource many other countries desired, and that was the Larkinsonite. A metal that was stronger and lighter than steel, and could change its shape like a memory alloy. Its discovery brought economic wealth to the country, and led to great innovative strides in technology and electronics. The country was a technological powerhouse, and the world was waiting for it to rejoin the world.\n\nHowever, communication from the country of Larkinson was not heard from as people had hoped on the day it had said seven years ago it would end its isolation.",
+  "reference_single_token_nfa_states": 50,
+  "reference_text": " In fact, satellite imaging and other surveillance showed that its towns and cities were empty, having no people seemingly alive and moving. The country was completely devoid of life, and it was unknown what had happened to the country. \n\nThe United Nations sent a team of investigators to the country to find out what had happened.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 1175729428,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "imaging",
+      "token_ids": [
+        20502
+      ],
+      "token_length": 1,
+      "token_text": " imaging"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "6ad33fed153e0c54d8fb077c43b6efbfb8b73f153847af1faabe53fb2eee81b5",
+  "source_split": "train",
+  "structural_cell_index": 29,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      20502
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    20502
+  ],
+  "tracked_token_texts": [
+    " imaging"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    818,
+    1051,
+    563,
+    236743,
+    236800,
+    236770,
+    236771,
+    236778,
+    236764,
+    532,
+    506,
+    1331,
+    529,
+    506,
+    1902,
+    4825,
+    506,
+    2891,
+    529,
+    116374,
+    14247,
+    531,
+    1932,
+    872,
+    1061,
+    27367,
+    3622,
+    1570,
+    236761,
+    669,
+    2891,
+    1053,
+    13874,
+    531,
+    817,
+    1131,
+    23049,
+    236743,
+    236832,
+    1518,
+    4578,
+    236764,
+    2779,
+    531,
+    23437,
+    699,
+    1032,
+    4808,
+    528,
+    10980,
+    573,
+    1061,
+    3756,
+    5405,
+    236761,
+    1701,
+    116374,
+    14247,
+    1053,
+    496,
+    6511,
+    1551,
+    1032,
+    4808,
+    10991,
+    236764,
+    532,
+    600,
+    691,
+    506,
+    116374,
+    14247,
+    785,
+    236761,
+    562,
+    6211,
+    600,
+    691,
+    15281,
+    532,
+    28279,
+    1082,
+    8103,
+    236764,
+    532,
+    1451,
+    2352,
+    1061,
+    6230,
+    1133,
+    496,
+    6571,
+    30994,
+    236761,
+    9567,
+    17324,
+    6111,
+    5527,
+    12821,
+    531,
+    506,
+    2891,
+    236764,
+    532,
+    5378,
+    531,
+    1822,
+    14549,
+    67595,
+    528,
+    4181,
+    532,
+    31182,
+    236761,
+    669,
+    2891,
+    691,
+    496,
+    22351,
+    89096,
+    236764,
+    532,
+    506,
+    1902,
+    691,
+    9495,
+    573,
+    625,
+    531,
+    220167,
+    506,
+    1902,
+    236761,
+    108,
+    9675,
+    236764,
+    7283,
+    699,
+    506,
+    2891,
+    529,
+    116374,
+    14247,
+    691,
+    711,
+    6827,
+    699,
+    618,
+    1331,
+    1053,
+    26769,
+    580,
+    506,
+    1719,
+    625,
+    1053,
+    1176,
+    6819,
+    1518,
+    4578,
+    625,
+    1093,
+    1345,
+    1061,
+    23049,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 202,
+  "prompt_token_ids_sha256": "aa19d60aa9fd5a1f4d4c9e6543ccdd30c4ac2ef8d901b011e9d192996ba4a537",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nThe year is 3102, and the people of the world await the country of Larkinson to open up its borders once again. The country had chose to go into isolation 7 years ago, due to pressures from other countries in asking for its natural resources. For Larkinson had a resource many other countries desired, and that was the Larkinsonite. A metal that was stronger and lighter than steel, and could change its shape like a memory alloy. Its discovery brought economic wealth to the country, and led to great innovative strides in technology and electronics. The country was a technological powerhouse, and the world was waiting for it to rejoin the world.\n\nHowever, communication from the country of Larkinson was not heard from as people had hoped on the day it had said seven years ago it would end its isolation.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 181,
+  "source_prompt_token_ids_sha256": "00a1ec15a84ab7b47860986e3cb04cc98b5842f0c56712114d46bb5a638b7471",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nThe year is 3102, and the people of the world await the country of Larkinson to open up its borders once again. The country had chose to go into isolation 7 years ago, due to pressures from other countries in asking for its natural resources. For Larkinson had a resource many other countries desired, and that was the Larkinsonite. A metal that was stronger and lighter than steel, and could change its shape like a memory alloy. Its discovery brought economic wealth to the country, and led to great innovative strides in technology and electronics. The country was a technological powerhouse, and the world was waiting for it to rejoin the world.\n\nHowever, communication from the country of Larkinson was not heard from as people had hoped on the day it had said seven years ago it would end its isolation.",
+  "task_prompt_text_utf8_sha256": "fe4700c6fc82b8455d765578db7220f2a1fc101416190d6234bc916631bc2c16",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      20502
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 20502,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 50,
+  "unrolled_states": 865,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 50,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          28,
+          0,
+          29
+        ],
+        [
+          28,
+          1,
+          29
+        ],
+        [
+          28,
+          2,
+          29
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          32,
+          0,
+          33
+        ],
+        [
+          32,
+          1,
+          33
+        ],
+        [
+          32,
+          2,
+          33
+        ],
+        [
+          33,
+          0,
+          34
+        ],
+        [
+          33,
+          1,
+          34
+        ],
+        [
+          33,
+          2,
+          34
+        ],
+        [
+          34,
+          0,
+          35
+        ],
+        [
+          34,
+          1,
+          35
+        ],
+        [
+          34,
+          2,
+          35
+        ],
+        [
+          35,
+          0,
+          36
+        ],
+        [
+          35,
+          1,
+          36
+        ],
+        [
+          35,
+          2,
+          36
+        ],
+        [
+          36,
+          0,
+          37
+        ],
+        [
+          36,
+          1,
+          37
+        ],
+        [
+          36,
+          2,
+          37
+        ],
+        [
+          37,
+          0,
+          38
+        ],
+        [
+          37,
+          1,
+          38
+        ],
+        [
+          37,
+          2,
+          38
+        ],
+        [
+          38,
+          0,
+          39
+        ],
+        [
+          38,
+          1,
+          39
+        ],
+        [
+          38,
+          2,
+          39
+        ],
+        [
+          39,
+          0,
+          40
+        ],
+        [
+          39,
+          1,
+          40
+        ],
+        [
+          39,
+          2,
+          40
+        ],
+        [
+          40,
+          0,
+          41
+        ],
+        [
+          40,
+          1,
+          41
+        ],
+        [
+          40,
+          2,
+          41
+        ],
+        [
+          41,
+          0,
+          42
+        ],
+        [
+          41,
+          1,
+          42
+        ],
+        [
+          41,
+          2,
+          42
+        ],
+        [
+          42,
+          0,
+          43
+        ],
+        [
+          42,
+          1,
+          43
+        ],
+        [
+          42,
+          2,
+          43
+        ],
+        [
+          43,
+          0,
+          44
+        ],
+        [
+          43,
+          1,
+          44
+        ],
+        [
+          43,
+          2,
+          44
+        ],
+        [
+          44,
+          0,
+          45
+        ],
+        [
+          44,
+          1,
+          45
+        ],
+        [
+          44,
+          2,
+          45
+        ],
+        [
+          45,
+          0,
+          46
+        ],
+        [
+          45,
+          1,
+          46
+        ],
+        [
+          45,
+          2,
+          46
+        ],
+        [
+          46,
+          0,
+          47
+        ],
+        [
+          46,
+          1,
+          47
+        ],
+        [
+          46,
+          2,
+          47
+        ],
+        [
+          47,
+          0,
+          48
+        ],
+        [
+          47,
+          1,
+          48
+        ],
+        [
+          47,
+          2,
+          48
+        ],
+        [
+          48,
+          0,
+          49
+        ],
+        [
+          48,
+          1,
+          49
+        ],
+        [
+          48,
+          2,
+          49
+        ],
+        [
+          49,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          20502
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      818,
+      1051,
+      563,
+      236743,
+      236800,
+      236770,
+      236771,
+      236778,
+      236764,
+      532,
+      506,
+      1331,
+      529,
+      506,
+      1902,
+      4825,
+      506,
+      2891,
+      529,
+      116374,
+      14247,
+      531,
+      1932,
+      872,
+      1061,
+      27367,
+      3622,
+      1570,
+      236761,
+      669,
+      2891,
+      1053,
+      13874,
+      531,
+      817,
+      1131,
+      23049,
+      236743,
+      236832,
+      1518,
+      4578,
+      236764,
+      2779,
+      531,
+      23437,
+      699,
+      1032,
+      4808,
+      528,
+      10980,
+      573,
+      1061,
+      3756,
+      5405,
+      236761,
+      1701,
+      116374,
+      14247,
+      1053,
+      496,
+      6511,
+      1551,
+      1032,
+      4808,
+      10991,
+      236764,
+      532,
+      600,
+      691,
+      506,
+      116374,
+      14247,
+      785,
+      236761,
+      562,
+      6211,
+      600,
+      691,
+      15281,
+      532,
+      28279,
+      1082,
+      8103,
+      236764,
+      532,
+      1451,
+      2352,
+      1061,
+      6230,
+      1133,
+      496,
+      6571,
+      30994,
+      236761,
+      9567,
+      17324,
+      6111,
+      5527,
+      12821,
+      531,
+      506,
+      2891,
+      236764,
+      532,
+      5378,
+      531,
+      1822,
+      14549,
+      67595,
+      528,
+      4181,
+      532,
+      31182,
+      236761,
+      669,
+      2891,
+      691,
+      496,
+      22351,
+      89096,
+      236764,
+      532,
+      506,
+      1902,
+      691,
+      9495,
+      573,
+      625,
+      531,
+      220167,
+      506,
+      1902,
+      236761,
+      108,
+      9675,
+      236764,
+      7283,
+      699,
+      506,
+      2891,
+      529,
+      116374,
+      14247,
+      691,
+      711,
+      6827,
+      699,
+      618,
+      1331,
+      1053,
+      26769,
+      580,
+      506,
+      1719,
+      625,
+      1053,
+      1176,
+      6819,
+      1518,
+      4578,
+      625,
+      1093,
+      1345,
+      1061,
+      23049,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('imaging') must end at the 48-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "029_coauthor_kth_last_k48_t1_rep1",
+      "design_index": 179,
+      "structural_cell_index": 29,
+      "replicate_index": 1,
+      "seed": 1175729428,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "81caae26b04ba42129f5c34464f8cd98a80e61a3005d0069463101ac1455abcd"
+  }
+}

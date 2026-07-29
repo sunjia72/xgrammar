@@ -1,0 +1,828 @@
+{
+  "base_instance_id": "coauthor:creative:aa563d648ec34088a3e6d3924b53cffe",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 11,
+  "family_index": 11,
+  "job_id": "011_coauthor_kth_last_k19_t1",
+  "k": 19,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 20,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. No one knows how this started but it sure has caused excitement!\n\nThe first Dad to be ranked \"#1 Dad\" is a man named John.  John is a normal man from a small town. He lives simply and has two children. He is a loving and devoted father. He has a simple job and is a devoted husband.\n\nJohn is suddenly the most famous man in the world. Journalists want to interview him. Other dads want to meet him. He does not know what to do.",
+  "reference_single_token_nfa_states": 21,
+  "reference_text": "\n\nJohn is a simple man and does not know how to handle all of the attention. What should he do?  He decides the best thing to do is to investigate how all of this started and how he became ranked #1.\n\nJohn goes to the town where he lives and meets with the other dads.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 2050047378,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "investigate",
+      "token_ids": [
+        17395
+      ],
+      "token_length": 1,
+      "token_text": " investigate"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "8ef45c687ae9a7fcafc3a1f0c642fe4e81d86afea6f6d18bccd0329fd0818f3f",
+  "source_split": "test",
+  "structural_cell_index": 11,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      17395
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    17395
+  ],
+  "tracked_token_texts": [
+    " investigate"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    2301,
+    886,
+    10077,
+    1217,
+    672,
+    3931,
+    840,
+    625,
+    2889,
+    815,
+    7321,
+    28242,
+    236888,
+    108,
+    818,
+    1171,
+    30702,
+    531,
+    577,
+    25847,
+    13659,
+    236770,
+    30702,
+    236775,
+    563,
+    496,
+    880,
+    7489,
+    3415,
+    236761,
+    138,
+    12720,
+    563,
+    496,
+    3867,
+    880,
+    699,
+    496,
+    1944,
+    5148,
+    236761,
+    1293,
+    6176,
+    5181,
+    532,
+    815,
+    1156,
+    2940,
+    236761,
+    1293,
+    563,
+    496,
+    22274,
+    532,
+    23011,
+    6353,
+    236761,
+    1293,
+    815,
+    496,
+    3606,
+    3195,
+    532,
+    563,
+    496,
+    23011,
+    8705,
+    236761,
+    108,
+    12720,
+    563,
+    15937,
+    506,
+    1346,
+    9639,
+    880,
+    528,
+    506,
+    1902,
+    236761,
+    154877,
+    1461,
+    531,
+    7194,
+    1515,
+    236761,
+    7067,
+    140698,
+    1461,
+    531,
+    2874,
+    1515,
+    236761,
+    1293,
+    1677,
+    711,
+    1281,
+    1144,
+    531,
+    776,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 159,
+  "prompt_token_ids_sha256": "3f80dfab864a59617ba2f1284e97028ae53c68ab8952ff5a055dff0187f8cad8",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. No one knows how this started but it sure has caused excitement!\n\nThe first Dad to be ranked \"#1 Dad\" is a man named John.  John is a normal man from a small town. He lives simply and has two children. He is a loving and devoted father. He has a simple job and is a devoted husband.\n\nJohn is suddenly the most famous man in the world. Journalists want to interview him. Other dads want to meet him. He does not know what to do.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 138,
+  "source_prompt_token_ids_sha256": "9957f9e2bd6c4d9e439d2ca45734040a8b3b3a8914d482300888e9dc0094b230",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. No one knows how this started but it sure has caused excitement!\n\nThe first Dad to be ranked \"#1 Dad\" is a man named John.  John is a normal man from a small town. He lives simply and has two children. He is a loving and devoted father. He has a simple job and is a devoted husband.\n\nJohn is suddenly the most famous man in the world. Journalists want to interview him. Other dads want to meet him. He does not know what to do.",
+  "task_prompt_text_utf8_sha256": "c5465757381bffe05298744008dc5d4ba25be36271f55fad055d5734e7b0fcf0",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      17395
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 17395,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 21,
+  "unrolled_states": 1010,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 21,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          17395
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      2301,
+      886,
+      10077,
+      1217,
+      672,
+      3931,
+      840,
+      625,
+      2889,
+      815,
+      7321,
+      28242,
+      236888,
+      108,
+      818,
+      1171,
+      30702,
+      531,
+      577,
+      25847,
+      13659,
+      236770,
+      30702,
+      236775,
+      563,
+      496,
+      880,
+      7489,
+      3415,
+      236761,
+      138,
+      12720,
+      563,
+      496,
+      3867,
+      880,
+      699,
+      496,
+      1944,
+      5148,
+      236761,
+      1293,
+      6176,
+      5181,
+      532,
+      815,
+      1156,
+      2940,
+      236761,
+      1293,
+      563,
+      496,
+      22274,
+      532,
+      23011,
+      6353,
+      236761,
+      1293,
+      815,
+      496,
+      3606,
+      3195,
+      532,
+      563,
+      496,
+      23011,
+      8705,
+      236761,
+      108,
+      12720,
+      563,
+      15937,
+      506,
+      1346,
+      9639,
+      880,
+      528,
+      506,
+      1902,
+      236761,
+      154877,
+      1461,
+      531,
+      7194,
+      1515,
+      236761,
+      7067,
+      140698,
+      1461,
+      531,
+      2874,
+      1515,
+      236761,
+      1293,
+      1677,
+      711,
+      1281,
+      1144,
+      531,
+      776,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('investigate') must end at the 19-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "011_coauthor_kth_last_k19_t1",
+      "design_index": 11,
+      "structural_cell_index": 11,
+      "replicate_index": 0,
+      "seed": 2050047378,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "d0bf31a2c87fa9d08728aa2c3a3daf7f519717e11f88f421bc94d570e04bb0cc"
+  }
+}

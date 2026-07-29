@@ -1,0 +1,1710 @@
+{
+  "base_instance_id": "coauthor:creative:cf3c59ec3ff64c539da0ee9633dc44cf",
+  "constraint": "exactly_once",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 216,
+  "family_index": 6,
+  "job_id": "066_coauthor_exactly_once_kna_t7_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\"\n\nYou call the number, and ask who it is you are speaking to. The man replies Jack Franklin Karrin.\nYou ask the man what he wants. The man replies \"I want you to be the next president.\"\nYou are surprised, but you also feel honored at the same time, that someone would ask this of you.",
+  "reference_single_token_nfa_states": 16,
+  "reference_text": " You try to explain to the man that you already ran for the maximum 2 terms that you are allowed. He says to you, \"I know that you ran for 2 terms but someone new is in office. I have inside information that they plan to eliminate that law so they can remain in power forever.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 93540328,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "maximum",
+      "token_ids": [
+        5783
+      ],
+      "token_length": 1,
+      "token_text": " maximum"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "eliminate",
+      "token_ids": [
+        20504
+      ],
+      "token_length": 1,
+      "token_text": " eliminate"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "law",
+      "token_ids": [
+        2621
+      ],
+      "token_length": 1,
+      "token_text": " law"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "terms",
+      "token_ids": [
+        3755
+      ],
+      "token_length": 1,
+      "token_text": " terms"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.51906749,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "explain",
+      "token_ids": [
+        8082
+      ],
+      "token_length": 1,
+      "token_text": " explain"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.51906749,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "information",
+      "token_ids": [
+        1938
+      ],
+      "token_length": 1,
+      "token_text": " information"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.51906749,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "remain",
+      "token_ids": [
+        4595
+      ],
+      "token_length": 1,
+      "token_text": " remain"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "7f96a357ff0f8a637e3b20b77845cf859ad1aa36a54019dd7fb1fdbfd668e31b",
+  "source_split": "train",
+  "structural_cell_index": 66,
+  "t": 7,
+  "total_tracked_keyword_tokens": 7,
+  "tracked_keyword_token_ids": [
+    [
+      5783
+    ],
+    [
+      20504
+    ],
+    [
+      2621
+    ],
+    [
+      3755
+    ],
+    [
+      8082
+    ],
+    [
+      1938
+    ],
+    [
+      4595
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    5783,
+    20504,
+    2621,
+    3755,
+    8082,
+    1938,
+    4595
+  ],
+  "tracked_token_texts": [
+    " maximum",
+    " eliminate",
+    " law",
+    " terms",
+    " explain",
+    " information",
+    " remain"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3048,
+    236789,
+    500,
+    65904,
+    20348,
+    236761,
+    236743,
+    236812,
+    1518,
+    1131,
+    822,
+    20130,
+    236764,
+    611,
+    53004,
+    531,
+    1586,
+    496,
+    6064,
+    607,
+    951,
+    994,
+    3421,
+    580,
+    822,
+    99900,
+    2633,
+    236761,
+    1030,
+    20838,
+    623,
+    236777,
+    4614,
+    611,
+    236789,
+    560,
+    1053,
+    496,
+    6584,
+    531,
+    8352,
+    65904,
+    1390,
+    5503,
+    3294,
+    822,
+    16226,
+    532,
+    2246,
+    506,
+    1548,
+    3426,
+    236761,
+    1030,
+    236789,
+    236751,
+    990,
+    531,
+    1502,
+    506,
+    1759,
+    3195,
+    1781,
+    62432,
+    5181,
+    236764,
+    623,
+    236863,
+    49512,
+    1781,
+    108,
+    3048,
+    2246,
+    506,
+    1548,
+    236764,
+    532,
+    2679,
+    1015,
+    625,
+    563,
+    611,
+    659,
+    12259,
+    531,
+    236761,
+    669,
+    880,
+    51201,
+    7802,
+    29163,
+    751,
+    2762,
+    495,
+    236761,
+    107,
+    3048,
+    2679,
+    506,
+    880,
+    1144,
+    668,
+    8150,
+    236761,
+    669,
+    880,
+    51201,
+    623,
+    236777,
+    1461,
+    611,
+    531,
+    577,
+    506,
+    2148,
+    6207,
+    1781,
+    107,
+    3048,
+    659,
+    15726,
+    236764,
+    840,
+    611,
+    992,
+    2597,
+    37240,
+    657,
+    506,
+    1638,
+    990,
+    236764,
+    600,
+    5026,
+    1093,
+    2679,
+    672,
+    529,
+    611,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 176,
+  "prompt_token_ids_sha256": "d626be8112c6eb07aa8546db11c4901d3f2bbf8bd56fc592523068fc1e04f8e3",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\"\n\nYou call the number, and ask who it is you are speaking to. The man replies Jack Franklin Karrin.\nYou ask the man what he wants. The man replies \"I want you to be the next president.\"\nYou are surprised, but you also feel honored at the same time, that someone would ask this of you.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 155,
+  "source_prompt_token_ids_sha256": "0a8d11c8b9c2ca533081f626fda81412afd8b603766d7891d96ee7222701b911",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\"\n\nYou call the number, and ask who it is you are speaking to. The man replies Jack Franklin Karrin.\nYou ask the man what he wants. The man replies \"I want you to be the next president.\"\nYou are surprised, but you also feel honored at the same time, that someone would ask this of you.",
+  "task_prompt_text_utf8_sha256": "0fca04e88e2c3d82eeed4208af82896b2c5a7f0217441100ec70882849491ebb",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      5783
+    ],
+    "piece_001": [
+      20504
+    ],
+    "piece_002": [
+      2621
+    ],
+    "piece_003": [
+      3755
+    ],
+    "piece_004": [
+      8082
+    ],
+    "piece_005": [
+      1938
+    ],
+    "piece_006": [
+      4595
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 5783,
+  "distinct_tracked_piece_tokens": 7,
+  "nfa_states": 16,
+  "unrolled_states": 1016,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 16,
+      "alphabet_size": 10,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          4,
+          14
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          5,
+          13
+        ],
+        [
+          0,
+          5,
+          14
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          15
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          4
+        ],
+        [
+          0,
+          7,
+          6
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          10
+        ],
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          0,
+          7,
+          14
+        ],
+        [
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          8,
+          4
+        ],
+        [
+          0,
+          8,
+          6
+        ],
+        [
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          8,
+          10
+        ],
+        [
+          0,
+          8,
+          12
+        ],
+        [
+          0,
+          8,
+          14
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          2,
+          8,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          8,
+          3
+        ],
+        [
+          3,
+          9,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          5,
+          8,
+          5
+        ],
+        [
+          5,
+          9,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          7,
+          9,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          9
+        ],
+        [
+          9,
+          9,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          10,
+          8,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          11,
+          8,
+          11
+        ],
+        [
+          11,
+          9,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          13
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          12,
+          8,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          13,
+          8,
+          13
+        ],
+        [
+          13,
+          9,
+          1
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          15
+        ],
+        [
+          14,
+          7,
+          14
+        ],
+        [
+          14,
+          8,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          7,
+          15
+        ],
+        [
+          15,
+          8,
+          15
+        ],
+        [
+          15,
+          9,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          5783
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          20504
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          2621
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          3755
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          8082
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          1938
+        ]
+      },
+      {
+        "name": "piece_006",
+        "symbol_id": 6,
+        "token_ids": [
+          4595
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 7,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 8,
+    "stop_symbol_id": 9,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3048,
+      236789,
+      500,
+      65904,
+      20348,
+      236761,
+      236743,
+      236812,
+      1518,
+      1131,
+      822,
+      20130,
+      236764,
+      611,
+      53004,
+      531,
+      1586,
+      496,
+      6064,
+      607,
+      951,
+      994,
+      3421,
+      580,
+      822,
+      99900,
+      2633,
+      236761,
+      1030,
+      20838,
+      623,
+      236777,
+      4614,
+      611,
+      236789,
+      560,
+      1053,
+      496,
+      6584,
+      531,
+      8352,
+      65904,
+      1390,
+      5503,
+      3294,
+      822,
+      16226,
+      532,
+      2246,
+      506,
+      1548,
+      3426,
+      236761,
+      1030,
+      236789,
+      236751,
+      990,
+      531,
+      1502,
+      506,
+      1759,
+      3195,
+      1781,
+      62432,
+      5181,
+      236764,
+      623,
+      236863,
+      49512,
+      1781,
+      108,
+      3048,
+      2246,
+      506,
+      1548,
+      236764,
+      532,
+      2679,
+      1015,
+      625,
+      563,
+      611,
+      659,
+      12259,
+      531,
+      236761,
+      669,
+      880,
+      51201,
+      7802,
+      29163,
+      751,
+      2762,
+      495,
+      236761,
+      107,
+      3048,
+      2679,
+      506,
+      880,
+      1144,
+      668,
+      8150,
+      236761,
+      669,
+      880,
+      51201,
+      623,
+      236777,
+      1461,
+      611,
+      531,
+      577,
+      506,
+      2148,
+      6207,
+      1781,
+      107,
+      3048,
+      659,
+      15726,
+      236764,
+      840,
+      611,
+      992,
+      2597,
+      37240,
+      657,
+      506,
+      1638,
+      990,
+      236764,
+      600,
+      5026,
+      1093,
+      2679,
+      672,
+      529,
+      611,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "exactly_once",
+      "label": "exactly once",
+      "rule": "At least one tracked phrase ('maximum', 'eliminate', 'law', 'terms', 'explain', 'information', 'remain') must occur exactly once."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "066_coauthor_exactly_once_kna_t7_rep1",
+      "design_index": 216,
+      "structural_cell_index": 66,
+      "replicate_index": 1,
+      "seed": 93540328,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "33da41d8c3d82838c77ea0eeb5449ebda51470d23bcaa7ce5484a6a54d7354da"
+  }
+}

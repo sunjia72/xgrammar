@@ -1,0 +1,1229 @@
+{
+  "base_instance_id": "coauthor:creative:e257561129954362be03dc09727ad7a8",
+  "constraint": "exactly_once",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 364,
+  "family_index": 4,
+  "job_id": "064_coauthor_exactly_once_kna_t5_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The people of the United States find out they are 50 years behind the rest of the world. But now, they are beginning to make up for lost time. They are working hard to catch up with technology and science and the arts. But the rest of the world is still wary of them and their intentions. Every nation in the world becomes extremely competitive with the United States. It becomes a race to see who can out-innovate them.",
+  "reference_single_token_nfa_states": 12,
+  "reference_text": " This sparks a new age of rapid technological advancement and evolution. The United States cannot catch up. They are out-innovated, out-maneuvered, and out of time. The world is far too ahead of them. They eventually surrender to their new reality. They are no longer a super power.",
+  "reference_token_count": 62,
+  "replicate_index": 2,
+  "seed": 2041181244,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "evolution",
+      "token_ids": [
+        14931
+      ],
+      "token_length": 1,
+      "token_text": " evolution"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "sparks",
+      "token_ids": [
+        73192
+      ],
+      "token_length": 1,
+      "token_text": " sparks"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "advancement",
+      "token_ids": [
+        48150
+      ],
+      "token_length": 1,
+      "token_text": " advancement"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "rapid",
+      "token_ids": [
+        10725
+      ],
+      "token_length": 1,
+      "token_text": " rapid"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "ahead",
+      "token_ids": [
+        8047
+      ],
+      "token_length": 1,
+      "token_text": " ahead"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "f935351b30eb3b6d1098aef3c70594233614a8e0d2b293a653dad7a96a0fc7b1",
+  "source_split": "train",
+  "structural_cell_index": 64,
+  "t": 5,
+  "total_tracked_keyword_tokens": 5,
+  "tracked_keyword_token_ids": [
+    [
+      14931
+    ],
+    [
+      73192
+    ],
+    [
+      48150
+    ],
+    [
+      10725
+    ],
+    [
+      8047
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    14931,
+    73192,
+    48150,
+    10725,
+    8047
+  ],
+  "tracked_token_texts": [
+    " evolution",
+    " sparks",
+    " advancement",
+    " rapid",
+    " ahead"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    1414,
+    3559,
+    440,
+    6681,
+    799,
+    2716,
+    11,
+    5629,
+    11,
+    53916,
+    6163,
+    11316,
+    13,
+    3301,
+    1132,
+    279,
+    39811,
+    11,
+    440,
+    874,
+    86377,
+    466,
+    15673,
+    25,
+    198,
+    26093,
+    4196,
+    4843,
+    14016,
+    11,
+    660,
+    279,
+    16185,
+    314,
+    279,
+    1814,
+    7003,
+    310,
+    220,
+    20,
+    15,
+    1578,
+    314,
+    7077,
+    29310,
+    494,
+    799,
+    2361,
+    303,
+    1906,
+    310,
+    5190,
+    4945,
+    24979,
+    13,
+    220,
+    20,
+    15,
+    1578,
+    2843,
+    11,
+    279,
+    3516,
+    4042,
+    3905,
+    680,
+    314,
+    57962,
+    11,
+    1132,
+    310,
+    3827,
+    421,
+    874,
+    799,
+    745,
+    3804,
+    1083,
+    29310,
+    13,
+    561,
+    1208,
+    314,
+    279,
+    3516,
+    4042,
+    1423,
+    680,
+    781,
+    513,
+    220,
+    20,
+    15,
+    1578,
+    4661,
+    279,
+    2645,
+    314,
+    279,
+    1814,
+    13,
+    1921,
+    1381,
+    11,
+    781,
+    513,
+    6941,
+    310,
+    1236,
+    685,
+    364,
+    5384,
+    854,
+    13,
+    2302,
+    513,
+    3133,
+    2503,
+    310,
+    2213,
+    685,
+    440,
+    5269,
+    321,
+    7785,
+    321,
+    279,
+    18001,
+    13,
+    1921,
+    279,
+    2645,
+    314,
+    279,
+    1814,
+    369,
+    1990,
+    52353,
+    314,
+    1070,
+    321,
+    836,
+    32131,
+    13,
+    6983,
+    6777,
+    303,
+    279,
+    1814,
+    8772,
+    8744,
+    14257,
+    440,
+    279,
+    3516,
+    4042,
+    13,
+    1049,
+    8772,
+    264,
+    6741,
+    310,
+    1436,
+    852,
+    628,
+    680,
+    3309,
+    36784,
+    344,
+    1070,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 185,
+  "prompt_token_ids_sha256": "a1e4b99dfbeb7b3c3c408d6ac4eb70684d96d50a52da2537ae8d88f9790fbe1d",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The people of the United States find out they are 50 years behind the rest of the world. But now, they are beginning to make up for lost time. They are working hard to catch up with technology and science and the arts. But the rest of the world is still wary of them and their intentions. Every nation in the world becomes extremely competitive with the United States. It becomes a race to see who can out-innovate them.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 164,
+  "source_prompt_token_ids_sha256": "1b49351d31c92415d643fd05d6aa26ff4c0b7e95c2c08c99fd695d57fc938e15",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The people of the United States find out they are 50 years behind the rest of the world. But now, they are beginning to make up for lost time. They are working hard to catch up with technology and science and the arts. But the rest of the world is still wary of them and their intentions. Every nation in the world becomes extremely competitive with the United States. It becomes a race to see who can out-innovate them.",
+  "task_prompt_text_utf8_sha256": "30ec84220a0e30d679a06db7568eba100cc0163d36fc034d9ebae57a160c4b0e",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      14931
+    ],
+    "piece_001": [
+      73192
+    ],
+    "piece_002": [
+      48150
+    ],
+    "piece_003": [
+      10725
+    ],
+    "piece_004": [
+      8047
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 14931,
+  "distinct_tracked_piece_tokens": 5,
+  "nfa_states": 12,
+  "unrolled_states": 762,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 12,
+      "alphabet_size": 8,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          14931
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          73192
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          48150
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          10725
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          8047
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 5,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 6,
+    "stop_symbol_id": 7,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      1414,
+      3559,
+      440,
+      6681,
+      799,
+      2716,
+      11,
+      5629,
+      11,
+      53916,
+      6163,
+      11316,
+      13,
+      3301,
+      1132,
+      279,
+      39811,
+      11,
+      440,
+      874,
+      86377,
+      466,
+      15673,
+      25,
+      198,
+      26093,
+      4196,
+      4843,
+      14016,
+      11,
+      660,
+      279,
+      16185,
+      314,
+      279,
+      1814,
+      7003,
+      310,
+      220,
+      20,
+      15,
+      1578,
+      314,
+      7077,
+      29310,
+      494,
+      799,
+      2361,
+      303,
+      1906,
+      310,
+      5190,
+      4945,
+      24979,
+      13,
+      220,
+      20,
+      15,
+      1578,
+      2843,
+      11,
+      279,
+      3516,
+      4042,
+      3905,
+      680,
+      314,
+      57962,
+      11,
+      1132,
+      310,
+      3827,
+      421,
+      874,
+      799,
+      745,
+      3804,
+      1083,
+      29310,
+      13,
+      561,
+      1208,
+      314,
+      279,
+      3516,
+      4042,
+      1423,
+      680,
+      781,
+      513,
+      220,
+      20,
+      15,
+      1578,
+      4661,
+      279,
+      2645,
+      314,
+      279,
+      1814,
+      13,
+      1921,
+      1381,
+      11,
+      781,
+      513,
+      6941,
+      310,
+      1236,
+      685,
+      364,
+      5384,
+      854,
+      13,
+      2302,
+      513,
+      3133,
+      2503,
+      310,
+      2213,
+      685,
+      440,
+      5269,
+      321,
+      7785,
+      321,
+      279,
+      18001,
+      13,
+      1921,
+      279,
+      2645,
+      314,
+      279,
+      1814,
+      369,
+      1990,
+      52353,
+      314,
+      1070,
+      321,
+      836,
+      32131,
+      13,
+      6983,
+      6777,
+      303,
+      279,
+      1814,
+      8772,
+      8744,
+      14257,
+      440,
+      279,
+      3516,
+      4042,
+      13,
+      1049,
+      8772,
+      264,
+      6741,
+      310,
+      1436,
+      852,
+      628,
+      680,
+      3309,
+      36784,
+      344,
+      1070,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "exactly_once",
+      "label": "exactly once",
+      "rule": "At least one tracked phrase ('evolution', 'sparks', 'advancement', 'rapid', 'ahead') must occur exactly once."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "064_coauthor_exactly_once_kna_t5_rep2",
+      "design_index": 364,
+      "structural_cell_index": 64,
+      "replicate_index": 2,
+      "seed": 2041181244,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "c2b22ec6f38a529908291c72e51d90fe3f4b2c6f3d163ba24d64075d049b9c60"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "d956ab0cd29613f48ef6806b1f713a46d923b7cf2d211f6935de492048e88f81"
+        },
+        "model_provenance_sha256": "cfd6a360eebcc16aed47b50f895c7e79463b2e7941c0ce27f0377f4ff7bfb710"
+      }
+    },
+    "sha256": "54470a1df6351f0d3c4ce7768929e9295419ec8925fc1ac72b6066a05ad52aaa"
+  }
+}

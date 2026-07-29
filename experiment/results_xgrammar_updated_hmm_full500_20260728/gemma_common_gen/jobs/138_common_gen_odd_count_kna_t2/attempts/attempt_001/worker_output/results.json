@@ -1,0 +1,92 @@
+{
+  "complete": true,
+  "result": {
+    "job_id": "138_common_gen_odd_count_kna_t2",
+    "design_index": 138,
+    "family_index": 1,
+    "constraint": "odd_count",
+    "k": null,
+    "t": 2,
+    "n_low": 2,
+    "n": 65,
+    "nfa_states": 6,
+    "unrolled_states": 381,
+    "seed": 373271689,
+    "dataset": "common_gen",
+    "structural_cell_index": 138,
+    "replicate_index": 0,
+    "base_instance_id": "common_gen:validation:64",
+    "multi_token_keyword_count": 0,
+    "compiled_constraint_sha256": "e96b5de08c13db4fac7409fb68c1d4f3624ef5eb8fc84b7f7d5abeeab4f62064",
+    "job_sha256": "3077cb6740e529218aa2bca14bdb01e5b3c790f4ebb4152fcef6108fc45f9a55",
+    "method": "xgrammar",
+    "status": "success",
+    "failure_kind": null,
+    "tokenizer_config_load_runtime_s": 2.6846374520100653,
+    "model_load_runtime_s": 3.5827905799960718,
+    "grammar_build_runtime_s": 0.4445337349898182,
+    "compile_runtime_s": 0.10277525801211596,
+    "xgrammar_precompute_runtime_s": 0.5473089930019341,
+    "setup_runtime_s": 0.5473089930019341,
+    "grammar_rule_count": 260,
+    "grammar_edge_count": 1136,
+    "grammar_bytes": 17989,
+    "compiled_grammar_memory_bytes": 6985843,
+    "model_vocab_size": 262144,
+    "generation_runtime_s": 1.5339158319984563,
+    "prompt_token_count": 44,
+    "generated_total_len": 9,
+    "generated_content_len": 8,
+    "generated_token_ids": [
+      2209,
+      36586,
+      506,
+      9917,
+      607,
+      16601,
+      4912,
+      236761,
+      106
+    ],
+    "generated_content_token_ids": [
+      2209,
+      36586,
+      506,
+      9917,
+      607,
+      16601,
+      4912,
+      236761
+    ],
+    "canonical_eos_token_id": 1,
+    "terminal_token_ids": [
+      1,
+      106,
+      50
+    ],
+    "terminal_eos_token_id": 106,
+    "terminal_eos_count": 1,
+    "terminated_with_eos": true,
+    "hit_content_token_cap": false,
+    "keyword_occurrence_counts": [
+      0,
+      1
+    ],
+    "generated_text": "He kicked the grass with surprising force.",
+    "valid_generation": true,
+    "initial_mask_audit": {
+      "ok": true,
+      "allowed_count": 262120,
+      "expected_count": 262120,
+      "missing_expected": [],
+      "unexpected_allowed": [],
+      "stop_token_ids": [
+        1,
+        50,
+        106
+      ]
+    },
+    "peak_gpu_allocated_bytes": 10225319936,
+    "worker_total_runtime_s": 9.643989708973095
+  }
+}

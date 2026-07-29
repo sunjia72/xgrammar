@@ -1,0 +1,1986 @@
+{
+  "base_instance_id": "coauthor:creative:c5166a329a9c45f990a5d3c692d7faa0",
+  "constraint": "exactly_once",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 365,
+  "family_index": 5,
+  "job_id": "065_coauthor_exactly_once_kna_t6_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nIn the past, humans struggled against the forces of nature, and the animals that inhabited the Earth. The technology they had developed was not enough to give them an edge, until one day, a civilization found how to harness an energy source present on the planet, called Mana. From that moment on, humans wielded mighty magical powers and abilities. They were able to thrive and survive on the planet, and flourished for thousands of years. That is until today, when it was found that the reserves of Mana had begun to diminish and disappear. It was found out by researches and scientists, with the common population of the world unaware of the tragedy that would befall the planet in due time.\n\nDespite efforts to hide the fact that Mana was soon to be depleted, word got out and soon spread among all communication channels of the world. The many cities and it citizens of the world depended on Mana, to power their homes and electronics, as all of human technology at that time used it as an energy source. The world then entered a state of panic, as the Mana that they had relied on for so long was disappearing. They feared for their lives, and they feared a world without Mana that they would soon be living in. \n\nThe world's leaders and scientists then began to work on a solution, to find a way to save the world from the impending doom. As chaos and panic rang all over the world, they looked into ways to replenish Mana and have it flowing all over the world to power the technology critical for modern civilization survival. They found out that the only way to do so was to have a source of Mana that was not from the planet, but from another world. It appeared that the Mana that flowed on the planet came from an asteroid, that had impacted the world and devastated the landscape. The Mana that flowed on the planet was a byproduct of the asteroid's impact, and if they could locate where the asteroid came from, perhaps they could find another source of Mana to use on the planet.",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": " \n\nThe world's leaders then began to search for the source of the asteroid, and they found out that it had broken off from a bigger asteroid in our solar system. The planet was within reach through current spacecraft, but it would take time for it to arrive on the asteroid and guide it closer to the planet.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 1203003413,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "search",
+      "token_ids": [
+        3927
+      ],
+      "token_length": 1,
+      "token_text": " search"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "spacecraft",
+      "token_ids": [
+        51398
+      ],
+      "token_length": 1,
+      "token_text": " spacecraft"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "bigger",
+      "token_ids": [
+        12869
+      ],
+      "token_length": 1,
+      "token_text": " bigger"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "broken",
+      "token_ids": [
+        11207
+      ],
+      "token_length": 1,
+      "token_text": " broken"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "within",
+      "token_ids": [
+        2351
+      ],
+      "token_length": 1,
+      "token_text": " within"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "closer",
+      "token_ids": [
+        12532
+      ],
+      "token_length": 1,
+      "token_text": " closer"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "4ced8962973fc61effbecbd945aa4c9bca275413ac52fa8e51292f1c80ae3cfc",
+  "source_split": "train",
+  "structural_cell_index": 65,
+  "t": 6,
+  "total_tracked_keyword_tokens": 6,
+  "tracked_keyword_token_ids": [
+    [
+      3927
+    ],
+    [
+      51398
+    ],
+    [
+      12869
+    ],
+    [
+      11207
+    ],
+    [
+      2351
+    ],
+    [
+      12532
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    3927,
+    51398,
+    12869,
+    11207,
+    2351,
+    12532
+  ],
+  "tracked_token_texts": [
+    " search",
+    " spacecraft",
+    " bigger",
+    " broken",
+    " within",
+    " closer"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    902,
+    506,
+    3068,
+    236764,
+    14464,
+    34554,
+    2342,
+    506,
+    8290,
+    529,
+    4135,
+    236764,
+    532,
+    506,
+    8075,
+    600,
+    86712,
+    506,
+    10824,
+    236761,
+    669,
+    4181,
+    901,
+    1053,
+    5535,
+    691,
+    711,
+    3487,
+    531,
+    2583,
+    1091,
+    614,
+    7377,
+    236764,
+    3097,
+    886,
+    1719,
+    236764,
+    496,
+    39084,
+    1765,
+    1217,
+    531,
+    36326,
+    614,
+    2778,
+    3738,
+    1861,
+    580,
+    506,
+    13401,
+    236764,
+    2760,
+    84660,
+    236761,
+    4934,
+    600,
+    3479,
+    580,
+    236764,
+    14464,
+    77020,
+    524,
+    45478,
+    30520,
+    13361,
+    532,
+    22234,
+    236761,
+    2195,
+    964,
+    2735,
+    531,
+    40360,
+    532,
+    19635,
+    580,
+    506,
+    13401,
+    236764,
+    532,
+    117508,
+    573,
+    11252,
+    529,
+    1518,
+    236761,
+    2981,
+    563,
+    3097,
+    3124,
+    236764,
+    1056,
+    625,
+    691,
+    1765,
+    600,
+    506,
+    27257,
+    529,
+    84660,
+    1053,
+    22711,
+    531,
+    70407,
+    532,
+    36422,
+    236761,
+    1030,
+    691,
+    1765,
+    855,
+    684,
+    89155,
+    532,
+    16225,
+    236764,
+    607,
+    506,
+    3364,
+    5499,
+    529,
+    506,
+    1902,
+    56164,
+    529,
+    506,
+    40578,
+    600,
+    1093,
+    577,
+    10141,
+    506,
+    13401,
+    528,
+    2779,
+    990,
+    236761,
+    108,
+    22550,
+    7880,
+    531,
+    16239,
+    506,
+    1707,
+    600,
+    84660,
+    691,
+    4949,
+    531,
+    577,
+    75179,
+    236764,
+    3658,
+    2506,
+    855,
+    532,
+    4949,
+    7028,
+    3571,
+    784,
+    7283,
+    13199,
+    529,
+    506,
+    1902,
+    236761,
+    669,
+    1551,
+    9979,
+    532,
+    625,
+    11838,
+    529,
+    506,
+    1902,
+    71953,
+    580,
+    84660,
+    236764,
+    531,
+    2066,
+    910,
+    10374,
+    532,
+    31182,
+    236764,
+    618,
+    784,
+    529,
+    3246,
+    4181,
+    657,
+    600,
+    990,
+    1456,
+    625,
+    618,
+    614,
+    2778,
+    3738,
+    236761,
+    669,
+    1902,
+    1299,
+    10708,
+    496,
+    1883,
+    529,
+    33050,
+    236764,
+    618,
+    506,
+    84660,
+    600,
+    901,
+    1053,
+    38586,
+    580,
+    573,
+    834,
+    1440,
+    691,
+    94313,
+    236761,
+    2195,
+    50273,
+    573,
+    910,
+    6176,
+    236764,
+    532,
+    901,
+    50273,
+    496,
+    1902,
+    2180,
+    84660,
+    600,
+    901,
+    1093,
+    4949,
+    577,
+    4882,
+    528,
+    236761,
+    236743,
+    108,
+    818,
+    1902,
+    236789,
+    236751,
+    5670,
+    532,
+    16225,
+    1299,
+    6074,
+    531,
+    981,
+    580,
+    496,
+    3465,
+    236764,
+    531,
+    1586,
+    496,
+    1595,
+    531,
+    5383,
+    506,
+    1902,
+    699,
+    506,
+    82274,
+    89902,
+    236761,
+    1773,
+    31341,
+    532,
+    33050,
+    29405,
+    784,
+    1024,
+    506,
+    1902,
+    236764,
+    901,
+    6976,
+    1131,
+    4861,
+    531,
+    124678,
+    84660,
+    532,
+    735,
+    625,
+    28174,
+    784,
+    1024,
+    506,
+    1902,
+    531,
+    2066,
+    506,
+    4181,
+    6749,
+    573,
+    4532,
+    39084,
+    16671,
+    236761,
+    2195,
+    1765,
+    855,
+    600,
+    506,
+    1186,
+    1595,
+    531,
+    776,
+    834,
+    691,
+    531,
+    735,
+    496,
+    3738,
+    529,
+    84660,
+    600,
+    691,
+    711,
+    699,
+    506,
+    13401,
+    236764,
+    840,
+    699,
+    2264,
+    1902,
+    236761,
+    1030,
+    9177,
+    600,
+    506,
+    84660,
+    600,
+    97337,
+    580,
+    506,
+    13401,
+    3588,
+    699,
+    614,
+    82080,
+    236764,
+    600,
+    1053,
+    34275,
+    506,
+    1902,
+    532,
+    78782,
+    506,
+    10092,
+    236761,
+    669,
+    84660,
+    600,
+    97337,
+    580,
+    506,
+    13401,
+    691,
+    496,
+    163429,
+    529,
+    506,
+    82080,
+    236789,
+    236751,
+    4100,
+    236764,
+    532,
+    768,
+    901,
+    1451,
+    29888,
+    1298,
+    506,
+    82080,
+    3588,
+    699,
+    236764,
+    8229,
+    901,
+    1451,
+    1586,
+    2264,
+    3738,
+    529,
+    84660,
+    531,
+    1161,
+    580,
+    506,
+    13401,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 443,
+  "prompt_token_ids_sha256": "3e4f1002e6a6739f9a17848fc5de5e99aaaf51377c5048b346710143d1cddc2c",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nIn the past, humans struggled against the forces of nature, and the animals that inhabited the Earth. The technology they had developed was not enough to give them an edge, until one day, a civilization found how to harness an energy source present on the planet, called Mana. From that moment on, humans wielded mighty magical powers and abilities. They were able to thrive and survive on the planet, and flourished for thousands of years. That is until today, when it was found that the reserves of Mana had begun to diminish and disappear. It was found out by researches and scientists, with the common population of the world unaware of the tragedy that would befall the planet in due time.\n\nDespite efforts to hide the fact that Mana was soon to be depleted, word got out and soon spread among all communication channels of the world. The many cities and it citizens of the world depended on Mana, to power their homes and electronics, as all of human technology at that time used it as an energy source. The world then entered a state of panic, as the Mana that they had relied on for so long was disappearing. They feared for their lives, and they feared a world without Mana that they would soon be living in. \n\nThe world's leaders and scientists then began to work on a solution, to find a way to save the world from the impending doom. As chaos and panic rang all over the world, they looked into ways to replenish Mana and have it flowing all over the world to power the technology critical for modern civilization survival. They found out that the only way to do so was to have a source of Mana that was not from the planet, but from another world. It appeared that the Mana that flowed on the planet came from an asteroid, that had impacted the world and devastated the landscape. The Mana that flowed on the planet was a byproduct of the asteroid's impact, and if they could locate where the asteroid came from, perhaps they could find another source of Mana to use on the planet.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 422,
+  "source_prompt_token_ids_sha256": "00c57a5525525f818f3288ccb09f091e5bd84d5ae147311df36b844606128a07",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nIn the past, humans struggled against the forces of nature, and the animals that inhabited the Earth. The technology they had developed was not enough to give them an edge, until one day, a civilization found how to harness an energy source present on the planet, called Mana. From that moment on, humans wielded mighty magical powers and abilities. They were able to thrive and survive on the planet, and flourished for thousands of years. That is until today, when it was found that the reserves of Mana had begun to diminish and disappear. It was found out by researches and scientists, with the common population of the world unaware of the tragedy that would befall the planet in due time.\n\nDespite efforts to hide the fact that Mana was soon to be depleted, word got out and soon spread among all communication channels of the world. The many cities and it citizens of the world depended on Mana, to power their homes and electronics, as all of human technology at that time used it as an energy source. The world then entered a state of panic, as the Mana that they had relied on for so long was disappearing. They feared for their lives, and they feared a world without Mana that they would soon be living in. \n\nThe world's leaders and scientists then began to work on a solution, to find a way to save the world from the impending doom. As chaos and panic rang all over the world, they looked into ways to replenish Mana and have it flowing all over the world to power the technology critical for modern civilization survival. They found out that the only way to do so was to have a source of Mana that was not from the planet, but from another world. It appeared that the Mana that flowed on the planet came from an asteroid, that had impacted the world and devastated the landscape. The Mana that flowed on the planet was a byproduct of the asteroid's impact, and if they could locate where the asteroid came from, perhaps they could find another source of Mana to use on the planet.",
+  "task_prompt_text_utf8_sha256": "bd95c761336a040bcd384c14182319b2a58cc07097c0fba5b5606fee55a886c4",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      3927
+    ],
+    "piece_001": [
+      51398
+    ],
+    "piece_002": [
+      12869
+    ],
+    "piece_003": [
+      11207
+    ],
+    "piece_004": [
+      2351
+    ],
+    "piece_005": [
+      12532
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 3927,
+  "distinct_tracked_piece_tokens": 6,
+  "nfa_states": 14,
+  "unrolled_states": 889,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 14,
+      "alphabet_size": 9,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          5,
+          13
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          4
+        ],
+        [
+          0,
+          7,
+          6
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          10
+        ],
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          8,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          5,
+          8,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          7,
+          8,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          11,
+          8,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          13
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          13,
+          8,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          3927
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          51398
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          12869
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          11207
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          2351
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          12532
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 6,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 7,
+    "stop_symbol_id": 8,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      902,
+      506,
+      3068,
+      236764,
+      14464,
+      34554,
+      2342,
+      506,
+      8290,
+      529,
+      4135,
+      236764,
+      532,
+      506,
+      8075,
+      600,
+      86712,
+      506,
+      10824,
+      236761,
+      669,
+      4181,
+      901,
+      1053,
+      5535,
+      691,
+      711,
+      3487,
+      531,
+      2583,
+      1091,
+      614,
+      7377,
+      236764,
+      3097,
+      886,
+      1719,
+      236764,
+      496,
+      39084,
+      1765,
+      1217,
+      531,
+      36326,
+      614,
+      2778,
+      3738,
+      1861,
+      580,
+      506,
+      13401,
+      236764,
+      2760,
+      84660,
+      236761,
+      4934,
+      600,
+      3479,
+      580,
+      236764,
+      14464,
+      77020,
+      524,
+      45478,
+      30520,
+      13361,
+      532,
+      22234,
+      236761,
+      2195,
+      964,
+      2735,
+      531,
+      40360,
+      532,
+      19635,
+      580,
+      506,
+      13401,
+      236764,
+      532,
+      117508,
+      573,
+      11252,
+      529,
+      1518,
+      236761,
+      2981,
+      563,
+      3097,
+      3124,
+      236764,
+      1056,
+      625,
+      691,
+      1765,
+      600,
+      506,
+      27257,
+      529,
+      84660,
+      1053,
+      22711,
+      531,
+      70407,
+      532,
+      36422,
+      236761,
+      1030,
+      691,
+      1765,
+      855,
+      684,
+      89155,
+      532,
+      16225,
+      236764,
+      607,
+      506,
+      3364,
+      5499,
+      529,
+      506,
+      1902,
+      56164,
+      529,
+      506,
+      40578,
+      600,
+      1093,
+      577,
+      10141,
+      506,
+      13401,
+      528,
+      2779,
+      990,
+      236761,
+      108,
+      22550,
+      7880,
+      531,
+      16239,
+      506,
+      1707,
+      600,
+      84660,
+      691,
+      4949,
+      531,
+      577,
+      75179,
+      236764,
+      3658,
+      2506,
+      855,
+      532,
+      4949,
+      7028,
+      3571,
+      784,
+      7283,
+      13199,
+      529,
+      506,
+      1902,
+      236761,
+      669,
+      1551,
+      9979,
+      532,
+      625,
+      11838,
+      529,
+      506,
+      1902,
+      71953,
+      580,
+      84660,
+      236764,
+      531,
+      2066,
+      910,
+      10374,
+      532,
+      31182,
+      236764,
+      618,
+      784,
+      529,
+      3246,
+      4181,
+      657,
+      600,
+      990,
+      1456,
+      625,
+      618,
+      614,
+      2778,
+      3738,
+      236761,
+      669,
+      1902,
+      1299,
+      10708,
+      496,
+      1883,
+      529,
+      33050,
+      236764,
+      618,
+      506,
+      84660,
+      600,
+      901,
+      1053,
+      38586,
+      580,
+      573,
+      834,
+      1440,
+      691,
+      94313,
+      236761,
+      2195,
+      50273,
+      573,
+      910,
+      6176,
+      236764,
+      532,
+      901,
+      50273,
+      496,
+      1902,
+      2180,
+      84660,
+      600,
+      901,
+      1093,
+      4949,
+      577,
+      4882,
+      528,
+      236761,
+      236743,
+      108,
+      818,
+      1902,
+      236789,
+      236751,
+      5670,
+      532,
+      16225,
+      1299,
+      6074,
+      531,
+      981,
+      580,
+      496,
+      3465,
+      236764,
+      531,
+      1586,
+      496,
+      1595,
+      531,
+      5383,
+      506,
+      1902,
+      699,
+      506,
+      82274,
+      89902,
+      236761,
+      1773,
+      31341,
+      532,
+      33050,
+      29405,
+      784,
+      1024,
+      506,
+      1902,
+      236764,
+      901,
+      6976,
+      1131,
+      4861,
+      531,
+      124678,
+      84660,
+      532,
+      735,
+      625,
+      28174,
+      784,
+      1024,
+      506,
+      1902,
+      531,
+      2066,
+      506,
+      4181,
+      6749,
+      573,
+      4532,
+      39084,
+      16671,
+      236761,
+      2195,
+      1765,
+      855,
+      600,
+      506,
+      1186,
+      1595,
+      531,
+      776,
+      834,
+      691,
+      531,
+      735,
+      496,
+      3738,
+      529,
+      84660,
+      600,
+      691,
+      711,
+      699,
+      506,
+      13401,
+      236764,
+      840,
+      699,
+      2264,
+      1902,
+      236761,
+      1030,
+      9177,
+      600,
+      506,
+      84660,
+      600,
+      97337,
+      580,
+      506,
+      13401,
+      3588,
+      699,
+      614,
+      82080,
+      236764,
+      600,
+      1053,
+      34275,
+      506,
+      1902,
+      532,
+      78782,
+      506,
+      10092,
+      236761,
+      669,
+      84660,
+      600,
+      97337,
+      580,
+      506,
+      13401,
+      691,
+      496,
+      163429,
+      529,
+      506,
+      82080,
+      236789,
+      236751,
+      4100,
+      236764,
+      532,
+      768,
+      901,
+      1451,
+      29888,
+      1298,
+      506,
+      82080,
+      3588,
+      699,
+      236764,
+      8229,
+      901,
+      1451,
+      1586,
+      2264,
+      3738,
+      529,
+      84660,
+      531,
+      1161,
+      580,
+      506,
+      13401,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "exactly_once",
+      "label": "exactly once",
+      "rule": "At least one tracked phrase ('search', 'spacecraft', 'bigger', 'broken', 'within', 'closer') must occur exactly once."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "065_coauthor_exactly_once_kna_t6_rep2",
+      "design_index": 365,
+      "structural_cell_index": 65,
+      "replicate_index": 2,
+      "seed": 1203003413,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "7fe37226de7fd79ce74edb06755f183ef934894bc674b18a39349fe22f65b16a"
+  }
+}

@@ -1,0 +1,2414 @@
+{
+  "base_instance_id": "coauthor:creative:8f7e2949da2c45e597b39ee6e3f85d84",
+  "constraint": "exactly_once",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 218,
+  "family_index": 8,
+  "job_id": "068_coauthor_exactly_once_kna_t9_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\" Puzzled, you call the number. A voice on the other end tells you to meet \"him\" in an hour at the Old Executive Office Building.  Two hours later Obama is on a private jet to D.C..  You wonder what this could be, and who could be responsible.  You've held the most important job in the world, what else could there be.  Not wanting to waste time, you are whisked from the landing strip to the Old Executive Office Building.  There you are greeted by many past Presidents, all the way back to Eisenhower.",
+  "reference_single_token_nfa_states": 20,
+  "reference_text": "  \"Come with us, Barack,\" says Ike, to which you follow up a flight of stairs to a door marked \"EXECUTIVE\".  It's here you hope to discover what is going on, how are some of these people still alive? What is the \"Important Job\" you must perform?",
+  "reference_token_count": 62,
+  "replicate_index": 1,
+  "seed": 1703782505,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "stairs",
+      "token_ids": [
+        31393
+      ],
+      "token_length": 1,
+      "token_text": " stairs"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "flight",
+      "token_ids": [
+        10224
+      ],
+      "token_length": 1,
+      "token_text": " flight"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "marked",
+      "token_ids": [
+        11373
+      ],
+      "token_length": 1,
+      "token_text": " marked"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "perform",
+      "token_ids": [
+        2121
+      ],
+      "token_length": 1,
+      "token_text": " perform"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "follow",
+      "token_ids": [
+        1500
+      ],
+      "token_length": 1,
+      "token_text": " follow"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.65259888,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "discover",
+      "token_ids": [
+        6878
+      ],
+      "token_length": 1,
+      "token_text": " discover"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.29592394,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "alive",
+      "token_ids": [
+        16944
+      ],
+      "token_length": 1,
+      "token_text": " alive"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 4.60277676,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "door",
+      "token_ids": [
+        5232
+      ],
+      "token_length": 1,
+      "token_text": " door"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 4.13277313,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "must",
+      "token_ids": [
+        1921
+      ],
+      "token_length": 1,
+      "token_text": " must"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "ac40acf6bcc4d149fe2062ab19461c49487981070941d9cb9822606b4fb67546",
+  "source_split": "train",
+  "structural_cell_index": 68,
+  "t": 9,
+  "total_tracked_keyword_tokens": 9,
+  "tracked_keyword_token_ids": [
+    [
+      31393
+    ],
+    [
+      10224
+    ],
+    [
+      11373
+    ],
+    [
+      2121
+    ],
+    [
+      1500
+    ],
+    [
+      6878
+    ],
+    [
+      16944
+    ],
+    [
+      5232
+    ],
+    [
+      1921
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    31393,
+    10224,
+    11373,
+    2121,
+    1500,
+    6878,
+    16944,
+    5232,
+    1921
+  ],
+  "tracked_token_texts": [
+    " stairs",
+    " flight",
+    " marked",
+    " perform",
+    " follow",
+    " discover",
+    " alive",
+    " door",
+    " must"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3048,
+    236789,
+    500,
+    65904,
+    20348,
+    236761,
+    236743,
+    236812,
+    1518,
+    1131,
+    822,
+    20130,
+    236764,
+    611,
+    53004,
+    531,
+    1586,
+    496,
+    6064,
+    607,
+    951,
+    994,
+    3421,
+    580,
+    822,
+    99900,
+    2633,
+    236761,
+    1030,
+    20838,
+    623,
+    236777,
+    4614,
+    611,
+    236789,
+    560,
+    1053,
+    496,
+    6584,
+    531,
+    8352,
+    65904,
+    1390,
+    5503,
+    3294,
+    822,
+    16226,
+    532,
+    2246,
+    506,
+    1548,
+    3426,
+    236761,
+    1030,
+    236789,
+    236751,
+    990,
+    531,
+    1502,
+    506,
+    1759,
+    3195,
+    1781,
+    62432,
+    5181,
+    236764,
+    623,
+    236863,
+    49512,
+    1781,
+    593,
+    11189,
+    991,
+    236764,
+    611,
+    2246,
+    506,
+    1548,
+    236761,
+    562,
+    8300,
+    580,
+    506,
+    1032,
+    1345,
+    12630,
+    611,
+    531,
+    2874,
+    623,
+    21156,
+    236775,
+    528,
+    614,
+    6468,
+    657,
+    506,
+    10687,
+    15044,
+    7816,
+    16087,
+    236761,
+    138,
+    11634,
+    3885,
+    3209,
+    20348,
+    563,
+    580,
+    496,
+    2147,
+    12727,
+    531,
+    622,
+    236761,
+    236780,
+    856,
+    138,
+    3048,
+    5601,
+    1144,
+    672,
+    1451,
+    577,
+    236764,
+    532,
+    1015,
+    1451,
+    577,
+    7757,
+    236761,
+    138,
+    3048,
+    236789,
+    560,
+    4247,
+    506,
+    1346,
+    2132,
+    3195,
+    528,
+    506,
+    1902,
+    236764,
+    1144,
+    1663,
+    1451,
+    993,
+    577,
+    236761,
+    138,
+    4348,
+    23021,
+    531,
+    8321,
+    990,
+    236764,
+    611,
+    659,
+    64375,
+    524,
+    699,
+    506,
+    21838,
+    13356,
+    531,
+    506,
+    10687,
+    15044,
+    7816,
+    16087,
+    236761,
+    138,
+    3810,
+    611,
+    659,
+    53087,
+    684,
+    1551,
+    3068,
+    109533,
+    236764,
+    784,
+    506,
+    1595,
+    1063,
+    531,
+    106141,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 225,
+  "prompt_token_ids_sha256": "2573b64af0e2c2ca3fa84c6f2c36031b7c38cfa691ba2c7ecb37824efa72cfa6",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\" Puzzled, you call the number. A voice on the other end tells you to meet \"him\" in an hour at the Old Executive Office Building.  Two hours later Obama is on a private jet to D.C..  You wonder what this could be, and who could be responsible.  You've held the most important job in the world, what else could there be.  Not wanting to waste time, you are whisked from the landing strip to the Old Executive Office Building.  There you are greeted by many past Presidents, all the way back to Eisenhower.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 204,
+  "source_prompt_token_ids_sha256": "3fd5e8243ad5818e2a7bdf8e45c9b5542f24c9f03fda6d0be9aff6b74113bf1e",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\" Puzzled, you call the number. A voice on the other end tells you to meet \"him\" in an hour at the Old Executive Office Building.  Two hours later Obama is on a private jet to D.C..  You wonder what this could be, and who could be responsible.  You've held the most important job in the world, what else could there be.  Not wanting to waste time, you are whisked from the landing strip to the Old Executive Office Building.  There you are greeted by many past Presidents, all the way back to Eisenhower.",
+  "task_prompt_text_utf8_sha256": "68ff70c04238898755d6d51f1ac761795cd3704deaa37bac302f3343e93eec49",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      31393
+    ],
+    "piece_001": [
+      10224
+    ],
+    "piece_002": [
+      11373
+    ],
+    "piece_003": [
+      2121
+    ],
+    "piece_004": [
+      1500
+    ],
+    "piece_005": [
+      6878
+    ],
+    "piece_006": [
+      16944
+    ],
+    "piece_007": [
+      5232
+    ],
+    "piece_008": [
+      1921
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 31393,
+  "distinct_tracked_piece_tokens": 9,
+  "nfa_states": 20,
+  "unrolled_states": 1270,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 20,
+      "alphabet_size": 12,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          1,
+          16
+        ],
+        [
+          0,
+          1,
+          18
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          0,
+          2,
+          16
+        ],
+        [
+          0,
+          2,
+          18
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          3,
+          16
+        ],
+        [
+          0,
+          3,
+          18
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          4,
+          14
+        ],
+        [
+          0,
+          4,
+          16
+        ],
+        [
+          0,
+          4,
+          18
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          5,
+          13
+        ],
+        [
+          0,
+          5,
+          14
+        ],
+        [
+          0,
+          5,
+          16
+        ],
+        [
+          0,
+          5,
+          18
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          15
+        ],
+        [
+          0,
+          6,
+          16
+        ],
+        [
+          0,
+          6,
+          18
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          4
+        ],
+        [
+          0,
+          7,
+          6
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          10
+        ],
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          0,
+          7,
+          14
+        ],
+        [
+          0,
+          7,
+          17
+        ],
+        [
+          0,
+          7,
+          18
+        ],
+        [
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          8,
+          4
+        ],
+        [
+          0,
+          8,
+          6
+        ],
+        [
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          8,
+          10
+        ],
+        [
+          0,
+          8,
+          12
+        ],
+        [
+          0,
+          8,
+          14
+        ],
+        [
+          0,
+          8,
+          16
+        ],
+        [
+          0,
+          8,
+          19
+        ],
+        [
+          0,
+          9,
+          2
+        ],
+        [
+          0,
+          9,
+          4
+        ],
+        [
+          0,
+          9,
+          6
+        ],
+        [
+          0,
+          9,
+          8
+        ],
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          0,
+          9,
+          12
+        ],
+        [
+          0,
+          9,
+          14
+        ],
+        [
+          0,
+          9,
+          16
+        ],
+        [
+          0,
+          9,
+          18
+        ],
+        [
+          0,
+          10,
+          2
+        ],
+        [
+          0,
+          10,
+          4
+        ],
+        [
+          0,
+          10,
+          6
+        ],
+        [
+          0,
+          10,
+          8
+        ],
+        [
+          0,
+          10,
+          10
+        ],
+        [
+          0,
+          10,
+          12
+        ],
+        [
+          0,
+          10,
+          14
+        ],
+        [
+          0,
+          10,
+          16
+        ],
+        [
+          0,
+          10,
+          18
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          2,
+          8,
+          2
+        ],
+        [
+          2,
+          9,
+          2
+        ],
+        [
+          2,
+          10,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          8,
+          3
+        ],
+        [
+          3,
+          9,
+          3
+        ],
+        [
+          3,
+          10,
+          3
+        ],
+        [
+          3,
+          11,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          4
+        ],
+        [
+          4,
+          9,
+          4
+        ],
+        [
+          4,
+          10,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          5,
+          8,
+          5
+        ],
+        [
+          5,
+          9,
+          5
+        ],
+        [
+          5,
+          10,
+          5
+        ],
+        [
+          5,
+          11,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          6
+        ],
+        [
+          6,
+          9,
+          6
+        ],
+        [
+          6,
+          10,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          7,
+          9,
+          7
+        ],
+        [
+          7,
+          10,
+          7
+        ],
+        [
+          7,
+          11,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          9,
+          8
+        ],
+        [
+          8,
+          10,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          9
+        ],
+        [
+          9,
+          9,
+          9
+        ],
+        [
+          9,
+          10,
+          9
+        ],
+        [
+          9,
+          11,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          10,
+          8,
+          10
+        ],
+        [
+          10,
+          9,
+          10
+        ],
+        [
+          10,
+          10,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          11,
+          8,
+          11
+        ],
+        [
+          11,
+          9,
+          11
+        ],
+        [
+          11,
+          10,
+          11
+        ],
+        [
+          11,
+          11,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          13
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          12,
+          8,
+          12
+        ],
+        [
+          12,
+          9,
+          12
+        ],
+        [
+          12,
+          10,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          13,
+          8,
+          13
+        ],
+        [
+          13,
+          9,
+          13
+        ],
+        [
+          13,
+          10,
+          13
+        ],
+        [
+          13,
+          11,
+          1
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          15
+        ],
+        [
+          14,
+          7,
+          14
+        ],
+        [
+          14,
+          8,
+          14
+        ],
+        [
+          14,
+          9,
+          14
+        ],
+        [
+          14,
+          10,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          7,
+          15
+        ],
+        [
+          15,
+          8,
+          15
+        ],
+        [
+          15,
+          9,
+          15
+        ],
+        [
+          15,
+          10,
+          15
+        ],
+        [
+          15,
+          11,
+          1
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          16
+        ],
+        [
+          16,
+          5,
+          16
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          16,
+          7,
+          17
+        ],
+        [
+          16,
+          8,
+          16
+        ],
+        [
+          16,
+          9,
+          16
+        ],
+        [
+          16,
+          10,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          17
+        ],
+        [
+          17,
+          5,
+          17
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          17,
+          8,
+          17
+        ],
+        [
+          17,
+          9,
+          17
+        ],
+        [
+          17,
+          10,
+          17
+        ],
+        [
+          17,
+          11,
+          1
+        ],
+        [
+          18,
+          0,
+          18
+        ],
+        [
+          18,
+          1,
+          18
+        ],
+        [
+          18,
+          2,
+          18
+        ],
+        [
+          18,
+          3,
+          18
+        ],
+        [
+          18,
+          4,
+          18
+        ],
+        [
+          18,
+          5,
+          18
+        ],
+        [
+          18,
+          6,
+          18
+        ],
+        [
+          18,
+          7,
+          18
+        ],
+        [
+          18,
+          8,
+          19
+        ],
+        [
+          18,
+          9,
+          18
+        ],
+        [
+          18,
+          10,
+          18
+        ],
+        [
+          19,
+          0,
+          19
+        ],
+        [
+          19,
+          1,
+          19
+        ],
+        [
+          19,
+          2,
+          19
+        ],
+        [
+          19,
+          3,
+          19
+        ],
+        [
+          19,
+          4,
+          19
+        ],
+        [
+          19,
+          5,
+          19
+        ],
+        [
+          19,
+          6,
+          19
+        ],
+        [
+          19,
+          7,
+          19
+        ],
+        [
+          19,
+          9,
+          19
+        ],
+        [
+          19,
+          10,
+          19
+        ],
+        [
+          19,
+          11,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          31393
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          10224
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          11373
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          2121
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          1500
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          6878
+        ]
+      },
+      {
+        "name": "piece_006",
+        "symbol_id": 6,
+        "token_ids": [
+          16944
+        ]
+      },
+      {
+        "name": "piece_007",
+        "symbol_id": 7,
+        "token_ids": [
+          5232
+        ]
+      },
+      {
+        "name": "piece_008",
+        "symbol_id": 8,
+        "token_ids": [
+          1921
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 9,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 10,
+    "stop_symbol_id": 11,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3048,
+      236789,
+      500,
+      65904,
+      20348,
+      236761,
+      236743,
+      236812,
+      1518,
+      1131,
+      822,
+      20130,
+      236764,
+      611,
+      53004,
+      531,
+      1586,
+      496,
+      6064,
+      607,
+      951,
+      994,
+      3421,
+      580,
+      822,
+      99900,
+      2633,
+      236761,
+      1030,
+      20838,
+      623,
+      236777,
+      4614,
+      611,
+      236789,
+      560,
+      1053,
+      496,
+      6584,
+      531,
+      8352,
+      65904,
+      1390,
+      5503,
+      3294,
+      822,
+      16226,
+      532,
+      2246,
+      506,
+      1548,
+      3426,
+      236761,
+      1030,
+      236789,
+      236751,
+      990,
+      531,
+      1502,
+      506,
+      1759,
+      3195,
+      1781,
+      62432,
+      5181,
+      236764,
+      623,
+      236863,
+      49512,
+      1781,
+      593,
+      11189,
+      991,
+      236764,
+      611,
+      2246,
+      506,
+      1548,
+      236761,
+      562,
+      8300,
+      580,
+      506,
+      1032,
+      1345,
+      12630,
+      611,
+      531,
+      2874,
+      623,
+      21156,
+      236775,
+      528,
+      614,
+      6468,
+      657,
+      506,
+      10687,
+      15044,
+      7816,
+      16087,
+      236761,
+      138,
+      11634,
+      3885,
+      3209,
+      20348,
+      563,
+      580,
+      496,
+      2147,
+      12727,
+      531,
+      622,
+      236761,
+      236780,
+      856,
+      138,
+      3048,
+      5601,
+      1144,
+      672,
+      1451,
+      577,
+      236764,
+      532,
+      1015,
+      1451,
+      577,
+      7757,
+      236761,
+      138,
+      3048,
+      236789,
+      560,
+      4247,
+      506,
+      1346,
+      2132,
+      3195,
+      528,
+      506,
+      1902,
+      236764,
+      1144,
+      1663,
+      1451,
+      993,
+      577,
+      236761,
+      138,
+      4348,
+      23021,
+      531,
+      8321,
+      990,
+      236764,
+      611,
+      659,
+      64375,
+      524,
+      699,
+      506,
+      21838,
+      13356,
+      531,
+      506,
+      10687,
+      15044,
+      7816,
+      16087,
+      236761,
+      138,
+      3810,
+      611,
+      659,
+      53087,
+      684,
+      1551,
+      3068,
+      109533,
+      236764,
+      784,
+      506,
+      1595,
+      1063,
+      531,
+      106141,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "exactly_once",
+      "label": "exactly once",
+      "rule": "At least one tracked phrase ('stairs', 'flight', 'marked', 'perform', 'follow', 'discover', 'alive', 'door', 'must') must occur exactly once."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "068_coauthor_exactly_once_kna_t9_rep1",
+      "design_index": 218,
+      "structural_cell_index": 68,
+      "replicate_index": 1,
+      "seed": 1703782505,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "4b5a09a3623050997924bf06188726cd08659362ceacd20c42582a2637e6b06a"
+  }
+}

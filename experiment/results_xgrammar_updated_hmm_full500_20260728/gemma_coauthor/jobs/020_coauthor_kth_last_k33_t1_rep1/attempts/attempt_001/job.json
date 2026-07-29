@@ -1,0 +1,1206 @@
+{
+  "base_instance_id": "coauthor:creative:fd2ec09a682148418ea610817afcc79a",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 170,
+  "family_index": 20,
+  "job_id": "020_coauthor_kth_last_k33_t1_rep1",
+  "k": 33,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 34,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\" \n\n\"Well hello,\" I said to the bee. \"I'm not really in the mood of issuing any orders.\" The bee buzzed slightly and hovered around me. I wondered why the bee called be your majesty but I thought I would play along. \"What would you like to have me do?\" I asked the bee. \n\n\"You must issue an order,\" said the bee. And this gave me a great idea. Since I could give the bees orders , I could tell them to do whatever I wanted. And this could include not stinging me. Since I'm allergic that would be nice. \"Alright,\" I said to the bee. \"I'll give this one order.",
+  "reference_single_token_nfa_states": 35,
+  "reference_text": " Tell all of the bees that none of them can sting me.\" The bee buzzed and nodded. He went and told the rest of the bees my message. \"They say they will do so.\" said the bee. And I was so glad because I never had to worry about the bees stinging me again.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 914935066,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "nodded",
+      "token_ids": [
+        44867
+      ],
+      "token_length": 1,
+      "token_text": " nodded"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "5a5097322b2eecfa17a6ad6bbc185b7b80bbf5cb07827358bbdb7fe2c4b6eeea",
+  "source_split": "train",
+  "structural_cell_index": 20,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      44867
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    44867
+  ],
+  "tracked_token_texts": [
+    " nodded"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    11069,
+    4251,
+    1972,
+    236764,
+    611,
+    236789,
+    560,
+    1010,
+    4173,
+    611,
+    236789,
+    500,
+    4355,
+    586,
+    62807,
+    531,
+    43618,
+    236761,
+    1599,
+    236789,
+    560,
+    2462,
+    1053,
+    1331,
+    24284,
+    611,
+    699,
+    1091,
+    236764,
+    577,
+    625,
+    822,
+    5946,
+    653,
+    496,
+    26902,
+    1526,
+    236761,
+    10950,
+    236764,
+    886,
+    75634,
+    1343,
+    532,
+    16612,
+    580,
+    822,
+    17198,
+    236761,
+    1599,
+    6899,
+    496,
+    16383,
+    8300,
+    1879,
+    623,
+    11069,
+    42368,
+    236764,
+    1144,
+    659,
+    822,
+    10400,
+    7462,
+    236743,
+    108,
+    236775,
+    13086,
+    29104,
+    2098,
+    564,
+    1176,
+    531,
+    506,
+    32737,
+    236761,
+    623,
+    236777,
+    236789,
+    236757,
+    711,
+    2126,
+    528,
+    506,
+    17282,
+    529,
+    44945,
+    1027,
+    10400,
+    1781,
+    669,
+    32737,
+    81814,
+    8562,
+    8427,
+    532,
+    211537,
+    2101,
+    786,
+    236761,
+    564,
+    38757,
+    3217,
+    506,
+    32737,
+    2760,
+    577,
+    822,
+    126164,
+    840,
+    564,
+    3305,
+    564,
+    1093,
+    1441,
+    3008,
+    236761,
+    623,
+    3689,
+    1093,
+    611,
+    1133,
+    531,
+    735,
+    786,
+    776,
+    7462,
+    564,
+    4733,
+    506,
+    32737,
+    236761,
+    236743,
+    108,
+    236775,
+    3048,
+    1921,
+    4186,
+    614,
+    1900,
+    2098,
+    1176,
+    506,
+    32737,
+    236761,
+    1452,
+    672,
+    5877,
+    786,
+    496,
+    1822,
+    4317,
+    236761,
+    5612,
+    564,
+    1451,
+    2583,
+    506,
+    43618,
+    10400,
+    1031,
+    564,
+    1451,
+    3442,
+    1091,
+    531,
+    776,
+    9002,
+    564,
+    5048,
+    236761,
+    1452,
+    672,
+    1451,
+    3204,
+    711,
+    188312,
+    786,
+    236761,
+    5612,
+    564,
+    236789,
+    236757,
+    62807,
+    600,
+    1093,
+    577,
+    6290,
+    236761,
+    623,
+    113106,
+    2098,
+    564,
+    1176,
+    531,
+    506,
+    32737,
+    236761,
+    623,
+    236777,
+    236789,
+    859,
+    2583,
+    672,
+    886,
+    1900,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 243,
+  "prompt_token_ids_sha256": "fecca571114358c318006602dd7f7e40a6f24db69980c37ed26b72ea440bb76a",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\" \n\n\"Well hello,\" I said to the bee. \"I'm not really in the mood of issuing any orders.\" The bee buzzed slightly and hovered around me. I wondered why the bee called be your majesty but I thought I would play along. \"What would you like to have me do?\" I asked the bee. \n\n\"You must issue an order,\" said the bee. And this gave me a great idea. Since I could give the bees orders , I could tell them to do whatever I wanted. And this could include not stinging me. Since I'm allergic that would be nice. \"Alright,\" I said to the bee. \"I'll give this one order.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 222,
+  "source_prompt_token_ids_sha256": "d194bee851655e0ea63d4e376e1a27f159b06619d7e5603a33a82cad46ecb7f5",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\" \n\n\"Well hello,\" I said to the bee. \"I'm not really in the mood of issuing any orders.\" The bee buzzed slightly and hovered around me. I wondered why the bee called be your majesty but I thought I would play along. \"What would you like to have me do?\" I asked the bee. \n\n\"You must issue an order,\" said the bee. And this gave me a great idea. Since I could give the bees orders , I could tell them to do whatever I wanted. And this could include not stinging me. Since I'm allergic that would be nice. \"Alright,\" I said to the bee. \"I'll give this one order.",
+  "task_prompt_text_utf8_sha256": "ae8dd5a8c54c83f62f1212278e4ec87f7ac6540cbb482fc7d464dede18f48293",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      44867
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 44867,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 35,
+  "unrolled_states": 1150,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 35,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          28,
+          0,
+          29
+        ],
+        [
+          28,
+          1,
+          29
+        ],
+        [
+          28,
+          2,
+          29
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          32,
+          0,
+          33
+        ],
+        [
+          32,
+          1,
+          33
+        ],
+        [
+          32,
+          2,
+          33
+        ],
+        [
+          33,
+          0,
+          34
+        ],
+        [
+          33,
+          1,
+          34
+        ],
+        [
+          33,
+          2,
+          34
+        ],
+        [
+          34,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          44867
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      11069,
+      4251,
+      1972,
+      236764,
+      611,
+      236789,
+      560,
+      1010,
+      4173,
+      611,
+      236789,
+      500,
+      4355,
+      586,
+      62807,
+      531,
+      43618,
+      236761,
+      1599,
+      236789,
+      560,
+      2462,
+      1053,
+      1331,
+      24284,
+      611,
+      699,
+      1091,
+      236764,
+      577,
+      625,
+      822,
+      5946,
+      653,
+      496,
+      26902,
+      1526,
+      236761,
+      10950,
+      236764,
+      886,
+      75634,
+      1343,
+      532,
+      16612,
+      580,
+      822,
+      17198,
+      236761,
+      1599,
+      6899,
+      496,
+      16383,
+      8300,
+      1879,
+      623,
+      11069,
+      42368,
+      236764,
+      1144,
+      659,
+      822,
+      10400,
+      7462,
+      236743,
+      108,
+      236775,
+      13086,
+      29104,
+      2098,
+      564,
+      1176,
+      531,
+      506,
+      32737,
+      236761,
+      623,
+      236777,
+      236789,
+      236757,
+      711,
+      2126,
+      528,
+      506,
+      17282,
+      529,
+      44945,
+      1027,
+      10400,
+      1781,
+      669,
+      32737,
+      81814,
+      8562,
+      8427,
+      532,
+      211537,
+      2101,
+      786,
+      236761,
+      564,
+      38757,
+      3217,
+      506,
+      32737,
+      2760,
+      577,
+      822,
+      126164,
+      840,
+      564,
+      3305,
+      564,
+      1093,
+      1441,
+      3008,
+      236761,
+      623,
+      3689,
+      1093,
+      611,
+      1133,
+      531,
+      735,
+      786,
+      776,
+      7462,
+      564,
+      4733,
+      506,
+      32737,
+      236761,
+      236743,
+      108,
+      236775,
+      3048,
+      1921,
+      4186,
+      614,
+      1900,
+      2098,
+      1176,
+      506,
+      32737,
+      236761,
+      1452,
+      672,
+      5877,
+      786,
+      496,
+      1822,
+      4317,
+      236761,
+      5612,
+      564,
+      1451,
+      2583,
+      506,
+      43618,
+      10400,
+      1031,
+      564,
+      1451,
+      3442,
+      1091,
+      531,
+      776,
+      9002,
+      564,
+      5048,
+      236761,
+      1452,
+      672,
+      1451,
+      3204,
+      711,
+      188312,
+      786,
+      236761,
+      5612,
+      564,
+      236789,
+      236757,
+      62807,
+      600,
+      1093,
+      577,
+      6290,
+      236761,
+      623,
+      113106,
+      2098,
+      564,
+      1176,
+      531,
+      506,
+      32737,
+      236761,
+      623,
+      236777,
+      236789,
+      859,
+      2583,
+      672,
+      886,
+      1900,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('nodded') must end at the 33-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "020_coauthor_kth_last_k33_t1_rep1",
+      "design_index": 170,
+      "structural_cell_index": 20,
+      "replicate_index": 1,
+      "seed": 914935066,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "e8bd22ca2c7320f05645fb3d82c0fb089e06f8f6e142c7b630e4c37e78ebb242"
+  }
+}

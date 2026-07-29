@@ -1,0 +1,254 @@
+{
+  "created_at_utc": "2026-07-28T19:16:55.761297+00:00",
+  "execution_contract": "embedded_compiled_constraint_only",
+  "precompute_runtime_definition": "compiled NFA/token partition to bounded GBNF plus uncached XGrammar compilation; model loading and generation excluded",
+  "environment": {
+    "python_executable": "/project/6101842/sunjia72/miniconda3/envs/nfa/bin/python3.12",
+    "python_version": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+    "platform": "Linux-6.8.0-136-generic-x86_64-Intel-R-_Xeon-R-_Gold_6338_CPU_@_2.00GHz-with-glibc2.39",
+    "packages": {
+      "torch": "2.10.0+cu128",
+      "transformers": "5.6.2",
+      "xgrammar": "0.1.33"
+    },
+    "cuda": {
+      "torch_cuda": "12.8",
+      "cudnn": 91002,
+      "pytorch_cuda_alloc_conf": "expandable_segments:True"
+    },
+    "devices": [
+      {
+        "worker_gpu": "0",
+        "cuda_visible_device": "0",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      },
+      {
+        "worker_gpu": "1",
+        "cuda_visible_device": "1",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      },
+      {
+        "worker_gpu": "2",
+        "cuda_visible_device": "2",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      },
+      {
+        "worker_gpu": "3",
+        "cuda_visible_device": "3",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      }
+    ],
+    "automata_sha256": "5d22c042c9ff4c6e3a20bfbaf6748562d7352b40b174aa195ad5918a86200bd6"
+  },
+  "run_contract_sha256": "24c779a180971ee7834007349099442a647f8eb540c456d7896d45fcc0bc1f4d",
+  "runner_version": 5,
+  "result_schema_version": 2,
+  "method": "xgrammar",
+  "dataset": "coauthor",
+  "benchmark_name": "coauthor_nfa_keyword_benchmark_n64_500",
+  "workload_kind": "compiled_keyword_dataset",
+  "workload_schema_version": 4,
+  "workload_sha256": "47164b39ec637ddbb49e4e373cf366ad158847133dc9fcf3d3fce24ab3b15a56",
+  "jobs_sha256": "392ef4d0bcd047836981ab415fc82ed67def800973ba49bcf46e81c380979459",
+  "workload_file_sha256": "47164b39ec637ddbb49e4e373cf366ad158847133dc9fcf3d3fce24ab3b15a56",
+  "model_provenance": {
+    "schema_version": 1,
+    "model_profile": "gemma-4-e2b-it",
+    "base_model": {
+      "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "local": true,
+      "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "entries_sha256": "6f931a6555ffc3353d64012add1283239df740eff5642ce1dad8d1b9632d8db0",
+      "entries": [
+        {
+          "path": "chat_template.jinja",
+          "bytes": 18569,
+          "sha256": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+        },
+        {
+          "path": "config.json",
+          "bytes": 4984,
+          "sha256": "a67ab3eafc67220cf2d7203a1aa536050a794caf2b41ba26ebab98896ed32df6"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 203,
+          "sha256": "b69207f9be617e982d13cc273cce6fd88c98dda99a4bdc5e2d52ffe0a0d9f0a9"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 10208852910,
+          "sha256": "5b246b920d6cfeb891f4e9b93a8ce510f94010345cb0d3857519ba819e1d66aa"
+        },
+        {
+          "path": "processor_config.json",
+          "bytes": 1689,
+          "sha256": "32bdf45d2ad4cc29a0822ddd157a182de76644f0419a6228d151495256e9813c"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 32169626,
+          "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 3729,
+          "sha256": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999"
+        }
+      ],
+      "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+    },
+    "hmm_model": {
+      "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+      "local": true,
+      "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+      "entries_sha256": "994c3f5448f25c1a50ef9e945e3d02ef8c26eb49e053b741af8d7c15af9581bc",
+      "entries": [
+        {
+          "path": "README.md",
+          "bytes": 352,
+          "sha256": "ec40d6b5978fe1ed22e92abe5f9033b5147fc474209dc245df3b4fb8d4dfbf4c"
+        },
+        {
+          "path": "config.json",
+          "bytes": 98,
+          "sha256": "69f65f924fe63e90a283f2d2df0457707b7accca0a4ffb123108939e0dde18f7"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 268567792,
+          "sha256": "dba4297a838733b4c95ec1ead4be60aa8d9aea0c482a679f20ed8fc5a00f4ec0"
+        },
+        {
+          "path": "sparse_config.json",
+          "bytes": 497,
+          "sha256": "4f157f6675d44c7d6943175afb790c315b071d4767c080e4ecefd354b114ef28"
+        },
+        {
+          "path": "transition_support.pt",
+          "bytes": 18486,
+          "sha256": "39c9169c3f32d8a52d0e0b8f61052645225a207586f4ba67476e9fe91b810528"
+        }
+      ],
+      "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+    },
+    "sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+  },
+  "base_model_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+  "base_model_identity": {
+    "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+    "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622",
+    "provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+  },
+  "tokenizer_fingerprint_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34",
+  "terminal_policy": {
+    "canonical_eos_token_id": 1,
+    "terminal_token_ids": [
+      1,
+      106,
+      50
+    ],
+    "terminal_token_texts": [
+      "<eos>",
+      "<turn|>",
+      "<|tool_response>"
+    ],
+    "policy": "all model-native terminal aliases are one STOP class; terminal identity is excluded from content"
+  },
+  "python": "/project/6101842/sunjia72/miniconda3/envs/nfa/bin/python3.12",
+  "runtime_identity": {
+    "python_executable": "/project/6101842/sunjia72/miniconda3/envs/nfa/bin/python3.12",
+    "python_version": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+    "platform": "Linux-6.8.0-136-generic-x86_64-Intel-R-_Xeon-R-_Gold_6338_CPU_@_2.00GHz-with-glibc2.39",
+    "packages": {
+      "torch": "2.10.0+cu128",
+      "transformers": "5.6.2",
+      "xgrammar": "0.1.33"
+    },
+    "cuda": {
+      "torch_cuda": "12.8",
+      "cudnn": 91002,
+      "pytorch_cuda_alloc_conf": "expandable_segments:True"
+    },
+    "devices": [
+      {
+        "worker_gpu": "0",
+        "cuda_visible_device": "0",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      },
+      {
+        "worker_gpu": "1",
+        "cuda_visible_device": "1",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      },
+      {
+        "worker_gpu": "2",
+        "cuda_visible_device": "2",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      },
+      {
+        "worker_gpu": "3",
+        "cuda_visible_device": "3",
+        "name": "NVIDIA L40S",
+        "total_memory_bytes": 47665709056,
+        "compute_capability": [
+          8,
+          9
+        ]
+      }
+    ],
+    "automata_sha256": "5d22c042c9ff4c6e3a20bfbaf6748562d7352b40b174aa195ad5918a86200bd6"
+  },
+  "worker_gpus": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "trust_remote_code": false,
+  "local_files_only": true,
+  "dtype": "bfloat16",
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "timeout_s": 512.0,
+  "precompute_timeout_s": 512.0,
+  "generation_timeout_s": 512.0,
+  "cpu_threads_per_worker": 8,
+  "runner_sha256": "3ff378d6bc0df4091fce04e5448b97e2b2071252119ba73c594efbd7f7fae556"
+}

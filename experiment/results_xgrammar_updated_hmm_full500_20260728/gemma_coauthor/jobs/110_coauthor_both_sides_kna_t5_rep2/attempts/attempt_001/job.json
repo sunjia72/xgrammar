@@ -1,0 +1,1916 @@
+{
+  "base_instance_id": "coauthor:creative:bd54a50b118341678efa571079cae11e",
+  "constraint": "both_sides",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 410,
+  "family_index": 4,
+  "job_id": "110_coauthor_both_sides_kna_t5_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 4,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen.\n\nYou realize that your actual life has been populated by other people in your past. While it seems strange, it is also comforting to know that you have been reincarnated in so many forms. \n\nWith the exception of the first and last chapters, every chapter is told by a different character in the form of letters sent to their \"future\"\n\nEach chapter is strangely familiar, and it gives comfort, but also surprise.\n\nThe story begins in a small town in the north of France.\n\nYou are a child with a brother and three dogs.\n\nYour parents are always busy with their jobs.Even though your parents are busy, you are able to amuse yourself, and you never feel lonely. \nIt takes place in the same town. You like the town, but would also enjoy seeing new places. One day you take your dog for a long walk. You come across a strange building, and are drawn to it.\nInside you see a boy who is sitting in the corner. He seems very ill, and you realize that it is a hospital. You ask him if he is feeling ok, and if there is anything you can do to help.\nYou tell him that you have a brother.\nIt is very strange to see the reincarnations, but at the same time it is comforting to know that you had a past and you will have a future.\nEach character is a different person, yet they are somewhat the same. They are an extension of themselves.\nIt is in book form, but it is also in life form. It is written down, but it also exists.",
+  "reference_single_token_nfa_states": 18,
+  "reference_text": " It is made into a screenplay. \nIt is rewritten, but true to the original story.\nIt lives in the characters. \nThe story may be a dream, but it is the \"truth\" of the characters.Though it might be a dream it is the truth. \nThey live within each other.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 1212847586,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "rewritten",
+      "token_ids": [
+        70300
+      ],
+      "token_length": 1,
+      "token_text": " rewritten"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "characters",
+      "token_ids": [
+        7579
+      ],
+      "token_length": 1,
+      "token_text": " characters"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "screenplay",
+      "token_ids": [
+        120256
+      ],
+      "token_length": 1,
+      "token_text": " screenplay"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "original",
+      "token_ids": [
+        3303
+      ],
+      "token_length": 1,
+      "token_text": " original"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "within",
+      "token_ids": [
+        2351
+      ],
+      "token_length": 1,
+      "token_text": " within"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "95f210d610b6a6185d9867e32391f2b9a0a11cc66e51b7b230de022803580934",
+  "source_split": "test",
+  "structural_cell_index": 110,
+  "t": 5,
+  "total_tracked_keyword_tokens": 5,
+  "tracked_keyword_token_ids": [
+    [
+      70300
+    ],
+    [
+      7579
+    ],
+    [
+      120256
+    ],
+    [
+      3303
+    ],
+    [
+      2351
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    70300,
+    7579,
+    120256,
+    3303,
+    2351
+  ],
+  "tracked_token_texts": [
+    " rewritten",
+    " characters",
+    " screenplay",
+    " original",
+    " within"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    4420,
+    611,
+    1778,
+    236764,
+    611,
+    3196,
+    528,
+    496,
+    29729,
+    607,
+    496,
+    1548,
+    529,
+    1032,
+    1331,
+    1015,
+    1385,
+    1133,
+    611,
+    236761,
+    1599,
+    1586,
+    855,
+    600,
+    901,
+    659,
+    822,
+    3527,
+    128179,
+    847,
+    236764,
+    532,
+    4949,
+    611,
+    784,
+    3654,
+    10685,
+    822,
+    2148,
+    1972,
+    580,
+    506,
+    2563,
+    4322,
+    236761,
+    108,
+    3048,
+    13808,
+    600,
+    822,
+    5396,
+    1972,
+    815,
+    1010,
+    52475,
+    684,
+    1032,
+    1331,
+    528,
+    822,
+    3068,
+    236761,
+    5978,
+    625,
+    5072,
+    17163,
+    236764,
+    625,
+    563,
+    992,
+    83496,
+    531,
+    1281,
+    600,
+    611,
+    735,
+    1010,
+    128179,
+    774,
+    528,
+    834,
+    1551,
+    6667,
+    236761,
+    236743,
+    108,
+    3497,
+    506,
+    10403,
+    529,
+    506,
+    1171,
+    532,
+    1774,
+    27397,
+    236764,
+    1418,
+    7312,
+    563,
+    4173,
+    684,
+    496,
+    1607,
+    2872,
+    528,
+    506,
+    1183,
+    529,
+    11739,
+    3265,
+    531,
+    910,
+    623,
+    39979,
+    236775,
+    108,
+    7795,
+    7312,
+    563,
+    99417,
+    10334,
+    236764,
+    532,
+    625,
+    5021,
+    5931,
+    236764,
+    840,
+    992,
+    14089,
+    236761,
+    108,
+    818,
+    3925,
+    12502,
+    528,
+    496,
+    1944,
+    5148,
+    528,
+    506,
+    8339,
+    529,
+    7001,
+    236761,
+    108,
+    3048,
+    659,
+    496,
+    1919,
+    607,
+    496,
+    10070,
+    532,
+    1806,
+    12414,
+    236761,
+    108,
+    11069,
+    6296,
+    659,
+    2462,
+    13181,
+    607,
+    910,
+    9569,
+    236761,
+    14986,
+    3635,
+    822,
+    6296,
+    659,
+    13181,
+    236764,
+    611,
+    659,
+    2735,
+    531,
+    143551,
+    5869,
+    236764,
+    532,
+    611,
+    2752,
+    2597,
+    40357,
+    236761,
+    236743,
+    107,
+    1509,
+    4716,
+    1977,
+    528,
+    506,
+    1638,
+    5148,
+    236761,
+    1599,
+    1133,
+    506,
+    5148,
+    236764,
+    840,
+    1093,
+    992,
+    4059,
+    9333,
+    861,
+    6666,
+    236761,
+    3656,
+    1719,
+    611,
+    1769,
+    822,
+    4799,
+    573,
+    496,
+    1440,
+    3727,
+    236761,
+    1599,
+    2229,
+    3418,
+    496,
+    17163,
+    3788,
+    236764,
+    532,
+    659,
+    9710,
+    531,
+    625,
+    236761,
+    107,
+    44200,
+    611,
+    1460,
+    496,
+    6938,
+    1015,
+    563,
+    8116,
+    528,
+    506,
+    9895,
+    236761,
+    1293,
+    5072,
+    1401,
+    2611,
+    236764,
+    532,
+    611,
+    13808,
+    600,
+    625,
+    563,
+    496,
+    6634,
+    236761,
+    1599,
+    2679,
+    1515,
+    768,
+    668,
+    563,
+    8178,
+    7546,
+    236764,
+    532,
+    768,
+    993,
+    563,
+    4658,
+    611,
+    740,
+    776,
+    531,
+    1601,
+    236761,
+    107,
+    3048,
+    3442,
+    1515,
+    600,
+    611,
+    735,
+    496,
+    10070,
+    236761,
+    107,
+    1509,
+    563,
+    1401,
+    17163,
+    531,
+    1460,
+    506,
+    128179,
+    847,
+    236764,
+    840,
+    657,
+    506,
+    1638,
+    990,
+    625,
+    563,
+    83496,
+    531,
+    1281,
+    600,
+    611,
+    1053,
+    496,
+    3068,
+    532,
+    611,
+    795,
+    735,
+    496,
+    3402,
+    236761,
+    107,
+    7795,
+    2872,
+    563,
+    496,
+    1607,
+    1589,
+    236764,
+    3819,
+    901,
+    659,
+    12506,
+    506,
+    1638,
+    236761,
+    2195,
+    659,
+    614,
+    9980,
+    529,
+    5507,
+    236761,
+    107,
+    1509,
+    563,
+    528,
+    2260,
+    1183,
+    236764,
+    840,
+    625,
+    563,
+    992,
+    528,
+    1972,
+    1183,
+    236761,
+    1030,
+    563,
+    5267,
+    1679,
+    236764,
+    840,
+    625,
+    992,
+    7519,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 407,
+  "prompt_token_ids_sha256": "ba5d7eb76e8059a8d9479294c1fd75d53614efa76d05519829b17607b80b2a72",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen.\n\nYou realize that your actual life has been populated by other people in your past. While it seems strange, it is also comforting to know that you have been reincarnated in so many forms. \n\nWith the exception of the first and last chapters, every chapter is told by a different character in the form of letters sent to their \"future\"\n\nEach chapter is strangely familiar, and it gives comfort, but also surprise.\n\nThe story begins in a small town in the north of France.\n\nYou are a child with a brother and three dogs.\n\nYour parents are always busy with their jobs.Even though your parents are busy, you are able to amuse yourself, and you never feel lonely. \nIt takes place in the same town. You like the town, but would also enjoy seeing new places. One day you take your dog for a long walk. You come across a strange building, and are drawn to it.\nInside you see a boy who is sitting in the corner. He seems very ill, and you realize that it is a hospital. You ask him if he is feeling ok, and if there is anything you can do to help.\nYou tell him that you have a brother.\nIt is very strange to see the reincarnations, but at the same time it is comforting to know that you had a past and you will have a future.\nEach character is a different person, yet they are somewhat the same. They are an extension of themselves.\nIt is in book form, but it is also in life form. It is written down, but it also exists.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 386,
+  "source_prompt_token_ids_sha256": "272ff3350c4d92476c221c1fb48ffbebabdd29ec461e37706efcb3dbafa030a5",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen.\n\nYou realize that your actual life has been populated by other people in your past. While it seems strange, it is also comforting to know that you have been reincarnated in so many forms. \n\nWith the exception of the first and last chapters, every chapter is told by a different character in the form of letters sent to their \"future\"\n\nEach chapter is strangely familiar, and it gives comfort, but also surprise.\n\nThe story begins in a small town in the north of France.\n\nYou are a child with a brother and three dogs.\n\nYour parents are always busy with their jobs.Even though your parents are busy, you are able to amuse yourself, and you never feel lonely. \nIt takes place in the same town. You like the town, but would also enjoy seeing new places. One day you take your dog for a long walk. You come across a strange building, and are drawn to it.\nInside you see a boy who is sitting in the corner. He seems very ill, and you realize that it is a hospital. You ask him if he is feeling ok, and if there is anything you can do to help.\nYou tell him that you have a brother.\nIt is very strange to see the reincarnations, but at the same time it is comforting to know that you had a past and you will have a future.\nEach character is a different person, yet they are somewhat the same. They are an extension of themselves.\nIt is in book form, but it is also in life form. It is written down, but it also exists.",
+  "task_prompt_text_utf8_sha256": "05f8ee870e4cb2f2dc12d0d1829ab12582b7609e3039c2d2cfea9b30e2f3044b",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      70300
+    ],
+    "piece_001": [
+      7579
+    ],
+    "piece_002": [
+      120256
+    ],
+    "piece_003": [
+      3303
+    ],
+    "piece_004": [
+      2351
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 70300,
+  "distinct_tracked_piece_tokens": 5,
+  "nfa_states": 19,
+  "unrolled_states": 1110,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 19,
+      "alphabet_size": 8,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          1,
+          16
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          2,
+          16
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          3,
+          16
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          4,
+          13
+        ],
+        [
+          0,
+          4,
+          17
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          13
+        ],
+        [
+          0,
+          6,
+          16
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          1
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          4
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          9
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          6
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          4
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          12
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          6
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          4
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          15
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          6
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          6,
+          15
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          16,
+          5,
+          4
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          17
+        ],
+        [
+          17,
+          5,
+          18
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          18,
+          0,
+          18
+        ],
+        [
+          18,
+          1,
+          18
+        ],
+        [
+          18,
+          2,
+          18
+        ],
+        [
+          18,
+          3,
+          18
+        ],
+        [
+          18,
+          4,
+          6
+        ],
+        [
+          18,
+          5,
+          18
+        ],
+        [
+          18,
+          6,
+          18
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          70300
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          7579
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          120256
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          3303
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          2351
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 5,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 6,
+    "stop_symbol_id": 7,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      4420,
+      611,
+      1778,
+      236764,
+      611,
+      3196,
+      528,
+      496,
+      29729,
+      607,
+      496,
+      1548,
+      529,
+      1032,
+      1331,
+      1015,
+      1385,
+      1133,
+      611,
+      236761,
+      1599,
+      1586,
+      855,
+      600,
+      901,
+      659,
+      822,
+      3527,
+      128179,
+      847,
+      236764,
+      532,
+      4949,
+      611,
+      784,
+      3654,
+      10685,
+      822,
+      2148,
+      1972,
+      580,
+      506,
+      2563,
+      4322,
+      236761,
+      108,
+      3048,
+      13808,
+      600,
+      822,
+      5396,
+      1972,
+      815,
+      1010,
+      52475,
+      684,
+      1032,
+      1331,
+      528,
+      822,
+      3068,
+      236761,
+      5978,
+      625,
+      5072,
+      17163,
+      236764,
+      625,
+      563,
+      992,
+      83496,
+      531,
+      1281,
+      600,
+      611,
+      735,
+      1010,
+      128179,
+      774,
+      528,
+      834,
+      1551,
+      6667,
+      236761,
+      236743,
+      108,
+      3497,
+      506,
+      10403,
+      529,
+      506,
+      1171,
+      532,
+      1774,
+      27397,
+      236764,
+      1418,
+      7312,
+      563,
+      4173,
+      684,
+      496,
+      1607,
+      2872,
+      528,
+      506,
+      1183,
+      529,
+      11739,
+      3265,
+      531,
+      910,
+      623,
+      39979,
+      236775,
+      108,
+      7795,
+      7312,
+      563,
+      99417,
+      10334,
+      236764,
+      532,
+      625,
+      5021,
+      5931,
+      236764,
+      840,
+      992,
+      14089,
+      236761,
+      108,
+      818,
+      3925,
+      12502,
+      528,
+      496,
+      1944,
+      5148,
+      528,
+      506,
+      8339,
+      529,
+      7001,
+      236761,
+      108,
+      3048,
+      659,
+      496,
+      1919,
+      607,
+      496,
+      10070,
+      532,
+      1806,
+      12414,
+      236761,
+      108,
+      11069,
+      6296,
+      659,
+      2462,
+      13181,
+      607,
+      910,
+      9569,
+      236761,
+      14986,
+      3635,
+      822,
+      6296,
+      659,
+      13181,
+      236764,
+      611,
+      659,
+      2735,
+      531,
+      143551,
+      5869,
+      236764,
+      532,
+      611,
+      2752,
+      2597,
+      40357,
+      236761,
+      236743,
+      107,
+      1509,
+      4716,
+      1977,
+      528,
+      506,
+      1638,
+      5148,
+      236761,
+      1599,
+      1133,
+      506,
+      5148,
+      236764,
+      840,
+      1093,
+      992,
+      4059,
+      9333,
+      861,
+      6666,
+      236761,
+      3656,
+      1719,
+      611,
+      1769,
+      822,
+      4799,
+      573,
+      496,
+      1440,
+      3727,
+      236761,
+      1599,
+      2229,
+      3418,
+      496,
+      17163,
+      3788,
+      236764,
+      532,
+      659,
+      9710,
+      531,
+      625,
+      236761,
+      107,
+      44200,
+      611,
+      1460,
+      496,
+      6938,
+      1015,
+      563,
+      8116,
+      528,
+      506,
+      9895,
+      236761,
+      1293,
+      5072,
+      1401,
+      2611,
+      236764,
+      532,
+      611,
+      13808,
+      600,
+      625,
+      563,
+      496,
+      6634,
+      236761,
+      1599,
+      2679,
+      1515,
+      768,
+      668,
+      563,
+      8178,
+      7546,
+      236764,
+      532,
+      768,
+      993,
+      563,
+      4658,
+      611,
+      740,
+      776,
+      531,
+      1601,
+      236761,
+      107,
+      3048,
+      3442,
+      1515,
+      600,
+      611,
+      735,
+      496,
+      10070,
+      236761,
+      107,
+      1509,
+      563,
+      1401,
+      17163,
+      531,
+      1460,
+      506,
+      128179,
+      847,
+      236764,
+      840,
+      657,
+      506,
+      1638,
+      990,
+      625,
+      563,
+      83496,
+      531,
+      1281,
+      600,
+      611,
+      1053,
+      496,
+      3068,
+      532,
+      611,
+      795,
+      735,
+      496,
+      3402,
+      236761,
+      107,
+      7795,
+      2872,
+      563,
+      496,
+      1607,
+      1589,
+      236764,
+      3819,
+      901,
+      659,
+      12506,
+      506,
+      1638,
+      236761,
+      2195,
+      659,
+      614,
+      9980,
+      529,
+      5507,
+      236761,
+      107,
+      1509,
+      563,
+      528,
+      2260,
+      1183,
+      236764,
+      840,
+      625,
+      563,
+      992,
+      528,
+      1972,
+      1183,
+      236761,
+      1030,
+      563,
+      5267,
+      1679,
+      236764,
+      840,
+      625,
+      992,
+      7519,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "both_sides",
+      "label": "both sides",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('rewritten', 'characters', 'screenplay', 'original', 'within') must occur on both sides."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "110_coauthor_both_sides_kna_t5_rep2",
+      "design_index": 410,
+      "structural_cell_index": 110,
+      "replicate_index": 2,
+      "seed": 1212847586,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "3f385f4a3f45768d8fa3c0665e319f972873ed0e2f2fd6a69c967c76ca4e2131"
+  }
+}

@@ -1,0 +1,977 @@
+{
+  "base_instance_id": "coauthor:creative:1a05d6f6ae524b638b5e3ea491d3fc4d",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 139,
+  "family_index": 2,
+  "job_id": "139_coauthor_odd_count_kna_t3",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation.  Things are unrecognizable. The United States is now a third world country, and the rest of the world is a utopia.  Realizing their mistakes, all other nations have cooperated and helped each other.  It all began fifty years back, everyone thought America had been the destabilizing influence. The United States has been in exile for 50 years.  A new revolution had occurred, Industrial, Digital and now this.  Peace has ruled the world, allow huge advances in technology.  Hunger and poverty have been eliminated, diseases successfully beaten back, equality established across the world.  The world is now a Utopia, or as close as it has ever been.",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": "  Meanwhile, America has stood still, in its isolation, the rest of the world has moved on.  America is furious, how could it been seen as the one that was the cause of all the worlds ills, why should it be seen as the aggressor, the one that caused all the problems.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 575112232,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "cause",
+      "token_ids": [
+        4400
+      ],
+      "token_length": 1,
+      "token_text": " cause"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "furious",
+      "token_ids": [
+        69590
+      ],
+      "token_length": 1,
+      "token_text": " furious"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "worlds",
+      "token_ids": [
+        34435
+      ],
+      "token_length": 1,
+      "token_text": " worlds"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "507cdd401ea9df1c1cb7eba3a9377fb82895cf3ccd4a754f1b873cd2a020baa2",
+  "source_split": "train",
+  "structural_cell_index": 139,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      4400
+    ],
+    [
+      69590
+    ],
+    [
+      34435
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    4400,
+    69590,
+    34435
+  ],
+  "tracked_token_texts": [
+    " cause",
+    " furious",
+    " worlds"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    25221,
+    4109,
+    5289,
+    8488,
+    236764,
+    784,
+    506,
+    17835,
+    529,
+    506,
+    1902,
+    10344,
+    531,
+    236743,
+    236810,
+    236771,
+    1518,
+    529,
+    10346,
+    23049,
+    699,
+    886,
+    2264,
+    528,
+    1900,
+    531,
+    5001,
+    4767,
+    28847,
+    236761,
+    236743,
+    236810,
+    236771,
+    1518,
+    3209,
+    236764,
+    506,
+    3640,
+    4184,
+    3952,
+    855,
+    529,
+    74627,
+    236764,
+    1186,
+    531,
+    3449,
+    600,
+    951,
+    886,
+    1663,
+    3939,
+    1131,
+    23049,
+    236761,
+    138,
+    54085,
+    659,
+    174077,
+    236761,
+    669,
+    3640,
+    4184,
+    563,
+    1492,
+    496,
+    4168,
+    1902,
+    2891,
+    236764,
+    532,
+    506,
+    1884,
+    529,
+    506,
+    1902,
+    563,
+    496,
+    4120,
+    50879,
+    236761,
+    138,
+    20235,
+    4266,
+    910,
+    23153,
+    236764,
+    784,
+    1032,
+    17835,
+    735,
+    188359,
+    532,
+    8907,
+    1546,
+    1032,
+    236761,
+    138,
+    1509,
+    784,
+    6074,
+    25454,
+    1518,
+    1063,
+    236764,
+    4677,
+    3305,
+    5711,
+    1053,
+    1010,
+    506,
+    90241,
+    4266,
+    7630,
+    236761,
+    669,
+    3640,
+    4184,
+    815,
+    1010,
+    528,
+    74627,
+    573,
+    236743,
+    236810,
+    236771,
+    1518,
+    236761,
+    138,
+    236776,
+    861,
+    14994,
+    1053,
+    10997,
+    236764,
+    19380,
+    236764,
+    14232,
+    532,
+    1492,
+    672,
+    236761,
+    138,
+    84437,
+    815,
+    26668,
+    506,
+    1902,
+    236764,
+    2174,
+    7186,
+    28051,
+    528,
+    4181,
+    236761,
+    138,
+    61625,
+    497,
+    532,
+    20724,
+    735,
+    1010,
+    29988,
+    236764,
+    12818,
+    10428,
+    35919,
+    1063,
+    236764,
+    21584,
+    6697,
+    3418,
+    506,
+    1902,
+    236761,
+    138,
+    818,
+    1902,
+    563,
+    1492,
+    496,
+    187087,
+    236764,
+    653,
+    618,
+    3107,
+    618,
+    625,
+    815,
+    3785,
+    1010,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 228,
+  "prompt_token_ids_sha256": "34239bcad3aeaf27f22ac76a9b7e8c9bcf85db3087a49e31a5e44ce7cd974515",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation.  Things are unrecognizable. The United States is now a third world country, and the rest of the world is a utopia.  Realizing their mistakes, all other nations have cooperated and helped each other.  It all began fifty years back, everyone thought America had been the destabilizing influence. The United States has been in exile for 50 years.  A new revolution had occurred, Industrial, Digital and now this.  Peace has ruled the world, allow huge advances in technology.  Hunger and poverty have been eliminated, diseases successfully beaten back, equality established across the world.  The world is now a Utopia, or as close as it has ever been.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 207,
+  "source_prompt_token_ids_sha256": "ffb52863ee4fdf724b3862834570577dc9b28f0cc9fa887cb891644a32876389",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation.  Things are unrecognizable. The United States is now a third world country, and the rest of the world is a utopia.  Realizing their mistakes, all other nations have cooperated and helped each other.  It all began fifty years back, everyone thought America had been the destabilizing influence. The United States has been in exile for 50 years.  A new revolution had occurred, Industrial, Digital and now this.  Peace has ruled the world, allow huge advances in technology.  Hunger and poverty have been eliminated, diseases successfully beaten back, equality established across the world.  The world is now a Utopia, or as close as it has ever been.",
+  "task_prompt_text_utf8_sha256": "7bc50adf58eebd704c343ba4b8955f40f8a19be1a2c1b31971fe304147f5026e",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      4400
+    ],
+    "piece_001": [
+      69590
+    ],
+    "piece_002": [
+      34435
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 4400,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 8,
+  "unrolled_states": 508,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 8,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          4400
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          69590
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          34435
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      25221,
+      4109,
+      5289,
+      8488,
+      236764,
+      784,
+      506,
+      17835,
+      529,
+      506,
+      1902,
+      10344,
+      531,
+      236743,
+      236810,
+      236771,
+      1518,
+      529,
+      10346,
+      23049,
+      699,
+      886,
+      2264,
+      528,
+      1900,
+      531,
+      5001,
+      4767,
+      28847,
+      236761,
+      236743,
+      236810,
+      236771,
+      1518,
+      3209,
+      236764,
+      506,
+      3640,
+      4184,
+      3952,
+      855,
+      529,
+      74627,
+      236764,
+      1186,
+      531,
+      3449,
+      600,
+      951,
+      886,
+      1663,
+      3939,
+      1131,
+      23049,
+      236761,
+      138,
+      54085,
+      659,
+      174077,
+      236761,
+      669,
+      3640,
+      4184,
+      563,
+      1492,
+      496,
+      4168,
+      1902,
+      2891,
+      236764,
+      532,
+      506,
+      1884,
+      529,
+      506,
+      1902,
+      563,
+      496,
+      4120,
+      50879,
+      236761,
+      138,
+      20235,
+      4266,
+      910,
+      23153,
+      236764,
+      784,
+      1032,
+      17835,
+      735,
+      188359,
+      532,
+      8907,
+      1546,
+      1032,
+      236761,
+      138,
+      1509,
+      784,
+      6074,
+      25454,
+      1518,
+      1063,
+      236764,
+      4677,
+      3305,
+      5711,
+      1053,
+      1010,
+      506,
+      90241,
+      4266,
+      7630,
+      236761,
+      669,
+      3640,
+      4184,
+      815,
+      1010,
+      528,
+      74627,
+      573,
+      236743,
+      236810,
+      236771,
+      1518,
+      236761,
+      138,
+      236776,
+      861,
+      14994,
+      1053,
+      10997,
+      236764,
+      19380,
+      236764,
+      14232,
+      532,
+      1492,
+      672,
+      236761,
+      138,
+      84437,
+      815,
+      26668,
+      506,
+      1902,
+      236764,
+      2174,
+      7186,
+      28051,
+      528,
+      4181,
+      236761,
+      138,
+      61625,
+      497,
+      532,
+      20724,
+      735,
+      1010,
+      29988,
+      236764,
+      12818,
+      10428,
+      35919,
+      1063,
+      236764,
+      21584,
+      6697,
+      3418,
+      506,
+      1902,
+      236761,
+      138,
+      818,
+      1902,
+      563,
+      1492,
+      496,
+      187087,
+      236764,
+      653,
+      618,
+      3107,
+      618,
+      625,
+      815,
+      3785,
+      1010,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('cause', 'furious', 'worlds') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "139_coauthor_odd_count_kna_t3",
+      "design_index": 139,
+      "structural_cell_index": 139,
+      "replicate_index": 0,
+      "seed": 575112232,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "9f7b7175a022e694b008fdaec2eacd9db54901855981a95f91d379c5ca8cb2bb"
+  }
+}

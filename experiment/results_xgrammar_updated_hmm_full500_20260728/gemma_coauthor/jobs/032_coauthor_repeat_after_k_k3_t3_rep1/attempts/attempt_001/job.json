@@ -1,0 +1,776 @@
+{
+  "base_instance_id": "coauthor:creative:d9389125a7624e34a2fde4243f88bdd6",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 182,
+  "family_index": 2,
+  "job_id": "032_coauthor_repeat_after_k_k3_t3_rep1",
+  "k": 3,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 5,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nHumans once wielded formidable magical power. But with over 7 billion of us on the planet now, Mana has spread far too thinly to have any effect. When hostile aliens reduce humanity to a mere fraction, the survivors discover an old power has begun to reawaken once again.\n\nThey had survived, but there weren't many of them. And the environment, terrain, the whole world had been nearly destroyed before the aliens got what they wanted and left.",
+  "reference_single_token_nfa_states": 12,
+  "reference_text": " \n\nThe survivors had to learn to live with the new world they found themselves in. Unfortunately most of their higher level scientists had perished. And even the tech, and other skilled workers that remained were too few, and the infrastructure they were used to working in was destroyed. \n\nThey had to rebuild from scratch.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 100836408,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "skilled",
+      "token_ids": [
+        23482
+      ],
+      "token_length": 1,
+      "token_text": " skilled"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "scratch",
+      "token_ids": [
+        23037
+      ],
+      "token_length": 1,
+      "token_text": " scratch"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "infrastructure",
+      "token_ids": [
+        12308
+      ],
+      "token_length": 1,
+      "token_text": " infrastructure"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "b04ed801af2e9dce50897c7283a3cab7473f70f93d7a4403e32768d68a0effaa",
+  "source_split": "train",
+  "structural_cell_index": 32,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      23482
+    ],
+    [
+      23037
+    ],
+    [
+      12308
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    23482,
+    23037,
+    12308
+  ],
+  "tracked_token_texts": [
+    " skilled",
+    " scratch",
+    " infrastructure"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    226869,
+    3622,
+    77020,
+    524,
+    57720,
+    30520,
+    2066,
+    236761,
+    2024,
+    607,
+    1024,
+    236743,
+    236832,
+    7889,
+    529,
+    775,
+    580,
+    506,
+    13401,
+    1492,
+    236764,
+    84660,
+    815,
+    7028,
+    2793,
+    2311,
+    129410,
+    531,
+    735,
+    1027,
+    1763,
+    236761,
+    3026,
+    49003,
+    63928,
+    6439,
+    27069,
+    531,
+    496,
+    9919,
+    10742,
+    236764,
+    506,
+    43732,
+    6878,
+    614,
+    2255,
+    2066,
+    815,
+    22711,
+    531,
+    544,
+    1348,
+    9484,
+    3622,
+    1570,
+    236761,
+    108,
+    7634,
+    1053,
+    24096,
+    236764,
+    840,
+    993,
+    19310,
+    236789,
+    236745,
+    1551,
+    529,
+    1091,
+    236761,
+    1452,
+    506,
+    3453,
+    236764,
+    24974,
+    236764,
+    506,
+    3697,
+    1902,
+    1053,
+    1010,
+    7109,
+    18396,
+    1680,
+    506,
+    63928,
+    2506,
+    1144,
+    901,
+    5048,
+    532,
+    2378,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 130,
+  "prompt_token_ids_sha256": "129c01676043c420930d4c54909084b7d1701f8598ffbe60eadb531abfb609b2",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nHumans once wielded formidable magical power. But with over 7 billion of us on the planet now, Mana has spread far too thinly to have any effect. When hostile aliens reduce humanity to a mere fraction, the survivors discover an old power has begun to reawaken once again.\n\nThey had survived, but there weren't many of them. And the environment, terrain, the whole world had been nearly destroyed before the aliens got what they wanted and left.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 109,
+  "source_prompt_token_ids_sha256": "b798a157a9ff7db95aa6f70802769b821ef662581b69a51db29f1dc0be2ecbac",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nHumans once wielded formidable magical power. But with over 7 billion of us on the planet now, Mana has spread far too thinly to have any effect. When hostile aliens reduce humanity to a mere fraction, the survivors discover an old power has begun to reawaken once again.\n\nThey had survived, but there weren't many of them. And the environment, terrain, the whole world had been nearly destroyed before the aliens got what they wanted and left.",
+  "task_prompt_text_utf8_sha256": "84fa48e364ab3719a3aad5be100248af2034f03c2dc942ee4920c016ab95e6f0",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      23482
+    ],
+    "piece_001": [
+      23037
+    ],
+    "piece_002": [
+      12308
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 23482,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 12,
+  "unrolled_states": 791,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 12,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          8,
+          1,
+          2
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          23482
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          23037
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          12308
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      226869,
+      3622,
+      77020,
+      524,
+      57720,
+      30520,
+      2066,
+      236761,
+      2024,
+      607,
+      1024,
+      236743,
+      236832,
+      7889,
+      529,
+      775,
+      580,
+      506,
+      13401,
+      1492,
+      236764,
+      84660,
+      815,
+      7028,
+      2793,
+      2311,
+      129410,
+      531,
+      735,
+      1027,
+      1763,
+      236761,
+      3026,
+      49003,
+      63928,
+      6439,
+      27069,
+      531,
+      496,
+      9919,
+      10742,
+      236764,
+      506,
+      43732,
+      6878,
+      614,
+      2255,
+      2066,
+      815,
+      22711,
+      531,
+      544,
+      1348,
+      9484,
+      3622,
+      1570,
+      236761,
+      108,
+      7634,
+      1053,
+      24096,
+      236764,
+      840,
+      993,
+      19310,
+      236789,
+      236745,
+      1551,
+      529,
+      1091,
+      236761,
+      1452,
+      506,
+      3453,
+      236764,
+      24974,
+      236764,
+      506,
+      3697,
+      1902,
+      1053,
+      1010,
+      7109,
+      18396,
+      1680,
+      506,
+      63928,
+      2506,
+      1144,
+      901,
+      5048,
+      532,
+      2378,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('skilled', 'scratch', 'infrastructure') must occur twice with start positions exactly 3 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "032_coauthor_repeat_after_k_k3_t3_rep1",
+      "design_index": 182,
+      "structural_cell_index": 32,
+      "replicate_index": 1,
+      "seed": 100836408,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "58f25d0378186af520618cf4f19843781c8542d8b6ee5c08631331767b55b101"
+  }
+}

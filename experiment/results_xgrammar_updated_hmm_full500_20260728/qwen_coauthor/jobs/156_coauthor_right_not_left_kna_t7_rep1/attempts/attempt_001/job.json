@@ -1,0 +1,2139 @@
+{
+  "base_instance_id": "coauthor:creative:65936cbe394149c6b24802cad630e2d7",
+  "constraint": "right_not_left",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 472,
+  "family_index": 6,
+  "job_id": "156_coauthor_right_not_left_kna_t7_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the “Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered. It begins to make those who are immortal age in reverse. It's basically turning them back into an unborn creation over time. It takes a while to happen but over time they all are 20 years old, then 15 years old. There's so many more of them that the senior citizens are initially just surrounded by trouble making teenagers. It's an annoyance at first, then they start getting even younger. That's when the senior citizens realize they'll have to start taking care of an entire generation of young children by themselves. \n\nBecause there are 50 children to every one senior citizen, they have to just have one senior citizen in a room full of cribs. They have to go and take care of them 24 hours a day. It leads to exhaustion. A young person couldn't do it, let alone the elderly. I personally have a room of children that are all now infants. It consists of changing diapers and feeding them all day. I'm not even sure how I'm going to do it. I never sleep anymore. As awful as it is, I look forward to them no longer existing. It's a horrible existence for both them and for us. Do they remember what they once were? Are they scared?\n\nI'm not sure how long it will take for them to all disappear. Will we die of old age before they die of being too young? If it weren't such a horrifying situation, it would be fascinating to observe.",
+  "reference_single_token_nfa_states": 17,
+  "reference_text": " The entire population is about to be wiped out at the same time from both dying of youth and old age. It's a very strange phenomenon. \n\nI'm not sure what will happen to the world after this. Will animals take over? Maybe this is mother nature just giving another species a chance.",
+  "reference_token_count": 60,
+  "replicate_index": 1,
+  "seed": 1927330526,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "youth",
+      "token_ids": [
+        12177
+      ],
+      "token_length": 1,
+      "token_text": " youth"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "phenomenon",
+      "token_ids": [
+        24057
+      ],
+      "token_length": 1,
+      "token_text": " phenomenon"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "species",
+      "token_ids": [
+        9140
+      ],
+      "token_length": 1,
+      "token_text": " species"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "nature",
+      "token_ids": [
+        6775
+      ],
+      "token_length": 1,
+      "token_text": " nature"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "wiped",
+      "token_ids": [
+        46559
+      ],
+      "token_length": 1,
+      "token_text": " wiped"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.65259888,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "giving",
+      "token_ids": [
+        6866
+      ],
+      "token_length": 1,
+      "token_text": " giving"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.65259888,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "animals",
+      "token_ids": [
+        9605
+      ],
+      "token_length": 1,
+      "token_text": " animals"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "19f0d1f1c4572d5baf0651e8f96a62aff07099493cf13064599c1033581f74b5",
+  "source_split": "train",
+  "structural_cell_index": 156,
+  "t": 7,
+  "total_tracked_keyword_tokens": 7,
+  "tracked_keyword_token_ids": [
+    [
+      12177
+    ],
+    [
+      24057
+    ],
+    [
+      9140
+    ],
+    [
+      6775
+    ],
+    [
+      46559
+    ],
+    [
+      6866
+    ],
+    [
+      9605
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    12177,
+    24057,
+    9140,
+    6775,
+    46559,
+    6866,
+    9605
+  ],
+  "tracked_token_texts": [
+    " youth",
+    " phenomenon",
+    " species",
+    " nature",
+    " wiped",
+    " giving",
+    " animals"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    1414,
+    3559,
+    440,
+    6681,
+    799,
+    2716,
+    11,
+    5629,
+    11,
+    53916,
+    6163,
+    11316,
+    13,
+    3301,
+    1132,
+    279,
+    39811,
+    11,
+    440,
+    874,
+    86377,
+    466,
+    15673,
+    25,
+    198,
+    4350,
+    488,
+    2224,
+    220,
+    17,
+    23,
+    11,
+    7785,
+    49296,
+    264,
+    5333,
+    421,
+    17397,
+    660,
+    6043,
+    314,
+    28037,
+    11,
+    6611,
+    4735,
+    72400,
+    13,
+    4465,
+    2936,
+    26731,
+    310,
+    2873,
+    279,
+    5333,
+    310,
+    660,
+    9977,
+    1172,
+    220,
+    17,
+    21,
+    11,
+    694,
+    488,
+    321,
+    279,
+    2645,
+    314,
+    279,
+    1001,
+    45677,
+    2520,
+    778,
+    1,
+    513,
+    23860,
+    2166,
+    1496,
+    43953,
+    13,
+    3095,
+    488,
+    2224,
+    220,
+    23,
+    20,
+    11,
+    279,
+    3008,
+    6043,
+    513,
+    5326,
+    10782,
+    13,
+    1049,
+    11690,
+    310,
+    1236,
+    1782,
+    852,
+    513,
+    57115,
+    4092,
+    303,
+    9637,
+    13,
+    1049,
+    579,
+    12837,
+    12680,
+    1070,
+    1142,
+    1083,
+    449,
+    82294,
+    9400,
+    888,
+    854,
+    13,
+    1049,
+    4829,
+    264,
+    1345,
+    310,
+    3420,
+    694,
+    888,
+    854,
+    781,
+    660,
+    513,
+    220,
+    17,
+    15,
+    1578,
+    2235,
+    11,
+    1179,
+    220,
+    16,
+    20,
+    1578,
+    2235,
+    13,
+    2532,
+    579,
+    748,
+    1599,
+    777,
+    314,
+    1070,
+    421,
+    279,
+    9695,
+    9977,
+    513,
+    14661,
+    1066,
+    22152,
+    539,
+    11914,
+    3154,
+    35408,
+    13,
+    1049,
+    579,
+    449,
+    87679,
+    506,
+    1118,
+    11,
+    1179,
+    781,
+    1151,
+    3583,
+    1442,
+    14229,
+    13,
+    2844,
+    579,
+    948,
+    279,
+    9695,
+    9977,
+    12706,
+    781,
+    3172,
+    599,
+    310,
+    1151,
+    4483,
+    2373,
+    314,
+    449,
+    4307,
+    9191,
+    314,
+    3777,
+    2748,
+    539,
+    5402,
+    13,
+    4558,
+    17413,
+    1017,
+    513,
+    220,
+    20,
+    15,
+    2748,
+    310,
+    1396,
+    799,
+    9695,
+    21188,
+    11,
+    781,
+    599,
+    310,
+    1066,
+    599,
+    799,
+    9695,
+    21188,
+    303,
+    264,
+    2956,
+    2400,
+    314,
+    26664,
+    1234,
+    13,
+    2302,
+    599,
+    310,
+    708,
+    321,
+    1831,
+    2373,
+    314,
+    1070,
+    220,
+    17,
+    19,
+    3979,
+    264,
+    1834,
+    13,
+    1049,
+    11177,
+    310,
+    67205,
+    13,
+    357,
+    3777,
+    1637,
+    7448,
+    914,
+    635,
+    424,
+    11,
+    1042,
+    7249,
+    279,
+    27878,
+    13,
+    353,
+    15265,
+    599,
+    264,
+    2956,
+    314,
+    2748,
+    421,
+    513,
+    660,
+    1381,
+    40063,
+    13,
+    1049,
+    16661,
+    314,
+    9722,
+    80002,
+    321,
+    24199,
+    1070,
+    660,
+    1834,
+    13,
+    353,
+    2688,
+    524,
+    1442,
+    2617,
+    1204,
+    353,
+    2688,
+    2019,
+    310,
+    635,
+    424,
+    13,
+    353,
+    2496,
+    5894,
+    14164,
+    13,
+    1577,
+    23831,
+    430,
+    424,
+    369,
+    11,
+    353,
+    1353,
+    4487,
+    310,
+    1070,
+    874,
+    4860,
+    6149,
+    13,
+    1049,
+    579,
+    264,
+    26231,
+    13486,
+    364,
+    2107,
+    1070,
+    321,
+    364,
+    586,
+    13,
+    3054,
+    781,
+    5909,
+    1092,
+    781,
+    2957,
+    998,
+    30,
+    8448,
+    781,
+    25281,
+    30,
+    271,
+    40,
+    2688,
+    524,
+    2617,
+    1204,
+    1248,
+    424,
+    668,
+    1831,
+    364,
+    1070,
+    310,
+    660,
+    30035,
+    13,
+    4686,
+    567,
+    2659,
+    314,
+    2235,
+    4092,
+    1518,
+    781,
+    2659,
+    314,
+    1602,
+    2166,
+    3777,
+    30,
+    1368,
+    424,
+    14290,
+    914,
+    1680,
+    264,
+    74899,
+    6331,
+    11,
+    424,
+    1000,
+    381,
+    25450,
+    310,
+    22270,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 407,
+  "prompt_token_ids_sha256": "c8c553e1757f9292a7330fbbadb7a080e8df849c4d44d011ce4bbe009cd0ce3f",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the “Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered. It begins to make those who are immortal age in reverse. It's basically turning them back into an unborn creation over time. It takes a while to happen but over time they all are 20 years old, then 15 years old. There's so many more of them that the senior citizens are initially just surrounded by trouble making teenagers. It's an annoyance at first, then they start getting even younger. That's when the senior citizens realize they'll have to start taking care of an entire generation of young children by themselves. \n\nBecause there are 50 children to every one senior citizen, they have to just have one senior citizen in a room full of cribs. They have to go and take care of them 24 hours a day. It leads to exhaustion. A young person couldn't do it, let alone the elderly. I personally have a room of children that are all now infants. It consists of changing diapers and feeding them all day. I'm not even sure how I'm going to do it. I never sleep anymore. As awful as it is, I look forward to them no longer existing. It's a horrible existence for both them and for us. Do they remember what they once were? Are they scared?\n\nI'm not sure how long it will take for them to all disappear. Will we die of old age before they die of being too young? If it weren't such a horrifying situation, it would be fascinating to observe.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 386,
+  "source_prompt_token_ids_sha256": "7d2a1c56f6ff9fafc45b3b97fb99e372b96f04b8b5c2a64f637d6a680605463a",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the “Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered. It begins to make those who are immortal age in reverse. It's basically turning them back into an unborn creation over time. It takes a while to happen but over time they all are 20 years old, then 15 years old. There's so many more of them that the senior citizens are initially just surrounded by trouble making teenagers. It's an annoyance at first, then they start getting even younger. That's when the senior citizens realize they'll have to start taking care of an entire generation of young children by themselves. \n\nBecause there are 50 children to every one senior citizen, they have to just have one senior citizen in a room full of cribs. They have to go and take care of them 24 hours a day. It leads to exhaustion. A young person couldn't do it, let alone the elderly. I personally have a room of children that are all now infants. It consists of changing diapers and feeding them all day. I'm not even sure how I'm going to do it. I never sleep anymore. As awful as it is, I look forward to them no longer existing. It's a horrible existence for both them and for us. Do they remember what they once were? Are they scared?\n\nI'm not sure how long it will take for them to all disappear. Will we die of old age before they die of being too young? If it weren't such a horrifying situation, it would be fascinating to observe.",
+  "task_prompt_text_utf8_sha256": "6d43da811376bccca38c080da2a253bdc79192a951ee3d8ab1fe3da0b2409906",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      12177
+    ],
+    "piece_001": [
+      24057
+    ],
+    "piece_002": [
+      9140
+    ],
+    "piece_003": [
+      6775
+    ],
+    "piece_004": [
+      46559
+    ],
+    "piece_005": [
+      6866
+    ],
+    "piece_006": [
+      9605
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 12177,
+  "distinct_tracked_piece_tokens": 7,
+  "nfa_states": 17,
+  "unrolled_states": 1063,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 17,
+      "alphabet_size": 10,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          1,
+          15
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          2,
+          15
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          3,
+          11
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          3,
+          15
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          4,
+          13
+        ],
+        [
+          0,
+          4,
+          15
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          5
+        ],
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          0,
+          5,
+          11
+        ],
+        [
+          0,
+          5,
+          15
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0,
+          6,
+          9
+        ],
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          6,
+          13
+        ],
+        [
+          0,
+          7,
+          3
+        ],
+        [
+          0,
+          7,
+          6
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          10
+        ],
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          0,
+          7,
+          14
+        ],
+        [
+          0,
+          7,
+          16
+        ],
+        [
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          8,
+          5
+        ],
+        [
+          0,
+          8,
+          7
+        ],
+        [
+          0,
+          8,
+          9
+        ],
+        [
+          0,
+          8,
+          11
+        ],
+        [
+          0,
+          8,
+          13
+        ],
+        [
+          0,
+          8,
+          15
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          3
+        ],
+        [
+          2,
+          8,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          8,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          4
+        ],
+        [
+          4,
+          9,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          6
+        ],
+        [
+          5,
+          8,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          8
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          4
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          10
+        ],
+        [
+          9,
+          8,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          4
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          10,
+          8,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          12
+        ],
+        [
+          11,
+          8,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          4
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          12,
+          8,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          14
+        ],
+        [
+          13,
+          8,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          4
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          14,
+          7,
+          14
+        ],
+        [
+          14,
+          8,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          7,
+          16
+        ],
+        [
+          15,
+          8,
+          15
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          16
+        ],
+        [
+          16,
+          5,
+          16
+        ],
+        [
+          16,
+          6,
+          4
+        ],
+        [
+          16,
+          7,
+          16
+        ],
+        [
+          16,
+          8,
+          16
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          12177
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          24057
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          9140
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          6775
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          46559
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          6866
+        ]
+      },
+      {
+        "name": "piece_006",
+        "symbol_id": 6,
+        "token_ids": [
+          9605
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 7,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 8,
+    "stop_symbol_id": 9,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      1414,
+      3559,
+      440,
+      6681,
+      799,
+      2716,
+      11,
+      5629,
+      11,
+      53916,
+      6163,
+      11316,
+      13,
+      3301,
+      1132,
+      279,
+      39811,
+      11,
+      440,
+      874,
+      86377,
+      466,
+      15673,
+      25,
+      198,
+      4350,
+      488,
+      2224,
+      220,
+      17,
+      23,
+      11,
+      7785,
+      49296,
+      264,
+      5333,
+      421,
+      17397,
+      660,
+      6043,
+      314,
+      28037,
+      11,
+      6611,
+      4735,
+      72400,
+      13,
+      4465,
+      2936,
+      26731,
+      310,
+      2873,
+      279,
+      5333,
+      310,
+      660,
+      9977,
+      1172,
+      220,
+      17,
+      21,
+      11,
+      694,
+      488,
+      321,
+      279,
+      2645,
+      314,
+      279,
+      1001,
+      45677,
+      2520,
+      778,
+      1,
+      513,
+      23860,
+      2166,
+      1496,
+      43953,
+      13,
+      3095,
+      488,
+      2224,
+      220,
+      23,
+      20,
+      11,
+      279,
+      3008,
+      6043,
+      513,
+      5326,
+      10782,
+      13,
+      1049,
+      11690,
+      310,
+      1236,
+      1782,
+      852,
+      513,
+      57115,
+      4092,
+      303,
+      9637,
+      13,
+      1049,
+      579,
+      12837,
+      12680,
+      1070,
+      1142,
+      1083,
+      449,
+      82294,
+      9400,
+      888,
+      854,
+      13,
+      1049,
+      4829,
+      264,
+      1345,
+      310,
+      3420,
+      694,
+      888,
+      854,
+      781,
+      660,
+      513,
+      220,
+      17,
+      15,
+      1578,
+      2235,
+      11,
+      1179,
+      220,
+      16,
+      20,
+      1578,
+      2235,
+      13,
+      2532,
+      579,
+      748,
+      1599,
+      777,
+      314,
+      1070,
+      421,
+      279,
+      9695,
+      9977,
+      513,
+      14661,
+      1066,
+      22152,
+      539,
+      11914,
+      3154,
+      35408,
+      13,
+      1049,
+      579,
+      449,
+      87679,
+      506,
+      1118,
+      11,
+      1179,
+      781,
+      1151,
+      3583,
+      1442,
+      14229,
+      13,
+      2844,
+      579,
+      948,
+      279,
+      9695,
+      9977,
+      12706,
+      781,
+      3172,
+      599,
+      310,
+      1151,
+      4483,
+      2373,
+      314,
+      449,
+      4307,
+      9191,
+      314,
+      3777,
+      2748,
+      539,
+      5402,
+      13,
+      4558,
+      17413,
+      1017,
+      513,
+      220,
+      20,
+      15,
+      2748,
+      310,
+      1396,
+      799,
+      9695,
+      21188,
+      11,
+      781,
+      599,
+      310,
+      1066,
+      599,
+      799,
+      9695,
+      21188,
+      303,
+      264,
+      2956,
+      2400,
+      314,
+      26664,
+      1234,
+      13,
+      2302,
+      599,
+      310,
+      708,
+      321,
+      1831,
+      2373,
+      314,
+      1070,
+      220,
+      17,
+      19,
+      3979,
+      264,
+      1834,
+      13,
+      1049,
+      11177,
+      310,
+      67205,
+      13,
+      357,
+      3777,
+      1637,
+      7448,
+      914,
+      635,
+      424,
+      11,
+      1042,
+      7249,
+      279,
+      27878,
+      13,
+      353,
+      15265,
+      599,
+      264,
+      2956,
+      314,
+      2748,
+      421,
+      513,
+      660,
+      1381,
+      40063,
+      13,
+      1049,
+      16661,
+      314,
+      9722,
+      80002,
+      321,
+      24199,
+      1070,
+      660,
+      1834,
+      13,
+      353,
+      2688,
+      524,
+      1442,
+      2617,
+      1204,
+      353,
+      2688,
+      2019,
+      310,
+      635,
+      424,
+      13,
+      353,
+      2496,
+      5894,
+      14164,
+      13,
+      1577,
+      23831,
+      430,
+      424,
+      369,
+      11,
+      353,
+      1353,
+      4487,
+      310,
+      1070,
+      874,
+      4860,
+      6149,
+      13,
+      1049,
+      579,
+      264,
+      26231,
+      13486,
+      364,
+      2107,
+      1070,
+      321,
+      364,
+      586,
+      13,
+      3054,
+      781,
+      5909,
+      1092,
+      781,
+      2957,
+      998,
+      30,
+      8448,
+      781,
+      25281,
+      30,
+      271,
+      40,
+      2688,
+      524,
+      2617,
+      1204,
+      1248,
+      424,
+      668,
+      1831,
+      364,
+      1070,
+      310,
+      660,
+      30035,
+      13,
+      4686,
+      567,
+      2659,
+      314,
+      2235,
+      4092,
+      1518,
+      781,
+      2659,
+      314,
+      1602,
+      2166,
+      3777,
+      30,
+      1368,
+      424,
+      14290,
+      914,
+      1680,
+      264,
+      74899,
+      6331,
+      11,
+      424,
+      1000,
+      381,
+      25450,
+      310,
+      22270,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "right_not_left",
+      "label": "right but not left",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('youth', 'phenomenon', 'species', 'nature', 'wiped', 'giving', 'animals') must occur on the right and not on the left."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "156_coauthor_right_not_left_kna_t7_rep1",
+      "design_index": 472,
+      "structural_cell_index": 156,
+      "replicate_index": 1,
+      "seed": 1927330526,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "c2b22ec6f38a529908291c72e51d90fe3f4b2c6f3d163ba24d64075d049b9c60"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "d956ab0cd29613f48ef6806b1f713a46d923b7cf2d211f6935de492048e88f81"
+        },
+        "model_provenance_sha256": "cfd6a360eebcc16aed47b50f895c7e79463b2e7941c0ce27f0377f4ff7bfb710"
+      }
+    },
+    "sha256": "85032a0c4e0489611681fc0502609750ea5409fa9191a68871c3c079661390b0"
+  }
+}

@@ -1,0 +1,1671 @@
+{
+  "base_instance_id": "coauthor:creative:0886ac6a67c34849a08ccb15134f3407",
+  "constraint": "left_not_right",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 234,
+  "family_index": 4,
+  "job_id": "084_coauthor_left_not_right_kna_t5_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. To the aliens, Matt Damon was just your every day, A-list movie star, they did not know Matt was actually an alien himself sent to earth from a dying planet 33 years ago. Now that Matt Damon is on the ship, he is acting strange compared to other humans they have kidnapped in the past. Matt did not appear out of place, in fact he would was walking about the room of the ship, examining parts that were known to be significant in one way or another. This was a dead give away that Matt Damon had been previously abducted at the very least. \n\nThe aliens were not sure what to do with Matt Damon, they had never had a human act this way before. They decided to put him in another section of the ship for him to inspect. They thought if his attention went to certain areas then this was no ordinary human, if human at all. They were right, Matt Damon was no ordinary human, he went straight for the power converters and other vital systems. The aliens were not concerned though. Even though Matt was well versed in their technology they did not view his knowledge as a threat to them or the ship.",
+  "reference_single_token_nfa_states": 17,
+  "reference_text": " Matt on the other hand was confident he could easily create a diversion using what he had at his disposal and escaping. Mr. Damon was right, he quickly took a crystal out of a circuit board looking device and swapped it with a penny. This caused the device to go into an energy intensive feedback loop.",
+  "reference_token_count": 61,
+  "replicate_index": 1,
+  "seed": 590089531,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "circuit",
+      "token_ids": [
+        8659
+      ],
+      "token_length": 1,
+      "token_text": " circuit"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "escaping",
+      "token_ids": [
+        70075
+      ],
+      "token_length": 1,
+      "token_text": " escaping"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "loop",
+      "token_ids": [
+        7350
+      ],
+      "token_length": 1,
+      "token_text": " loop"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "swapped",
+      "token_ids": [
+        102120
+      ],
+      "token_length": 1,
+      "token_text": " swapped"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "intensive",
+      "token_ids": [
+        28229
+      ],
+      "token_length": 1,
+      "token_text": " intensive"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "0682ce3c27843c1877ba0ddce83d541f9b911b64e306ecd0b51d488f9926e58f",
+  "source_split": "train",
+  "structural_cell_index": 84,
+  "t": 5,
+  "total_tracked_keyword_tokens": 5,
+  "tracked_keyword_token_ids": [
+    [
+      8659
+    ],
+    [
+      70075
+    ],
+    [
+      7350
+    ],
+    [
+      102120
+    ],
+    [
+      28229
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    8659,
+    70075,
+    7350,
+    102120,
+    28229
+  ],
+  "tracked_token_texts": [
+    " circuit",
+    " escaping",
+    " loop",
+    " swapped",
+    " intensive"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    2267,
+    24622,
+    815,
+    94489,
+    18554,
+    111326,
+    236764,
+    711,
+    14111,
+    1144,
+    25565,
+    27069,
+    5899,
+    1343,
+    531,
+    33205,
+    1515,
+    15501,
+    668,
+    5899,
+    9724,
+    236761,
+    2282,
+    506,
+    63928,
+    236764,
+    18554,
+    111326,
+    691,
+    1164,
+    822,
+    1418,
+    1719,
+    236764,
+    562,
+    236772,
+    2234,
+    6387,
+    4381,
+    236764,
+    901,
+    1602,
+    711,
+    1281,
+    18554,
+    691,
+    3643,
+    614,
+    24622,
+    5668,
+    3265,
+    531,
+    7764,
+    699,
+    496,
+    26328,
+    13401,
+    236743,
+    236800,
+    236800,
+    1518,
+    4578,
+    236761,
+    4224,
+    600,
+    18554,
+    111326,
+    563,
+    580,
+    506,
+    7507,
+    236764,
+    668,
+    563,
+    13011,
+    17163,
+    5483,
+    531,
+    1032,
+    14464,
+    901,
+    735,
+    94489,
+    528,
+    506,
+    3068,
+    236761,
+    18554,
+    1602,
+    711,
+    3196,
+    855,
+    529,
+    1977,
+    236764,
+    528,
+    1707,
+    668,
+    1093,
+    691,
+    9378,
+    1003,
+    506,
+    2978,
+    529,
+    506,
+    7507,
+    236764,
+    34629,
+    4688,
+    600,
+    964,
+    3224,
+    531,
+    577,
+    3629,
+    528,
+    886,
+    1595,
+    653,
+    2264,
+    236761,
+    1174,
+    691,
+    496,
+    6582,
+    2583,
+    3121,
+    600,
+    18554,
+    111326,
+    1053,
+    1010,
+    7539,
+    137060,
+    657,
+    506,
+    1401,
+    3198,
+    236761,
+    236743,
+    108,
+    818,
+    63928,
+    964,
+    711,
+    2889,
+    1144,
+    531,
+    776,
+    607,
+    18554,
+    111326,
+    236764,
+    901,
+    1053,
+    2752,
+    1053,
+    496,
+    3246,
+    1134,
+    672,
+    1595,
+    1680,
+    236761,
+    2195,
+    6544,
+    531,
+    2247,
+    1515,
+    528,
+    2264,
+    3336,
+    529,
+    506,
+    7507,
+    573,
+    1515,
+    531,
+    19703,
+    236761,
+    2195,
+    3305,
+    768,
+    914,
+    5700,
+    3939,
+    531,
+    2953,
+    4106,
+    1299,
+    672,
+    691,
+    951,
+    12822,
+    3246,
+    236764,
+    768,
+    3246,
+    657,
+    784,
+    236761,
+    2195,
+    964,
+    1447,
+    236764,
+    18554,
+    111326,
+    691,
+    951,
+    12822,
+    3246,
+    236764,
+    668,
+    3939,
+    6850,
+    573,
+    506,
+    2066,
+    95011,
+    532,
+    1032,
+    12763,
+    3797,
+    236761,
+    669,
+    63928,
+    964,
+    711,
+    10099,
+    3635,
+    236761,
+    7712,
+    3635,
+    18554,
+    691,
+    1388,
+    169215,
+    528,
+    910,
+    4181,
+    901,
+    1602,
+    711,
+    1927,
+    914,
+    4654,
+    618,
+    496,
+    7492,
+    531,
+    1091,
+    653,
+    506,
+    7507,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 292,
+  "prompt_token_ids_sha256": "34d3876bab1d42df168427be330c6929c3db496b9a58d6c2efe8aff29076f914",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. To the aliens, Matt Damon was just your every day, A-list movie star, they did not know Matt was actually an alien himself sent to earth from a dying planet 33 years ago. Now that Matt Damon is on the ship, he is acting strange compared to other humans they have kidnapped in the past. Matt did not appear out of place, in fact he would was walking about the room of the ship, examining parts that were known to be significant in one way or another. This was a dead give away that Matt Damon had been previously abducted at the very least. \n\nThe aliens were not sure what to do with Matt Damon, they had never had a human act this way before. They decided to put him in another section of the ship for him to inspect. They thought if his attention went to certain areas then this was no ordinary human, if human at all. They were right, Matt Damon was no ordinary human, he went straight for the power converters and other vital systems. The aliens were not concerned though. Even though Matt was well versed in their technology they did not view his knowledge as a threat to them or the ship.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 271,
+  "source_prompt_token_ids_sha256": "90f8ab1ff7b9cbce37502b530665df3b49f0439b269d6fc4f7bed7649c03c3a7",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. To the aliens, Matt Damon was just your every day, A-list movie star, they did not know Matt was actually an alien himself sent to earth from a dying planet 33 years ago. Now that Matt Damon is on the ship, he is acting strange compared to other humans they have kidnapped in the past. Matt did not appear out of place, in fact he would was walking about the room of the ship, examining parts that were known to be significant in one way or another. This was a dead give away that Matt Damon had been previously abducted at the very least. \n\nThe aliens were not sure what to do with Matt Damon, they had never had a human act this way before. They decided to put him in another section of the ship for him to inspect. They thought if his attention went to certain areas then this was no ordinary human, if human at all. They were right, Matt Damon was no ordinary human, he went straight for the power converters and other vital systems. The aliens were not concerned though. Even though Matt was well versed in their technology they did not view his knowledge as a threat to them or the ship.",
+  "task_prompt_text_utf8_sha256": "260a85d1c20d5cfb791d73e58777145be8af2584b8d6d9be54a234459089bff9",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      8659
+    ],
+    "piece_001": [
+      70075
+    ],
+    "piece_002": [
+      7350
+    ],
+    "piece_003": [
+      102120
+    ],
+    "piece_004": [
+      28229
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 8659,
+  "distinct_tracked_piece_tokens": 5,
+  "nfa_states": 18,
+  "unrolled_states": 1065,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 18,
+      "alphabet_size": 8,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          15
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          2,
+          15
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          3,
+          15
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          4,
+          16
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          9
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          15
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          5,
+          0,
+          4
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          4
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          8
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          1
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          4
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          11
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          4
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          4
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          14
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          4
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          14,
+          7,
+          1
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          15,
+          5,
+          4
+        ],
+        [
+          15,
+          6,
+          15
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          16
+        ],
+        [
+          16,
+          5,
+          17
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          4
+        ],
+        [
+          17,
+          5,
+          17
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          17,
+          7,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          8659
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          70075
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          7350
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          102120
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          28229
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 5,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 6,
+    "stop_symbol_id": 7,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      2267,
+      24622,
+      815,
+      94489,
+      18554,
+      111326,
+      236764,
+      711,
+      14111,
+      1144,
+      25565,
+      27069,
+      5899,
+      1343,
+      531,
+      33205,
+      1515,
+      15501,
+      668,
+      5899,
+      9724,
+      236761,
+      2282,
+      506,
+      63928,
+      236764,
+      18554,
+      111326,
+      691,
+      1164,
+      822,
+      1418,
+      1719,
+      236764,
+      562,
+      236772,
+      2234,
+      6387,
+      4381,
+      236764,
+      901,
+      1602,
+      711,
+      1281,
+      18554,
+      691,
+      3643,
+      614,
+      24622,
+      5668,
+      3265,
+      531,
+      7764,
+      699,
+      496,
+      26328,
+      13401,
+      236743,
+      236800,
+      236800,
+      1518,
+      4578,
+      236761,
+      4224,
+      600,
+      18554,
+      111326,
+      563,
+      580,
+      506,
+      7507,
+      236764,
+      668,
+      563,
+      13011,
+      17163,
+      5483,
+      531,
+      1032,
+      14464,
+      901,
+      735,
+      94489,
+      528,
+      506,
+      3068,
+      236761,
+      18554,
+      1602,
+      711,
+      3196,
+      855,
+      529,
+      1977,
+      236764,
+      528,
+      1707,
+      668,
+      1093,
+      691,
+      9378,
+      1003,
+      506,
+      2978,
+      529,
+      506,
+      7507,
+      236764,
+      34629,
+      4688,
+      600,
+      964,
+      3224,
+      531,
+      577,
+      3629,
+      528,
+      886,
+      1595,
+      653,
+      2264,
+      236761,
+      1174,
+      691,
+      496,
+      6582,
+      2583,
+      3121,
+      600,
+      18554,
+      111326,
+      1053,
+      1010,
+      7539,
+      137060,
+      657,
+      506,
+      1401,
+      3198,
+      236761,
+      236743,
+      108,
+      818,
+      63928,
+      964,
+      711,
+      2889,
+      1144,
+      531,
+      776,
+      607,
+      18554,
+      111326,
+      236764,
+      901,
+      1053,
+      2752,
+      1053,
+      496,
+      3246,
+      1134,
+      672,
+      1595,
+      1680,
+      236761,
+      2195,
+      6544,
+      531,
+      2247,
+      1515,
+      528,
+      2264,
+      3336,
+      529,
+      506,
+      7507,
+      573,
+      1515,
+      531,
+      19703,
+      236761,
+      2195,
+      3305,
+      768,
+      914,
+      5700,
+      3939,
+      531,
+      2953,
+      4106,
+      1299,
+      672,
+      691,
+      951,
+      12822,
+      3246,
+      236764,
+      768,
+      3246,
+      657,
+      784,
+      236761,
+      2195,
+      964,
+      1447,
+      236764,
+      18554,
+      111326,
+      691,
+      951,
+      12822,
+      3246,
+      236764,
+      668,
+      3939,
+      6850,
+      573,
+      506,
+      2066,
+      95011,
+      532,
+      1032,
+      12763,
+      3797,
+      236761,
+      669,
+      63928,
+      964,
+      711,
+      10099,
+      3635,
+      236761,
+      7712,
+      3635,
+      18554,
+      691,
+      1388,
+      169215,
+      528,
+      910,
+      4181,
+      901,
+      1602,
+      711,
+      1927,
+      914,
+      4654,
+      618,
+      496,
+      7492,
+      531,
+      1091,
+      653,
+      506,
+      7507,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "left_not_right",
+      "label": "left but not right",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('circuit', 'escaping', 'loop', 'swapped', 'intensive') must occur on the left and not on the right."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "084_coauthor_left_not_right_kna_t5_rep1",
+      "design_index": 234,
+      "structural_cell_index": 84,
+      "replicate_index": 1,
+      "seed": 590089531,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "72ce8b491db7600ddaa8eea975156954235978891955e205d81c4dbccbe0a80c"
+  }
+}

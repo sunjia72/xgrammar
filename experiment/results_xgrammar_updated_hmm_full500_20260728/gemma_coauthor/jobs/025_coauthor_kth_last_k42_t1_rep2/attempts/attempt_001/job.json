@@ -1,0 +1,1305 @@
+{
+  "base_instance_id": "coauthor:creative:c99f8c2465da42cc91498fd9d99e360b",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 325,
+  "family_index": 25,
+  "job_id": "025_coauthor_kth_last_k42_t1_rep2",
+  "k": 42,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 43,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The results have been devastating. The world lies in ruins, and countries are continually at war with one another. Now, only the United States has returned with technology that could change the world.\n\nWhile they were in isolation, the government of the United States commissioned a small group of scientists to research how to instill peace in others. This group was called, quite appropriately, the peacemakers. The consisted of twenty men and women from various cultures, ethnicities, and gender identities. They devoted their full lives to this research, to prove that the world could be at peace. They had no idea of the devastation and destruction going on outside the borders of their own isolated world.",
+  "reference_single_token_nfa_states": 44,
+  "reference_text": " They only knew they had to find a way to achieve peace everywhere, should a war occur again.\n\nUpon seeing the devastation that has occurred throughout the globe, the peacemakers know they must use their knowledge to garner peace everywhere. It is their duty to make sure the world never falls into chaos again.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 607621670,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "garner",
+      "token_ids": [
+        61150
+      ],
+      "token_length": 1,
+      "token_text": " garner"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "6f6be8997af7490c65a227ffe5ad7f74b003bf03f8e9f433b980255e2c3d266e",
+  "source_split": "validation",
+  "structural_cell_index": 25,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      61150
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    61150
+  ],
+  "tracked_token_texts": [
+    " garner"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    25221,
+    4109,
+    5289,
+    8488,
+    236764,
+    784,
+    506,
+    17835,
+    529,
+    506,
+    1902,
+    10344,
+    531,
+    236743,
+    236810,
+    236771,
+    1518,
+    529,
+    10346,
+    23049,
+    699,
+    886,
+    2264,
+    528,
+    1900,
+    531,
+    5001,
+    4767,
+    28847,
+    236761,
+    236743,
+    236810,
+    236771,
+    1518,
+    3209,
+    236764,
+    506,
+    3640,
+    4184,
+    3952,
+    855,
+    529,
+    74627,
+    236764,
+    1186,
+    531,
+    3449,
+    600,
+    951,
+    886,
+    1663,
+    3939,
+    1131,
+    23049,
+    236761,
+    669,
+    2536,
+    735,
+    1010,
+    43267,
+    236761,
+    669,
+    1902,
+    12828,
+    528,
+    45102,
+    236764,
+    532,
+    4808,
+    659,
+    34726,
+    657,
+    3653,
+    607,
+    886,
+    2264,
+    236761,
+    4224,
+    236764,
+    1186,
+    506,
+    3640,
+    4184,
+    815,
+    8323,
+    607,
+    4181,
+    600,
+    1451,
+    2352,
+    506,
+    1902,
+    236761,
+    108,
+    8409,
+    901,
+    964,
+    528,
+    23049,
+    236764,
+    506,
+    3251,
+    529,
+    506,
+    3640,
+    4184,
+    41965,
+    496,
+    1944,
+    2299,
+    529,
+    16225,
+    531,
+    2958,
+    1217,
+    531,
+    154732,
+    8118,
+    528,
+    3496,
+    236761,
+    1174,
+    2299,
+    691,
+    2760,
+    236764,
+    4346,
+    37404,
+    236764,
+    506,
+    123137,
+    107883,
+    236761,
+    669,
+    31590,
+    529,
+    12571,
+    1758,
+    532,
+    3607,
+    699,
+    3572,
+    20117,
+    236764,
+    234149,
+    236764,
+    532,
+    13435,
+    36807,
+    236761,
+    2195,
+    23011,
+    910,
+    2587,
+    6176,
+    531,
+    672,
+    2958,
+    236764,
+    531,
+    8595,
+    600,
+    506,
+    1902,
+    1451,
+    577,
+    657,
+    8118,
+    236761,
+    2195,
+    1053,
+    951,
+    4317,
+    529,
+    506,
+    103821,
+    532,
+    21404,
+    1771,
+    580,
+    4782,
+    506,
+    27367,
+    529,
+    910,
+    1852,
+    4813,
+    1902,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 225,
+  "prompt_token_ids_sha256": "78dbfec557f2e66f57d4f83c351288de435ea610cfb67527fb243796e7d23fbb",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The results have been devastating. The world lies in ruins, and countries are continually at war with one another. Now, only the United States has returned with technology that could change the world.\n\nWhile they were in isolation, the government of the United States commissioned a small group of scientists to research how to instill peace in others. This group was called, quite appropriately, the peacemakers. The consisted of twenty men and women from various cultures, ethnicities, and gender identities. They devoted their full lives to this research, to prove that the world could be at peace. They had no idea of the devastation and destruction going on outside the borders of their own isolated world.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 204,
+  "source_prompt_token_ids_sha256": "84cba5e10848449913b8c7536d1e9128e38cfd5480d320fbf5f5ae210143c1bb",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The results have been devastating. The world lies in ruins, and countries are continually at war with one another. Now, only the United States has returned with technology that could change the world.\n\nWhile they were in isolation, the government of the United States commissioned a small group of scientists to research how to instill peace in others. This group was called, quite appropriately, the peacemakers. The consisted of twenty men and women from various cultures, ethnicities, and gender identities. They devoted their full lives to this research, to prove that the world could be at peace. They had no idea of the devastation and destruction going on outside the borders of their own isolated world.",
+  "task_prompt_text_utf8_sha256": "4fd3eb8de3624785f0035093c5df1f3b72f7af74aa48c87b24b56721ee4d4e16",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      61150
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 61150,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 44,
+  "unrolled_states": 1033,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 44,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          28,
+          0,
+          29
+        ],
+        [
+          28,
+          1,
+          29
+        ],
+        [
+          28,
+          2,
+          29
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          32,
+          0,
+          33
+        ],
+        [
+          32,
+          1,
+          33
+        ],
+        [
+          32,
+          2,
+          33
+        ],
+        [
+          33,
+          0,
+          34
+        ],
+        [
+          33,
+          1,
+          34
+        ],
+        [
+          33,
+          2,
+          34
+        ],
+        [
+          34,
+          0,
+          35
+        ],
+        [
+          34,
+          1,
+          35
+        ],
+        [
+          34,
+          2,
+          35
+        ],
+        [
+          35,
+          0,
+          36
+        ],
+        [
+          35,
+          1,
+          36
+        ],
+        [
+          35,
+          2,
+          36
+        ],
+        [
+          36,
+          0,
+          37
+        ],
+        [
+          36,
+          1,
+          37
+        ],
+        [
+          36,
+          2,
+          37
+        ],
+        [
+          37,
+          0,
+          38
+        ],
+        [
+          37,
+          1,
+          38
+        ],
+        [
+          37,
+          2,
+          38
+        ],
+        [
+          38,
+          0,
+          39
+        ],
+        [
+          38,
+          1,
+          39
+        ],
+        [
+          38,
+          2,
+          39
+        ],
+        [
+          39,
+          0,
+          40
+        ],
+        [
+          39,
+          1,
+          40
+        ],
+        [
+          39,
+          2,
+          40
+        ],
+        [
+          40,
+          0,
+          41
+        ],
+        [
+          40,
+          1,
+          41
+        ],
+        [
+          40,
+          2,
+          41
+        ],
+        [
+          41,
+          0,
+          42
+        ],
+        [
+          41,
+          1,
+          42
+        ],
+        [
+          41,
+          2,
+          42
+        ],
+        [
+          42,
+          0,
+          43
+        ],
+        [
+          42,
+          1,
+          43
+        ],
+        [
+          42,
+          2,
+          43
+        ],
+        [
+          43,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          61150
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      25221,
+      4109,
+      5289,
+      8488,
+      236764,
+      784,
+      506,
+      17835,
+      529,
+      506,
+      1902,
+      10344,
+      531,
+      236743,
+      236810,
+      236771,
+      1518,
+      529,
+      10346,
+      23049,
+      699,
+      886,
+      2264,
+      528,
+      1900,
+      531,
+      5001,
+      4767,
+      28847,
+      236761,
+      236743,
+      236810,
+      236771,
+      1518,
+      3209,
+      236764,
+      506,
+      3640,
+      4184,
+      3952,
+      855,
+      529,
+      74627,
+      236764,
+      1186,
+      531,
+      3449,
+      600,
+      951,
+      886,
+      1663,
+      3939,
+      1131,
+      23049,
+      236761,
+      669,
+      2536,
+      735,
+      1010,
+      43267,
+      236761,
+      669,
+      1902,
+      12828,
+      528,
+      45102,
+      236764,
+      532,
+      4808,
+      659,
+      34726,
+      657,
+      3653,
+      607,
+      886,
+      2264,
+      236761,
+      4224,
+      236764,
+      1186,
+      506,
+      3640,
+      4184,
+      815,
+      8323,
+      607,
+      4181,
+      600,
+      1451,
+      2352,
+      506,
+      1902,
+      236761,
+      108,
+      8409,
+      901,
+      964,
+      528,
+      23049,
+      236764,
+      506,
+      3251,
+      529,
+      506,
+      3640,
+      4184,
+      41965,
+      496,
+      1944,
+      2299,
+      529,
+      16225,
+      531,
+      2958,
+      1217,
+      531,
+      154732,
+      8118,
+      528,
+      3496,
+      236761,
+      1174,
+      2299,
+      691,
+      2760,
+      236764,
+      4346,
+      37404,
+      236764,
+      506,
+      123137,
+      107883,
+      236761,
+      669,
+      31590,
+      529,
+      12571,
+      1758,
+      532,
+      3607,
+      699,
+      3572,
+      20117,
+      236764,
+      234149,
+      236764,
+      532,
+      13435,
+      36807,
+      236761,
+      2195,
+      23011,
+      910,
+      2587,
+      6176,
+      531,
+      672,
+      2958,
+      236764,
+      531,
+      8595,
+      600,
+      506,
+      1902,
+      1451,
+      577,
+      657,
+      8118,
+      236761,
+      2195,
+      1053,
+      951,
+      4317,
+      529,
+      506,
+      103821,
+      532,
+      21404,
+      1771,
+      580,
+      4782,
+      506,
+      27367,
+      529,
+      910,
+      1852,
+      4813,
+      1902,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('garner') must end at the 42-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "025_coauthor_kth_last_k42_t1_rep2",
+      "design_index": 325,
+      "structural_cell_index": 25,
+      "replicate_index": 2,
+      "seed": 607621670,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "086dad472023ec64b9032ab239aac95552cd0d64812e87010f908fe136033415"
+  }
+}

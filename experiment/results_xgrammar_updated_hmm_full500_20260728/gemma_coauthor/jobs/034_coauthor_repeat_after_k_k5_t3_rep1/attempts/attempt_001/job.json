@@ -1,0 +1,1136 @@
+{
+  "base_instance_id": "coauthor:creative:961d4965c2c94d7b98223b2f3c9eb30a",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 184,
+  "family_index": 4,
+  "job_id": "034_coauthor_repeat_after_k_k5_t3_rep1",
+  "k": 5,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 7,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\"\n\nBarack Obama lifted the phone without any hesitation and dialed the number. \"Hello... this is Barack Obama.\" he said in a firm tone hiding he's a little bit nervous. He did not hear anyone on the other line. Instead, the phone began to beep. It sounded like those dial up modems that were common back in the day. Suddenly, a flash can be seen in the earpiece and sucked Obama into the phone. Obama travelled into the phone lines and all he saw was a flash of colors before he landed on hard ground. Standing where he landed was the one and only JFK. \"Hello, Obama.",
+  "reference_single_token_nfa_states": 18,
+  "reference_text": " We've been expecting you. Follow me.\"\n\nHe got back on his feet and followed JFK to the oval office. \"Please, take a seat, Mr. Obama.\" he said. \"Why, why am I here?\" questioned Obama. \"You're here because our world is in danger.\" JFK replied.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 704020099,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "questioned",
+      "token_ids": [
+        36087
+      ],
+      "token_length": 1,
+      "token_text": " questioned"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "oval",
+      "token_ids": [
+        32670
+      ],
+      "token_length": 1,
+      "token_text": " oval"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "seat",
+      "token_ids": [
+        11171
+      ],
+      "token_length": 1,
+      "token_text": " seat"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "f22fbc8d39a8516783da874b7d0cacf6b5793d685649cabc9eb9a6959300e295",
+  "source_split": "train",
+  "structural_cell_index": 34,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      36087
+    ],
+    [
+      32670
+    ],
+    [
+      11171
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    36087,
+    32670,
+    11171
+  ],
+  "tracked_token_texts": [
+    " questioned",
+    " oval",
+    " seat"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3048,
+    236789,
+    500,
+    65904,
+    20348,
+    236761,
+    236743,
+    236812,
+    1518,
+    1131,
+    822,
+    20130,
+    236764,
+    611,
+    53004,
+    531,
+    1586,
+    496,
+    6064,
+    607,
+    951,
+    994,
+    3421,
+    580,
+    822,
+    99900,
+    2633,
+    236761,
+    1030,
+    20838,
+    623,
+    236777,
+    4614,
+    611,
+    236789,
+    560,
+    1053,
+    496,
+    6584,
+    531,
+    8352,
+    65904,
+    1390,
+    5503,
+    3294,
+    822,
+    16226,
+    532,
+    2246,
+    506,
+    1548,
+    3426,
+    236761,
+    1030,
+    236789,
+    236751,
+    990,
+    531,
+    1502,
+    506,
+    1759,
+    3195,
+    1781,
+    62432,
+    5181,
+    236764,
+    623,
+    236863,
+    49512,
+    1781,
+    108,
+    5015,
+    697,
+    20348,
+    32340,
+    506,
+    5154,
+    2180,
+    1027,
+    73404,
+    532,
+    183524,
+    506,
+    1548,
+    236761,
+    623,
+    9259,
+    1390,
+    672,
+    563,
+    65904,
+    20348,
+    1781,
+    668,
+    1176,
+    528,
+    496,
+    6218,
+    15737,
+    33495,
+    668,
+    236789,
+    236751,
+    496,
+    2268,
+    3103,
+    20100,
+    236761,
+    1293,
+    1602,
+    711,
+    6899,
+    6533,
+    580,
+    506,
+    1032,
+    1757,
+    236761,
+    13884,
+    236764,
+    506,
+    5154,
+    6074,
+    531,
+    130326,
+    236761,
+    1030,
+    44338,
+    1133,
+    1724,
+    18009,
+    872,
+    1120,
+    2334,
+    600,
+    964,
+    3364,
+    1063,
+    528,
+    506,
+    1719,
+    236761,
+    79351,
+    236764,
+    496,
+    13053,
+    740,
+    577,
+    3472,
+    528,
+    506,
+    545,
+    8598,
+    42715,
+    532,
+    94752,
+    20348,
+    1131,
+    506,
+    5154,
+    236761,
+    20348,
+    46785,
+    1131,
+    506,
+    5154,
+    4463,
+    532,
+    784,
+    668,
+    5004,
+    691,
+    496,
+    13053,
+    529,
+    7913,
+    1680,
+    668,
+    30473,
+    580,
+    2651,
+    3866,
+    236761,
+    52976,
+    1298,
+    668,
+    30473,
+    691,
+    506,
+    886,
+    532,
+    1186,
+    132778,
+    236761,
+    623,
+    9259,
+    236764,
+    20348,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 235,
+  "prompt_token_ids_sha256": "5569b6ff326abae5f2c362533b484c5f6feb0707c9a82fe20e6641bd48df4af2",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\"\n\nBarack Obama lifted the phone without any hesitation and dialed the number. \"Hello... this is Barack Obama.\" he said in a firm tone hiding he's a little bit nervous. He did not hear anyone on the other line. Instead, the phone began to beep. It sounded like those dial up modems that were common back in the day. Suddenly, a flash can be seen in the earpiece and sucked Obama into the phone. Obama travelled into the phone lines and all he saw was a flash of colors before he landed on hard ground. Standing where he landed was the one and only JFK. \"Hello, Obama.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 214,
+  "source_prompt_token_ids_sha256": "a889457590c5c4dbddcde413dc2544b7784d93b5820e0b4246fa9179b45dafa3",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYou're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads \"I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job.\" Signed simply, \"JFK.\"\n\nBarack Obama lifted the phone without any hesitation and dialed the number. \"Hello... this is Barack Obama.\" he said in a firm tone hiding he's a little bit nervous. He did not hear anyone on the other line. Instead, the phone began to beep. It sounded like those dial up modems that were common back in the day. Suddenly, a flash can be seen in the earpiece and sucked Obama into the phone. Obama travelled into the phone lines and all he saw was a flash of colors before he landed on hard ground. Standing where he landed was the one and only JFK. \"Hello, Obama.",
+  "task_prompt_text_utf8_sha256": "da176361d690c0e725368c3a7964294ba628b7545a5957c3b83a5450398f2de3",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      36087
+    ],
+    "piece_001": [
+      32670
+    ],
+    "piece_002": [
+      11171
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 36087,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 18,
+  "unrolled_states": 1119,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 18,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          1,
+          2
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          14,
+          3,
+          15
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          15,
+          3,
+          16
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          17,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          36087
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          32670
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          11171
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3048,
+      236789,
+      500,
+      65904,
+      20348,
+      236761,
+      236743,
+      236812,
+      1518,
+      1131,
+      822,
+      20130,
+      236764,
+      611,
+      53004,
+      531,
+      1586,
+      496,
+      6064,
+      607,
+      951,
+      994,
+      3421,
+      580,
+      822,
+      99900,
+      2633,
+      236761,
+      1030,
+      20838,
+      623,
+      236777,
+      4614,
+      611,
+      236789,
+      560,
+      1053,
+      496,
+      6584,
+      531,
+      8352,
+      65904,
+      1390,
+      5503,
+      3294,
+      822,
+      16226,
+      532,
+      2246,
+      506,
+      1548,
+      3426,
+      236761,
+      1030,
+      236789,
+      236751,
+      990,
+      531,
+      1502,
+      506,
+      1759,
+      3195,
+      1781,
+      62432,
+      5181,
+      236764,
+      623,
+      236863,
+      49512,
+      1781,
+      108,
+      5015,
+      697,
+      20348,
+      32340,
+      506,
+      5154,
+      2180,
+      1027,
+      73404,
+      532,
+      183524,
+      506,
+      1548,
+      236761,
+      623,
+      9259,
+      1390,
+      672,
+      563,
+      65904,
+      20348,
+      1781,
+      668,
+      1176,
+      528,
+      496,
+      6218,
+      15737,
+      33495,
+      668,
+      236789,
+      236751,
+      496,
+      2268,
+      3103,
+      20100,
+      236761,
+      1293,
+      1602,
+      711,
+      6899,
+      6533,
+      580,
+      506,
+      1032,
+      1757,
+      236761,
+      13884,
+      236764,
+      506,
+      5154,
+      6074,
+      531,
+      130326,
+      236761,
+      1030,
+      44338,
+      1133,
+      1724,
+      18009,
+      872,
+      1120,
+      2334,
+      600,
+      964,
+      3364,
+      1063,
+      528,
+      506,
+      1719,
+      236761,
+      79351,
+      236764,
+      496,
+      13053,
+      740,
+      577,
+      3472,
+      528,
+      506,
+      545,
+      8598,
+      42715,
+      532,
+      94752,
+      20348,
+      1131,
+      506,
+      5154,
+      236761,
+      20348,
+      46785,
+      1131,
+      506,
+      5154,
+      4463,
+      532,
+      784,
+      668,
+      5004,
+      691,
+      496,
+      13053,
+      529,
+      7913,
+      1680,
+      668,
+      30473,
+      580,
+      2651,
+      3866,
+      236761,
+      52976,
+      1298,
+      668,
+      30473,
+      691,
+      506,
+      886,
+      532,
+      1186,
+      132778,
+      236761,
+      623,
+      9259,
+      236764,
+      20348,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('questioned', 'oval', 'seat') must occur twice with start positions exactly 5 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "034_coauthor_repeat_after_k_k5_t3_rep1",
+      "design_index": 184,
+      "structural_cell_index": 34,
+      "replicate_index": 1,
+      "seed": 704020099,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "1c29a59cd5dfbc7b8ca2631fc8cd3b00e34d698fcbf5735542baf50cb85cb618"
+  }
+}

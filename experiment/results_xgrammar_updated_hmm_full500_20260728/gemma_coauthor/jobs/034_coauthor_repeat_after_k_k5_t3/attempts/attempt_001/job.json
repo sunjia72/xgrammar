@@ -1,0 +1,1104 @@
+{
+  "base_instance_id": "coauthor:creative:fbd1b7a3b81f4efc88b0605de907aea3",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 34,
+  "family_index": 4,
+  "job_id": "034_coauthor_repeat_after_k_k5_t3",
+  "k": 5,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 7,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. \n\nThe alien has been watching Matt Damon movies and has mistaken him for a hero. They want his help to stop another race of aliens that are trying to wipe them out. \n\nMatt Damon is reluctant to help, but the alien has kidnapped his wife, so he has no choice. They give him guns and set him on a large alien planet. He spends a while trying to figure out how these alien guns even work. \n\nHe eventually finds the enemy base and starts shooting. The gun is very strong and blows a hole in one of the walls. He goes inside and the aliens see who he is. They drop their weapons and begin holding out pieces of paper to get autographs. \n\nMatt Damon is confused, but he signs them anyway. Were all aliens fans of Matt Damon?",
+  "reference_single_token_nfa_states": 18,
+  "reference_text": " He then puts his weapon down. He can't harm them, even to save his wife. He decides that maybe he can work out a peace deal between the alien groups. \n\nHe calls both sides together and begins talking his way through a peace treaty. He's not sure how much if anything they can understand.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 395872130,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "puts",
+      "token_ids": [
+        15360
+      ],
+      "token_length": 1,
+      "token_text": " puts"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "calls",
+      "token_ids": [
+        9139
+      ],
+      "token_length": 1,
+      "token_text": " calls"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "treaty",
+      "token_ids": [
+        52340
+      ],
+      "token_length": 1,
+      "token_text": " treaty"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "aed613a0fd5b9c4b6449c2fe6303c364b063880dbbd772d6db5e343aea7ee87b",
+  "source_split": "train",
+  "structural_cell_index": 34,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      15360
+    ],
+    [
+      9139
+    ],
+    [
+      52340
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    15360,
+    9139,
+    52340
+  ],
+  "tracked_token_texts": [
+    " puts",
+    " calls",
+    " treaty"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    2267,
+    24622,
+    815,
+    94489,
+    18554,
+    111326,
+    236764,
+    711,
+    14111,
+    1144,
+    25565,
+    27069,
+    5899,
+    1343,
+    531,
+    33205,
+    1515,
+    15501,
+    668,
+    5899,
+    9724,
+    236761,
+    236743,
+    108,
+    818,
+    24622,
+    815,
+    1010,
+    10685,
+    18554,
+    111326,
+    13154,
+    532,
+    815,
+    45072,
+    1515,
+    573,
+    496,
+    11814,
+    236761,
+    2195,
+    1461,
+    914,
+    1601,
+    531,
+    4721,
+    2264,
+    7547,
+    529,
+    63928,
+    600,
+    659,
+    4875,
+    531,
+    49616,
+    1091,
+    855,
+    236761,
+    236743,
+    108,
+    53680,
+    111326,
+    563,
+    54079,
+    531,
+    1601,
+    236764,
+    840,
+    506,
+    24622,
+    815,
+    94489,
+    914,
+    6853,
+    236764,
+    834,
+    668,
+    815,
+    951,
+    5313,
+    236761,
+    2195,
+    2583,
+    1515,
+    26796,
+    532,
+    1076,
+    1515,
+    580,
+    496,
+    2455,
+    24622,
+    13401,
+    236761,
+    1293,
+    49060,
+    496,
+    1651,
+    4875,
+    531,
+    5811,
+    855,
+    1217,
+    1239,
+    24622,
+    26796,
+    1581,
+    981,
+    236761,
+    236743,
+    108,
+    2209,
+    10734,
+    15249,
+    506,
+    13550,
+    3225,
+    532,
+    9857,
+    14061,
+    236761,
+    669,
+    10362,
+    563,
+    1401,
+    3188,
+    532,
+    58892,
+    496,
+    12401,
+    528,
+    886,
+    529,
+    506,
+    11595,
+    236761,
+    1293,
+    5899,
+    4888,
+    532,
+    506,
+    63928,
+    1460,
+    1015,
+    668,
+    563,
+    236761,
+    2195,
+    7266,
+    910,
+    17105,
+    532,
+    3654,
+    7046,
+    855,
+    9097,
+    529,
+    3627,
+    531,
+    974,
+    224981,
+    236761,
+    236743,
+    108,
+    53680,
+    111326,
+    563,
+    23894,
+    236764,
+    840,
+    668,
+    11005,
+    1091,
+    17498,
+    236761,
+    43246,
+    784,
+    63928,
+    7807,
+    529,
+    18554,
+    111326,
+    236881,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 219,
+  "prompt_token_ids_sha256": "ed739cc9e4d67df302933ad7deab126380be881723e7069451cb9c0873876347",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. \n\nThe alien has been watching Matt Damon movies and has mistaken him for a hero. They want his help to stop another race of aliens that are trying to wipe them out. \n\nMatt Damon is reluctant to help, but the alien has kidnapped his wife, so he has no choice. They give him guns and set him on a large alien planet. He spends a while trying to figure out how these alien guns even work. \n\nHe eventually finds the enemy base and starts shooting. The gun is very strong and blows a hole in one of the walls. He goes inside and the aliens see who he is. They drop their weapons and begin holding out pieces of paper to get autographs. \n\nMatt Damon is confused, but he signs them anyway. Were all aliens fans of Matt Damon?",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 198,
+  "source_prompt_token_ids_sha256": "1606e381fdd2ee352c206217cc41eead123be4eb838f6c314b37450777b0e0f4",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. \n\nThe alien has been watching Matt Damon movies and has mistaken him for a hero. They want his help to stop another race of aliens that are trying to wipe them out. \n\nMatt Damon is reluctant to help, but the alien has kidnapped his wife, so he has no choice. They give him guns and set him on a large alien planet. He spends a while trying to figure out how these alien guns even work. \n\nHe eventually finds the enemy base and starts shooting. The gun is very strong and blows a hole in one of the walls. He goes inside and the aliens see who he is. They drop their weapons and begin holding out pieces of paper to get autographs. \n\nMatt Damon is confused, but he signs them anyway. Were all aliens fans of Matt Damon?",
+  "task_prompt_text_utf8_sha256": "da722612d52e7dbd93e7639f21ccf38054b648c579e6af1d374a4ac8369ef04f",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      15360
+    ],
+    "piece_001": [
+      9139
+    ],
+    "piece_002": [
+      52340
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 15360,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 18,
+  "unrolled_states": 1119,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 18,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          1,
+          2
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          14,
+          3,
+          15
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          15,
+          3,
+          16
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          17,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          15360
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          9139
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          52340
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      2267,
+      24622,
+      815,
+      94489,
+      18554,
+      111326,
+      236764,
+      711,
+      14111,
+      1144,
+      25565,
+      27069,
+      5899,
+      1343,
+      531,
+      33205,
+      1515,
+      15501,
+      668,
+      5899,
+      9724,
+      236761,
+      236743,
+      108,
+      818,
+      24622,
+      815,
+      1010,
+      10685,
+      18554,
+      111326,
+      13154,
+      532,
+      815,
+      45072,
+      1515,
+      573,
+      496,
+      11814,
+      236761,
+      2195,
+      1461,
+      914,
+      1601,
+      531,
+      4721,
+      2264,
+      7547,
+      529,
+      63928,
+      600,
+      659,
+      4875,
+      531,
+      49616,
+      1091,
+      855,
+      236761,
+      236743,
+      108,
+      53680,
+      111326,
+      563,
+      54079,
+      531,
+      1601,
+      236764,
+      840,
+      506,
+      24622,
+      815,
+      94489,
+      914,
+      6853,
+      236764,
+      834,
+      668,
+      815,
+      951,
+      5313,
+      236761,
+      2195,
+      2583,
+      1515,
+      26796,
+      532,
+      1076,
+      1515,
+      580,
+      496,
+      2455,
+      24622,
+      13401,
+      236761,
+      1293,
+      49060,
+      496,
+      1651,
+      4875,
+      531,
+      5811,
+      855,
+      1217,
+      1239,
+      24622,
+      26796,
+      1581,
+      981,
+      236761,
+      236743,
+      108,
+      2209,
+      10734,
+      15249,
+      506,
+      13550,
+      3225,
+      532,
+      9857,
+      14061,
+      236761,
+      669,
+      10362,
+      563,
+      1401,
+      3188,
+      532,
+      58892,
+      496,
+      12401,
+      528,
+      886,
+      529,
+      506,
+      11595,
+      236761,
+      1293,
+      5899,
+      4888,
+      532,
+      506,
+      63928,
+      1460,
+      1015,
+      668,
+      563,
+      236761,
+      2195,
+      7266,
+      910,
+      17105,
+      532,
+      3654,
+      7046,
+      855,
+      9097,
+      529,
+      3627,
+      531,
+      974,
+      224981,
+      236761,
+      236743,
+      108,
+      53680,
+      111326,
+      563,
+      23894,
+      236764,
+      840,
+      668,
+      11005,
+      1091,
+      17498,
+      236761,
+      43246,
+      784,
+      63928,
+      7807,
+      529,
+      18554,
+      111326,
+      236881,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('puts', 'calls', 'treaty') must occur twice with start positions exactly 5 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "034_coauthor_repeat_after_k_k5_t3",
+      "design_index": 34,
+      "structural_cell_index": 34,
+      "replicate_index": 0,
+      "seed": 395872130,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "6f44790e902f55c2949dc382f9862f053a9f8b9c74e495bd35986494b9cf0d34"
+  }
+}

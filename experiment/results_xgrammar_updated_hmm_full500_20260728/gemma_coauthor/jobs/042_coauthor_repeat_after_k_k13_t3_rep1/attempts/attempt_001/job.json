@@ -1,0 +1,1596 @@
+{
+  "base_instance_id": "coauthor:creative:f878effe792c4076a90bf4b69daf33e7",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 192,
+  "family_index": 12,
+  "job_id": "042_coauthor_repeat_after_k_k13_t3_rep1",
+  "k": 13,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 15,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the \"Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered.\n\nYou sit in your favorite chair, with your favorite pipe, the picture of comfort. Your wife sits across from you, her face a mask of concern. \"I feel sorry for all the young people\" she says. \"Those innocent children are being punished for the sins of their parents.\"",
+  "reference_single_token_nfa_states": 42,
+  "reference_text": " The newscaster on TV has announced the widespread findings: sudden early death, birth defects, and other issues in nearly 100% of the children and grandchildren of those who took the drug. \n\n \"I'll admit\", you say, \"I did lose sleep thinking about what 'could have been'.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 138572706,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "widespread",
+      "token_ids": [
+        25581
+      ],
+      "token_length": 1,
+      "token_text": " widespread"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "announced",
+      "token_ids": [
+        7735
+      ],
+      "token_length": 1,
+      "token_text": " announced"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "defects",
+      "token_ids": [
+        21842
+      ],
+      "token_length": 1,
+      "token_text": " defects"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "e34890061ea64ce85a6cae0a526e8ab2d536f708b38b63b3ed1739598f6b0fa7",
+  "source_split": "train",
+  "structural_cell_index": 42,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      25581
+    ],
+    [
+      7735
+    ],
+    [
+      21842
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    25581,
+    7735,
+    21842
+  ],
+  "tracked_token_texts": [
+    " widespread",
+    " announced",
+    " defects"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    4420,
+    611,
+    236789,
+    500,
+    236743,
+    236778,
+    236828,
+    236764,
+    6647,
+    77828,
+    496,
+    5290,
+    600,
+    20627,
+    784,
+    4518,
+    529,
+    27942,
+    236764,
+    7107,
+    123739,
+    236761,
+    5180,
+    3251,
+    35141,
+    531,
+    2583,
+    506,
+    5290,
+    531,
+    784,
+    11838,
+    1208,
+    236743,
+    236778,
+    236825,
+    236764,
+    840,
+    611,
+    532,
+    506,
+    1884,
+    529,
+    506,
+    623,
+    70678,
+    179048,
+    236775,
+    659,
+    24897,
+    2311,
+    1494,
+    236772,
+    37716,
+    236761,
+    3026,
+    611,
+    236789,
+    500,
+    236743,
+    236828,
+    236810,
+    236764,
+    506,
+    2678,
+    4518,
+    659,
+    6861,
+    11788,
+    236761,
+    108,
+    3048,
+    2178,
+    528,
+    822,
+    8126,
+    9048,
+    236764,
+    607,
+    822,
+    8126,
+    14228,
+    236764,
+    506,
+    6083,
+    529,
+    5931,
+    236761,
+    5180,
+    6853,
+    23378,
+    3418,
+    699,
+    611,
+    236764,
+    1116,
+    3392,
+    496,
+    7441,
+    529,
+    4561,
+    236761,
+    623,
+    236777,
+    2597,
+    15025,
+    573,
+    784,
+    506,
+    3184,
+    1331,
+    236775,
+    1304,
+    3189,
+    236761,
+    623,
+    28587,
+    32884,
+    2940,
+    659,
+    1646,
+    58045,
+    573,
+    506,
+    44769,
+    529,
+    910,
+    6296,
+    1781,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 165,
+  "prompt_token_ids_sha256": "cc697a033532b436314ee7f46e441f06c42483415afa1066f54665cab3b19a2c",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the \"Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered.\n\nYou sit in your favorite chair, with your favorite pipe, the picture of comfort. Your wife sits across from you, her face a mask of concern. \"I feel sorry for all the young people\" she says. \"Those innocent children are being punished for the sins of their parents.\"",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 144,
+  "source_prompt_token_ids_sha256": "5ee71536cf5de98e9fe8a4535b59ae5b22db85acf8d5d82a0e9a443976ee110e",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the \"Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered.\n\nYou sit in your favorite chair, with your favorite pipe, the picture of comfort. Your wife sits across from you, her face a mask of concern. \"I feel sorry for all the young people\" she says. \"Those innocent children are being punished for the sins of their parents.\"",
+  "task_prompt_text_utf8_sha256": "5411d0b4963e0c97f79f5bddd87337de4cf41eb7f9f947ca433bdb40c2f44c5a",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      25581
+    ],
+    "piece_001": [
+      7735
+    ],
+    "piece_002": [
+      21842
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 25581,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 42,
+  "unrolled_states": 2191,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 42,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          16
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          29
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          14,
+          3,
+          15
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          15,
+          0,
+          2
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          17,
+          3,
+          18
+        ],
+        [
+          17,
+          4,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          18,
+          3,
+          19
+        ],
+        [
+          18,
+          4,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          19,
+          3,
+          20
+        ],
+        [
+          19,
+          4,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          20,
+          3,
+          21
+        ],
+        [
+          20,
+          4,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          21,
+          3,
+          22
+        ],
+        [
+          21,
+          4,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          22,
+          3,
+          23
+        ],
+        [
+          22,
+          4,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          23,
+          3,
+          24
+        ],
+        [
+          23,
+          4,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          24,
+          3,
+          25
+        ],
+        [
+          24,
+          4,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          25,
+          3,
+          26
+        ],
+        [
+          25,
+          4,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          26,
+          3,
+          27
+        ],
+        [
+          26,
+          4,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          27,
+          3,
+          28
+        ],
+        [
+          27,
+          4,
+          28
+        ],
+        [
+          28,
+          1,
+          2
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          29,
+          3,
+          30
+        ],
+        [
+          29,
+          4,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          30,
+          3,
+          31
+        ],
+        [
+          30,
+          4,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          31,
+          3,
+          32
+        ],
+        [
+          31,
+          4,
+          32
+        ],
+        [
+          32,
+          0,
+          33
+        ],
+        [
+          32,
+          1,
+          33
+        ],
+        [
+          32,
+          2,
+          33
+        ],
+        [
+          32,
+          3,
+          33
+        ],
+        [
+          32,
+          4,
+          33
+        ],
+        [
+          33,
+          0,
+          34
+        ],
+        [
+          33,
+          1,
+          34
+        ],
+        [
+          33,
+          2,
+          34
+        ],
+        [
+          33,
+          3,
+          34
+        ],
+        [
+          33,
+          4,
+          34
+        ],
+        [
+          34,
+          0,
+          35
+        ],
+        [
+          34,
+          1,
+          35
+        ],
+        [
+          34,
+          2,
+          35
+        ],
+        [
+          34,
+          3,
+          35
+        ],
+        [
+          34,
+          4,
+          35
+        ],
+        [
+          35,
+          0,
+          36
+        ],
+        [
+          35,
+          1,
+          36
+        ],
+        [
+          35,
+          2,
+          36
+        ],
+        [
+          35,
+          3,
+          36
+        ],
+        [
+          35,
+          4,
+          36
+        ],
+        [
+          36,
+          0,
+          37
+        ],
+        [
+          36,
+          1,
+          37
+        ],
+        [
+          36,
+          2,
+          37
+        ],
+        [
+          36,
+          3,
+          37
+        ],
+        [
+          36,
+          4,
+          37
+        ],
+        [
+          37,
+          0,
+          38
+        ],
+        [
+          37,
+          1,
+          38
+        ],
+        [
+          37,
+          2,
+          38
+        ],
+        [
+          37,
+          3,
+          38
+        ],
+        [
+          37,
+          4,
+          38
+        ],
+        [
+          38,
+          0,
+          39
+        ],
+        [
+          38,
+          1,
+          39
+        ],
+        [
+          38,
+          2,
+          39
+        ],
+        [
+          38,
+          3,
+          39
+        ],
+        [
+          38,
+          4,
+          39
+        ],
+        [
+          39,
+          0,
+          40
+        ],
+        [
+          39,
+          1,
+          40
+        ],
+        [
+          39,
+          2,
+          40
+        ],
+        [
+          39,
+          3,
+          40
+        ],
+        [
+          39,
+          4,
+          40
+        ],
+        [
+          40,
+          0,
+          41
+        ],
+        [
+          40,
+          1,
+          41
+        ],
+        [
+          40,
+          2,
+          41
+        ],
+        [
+          40,
+          3,
+          41
+        ],
+        [
+          40,
+          4,
+          41
+        ],
+        [
+          41,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          25581
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          7735
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          21842
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      4420,
+      611,
+      236789,
+      500,
+      236743,
+      236778,
+      236828,
+      236764,
+      6647,
+      77828,
+      496,
+      5290,
+      600,
+      20627,
+      784,
+      4518,
+      529,
+      27942,
+      236764,
+      7107,
+      123739,
+      236761,
+      5180,
+      3251,
+      35141,
+      531,
+      2583,
+      506,
+      5290,
+      531,
+      784,
+      11838,
+      1208,
+      236743,
+      236778,
+      236825,
+      236764,
+      840,
+      611,
+      532,
+      506,
+      1884,
+      529,
+      506,
+      623,
+      70678,
+      179048,
+      236775,
+      659,
+      24897,
+      2311,
+      1494,
+      236772,
+      37716,
+      236761,
+      3026,
+      611,
+      236789,
+      500,
+      236743,
+      236828,
+      236810,
+      236764,
+      506,
+      2678,
+      4518,
+      659,
+      6861,
+      11788,
+      236761,
+      108,
+      3048,
+      2178,
+      528,
+      822,
+      8126,
+      9048,
+      236764,
+      607,
+      822,
+      8126,
+      14228,
+      236764,
+      506,
+      6083,
+      529,
+      5931,
+      236761,
+      5180,
+      6853,
+      23378,
+      3418,
+      699,
+      611,
+      236764,
+      1116,
+      3392,
+      496,
+      7441,
+      529,
+      4561,
+      236761,
+      623,
+      236777,
+      2597,
+      15025,
+      573,
+      784,
+      506,
+      3184,
+      1331,
+      236775,
+      1304,
+      3189,
+      236761,
+      623,
+      28587,
+      32884,
+      2940,
+      659,
+      1646,
+      58045,
+      573,
+      506,
+      44769,
+      529,
+      910,
+      6296,
+      1781,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('widespread', 'announced', 'defects') must occur twice with start positions exactly 13 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "042_coauthor_repeat_after_k_k13_t3_rep1",
+      "design_index": 192,
+      "structural_cell_index": 42,
+      "replicate_index": 1,
+      "seed": 138572706,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "8b8860d4e0155d27f9c41e511a873733714252b84e5ade63f6e976ec10c72c27"
+  }
+}

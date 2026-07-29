@@ -1,0 +1,1578 @@
+{
+  "base_instance_id": "coauthor:creative:a155fa8cfd624d278fb8f37cc32b0565",
+  "constraint": "both_sides",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 109,
+  "family_index": 3,
+  "job_id": "109_coauthor_both_sides_kna_t4",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 4,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. There is no way around it, you now know how you compare to every family member, every friend, every person that has ever been in your house since \"The Change.\" \n\nAfter years of knowing that you may not really be the best dad, but still a good one, the truth is in a clear number right in front of you. #8675310. \n\nNot only is that a horribly low number, but also 1 number below a familiar tune. It's a song that you used to like, and it's now being sung by a slightly higher ranked Dad. You need to be the better dad. You know you can't be the best in the world, the proof is right there. But, you CAN be the #8675309th best dad in the world if you try hard enough!\n\nYou sit your kids down and ask them how you can help them, what have you done wrong, how have you hurt them? They don't have any one major issue with you, not one big glaring flaw. They just say that Dad, you're not the best dad. They tell you they love you, and that everything is fine, but it's really not. \n\nAll those late days at work , the extra hours, all those times you were too busy to play catch, the time you said \"I'm tired\" instead of \"I'd love too\" , the missed picnics, the lame excuses.",
+  "reference_single_token_nfa_states": 15,
+  "reference_text": " Every one of those moments is now a number on a mug. Visual proof of the father's that did make the effort. \n\nThis changes now. You WILL be a better dad! Not tomorrow. TODAY! You believe in yourself, you voice your thoughts to your family and they too believe in you.",
+  "reference_token_count": 61,
+  "replicate_index": 0,
+  "seed": 1429010261,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "moments",
+      "token_ids": [
+        13144
+      ],
+      "token_length": 1,
+      "token_text": " moments"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "tomorrow",
+      "token_ids": [
+        16922
+      ],
+      "token_length": 1,
+      "token_text": " tomorrow"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "changes",
+      "token_ids": [
+        3731
+      ],
+      "token_length": 1,
+      "token_text": " changes"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "effort",
+      "token_ids": [
+        4514
+      ],
+      "token_length": 1,
+      "token_text": " effort"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "defad5c0ddc5ffa45d4d32926fff7fd0d385a289b01b9a86be835f18c81eca54",
+  "source_split": "train",
+  "structural_cell_index": 109,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      13144
+    ],
+    [
+      16922
+    ],
+    [
+      3731
+    ],
+    [
+      4514
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    13144,
+    16922,
+    3731,
+    4514
+  ],
+  "tracked_token_texts": [
+    " moments",
+    " tomorrow",
+    " changes",
+    " effort"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    2085,
+    563,
+    951,
+    1595,
+    2101,
+    625,
+    236764,
+    611,
+    1492,
+    1281,
+    1217,
+    611,
+    10769,
+    531,
+    1418,
+    2523,
+    4374,
+    236764,
+    1418,
+    4389,
+    236764,
+    1418,
+    1589,
+    600,
+    815,
+    3785,
+    1010,
+    528,
+    822,
+    3155,
+    2338,
+    623,
+    818,
+    14376,
+    1781,
+    236743,
+    108,
+    6259,
+    1518,
+    529,
+    14111,
+    600,
+    611,
+    1149,
+    711,
+    2126,
+    577,
+    506,
+    1791,
+    15030,
+    236764,
+    840,
+    2036,
+    496,
+    1535,
+    886,
+    236764,
+    506,
+    9043,
+    563,
+    528,
+    496,
+    3582,
+    1548,
+    1447,
+    528,
+    3645,
+    529,
+    611,
+    236761,
+    997,
+    236828,
+    236825,
+    236832,
+    236810,
+    236800,
+    236770,
+    236771,
+    236761,
+    236743,
+    108,
+    4348,
+    1186,
+    563,
+    600,
+    496,
+    150063,
+    2708,
+    1548,
+    236764,
+    840,
+    992,
+    236743,
+    236770,
+    1548,
+    3426,
+    496,
+    10334,
+    27224,
+    236761,
+    1030,
+    236789,
+    236751,
+    496,
+    5410,
+    600,
+    611,
+    1456,
+    531,
+    1133,
+    236764,
+    532,
+    625,
+    236789,
+    236751,
+    1492,
+    1646,
+    25782,
+    684,
+    496,
+    8427,
+    3715,
+    25847,
+    30702,
+    236761,
+    1599,
+    1202,
+    531,
+    577,
+    506,
+    2480,
+    15030,
+    236761,
+    1599,
+    1281,
+    611,
+    740,
+    236789,
+    236745,
+    577,
+    506,
+    1791,
+    528,
+    506,
+    1902,
+    236764,
+    506,
+    7724,
+    563,
+    1447,
+    993,
+    236761,
+    2024,
+    236764,
+    611,
+    22662,
+    577,
+    506,
+    997,
+    236828,
+    236825,
+    236832,
+    236810,
+    236800,
+    236771,
+    236819,
+    594,
+    1791,
+    15030,
+    528,
+    506,
+    1902,
+    768,
+    611,
+    2056,
+    2651,
+    3487,
+    236888,
+    108,
+    3048,
+    2178,
+    822,
+    6214,
+    1679,
+    532,
+    2679,
+    1091,
+    1217,
+    611,
+    740,
+    1601,
+    1091,
+    236764,
+    1144,
+    735,
+    611,
+    3028,
+    6133,
+    236764,
+    1217,
+    735,
+    611,
+    16131,
+    1091,
+    236881,
+    2195,
+    1537,
+    236789,
+    236745,
+    735,
+    1027,
+    886,
+    3262,
+    4186,
+    607,
+    611,
+    236764,
+    711,
+    886,
+    2563,
+    108747,
+    36163,
+    236761,
+    2195,
+    1164,
+    1879,
+    600,
+    30702,
+    236764,
+    611,
+    236789,
+    500,
+    711,
+    506,
+    1791,
+    15030,
+    236761,
+    2195,
+    3442,
+    611,
+    901,
+    2765,
+    611,
+    236764,
+    532,
+    600,
+    4326,
+    563,
+    5851,
+    236764,
+    840,
+    625,
+    236789,
+    236751,
+    2126,
+    711,
+    236761,
+    236743,
+    108,
+    3243,
+    1724,
+    5226,
+    2668,
+    657,
+    981,
+    1031,
+    506,
+    4481,
+    3885,
+    236764,
+    784,
+    1724,
+    2782,
+    611,
+    964,
+    2311,
+    13181,
+    531,
+    1441,
+    4682,
+    236764,
+    506,
+    990,
+    611,
+    1176,
+    623,
+    236777,
+    236789,
+    236757,
+    20718,
+    236775,
+    5205,
+    529,
+    623,
+    236777,
+    236789,
+    236753,
+    2765,
+    2311,
+    236775,
+    1031,
+    506,
+    15315,
+    202463,
+    236764,
+    506,
+    74907,
+    76726,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 367,
+  "prompt_token_ids_sha256": "60e2999f683d53dc5f670c397b438a76d3330b5f23de94097f9b969e6e6fb47d",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. There is no way around it, you now know how you compare to every family member, every friend, every person that has ever been in your house since \"The Change.\" \n\nAfter years of knowing that you may not really be the best dad, but still a good one, the truth is in a clear number right in front of you. #8675310. \n\nNot only is that a horribly low number, but also 1 number below a familiar tune. It's a song that you used to like, and it's now being sung by a slightly higher ranked Dad. You need to be the better dad. You know you can't be the best in the world, the proof is right there. But, you CAN be the #8675309th best dad in the world if you try hard enough!\n\nYou sit your kids down and ask them how you can help them, what have you done wrong, how have you hurt them? They don't have any one major issue with you, not one big glaring flaw. They just say that Dad, you're not the best dad. They tell you they love you, and that everything is fine, but it's really not. \n\nAll those late days at work , the extra hours, all those times you were too busy to play catch, the time you said \"I'm tired\" instead of \"I'd love too\" , the missed picnics, the lame excuses.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 346,
+  "source_prompt_token_ids_sha256": "d421d350d83473720e7faaf33a919d58b57ba64da0d070c444fb29bb240c5abc",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. There is no way around it, you now know how you compare to every family member, every friend, every person that has ever been in your house since \"The Change.\" \n\nAfter years of knowing that you may not really be the best dad, but still a good one, the truth is in a clear number right in front of you. #8675310. \n\nNot only is that a horribly low number, but also 1 number below a familiar tune. It's a song that you used to like, and it's now being sung by a slightly higher ranked Dad. You need to be the better dad. You know you can't be the best in the world, the proof is right there. But, you CAN be the #8675309th best dad in the world if you try hard enough!\n\nYou sit your kids down and ask them how you can help them, what have you done wrong, how have you hurt them? They don't have any one major issue with you, not one big glaring flaw. They just say that Dad, you're not the best dad. They tell you they love you, and that everything is fine, but it's really not. \n\nAll those late days at work , the extra hours, all those times you were too busy to play catch, the time you said \"I'm tired\" instead of \"I'd love too\" , the missed picnics, the lame excuses.",
+  "task_prompt_text_utf8_sha256": "e505ed662a258602b3fb6210691cd327b2c19cfac489e236d6ce2c77f954fd93",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      13144
+    ],
+    "piece_001": [
+      16922
+    ],
+    "piece_002": [
+      3731
+    ],
+    "piece_003": [
+      4514
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 13144,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 16,
+  "unrolled_states": 925,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 16,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          5,
+          13
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          1
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          4
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          6
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          4
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          6
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          4
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          6
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          13144
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          16922
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          3731
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          4514
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      2085,
+      563,
+      951,
+      1595,
+      2101,
+      625,
+      236764,
+      611,
+      1492,
+      1281,
+      1217,
+      611,
+      10769,
+      531,
+      1418,
+      2523,
+      4374,
+      236764,
+      1418,
+      4389,
+      236764,
+      1418,
+      1589,
+      600,
+      815,
+      3785,
+      1010,
+      528,
+      822,
+      3155,
+      2338,
+      623,
+      818,
+      14376,
+      1781,
+      236743,
+      108,
+      6259,
+      1518,
+      529,
+      14111,
+      600,
+      611,
+      1149,
+      711,
+      2126,
+      577,
+      506,
+      1791,
+      15030,
+      236764,
+      840,
+      2036,
+      496,
+      1535,
+      886,
+      236764,
+      506,
+      9043,
+      563,
+      528,
+      496,
+      3582,
+      1548,
+      1447,
+      528,
+      3645,
+      529,
+      611,
+      236761,
+      997,
+      236828,
+      236825,
+      236832,
+      236810,
+      236800,
+      236770,
+      236771,
+      236761,
+      236743,
+      108,
+      4348,
+      1186,
+      563,
+      600,
+      496,
+      150063,
+      2708,
+      1548,
+      236764,
+      840,
+      992,
+      236743,
+      236770,
+      1548,
+      3426,
+      496,
+      10334,
+      27224,
+      236761,
+      1030,
+      236789,
+      236751,
+      496,
+      5410,
+      600,
+      611,
+      1456,
+      531,
+      1133,
+      236764,
+      532,
+      625,
+      236789,
+      236751,
+      1492,
+      1646,
+      25782,
+      684,
+      496,
+      8427,
+      3715,
+      25847,
+      30702,
+      236761,
+      1599,
+      1202,
+      531,
+      577,
+      506,
+      2480,
+      15030,
+      236761,
+      1599,
+      1281,
+      611,
+      740,
+      236789,
+      236745,
+      577,
+      506,
+      1791,
+      528,
+      506,
+      1902,
+      236764,
+      506,
+      7724,
+      563,
+      1447,
+      993,
+      236761,
+      2024,
+      236764,
+      611,
+      22662,
+      577,
+      506,
+      997,
+      236828,
+      236825,
+      236832,
+      236810,
+      236800,
+      236771,
+      236819,
+      594,
+      1791,
+      15030,
+      528,
+      506,
+      1902,
+      768,
+      611,
+      2056,
+      2651,
+      3487,
+      236888,
+      108,
+      3048,
+      2178,
+      822,
+      6214,
+      1679,
+      532,
+      2679,
+      1091,
+      1217,
+      611,
+      740,
+      1601,
+      1091,
+      236764,
+      1144,
+      735,
+      611,
+      3028,
+      6133,
+      236764,
+      1217,
+      735,
+      611,
+      16131,
+      1091,
+      236881,
+      2195,
+      1537,
+      236789,
+      236745,
+      735,
+      1027,
+      886,
+      3262,
+      4186,
+      607,
+      611,
+      236764,
+      711,
+      886,
+      2563,
+      108747,
+      36163,
+      236761,
+      2195,
+      1164,
+      1879,
+      600,
+      30702,
+      236764,
+      611,
+      236789,
+      500,
+      711,
+      506,
+      1791,
+      15030,
+      236761,
+      2195,
+      3442,
+      611,
+      901,
+      2765,
+      611,
+      236764,
+      532,
+      600,
+      4326,
+      563,
+      5851,
+      236764,
+      840,
+      625,
+      236789,
+      236751,
+      2126,
+      711,
+      236761,
+      236743,
+      108,
+      3243,
+      1724,
+      5226,
+      2668,
+      657,
+      981,
+      1031,
+      506,
+      4481,
+      3885,
+      236764,
+      784,
+      1724,
+      2782,
+      611,
+      964,
+      2311,
+      13181,
+      531,
+      1441,
+      4682,
+      236764,
+      506,
+      990,
+      611,
+      1176,
+      623,
+      236777,
+      236789,
+      236757,
+      20718,
+      236775,
+      5205,
+      529,
+      623,
+      236777,
+      236789,
+      236753,
+      2765,
+      2311,
+      236775,
+      1031,
+      506,
+      15315,
+      202463,
+      236764,
+      506,
+      74907,
+      76726,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "both_sides",
+      "label": "both sides",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('moments', 'tomorrow', 'changes', 'effort') must occur on both sides."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "109_coauthor_both_sides_kna_t4",
+      "design_index": 109,
+      "structural_cell_index": 109,
+      "replicate_index": 0,
+      "seed": 1429010261,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "5c56d0402b99fa0332c452acb88cba6722179ab7e3571ae3c5c80ffb42b5037b"
+  }
+}

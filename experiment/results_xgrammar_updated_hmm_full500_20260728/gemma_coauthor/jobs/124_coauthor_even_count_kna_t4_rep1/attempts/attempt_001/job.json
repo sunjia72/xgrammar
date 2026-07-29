@@ -1,0 +1,1172 @@
+{
+  "base_instance_id": "coauthor:creative:ee760edb666e4f46aedee408975a9c9d",
+  "constraint": "even_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 274,
+  "family_index": 3,
+  "job_id": "124_coauthor_even_count_kna_t4_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. \n\nCaleb and his son were drinking coffee and milk when his \"#1 Dad\" mug changed to show his actual dad ranking. It showed that his rank was pitiful. It was so pitiful, in fact, that he was rated in the bottom billion of dads. His son asked him if that was accurate.\n\n\"No, of course not!\" Caleb said with a shaky voice. He did his best not to spit his coffee out after seeing the trail of zeros following a six. He wished that his son did not notice. \"I'm just going to set that on a different shelf.\"",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": " He choked.\n\n\"Dad, don't move it!\" His son grabbed at it. Caleb was terrified that his son would see his real ranking and feel that his dad was a failure. \n\n\"Listen, son, I may not be a great dad. But, I'm not the worst.\" He said.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 413999019,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "choked",
+      "token_ids": [
+        143014
+      ],
+      "token_length": 1,
+      "token_text": " choked"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "terrified",
+      "token_ids": [
+        80003
+      ],
+      "token_length": 1,
+      "token_text": " terrified"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "failure",
+      "token_ids": [
+        8800
+      ],
+      "token_length": 1,
+      "token_text": " failure"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "grabbed",
+      "token_ids": [
+        43409
+      ],
+      "token_length": 1,
+      "token_text": " grabbed"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "0a283cf7c75518d4c64f58866a286415f956a6c779ddd4ad50156ef279cb0023",
+  "source_split": "train",
+  "structural_cell_index": 124,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      143014
+    ],
+    [
+      80003
+    ],
+    [
+      8800
+    ],
+    [
+      43409
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    143014,
+    80003,
+    8800,
+    43409
+  ],
+  "tracked_token_texts": [
+    " choked",
+    " terrified",
+    " failure",
+    " grabbed"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    236743,
+    108,
+    236780,
+    71073,
+    532,
+    914,
+    2369,
+    964,
+    15403,
+    7681,
+    532,
+    9556,
+    1056,
+    914,
+    13659,
+    236770,
+    30702,
+    236775,
+    24199,
+    6692,
+    531,
+    1407,
+    914,
+    5396,
+    15030,
+    27672,
+    236761,
+    1030,
+    6418,
+    600,
+    914,
+    8345,
+    691,
+    179759,
+    236761,
+    1030,
+    691,
+    834,
+    179759,
+    236764,
+    528,
+    1707,
+    236764,
+    600,
+    668,
+    691,
+    25118,
+    528,
+    506,
+    5944,
+    7889,
+    529,
+    140698,
+    236761,
+    4923,
+    2369,
+    4733,
+    1515,
+    768,
+    600,
+    691,
+    11459,
+    236761,
+    108,
+    236775,
+    3771,
+    236764,
+    529,
+    3003,
+    711,
+    9332,
+    99327,
+    1176,
+    607,
+    496,
+    129918,
+    8300,
+    236761,
+    1293,
+    1602,
+    914,
+    1791,
+    711,
+    531,
+    75789,
+    914,
+    7681,
+    855,
+    1308,
+    9333,
+    506,
+    13234,
+    529,
+    36509,
+    2269,
+    496,
+    3962,
+    236761,
+    1293,
+    34354,
+    600,
+    914,
+    2369,
+    1602,
+    711,
+    6303,
+    236761,
+    623,
+    236777,
+    236789,
+    236757,
+    1164,
+    1771,
+    531,
+    1076,
+    600,
+    580,
+    496,
+    1607,
+    27319,
+    1781,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 179,
+  "prompt_token_ids_sha256": "7075fd12223b3c7b067ca62cd3ad83471369dc8a6414929c722785ae8d3310ed",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. \n\nCaleb and his son were drinking coffee and milk when his \"#1 Dad\" mug changed to show his actual dad ranking. It showed that his rank was pitiful. It was so pitiful, in fact, that he was rated in the bottom billion of dads. His son asked him if that was accurate.\n\n\"No, of course not!\" Caleb said with a shaky voice. He did his best not to spit his coffee out after seeing the trail of zeros following a six. He wished that his son did not notice. \"I'm just going to set that on a different shelf.\"",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 158,
+  "source_prompt_token_ids_sha256": "44c1e3ea6477962e58235f236fa194a1bc4cb8486f6265f483b872feae5faa29",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. \n\nCaleb and his son were drinking coffee and milk when his \"#1 Dad\" mug changed to show his actual dad ranking. It showed that his rank was pitiful. It was so pitiful, in fact, that he was rated in the bottom billion of dads. His son asked him if that was accurate.\n\n\"No, of course not!\" Caleb said with a shaky voice. He did his best not to spit his coffee out after seeing the trail of zeros following a six. He wished that his son did not notice. \"I'm just going to set that on a different shelf.\"",
+  "task_prompt_text_utf8_sha256": "992c904b7a2a75e4ee1c9501e947b68faa8637f622d0321b23541a9ef1beec26",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      143014
+    ],
+    "piece_001": [
+      80003
+    ],
+    "piece_002": [
+      8800
+    ],
+    "piece_003": [
+      43409
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 143014,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 14,
+  "unrolled_states": 877,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 14,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          5
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          11
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          6
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          9
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          1
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          12
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          13,
+          6,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          143014
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          80003
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          8800
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          43409
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      236743,
+      108,
+      236780,
+      71073,
+      532,
+      914,
+      2369,
+      964,
+      15403,
+      7681,
+      532,
+      9556,
+      1056,
+      914,
+      13659,
+      236770,
+      30702,
+      236775,
+      24199,
+      6692,
+      531,
+      1407,
+      914,
+      5396,
+      15030,
+      27672,
+      236761,
+      1030,
+      6418,
+      600,
+      914,
+      8345,
+      691,
+      179759,
+      236761,
+      1030,
+      691,
+      834,
+      179759,
+      236764,
+      528,
+      1707,
+      236764,
+      600,
+      668,
+      691,
+      25118,
+      528,
+      506,
+      5944,
+      7889,
+      529,
+      140698,
+      236761,
+      4923,
+      2369,
+      4733,
+      1515,
+      768,
+      600,
+      691,
+      11459,
+      236761,
+      108,
+      236775,
+      3771,
+      236764,
+      529,
+      3003,
+      711,
+      9332,
+      99327,
+      1176,
+      607,
+      496,
+      129918,
+      8300,
+      236761,
+      1293,
+      1602,
+      914,
+      1791,
+      711,
+      531,
+      75789,
+      914,
+      7681,
+      855,
+      1308,
+      9333,
+      506,
+      13234,
+      529,
+      36509,
+      2269,
+      496,
+      3962,
+      236761,
+      1293,
+      34354,
+      600,
+      914,
+      2369,
+      1602,
+      711,
+      6303,
+      236761,
+      623,
+      236777,
+      236789,
+      236757,
+      1164,
+      1771,
+      531,
+      1076,
+      600,
+      580,
+      496,
+      1607,
+      27319,
+      1781,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "even_count",
+      "label": "positive even count",
+      "rule": "At least one tracked phrase ('choked', 'terrified', 'failure', 'grabbed') must have a positive even number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "124_coauthor_even_count_kna_t4_rep1",
+      "design_index": 274,
+      "structural_cell_index": 124,
+      "replicate_index": 1,
+      "seed": 413999019,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "5aeb3eda58e0b11d5f5cd10dd31740334d5e5b47f6d1900c4b625b8f2b7e2386"
+  }
+}

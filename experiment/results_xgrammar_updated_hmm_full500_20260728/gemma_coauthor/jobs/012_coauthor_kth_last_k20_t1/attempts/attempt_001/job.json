@@ -1,0 +1,885 @@
+{
+  "base_instance_id": "coauthor:creative:f02fab15925149cf9daa0f299d54f587",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 12,
+  "family_index": 12,
+  "job_id": "012_coauthor_kth_last_k20_t1",
+  "k": 20,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 21,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\" You look down and see a bee in a suit and tie. \n\n\"Little bee, please don't sting me,\" I said. \"I'm allergic and I will swell like a balloon if you do.\" \n\n\"I'm not going to sting you, Your Majesty,\" the bee said. \"Well then tell me, what do you want?\", I asked the bee.",
+  "reference_single_token_nfa_states": 22,
+  "reference_text": " \n\n\"I'm here to help you with your duties as a queen,\" the bee said. So as it turned out, this bee and all of his friends had decided to make me their queen. They said I was the only one who could save them from the evil queen who was trying to take over the hive.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 1997180275,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "duties",
+      "token_ids": [
+        15514
+      ],
+      "token_length": 1,
+      "token_text": " duties"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "f8b9fc06a925b44ea490de4d88ec61fd5b74e38d924d8c38a7b8e3b798ca2f90",
+  "source_split": "train",
+  "structural_cell_index": 12,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      15514
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    15514
+  ],
+  "tracked_token_texts": [
+    " duties"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    11069,
+    4251,
+    1972,
+    236764,
+    611,
+    236789,
+    560,
+    1010,
+    4173,
+    611,
+    236789,
+    500,
+    4355,
+    586,
+    62807,
+    531,
+    43618,
+    236761,
+    1599,
+    236789,
+    560,
+    2462,
+    1053,
+    1331,
+    24284,
+    611,
+    699,
+    1091,
+    236764,
+    577,
+    625,
+    822,
+    5946,
+    653,
+    496,
+    26902,
+    1526,
+    236761,
+    10950,
+    236764,
+    886,
+    75634,
+    1343,
+    532,
+    16612,
+    580,
+    822,
+    17198,
+    236761,
+    1599,
+    6899,
+    496,
+    16383,
+    8300,
+    1879,
+    623,
+    11069,
+    42368,
+    236764,
+    1144,
+    659,
+    822,
+    10400,
+    7462,
+    1599,
+    1385,
+    1679,
+    532,
+    1460,
+    496,
+    32737,
+    528,
+    496,
+    8816,
+    532,
+    14806,
+    236761,
+    236743,
+    108,
+    236775,
+    30413,
+    32737,
+    236764,
+    5091,
+    1537,
+    236789,
+    236745,
+    72313,
+    786,
+    2098,
+    564,
+    1176,
+    236761,
+    623,
+    236777,
+    236789,
+    236757,
+    62807,
+    532,
+    564,
+    795,
+    80436,
+    1133,
+    496,
+    21812,
+    768,
+    611,
+    776,
+    1781,
+    236743,
+    108,
+    236775,
+    236777,
+    236789,
+    236757,
+    711,
+    1771,
+    531,
+    72313,
+    611,
+    236764,
+    5180,
+    42368,
+    2098,
+    506,
+    32737,
+    1176,
+    236761,
+    623,
+    13086,
+    1299,
+    3442,
+    786,
+    236764,
+    1144,
+    776,
+    611,
+    1461,
+    32109,
+    564,
+    4733,
+    506,
+    32737,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 180,
+  "prompt_token_ids_sha256": "c9c3baadeaf9b6c74267e7141edfde8b7d15ed729e34b95bceb99a61e99e3b73",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\" You look down and see a bee in a suit and tie. \n\n\"Little bee, please don't sting me,\" I said. \"I'm allergic and I will swell like a balloon if you do.\" \n\n\"I'm not going to sting you, Your Majesty,\" the bee said. \"Well then tell me, what do you want?\", I asked the bee.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 159,
+  "source_prompt_token_ids_sha256": "93da74c13de6d5139c520c35f97964863ce11b5a53b3048778b7f2f6cd5e50b0",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\" You look down and see a bee in a suit and tie. \n\n\"Little bee, please don't sting me,\" I said. \"I'm allergic and I will swell like a balloon if you do.\" \n\n\"I'm not going to sting you, Your Majesty,\" the bee said. \"Well then tell me, what do you want?\", I asked the bee.",
+  "task_prompt_text_utf8_sha256": "06a46844040fe4211bee928ac25fe67b437ef7c24ff8dc8282e3383cb721a1c2",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      15514
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 15514,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 22,
+  "unrolled_states": 1033,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 22,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          15514
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      11069,
+      4251,
+      1972,
+      236764,
+      611,
+      236789,
+      560,
+      1010,
+      4173,
+      611,
+      236789,
+      500,
+      4355,
+      586,
+      62807,
+      531,
+      43618,
+      236761,
+      1599,
+      236789,
+      560,
+      2462,
+      1053,
+      1331,
+      24284,
+      611,
+      699,
+      1091,
+      236764,
+      577,
+      625,
+      822,
+      5946,
+      653,
+      496,
+      26902,
+      1526,
+      236761,
+      10950,
+      236764,
+      886,
+      75634,
+      1343,
+      532,
+      16612,
+      580,
+      822,
+      17198,
+      236761,
+      1599,
+      6899,
+      496,
+      16383,
+      8300,
+      1879,
+      623,
+      11069,
+      42368,
+      236764,
+      1144,
+      659,
+      822,
+      10400,
+      7462,
+      1599,
+      1385,
+      1679,
+      532,
+      1460,
+      496,
+      32737,
+      528,
+      496,
+      8816,
+      532,
+      14806,
+      236761,
+      236743,
+      108,
+      236775,
+      30413,
+      32737,
+      236764,
+      5091,
+      1537,
+      236789,
+      236745,
+      72313,
+      786,
+      2098,
+      564,
+      1176,
+      236761,
+      623,
+      236777,
+      236789,
+      236757,
+      62807,
+      532,
+      564,
+      795,
+      80436,
+      1133,
+      496,
+      21812,
+      768,
+      611,
+      776,
+      1781,
+      236743,
+      108,
+      236775,
+      236777,
+      236789,
+      236757,
+      711,
+      1771,
+      531,
+      72313,
+      611,
+      236764,
+      5180,
+      42368,
+      2098,
+      506,
+      32737,
+      1176,
+      236761,
+      623,
+      13086,
+      1299,
+      3442,
+      786,
+      236764,
+      1144,
+      776,
+      611,
+      1461,
+      32109,
+      564,
+      4733,
+      506,
+      32737,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('duties') must end at the 20-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "012_coauthor_kth_last_k20_t1",
+      "design_index": 12,
+      "structural_cell_index": 12,
+      "replicate_index": 0,
+      "seed": 1997180275,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "f327a2add9ab1ce9a10061e44c531f11cc10ff95c7012c8422e40a272bd97b54"
+  }
+}

@@ -1,0 +1,1509 @@
+{
+  "base_instance_id": "coauthor:creative:7e7ec06df61a456c8574f64dd26389a5",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 441,
+  "family_index": 4,
+  "job_id": "141_coauthor_odd_count_kna_t5_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. \n\nThe \"Best Dad\" mug changes to \"Worst Dad\". This is very weird and none of the fathers have any idea what is going on. How is writing on a mug changing spontaneously. Why is every dad being affected?\n\nThe dads are all very confused and upset. It's insulting to have to look at a Worst Dad mug. They all want to know what is going on. They set up a meeting in town and nobody really knows what to say. They don't have any information on what actually happened. \n\nThe dads are all very upset and angry. They all go home and turn on the TV. When the TV is turned on there is a message from an alien. He explains that they were doing a science experiment on his home planet. Just switching out one simple word caused all of the dads in town's personalities to change. All over a stupid little mug that they could have thrown in the garbage.\n\nThe dads went from being the upbeat, happy and helpful men to being angry and furious all over the word worst. The alien explains to them that they need to not let words have that kind of power. The entire point of the science project was to teach the humans a lesson.",
+  "reference_single_token_nfa_states": 22,
+  "reference_text": " \n\nThe lesson being that overreacting to something small can have bad consequences. The alien tells the dads to think about their wives and children. Did the dads even care about their feelings over this entire ordeal? Of course not. And those people should be the priority in a Dad's life. Not a mug.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 193159375,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "ordeal",
+      "token_ids": [
+        109016
+      ],
+      "token_length": 1,
+      "token_text": " ordeal"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "priority",
+      "token_ids": [
+        13546
+      ],
+      "token_length": 1,
+      "token_text": " priority"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "feelings",
+      "token_ids": [
+        15571
+      ],
+      "token_length": 1,
+      "token_text": " feelings"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "consequences",
+      "token_ids": [
+        15169
+      ],
+      "token_length": 1,
+      "token_text": " consequences"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "wives",
+      "token_ids": [
+        51582
+      ],
+      "token_length": 1,
+      "token_text": " wives"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "00b4fb0fdd2313f0787849b64c173b6d9476455b735e163c44913259a74d6f45",
+  "source_split": "train",
+  "structural_cell_index": 141,
+  "t": 5,
+  "total_tracked_keyword_tokens": 5,
+  "tracked_keyword_token_ids": [
+    [
+      109016
+    ],
+    [
+      13546
+    ],
+    [
+      15571
+    ],
+    [
+      15169
+    ],
+    [
+      51582
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    109016,
+    13546,
+    15571,
+    15169,
+    51582
+  ],
+  "tracked_token_texts": [
+    " ordeal",
+    " priority",
+    " feelings",
+    " consequences",
+    " wives"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    236743,
+    108,
+    818,
+    623,
+    17043,
+    30702,
+    236775,
+    24199,
+    3731,
+    531,
+    623,
+    199581,
+    30702,
+    3056,
+    1174,
+    563,
+    1401,
+    20973,
+    532,
+    7293,
+    529,
+    506,
+    49267,
+    735,
+    1027,
+    4317,
+    1144,
+    563,
+    1771,
+    580,
+    236761,
+    2088,
+    563,
+    5712,
+    580,
+    496,
+    24199,
+    9199,
+    74205,
+    236761,
+    8922,
+    563,
+    1418,
+    15030,
+    1646,
+    9034,
+    236881,
+    108,
+    818,
+    140698,
+    659,
+    784,
+    1401,
+    23894,
+    532,
+    25269,
+    236761,
+    1030,
+    236789,
+    236751,
+    118179,
+    531,
+    735,
+    531,
+    1385,
+    657,
+    496,
+    121354,
+    30702,
+    24199,
+    236761,
+    2195,
+    784,
+    1461,
+    531,
+    1281,
+    1144,
+    563,
+    1771,
+    580,
+    236761,
+    2195,
+    1076,
+    872,
+    496,
+    5395,
+    528,
+    5148,
+    532,
+    24063,
+    2126,
+    10077,
+    1144,
+    531,
+    1879,
+    236761,
+    2195,
+    1537,
+    236789,
+    236745,
+    735,
+    1027,
+    1938,
+    580,
+    1144,
+    3643,
+    8432,
+    236761,
+    236743,
+    108,
+    818,
+    140698,
+    659,
+    784,
+    1401,
+    25269,
+    532,
+    23186,
+    236761,
+    2195,
+    784,
+    817,
+    2033,
+    532,
+    2490,
+    580,
+    506,
+    6115,
+    236761,
+    3026,
+    506,
+    6115,
+    563,
+    6812,
+    580,
+    993,
+    563,
+    496,
+    3618,
+    699,
+    614,
+    24622,
+    236761,
+    1293,
+    15948,
+    600,
+    901,
+    964,
+    3490,
+    496,
+    6647,
+    5274,
+    580,
+    914,
+    2033,
+    13401,
+    236761,
+    5393,
+    26182,
+    855,
+    886,
+    3606,
+    3658,
+    7321,
+    784,
+    529,
+    506,
+    140698,
+    528,
+    5148,
+    236789,
+    236751,
+    49922,
+    531,
+    2352,
+    236761,
+    2343,
+    1024,
+    496,
+    29123,
+    2268,
+    24199,
+    600,
+    901,
+    1451,
+    735,
+    20710,
+    528,
+    506,
+    36754,
+    236761,
+    108,
+    818,
+    140698,
+    3939,
+    699,
+    1646,
+    506,
+    111837,
+    236764,
+    5293,
+    532,
+    11045,
+    1758,
+    531,
+    1646,
+    23186,
+    532,
+    69590,
+    784,
+    1024,
+    506,
+    3658,
+    14588,
+    236761,
+    669,
+    24622,
+    15948,
+    531,
+    1091,
+    600,
+    901,
+    1202,
+    531,
+    711,
+    1531,
+    4171,
+    735,
+    600,
+    2712,
+    529,
+    2066,
+    236761,
+    669,
+    4251,
+    1523,
+    529,
+    506,
+    6647,
+    2203,
+    691,
+    531,
+    3786,
+    506,
+    14464,
+    496,
+    16183,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 306,
+  "prompt_token_ids_sha256": "2a3fded460ca9d9c7d43602e2cbf57ab9bdcec97b90ff295f790b2426ce74e48",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. \n\nThe \"Best Dad\" mug changes to \"Worst Dad\". This is very weird and none of the fathers have any idea what is going on. How is writing on a mug changing spontaneously. Why is every dad being affected?\n\nThe dads are all very confused and upset. It's insulting to have to look at a Worst Dad mug. They all want to know what is going on. They set up a meeting in town and nobody really knows what to say. They don't have any information on what actually happened. \n\nThe dads are all very upset and angry. They all go home and turn on the TV. When the TV is turned on there is a message from an alien. He explains that they were doing a science experiment on his home planet. Just switching out one simple word caused all of the dads in town's personalities to change. All over a stupid little mug that they could have thrown in the garbage.\n\nThe dads went from being the upbeat, happy and helpful men to being angry and furious all over the word worst. The alien explains to them that they need to not let words have that kind of power. The entire point of the science project was to teach the humans a lesson.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 285,
+  "source_prompt_token_ids_sha256": "58e500a8669b448974166f632975d9770dccca431d86005bdb6c86975c3ef301",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. \n\nThe \"Best Dad\" mug changes to \"Worst Dad\". This is very weird and none of the fathers have any idea what is going on. How is writing on a mug changing spontaneously. Why is every dad being affected?\n\nThe dads are all very confused and upset. It's insulting to have to look at a Worst Dad mug. They all want to know what is going on. They set up a meeting in town and nobody really knows what to say. They don't have any information on what actually happened. \n\nThe dads are all very upset and angry. They all go home and turn on the TV. When the TV is turned on there is a message from an alien. He explains that they were doing a science experiment on his home planet. Just switching out one simple word caused all of the dads in town's personalities to change. All over a stupid little mug that they could have thrown in the garbage.\n\nThe dads went from being the upbeat, happy and helpful men to being angry and furious all over the word worst. The alien explains to them that they need to not let words have that kind of power. The entire point of the science project was to teach the humans a lesson.",
+  "task_prompt_text_utf8_sha256": "fc7b195bb95b48724fca6c89e959773ac0297a253a6c1257ad01a841c9194fe9",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      109016
+    ],
+    "piece_001": [
+      13546
+    ],
+    "piece_002": [
+      15571
+    ],
+    "piece_003": [
+      15169
+    ],
+    "piece_004": [
+      51582
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 109016,
+  "distinct_tracked_piece_tokens": 5,
+  "nfa_states": 12,
+  "unrolled_states": 762,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 12,
+      "alphabet_size": 8,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          8
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          10
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          109016
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          13546
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          15571
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          15169
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          51582
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 5,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 6,
+    "stop_symbol_id": 7,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      236743,
+      108,
+      818,
+      623,
+      17043,
+      30702,
+      236775,
+      24199,
+      3731,
+      531,
+      623,
+      199581,
+      30702,
+      3056,
+      1174,
+      563,
+      1401,
+      20973,
+      532,
+      7293,
+      529,
+      506,
+      49267,
+      735,
+      1027,
+      4317,
+      1144,
+      563,
+      1771,
+      580,
+      236761,
+      2088,
+      563,
+      5712,
+      580,
+      496,
+      24199,
+      9199,
+      74205,
+      236761,
+      8922,
+      563,
+      1418,
+      15030,
+      1646,
+      9034,
+      236881,
+      108,
+      818,
+      140698,
+      659,
+      784,
+      1401,
+      23894,
+      532,
+      25269,
+      236761,
+      1030,
+      236789,
+      236751,
+      118179,
+      531,
+      735,
+      531,
+      1385,
+      657,
+      496,
+      121354,
+      30702,
+      24199,
+      236761,
+      2195,
+      784,
+      1461,
+      531,
+      1281,
+      1144,
+      563,
+      1771,
+      580,
+      236761,
+      2195,
+      1076,
+      872,
+      496,
+      5395,
+      528,
+      5148,
+      532,
+      24063,
+      2126,
+      10077,
+      1144,
+      531,
+      1879,
+      236761,
+      2195,
+      1537,
+      236789,
+      236745,
+      735,
+      1027,
+      1938,
+      580,
+      1144,
+      3643,
+      8432,
+      236761,
+      236743,
+      108,
+      818,
+      140698,
+      659,
+      784,
+      1401,
+      25269,
+      532,
+      23186,
+      236761,
+      2195,
+      784,
+      817,
+      2033,
+      532,
+      2490,
+      580,
+      506,
+      6115,
+      236761,
+      3026,
+      506,
+      6115,
+      563,
+      6812,
+      580,
+      993,
+      563,
+      496,
+      3618,
+      699,
+      614,
+      24622,
+      236761,
+      1293,
+      15948,
+      600,
+      901,
+      964,
+      3490,
+      496,
+      6647,
+      5274,
+      580,
+      914,
+      2033,
+      13401,
+      236761,
+      5393,
+      26182,
+      855,
+      886,
+      3606,
+      3658,
+      7321,
+      784,
+      529,
+      506,
+      140698,
+      528,
+      5148,
+      236789,
+      236751,
+      49922,
+      531,
+      2352,
+      236761,
+      2343,
+      1024,
+      496,
+      29123,
+      2268,
+      24199,
+      600,
+      901,
+      1451,
+      735,
+      20710,
+      528,
+      506,
+      36754,
+      236761,
+      108,
+      818,
+      140698,
+      3939,
+      699,
+      1646,
+      506,
+      111837,
+      236764,
+      5293,
+      532,
+      11045,
+      1758,
+      531,
+      1646,
+      23186,
+      532,
+      69590,
+      784,
+      1024,
+      506,
+      3658,
+      14588,
+      236761,
+      669,
+      24622,
+      15948,
+      531,
+      1091,
+      600,
+      901,
+      1202,
+      531,
+      711,
+      1531,
+      4171,
+      735,
+      600,
+      2712,
+      529,
+      2066,
+      236761,
+      669,
+      4251,
+      1523,
+      529,
+      506,
+      6647,
+      2203,
+      691,
+      531,
+      3786,
+      506,
+      14464,
+      496,
+      16183,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('ordeal', 'priority', 'feelings', 'consequences', 'wives') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "141_coauthor_odd_count_kna_t5_rep2",
+      "design_index": 441,
+      "structural_cell_index": 141,
+      "replicate_index": 2,
+      "seed": 193159375,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "4167f16767ecb71685a43e99a5a5d6fa11912aaf788f374732cfc5e9fcaebe96"
+  }
+}

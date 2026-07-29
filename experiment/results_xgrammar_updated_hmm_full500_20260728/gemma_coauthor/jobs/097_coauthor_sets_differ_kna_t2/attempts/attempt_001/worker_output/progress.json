@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "job_id": "097_coauthor_sets_differ_kna_t2",
+  "design_index": 97,
+  "family_index": 1,
+  "constraint": "sets_differ",
+  "k": null,
+  "t": 2,
+  "n_low": 2,
+  "n": 65,
+  "nfa_states": 12,
+  "unrolled_states": 690,
+  "seed": 315805698,
+  "dataset": "coauthor",
+  "structural_cell_index": 97,
+  "replicate_index": 0,
+  "base_instance_id": "coauthor:creative:8024bf1914664591abe824dd583d2d2a",
+  "multi_token_keyword_count": 0,
+  "compiled_constraint_sha256": "aea785ef881e2f1c0bc7ef50dcc1e1cbb17631ff844c30028e9e30d7c1703a0c",
+  "job_sha256": "6585bf91f18d58b5301dcd84162cdc11104d9be771cc968e5ebb3c3b53ef43a4",
+  "phase": "model_loaded",
+  "metrics": {
+    "grammar_build_runtime_s": 0.44750394695438445,
+    "compile_runtime_s": 0.2289538379991427,
+    "xgrammar_precompute_runtime_s": 0.6764577849535272,
+    "setup_runtime_s": 0.6764577849535272,
+    "grammar_rule_count": 571,
+    "grammar_edge_count": 2305,
+    "grammar_bytes": 38161,
+    "compiled_grammar_memory_bytes": 32621615,
+    "model_vocab_size": 262144,
+    "initial_mask_audit": {
+      "ok": true,
+      "allowed_count": 262120,
+      "expected_count": 262120,
+      "missing_expected": [],
+      "unexpected_allowed": [],
+      "stop_token_ids": [
+        1,
+        50,
+        106
+      ]
+    },
+    "model_load_runtime_s": 3.60503396904096
+  }
+}

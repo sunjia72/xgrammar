@@ -1,0 +1,974 @@
+{
+  "base_instance_id": "coauthor:creative:1187a14aa85d4c568e31d968b2aeadbd",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 32,
+  "family_index": 2,
+  "job_id": "032_coauthor_repeat_after_k_k3_t3",
+  "k": 3,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 5,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. The alien has held him hostage in the woods outside of his spaceship. The alien is unaware that Matt Damon is a famous actor and that his kidnapping is a huge deal. He wants to keep him so his species can learn more about humans. \n\nThe alien has a lot of questions for Matt Damon. He asked Matt Damon about what things he ate and what he did during the day as a human. The alien is fascinated by the fact that Matt Damon is a human and that he is so different from him.\nMeanwhile, the people now know that Mr. Damon is missing and a report of it has even been seen on the news. The people are very worried about him and they are trying to find him. After about a week, the alien sees this on his spaceship's tv transmitter. He knows the humans will eventually come for him.",
+  "reference_single_token_nfa_states": 12,
+  "reference_text": " He decides to let Matt Damon go.\nMatt Damon went home and told all the people, even the news reporters, the story about the alien. He told them how the alien had kidnapped him and how he was very nice to him. All the alien really wanted to do is learn about humans and their culture.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 118994828,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "reporters",
+      "token_ids": [
+        32108
+      ],
+      "token_length": 1,
+      "token_text": " reporters"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "culture",
+      "token_ids": [
+        6540
+      ],
+      "token_length": 1,
+      "token_text": " culture"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.51906749,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "decides",
+      "token_ids": [
+        35141
+      ],
+      "token_length": 1,
+      "token_text": " decides"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "14d0d5f68027036ac6117c50d6a7d95987a294e9a28469fb495de29e52c7cc65",
+  "source_split": "train",
+  "structural_cell_index": 32,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      32108
+    ],
+    [
+      6540
+    ],
+    [
+      35141
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    32108,
+    6540,
+    35141
+  ],
+  "tracked_token_texts": [
+    " reporters",
+    " culture",
+    " decides"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    2267,
+    24622,
+    815,
+    94489,
+    18554,
+    111326,
+    236764,
+    711,
+    14111,
+    1144,
+    25565,
+    27069,
+    5899,
+    1343,
+    531,
+    33205,
+    1515,
+    15501,
+    668,
+    5899,
+    9724,
+    236761,
+    669,
+    24622,
+    815,
+    4247,
+    1515,
+    103925,
+    528,
+    506,
+    28905,
+    4782,
+    529,
+    914,
+    100044,
+    236761,
+    669,
+    24622,
+    563,
+    56164,
+    600,
+    18554,
+    111326,
+    563,
+    496,
+    9639,
+    13387,
+    532,
+    600,
+    914,
+    100371,
+    563,
+    496,
+    7186,
+    3772,
+    236761,
+    1293,
+    8150,
+    531,
+    2514,
+    1515,
+    834,
+    914,
+    5557,
+    740,
+    3449,
+    919,
+    1003,
+    14464,
+    236761,
+    236743,
+    108,
+    818,
+    24622,
+    815,
+    496,
+    2606,
+    529,
+    4137,
+    573,
+    18554,
+    111326,
+    236761,
+    1293,
+    4733,
+    18554,
+    111326,
+    1003,
+    1144,
+    2432,
+    668,
+    29797,
+    532,
+    1144,
+    668,
+    1602,
+    1913,
+    506,
+    1719,
+    618,
+    496,
+    3246,
+    236761,
+    669,
+    24622,
+    563,
+    71191,
+    684,
+    506,
+    1707,
+    600,
+    18554,
+    111326,
+    563,
+    496,
+    3246,
+    532,
+    600,
+    668,
+    563,
+    834,
+    1607,
+    699,
+    1515,
+    236761,
+    107,
+    26629,
+    236764,
+    506,
+    1331,
+    1492,
+    1281,
+    600,
+    3186,
+    236761,
+    111326,
+    563,
+    9724,
+    532,
+    496,
+    2072,
+    529,
+    625,
+    815,
+    1581,
+    1010,
+    3472,
+    580,
+    506,
+    4668,
+    236761,
+    669,
+    1331,
+    659,
+    1401,
+    22566,
+    1003,
+    1515,
+    532,
+    901,
+    659,
+    4875,
+    531,
+    1586,
+    1515,
+    236761,
+    4210,
+    1003,
+    496,
+    2069,
+    236764,
+    506,
+    24622,
+    17149,
+    672,
+    580,
+    914,
+    100044,
+    236789,
+    236751,
+    15330,
+    45484,
+    236761,
+    1293,
+    10077,
+    506,
+    14464,
+    795,
+    10734,
+    2229,
+    573,
+    1515,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 229,
+  "prompt_token_ids_sha256": "a068809a3f9624712e52a69638baf77b8bf833e59097ccdc8769426f360745b3",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. The alien has held him hostage in the woods outside of his spaceship. The alien is unaware that Matt Damon is a famous actor and that his kidnapping is a huge deal. He wants to keep him so his species can learn more about humans. \n\nThe alien has a lot of questions for Matt Damon. He asked Matt Damon about what things he ate and what he did during the day as a human. The alien is fascinated by the fact that Matt Damon is a human and that he is so different from him.\nMeanwhile, the people now know that Mr. Damon is missing and a report of it has even been seen on the news. The people are very worried about him and they are trying to find him. After about a week, the alien sees this on his spaceship's tv transmitter. He knows the humans will eventually come for him.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 208,
+  "source_prompt_token_ids_sha256": "c2d43bbf1a0a917df6bffe3d38f10a8b35f72cad5040a9c6d8fd595a85d7bf1f",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing. The alien has held him hostage in the woods outside of his spaceship. The alien is unaware that Matt Damon is a famous actor and that his kidnapping is a huge deal. He wants to keep him so his species can learn more about humans. \n\nThe alien has a lot of questions for Matt Damon. He asked Matt Damon about what things he ate and what he did during the day as a human. The alien is fascinated by the fact that Matt Damon is a human and that he is so different from him.\nMeanwhile, the people now know that Mr. Damon is missing and a report of it has even been seen on the news. The people are very worried about him and they are trying to find him. After about a week, the alien sees this on his spaceship's tv transmitter. He knows the humans will eventually come for him.",
+  "task_prompt_text_utf8_sha256": "5cc5a3a925b6a8e500a835db73baaec2e867879afc8e5ad828c56a1394ad6dd1",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      32108
+    ],
+    "piece_001": [
+      6540
+    ],
+    "piece_002": [
+      35141
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 32108,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 12,
+  "unrolled_states": 791,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 12,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          8,
+          1,
+          2
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          32108
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          6540
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          35141
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      2267,
+      24622,
+      815,
+      94489,
+      18554,
+      111326,
+      236764,
+      711,
+      14111,
+      1144,
+      25565,
+      27069,
+      5899,
+      1343,
+      531,
+      33205,
+      1515,
+      15501,
+      668,
+      5899,
+      9724,
+      236761,
+      669,
+      24622,
+      815,
+      4247,
+      1515,
+      103925,
+      528,
+      506,
+      28905,
+      4782,
+      529,
+      914,
+      100044,
+      236761,
+      669,
+      24622,
+      563,
+      56164,
+      600,
+      18554,
+      111326,
+      563,
+      496,
+      9639,
+      13387,
+      532,
+      600,
+      914,
+      100371,
+      563,
+      496,
+      7186,
+      3772,
+      236761,
+      1293,
+      8150,
+      531,
+      2514,
+      1515,
+      834,
+      914,
+      5557,
+      740,
+      3449,
+      919,
+      1003,
+      14464,
+      236761,
+      236743,
+      108,
+      818,
+      24622,
+      815,
+      496,
+      2606,
+      529,
+      4137,
+      573,
+      18554,
+      111326,
+      236761,
+      1293,
+      4733,
+      18554,
+      111326,
+      1003,
+      1144,
+      2432,
+      668,
+      29797,
+      532,
+      1144,
+      668,
+      1602,
+      1913,
+      506,
+      1719,
+      618,
+      496,
+      3246,
+      236761,
+      669,
+      24622,
+      563,
+      71191,
+      684,
+      506,
+      1707,
+      600,
+      18554,
+      111326,
+      563,
+      496,
+      3246,
+      532,
+      600,
+      668,
+      563,
+      834,
+      1607,
+      699,
+      1515,
+      236761,
+      107,
+      26629,
+      236764,
+      506,
+      1331,
+      1492,
+      1281,
+      600,
+      3186,
+      236761,
+      111326,
+      563,
+      9724,
+      532,
+      496,
+      2072,
+      529,
+      625,
+      815,
+      1581,
+      1010,
+      3472,
+      580,
+      506,
+      4668,
+      236761,
+      669,
+      1331,
+      659,
+      1401,
+      22566,
+      1003,
+      1515,
+      532,
+      901,
+      659,
+      4875,
+      531,
+      1586,
+      1515,
+      236761,
+      4210,
+      1003,
+      496,
+      2069,
+      236764,
+      506,
+      24622,
+      17149,
+      672,
+      580,
+      914,
+      100044,
+      236789,
+      236751,
+      15330,
+      45484,
+      236761,
+      1293,
+      10077,
+      506,
+      14464,
+      795,
+      10734,
+      2229,
+      573,
+      1515,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('reporters', 'culture', 'decides') must occur twice with start positions exactly 3 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "032_coauthor_repeat_after_k_k3_t3",
+      "design_index": 32,
+      "structural_cell_index": 32,
+      "replicate_index": 0,
+      "seed": 118994828,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "205ee576ecaf3f53e6db596c3709e335e64b4242bff51ea19ddfa73032bb15fe"
+  }
+}

@@ -1,0 +1,1180 @@
+{
+  "base_instance_id": "coauthor:creative:4bdb5a30d17d40d7b160d942552c190b",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 140,
+  "family_index": 3,
+  "job_id": "140_coauthor_odd_count_kna_t4",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nHumans once wielded formidable magical power. But with over 7 billion of us on the planet now, Mana has spread far too thinly to have any effect. When hostile aliens reduce humanity to a mere fraction, the survivors discover an old power has begun to reawaken once again. \n\nThe world is now a place where the supernatural is commonplace, and where the power of Mana can be used to create magic items, summon spirits and uncertainty and struggle abounds the remaining humans on the planet who have to gather and harness the mana in order to destroy their hostile alien foes. It's the only chance humanity has and fortunately it's a very good chance, especially since there is a human group called, \"Nathosilum\" who have gathered quite a bit of mana of their own as well as nurtured their magical powers to the extent of being able to kill even the most powerful aliens. \n\nThe only problem that they have is they need to train quite a bit more fellow humans in order to overpower the aliens.",
+  "reference_single_token_nfa_states": 18,
+  "reference_text": " And the only way to do that is to find the remaining humans who are scattered all over the world and train them. As Nathosilum goes to every continent and spreading their encoded message to all humans across the globe, more and more have risen up to the challenge.",
+  "reference_token_count": 55,
+  "replicate_index": 0,
+  "seed": 796825730,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "risen",
+      "token_ids": [
+        45410
+      ],
+      "token_length": 1,
+      "token_text": " risen"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "encoded",
+      "token_ids": [
+        35509
+      ],
+      "token_length": 1,
+      "token_text": " encoded"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "spreading",
+      "token_ids": [
+        30272
+      ],
+      "token_length": 1,
+      "token_text": " spreading"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "challenge",
+      "token_ids": [
+        8319
+      ],
+      "token_length": 1,
+      "token_text": " challenge"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "16040d6d4bc3422bbb69fb3f3b8c27068b939004f668bc48a02088c8ca513ad2",
+  "source_split": "train",
+  "structural_cell_index": 140,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      45410
+    ],
+    [
+      35509
+    ],
+    [
+      30272
+    ],
+    [
+      8319
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    45410,
+    35509,
+    30272,
+    8319
+  ],
+  "tracked_token_texts": [
+    " risen",
+    " encoded",
+    " spreading",
+    " challenge"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    226869,
+    3622,
+    77020,
+    524,
+    57720,
+    30520,
+    2066,
+    236761,
+    2024,
+    607,
+    1024,
+    236743,
+    236832,
+    7889,
+    529,
+    775,
+    580,
+    506,
+    13401,
+    1492,
+    236764,
+    84660,
+    815,
+    7028,
+    2793,
+    2311,
+    129410,
+    531,
+    735,
+    1027,
+    1763,
+    236761,
+    3026,
+    49003,
+    63928,
+    6439,
+    27069,
+    531,
+    496,
+    9919,
+    10742,
+    236764,
+    506,
+    43732,
+    6878,
+    614,
+    2255,
+    2066,
+    815,
+    22711,
+    531,
+    544,
+    1348,
+    9484,
+    3622,
+    1570,
+    236761,
+    236743,
+    108,
+    818,
+    1902,
+    563,
+    1492,
+    496,
+    1977,
+    1298,
+    506,
+    65940,
+    563,
+    101131,
+    236764,
+    532,
+    1298,
+    506,
+    2066,
+    529,
+    84660,
+    740,
+    577,
+    1456,
+    531,
+    2619,
+    15236,
+    4852,
+    236764,
+    45041,
+    30977,
+    532,
+    19262,
+    532,
+    16438,
+    763,
+    3575,
+    506,
+    9866,
+    14464,
+    580,
+    506,
+    13401,
+    1015,
+    735,
+    531,
+    9385,
+    532,
+    36326,
+    506,
+    24828,
+    528,
+    1900,
+    531,
+    9867,
+    910,
+    49003,
+    24622,
+    96503,
+    236761,
+    1030,
+    236789,
+    236751,
+    506,
+    1186,
+    6584,
+    27069,
+    815,
+    532,
+    85746,
+    625,
+    236789,
+    236751,
+    496,
+    1401,
+    1535,
+    6584,
+    236764,
+    4285,
+    2338,
+    993,
+    563,
+    496,
+    3246,
+    2299,
+    2760,
+    236764,
+    623,
+    236797,
+    651,
+    103649,
+    597,
+    236775,
+    1015,
+    735,
+    21508,
+    4346,
+    496,
+    3103,
+    529,
+    24828,
+    529,
+    910,
+    1852,
+    618,
+    1388,
+    618,
+    137324,
+    910,
+    30520,
+    13361,
+    531,
+    506,
+    9489,
+    529,
+    1646,
+    2735,
+    531,
+    11807,
+    1581,
+    506,
+    1346,
+    8632,
+    63928,
+    236761,
+    236743,
+    108,
+    818,
+    1186,
+    2608,
+    600,
+    901,
+    735,
+    563,
+    901,
+    1202,
+    531,
+    2519,
+    4346,
+    496,
+    3103,
+    919,
+    12339,
+    14464,
+    528,
+    1900,
+    531,
+    122615,
+    506,
+    63928,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 243,
+  "prompt_token_ids_sha256": "784ce06c2331f4717f583d64d156e257bf9857a3f0474cbca207130a99d924b8",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nHumans once wielded formidable magical power. But with over 7 billion of us on the planet now, Mana has spread far too thinly to have any effect. When hostile aliens reduce humanity to a mere fraction, the survivors discover an old power has begun to reawaken once again. \n\nThe world is now a place where the supernatural is commonplace, and where the power of Mana can be used to create magic items, summon spirits and uncertainty and struggle abounds the remaining humans on the planet who have to gather and harness the mana in order to destroy their hostile alien foes. It's the only chance humanity has and fortunately it's a very good chance, especially since there is a human group called, \"Nathosilum\" who have gathered quite a bit of mana of their own as well as nurtured their magical powers to the extent of being able to kill even the most powerful aliens. \n\nThe only problem that they have is they need to train quite a bit more fellow humans in order to overpower the aliens.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 222,
+  "source_prompt_token_ids_sha256": "c149bdbf1257da8343f34bec0f195936cb0bda783159c7b556c9d12d3f215aad",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nHumans once wielded formidable magical power. But with over 7 billion of us on the planet now, Mana has spread far too thinly to have any effect. When hostile aliens reduce humanity to a mere fraction, the survivors discover an old power has begun to reawaken once again. \n\nThe world is now a place where the supernatural is commonplace, and where the power of Mana can be used to create magic items, summon spirits and uncertainty and struggle abounds the remaining humans on the planet who have to gather and harness the mana in order to destroy their hostile alien foes. It's the only chance humanity has and fortunately it's a very good chance, especially since there is a human group called, \"Nathosilum\" who have gathered quite a bit of mana of their own as well as nurtured their magical powers to the extent of being able to kill even the most powerful aliens. \n\nThe only problem that they have is they need to train quite a bit more fellow humans in order to overpower the aliens.",
+  "task_prompt_text_utf8_sha256": "6e34e566262ee075861ce1e50e120fb78ecdffb679e6de9069c50f99b81e7665",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      45410
+    ],
+    "piece_001": [
+      35509
+    ],
+    "piece_002": [
+      30272
+    ],
+    "piece_003": [
+      8319
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 45410,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 10,
+  "unrolled_states": 635,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 10,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          8
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          45410
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          35509
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          30272
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          8319
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      226869,
+      3622,
+      77020,
+      524,
+      57720,
+      30520,
+      2066,
+      236761,
+      2024,
+      607,
+      1024,
+      236743,
+      236832,
+      7889,
+      529,
+      775,
+      580,
+      506,
+      13401,
+      1492,
+      236764,
+      84660,
+      815,
+      7028,
+      2793,
+      2311,
+      129410,
+      531,
+      735,
+      1027,
+      1763,
+      236761,
+      3026,
+      49003,
+      63928,
+      6439,
+      27069,
+      531,
+      496,
+      9919,
+      10742,
+      236764,
+      506,
+      43732,
+      6878,
+      614,
+      2255,
+      2066,
+      815,
+      22711,
+      531,
+      544,
+      1348,
+      9484,
+      3622,
+      1570,
+      236761,
+      236743,
+      108,
+      818,
+      1902,
+      563,
+      1492,
+      496,
+      1977,
+      1298,
+      506,
+      65940,
+      563,
+      101131,
+      236764,
+      532,
+      1298,
+      506,
+      2066,
+      529,
+      84660,
+      740,
+      577,
+      1456,
+      531,
+      2619,
+      15236,
+      4852,
+      236764,
+      45041,
+      30977,
+      532,
+      19262,
+      532,
+      16438,
+      763,
+      3575,
+      506,
+      9866,
+      14464,
+      580,
+      506,
+      13401,
+      1015,
+      735,
+      531,
+      9385,
+      532,
+      36326,
+      506,
+      24828,
+      528,
+      1900,
+      531,
+      9867,
+      910,
+      49003,
+      24622,
+      96503,
+      236761,
+      1030,
+      236789,
+      236751,
+      506,
+      1186,
+      6584,
+      27069,
+      815,
+      532,
+      85746,
+      625,
+      236789,
+      236751,
+      496,
+      1401,
+      1535,
+      6584,
+      236764,
+      4285,
+      2338,
+      993,
+      563,
+      496,
+      3246,
+      2299,
+      2760,
+      236764,
+      623,
+      236797,
+      651,
+      103649,
+      597,
+      236775,
+      1015,
+      735,
+      21508,
+      4346,
+      496,
+      3103,
+      529,
+      24828,
+      529,
+      910,
+      1852,
+      618,
+      1388,
+      618,
+      137324,
+      910,
+      30520,
+      13361,
+      531,
+      506,
+      9489,
+      529,
+      1646,
+      2735,
+      531,
+      11807,
+      1581,
+      506,
+      1346,
+      8632,
+      63928,
+      236761,
+      236743,
+      108,
+      818,
+      1186,
+      2608,
+      600,
+      901,
+      735,
+      563,
+      901,
+      1202,
+      531,
+      2519,
+      4346,
+      496,
+      3103,
+      919,
+      12339,
+      14464,
+      528,
+      1900,
+      531,
+      122615,
+      506,
+      63928,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('risen', 'encoded', 'spreading', 'challenge') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "140_coauthor_odd_count_kna_t4",
+      "design_index": 140,
+      "structural_cell_index": 140,
+      "replicate_index": 0,
+      "seed": 796825730,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "00d5732310e4d029f2a8568e13b5c600e690e4d2ce91b9713d3b7d70da651b0b"
+  }
+}

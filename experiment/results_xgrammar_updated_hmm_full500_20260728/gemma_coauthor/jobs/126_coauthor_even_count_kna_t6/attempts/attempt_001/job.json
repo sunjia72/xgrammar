@@ -1,0 +1,2160 @@
+{
+  "base_instance_id": "coauthor:creative:301899b1e6be4d77b5995d94546a55ed",
+  "constraint": "even_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 126,
+  "family_index": 5,
+  "job_id": "126_coauthor_even_count_kna_t6",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nA woman has been dating guy after guy, but it never seems to work out. She's unaware that she's actually been dating the same guy over and over; a shapeshifter who's fallen for her, and is certain he's going to get it right this time.\n\nHis name is Kyle and he gets all of his advice from his friend, Billy. Billy is also a shapeshifter. A bear shapeshifter who has been in love with the same woman for years. \n\nBoth men have a plan. A plan that they hope will help them win their true loves.  Kyle has been going to the gym everyday, as he knows that Samantha, the apple of his eye, loves a strong man. Sure, he could just shapeshift into a buff guy, but that doesn't solve the problem with muscle memory. He needs to be able to show Samantha that he's got proper form and can lift the heaviest of weights.\n\nBilly is also working out, but he's been doing it for a different reason. He wants to see Kyle succeed. Then Kyle can help him with his ideal love, Patricia. Patricia is a model who doesn't know how beautiful she really is.\n\nOne day, Billy and Kyle are lifting weights in the gym. Samatha walks in and sees Kyle and Billy. She walks right up to them, smiles at Kyle, and then looks at Billy. Then she says that she would love to go on a date with Billy.\n\nKyle shapeshifts into Billy right then and there, and Samantha screams. She runs away, moves to another country, and Kyle never sees her again. Kyle is heartbroken until he sees a picture of Samantha with Billy on the cover of People Magazine.",
+  "reference_single_token_nfa_states": 20,
+  "reference_text": " He realizes that Billy and Samantha are dating, but he doesn't care. He has a new girlfriend named Patricia - Billy's previous crush. She is worth 50 billion dollars and they're going to live a lavish life. Billy can go to hell, he was the worst friend and a traitor.",
+  "reference_token_count": 62,
+  "replicate_index": 0,
+  "seed": 579586806,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "crush",
+      "token_ids": [
+        47585
+      ],
+      "token_length": 1,
+      "token_text": " crush"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "billion",
+      "token_ids": [
+        7889
+      ],
+      "token_length": 1,
+      "token_text": " billion"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "lavish",
+      "token_ids": [
+        83839
+      ],
+      "token_length": 1,
+      "token_text": " lavish"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "girlfriend",
+      "token_ids": [
+        32239
+      ],
+      "token_length": 1,
+      "token_text": " girlfriend"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "hell",
+      "token_ids": [
+        17786
+      ],
+      "token_length": 1,
+      "token_text": " hell"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "dollars",
+      "token_ids": [
+        11092
+      ],
+      "token_length": 1,
+      "token_text": " dollars"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "9dcde2039d4e50e741b99802960118e41fb27cca2334f989223bdae50cecd118",
+  "source_split": "train",
+  "structural_cell_index": 126,
+  "t": 6,
+  "total_tracked_keyword_tokens": 6,
+  "tracked_keyword_token_ids": [
+    [
+      47585
+    ],
+    [
+      7889
+    ],
+    [
+      83839
+    ],
+    [
+      32239
+    ],
+    [
+      17786
+    ],
+    [
+      11092
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    47585,
+    7889,
+    83839,
+    32239,
+    17786,
+    11092
+  ],
+  "tracked_token_texts": [
+    " crush",
+    " billion",
+    " lavish",
+    " girlfriend",
+    " hell",
+    " dollars"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    236776,
+    3875,
+    815,
+    1010,
+    20566,
+    9865,
+    1308,
+    9865,
+    236764,
+    840,
+    625,
+    2752,
+    5072,
+    531,
+    981,
+    855,
+    236761,
+    2625,
+    236789,
+    236751,
+    56164,
+    600,
+    1304,
+    236789,
+    236751,
+    3643,
+    1010,
+    20566,
+    506,
+    1638,
+    9865,
+    1024,
+    532,
+    1024,
+    236793,
+    496,
+    9665,
+    13068,
+    66890,
+    1015,
+    236789,
+    236751,
+    22303,
+    573,
+    1116,
+    236764,
+    532,
+    563,
+    2953,
+    668,
+    236789,
+    236751,
+    1771,
+    531,
+    974,
+    625,
+    1447,
+    672,
+    990,
+    236761,
+    108,
+    15989,
+    1463,
+    563,
+    42077,
+    532,
+    668,
+    6757,
+    784,
+    529,
+    914,
+    9106,
+    699,
+    914,
+    4389,
+    236764,
+    38862,
+    236761,
+    38862,
+    563,
+    992,
+    496,
+    9665,
+    13068,
+    66890,
+    236761,
+    562,
+    10591,
+    9665,
+    13068,
+    66890,
+    1015,
+    815,
+    1010,
+    528,
+    2765,
+    607,
+    506,
+    1638,
+    3875,
+    573,
+    1518,
+    236761,
+    236743,
+    108,
+    22186,
+    1758,
+    735,
+    496,
+    2731,
+    236761,
+    562,
+    2731,
+    600,
+    901,
+    4614,
+    795,
+    1601,
+    1091,
+    3345,
+    910,
+    1847,
+    18178,
+    236761,
+    138,
+    138090,
+    815,
+    1010,
+    1771,
+    531,
+    506,
+    15346,
+    17872,
+    236764,
+    618,
+    668,
+    10077,
+    600,
+    77024,
+    236764,
+    506,
+    17810,
+    529,
+    914,
+    7068,
+    236764,
+    18178,
+    496,
+    3188,
+    880,
+    236761,
+    26145,
+    236764,
+    668,
+    1451,
+    1164,
+    9665,
+    13068,
+    2458,
+    1131,
+    496,
+    8190,
+    9865,
+    236764,
+    840,
+    600,
+    4038,
+    236789,
+    236745,
+    8974,
+    506,
+    2608,
+    607,
+    11103,
+    6571,
+    236761,
+    1293,
+    3548,
+    531,
+    577,
+    2735,
+    531,
+    1407,
+    77024,
+    600,
+    668,
+    236789,
+    236751,
+    2506,
+    2005,
+    1183,
+    532,
+    740,
+    12693,
+    506,
+    111353,
+    529,
+    18710,
+    236761,
+    108,
+    108258,
+    563,
+    992,
+    2844,
+    855,
+    236764,
+    840,
+    668,
+    236789,
+    236751,
+    1010,
+    3490,
+    625,
+    573,
+    496,
+    1607,
+    3282,
+    236761,
+    1293,
+    8150,
+    531,
+    1460,
+    42077,
+    13113,
+    236761,
+    4298,
+    42077,
+    740,
+    1601,
+    1515,
+    607,
+    914,
+    7436,
+    2765,
+    236764,
+    47545,
+    236761,
+    47545,
+    563,
+    496,
+    2028,
+    1015,
+    4038,
+    236789,
+    236745,
+    1281,
+    1217,
+    4148,
+    1304,
+    2126,
+    563,
+    236761,
+    108,
+    4906,
+    1719,
+    236764,
+    38862,
+    532,
+    42077,
+    659,
+    31342,
+    18710,
+    528,
+    506,
+    15346,
+    236761,
+    6687,
+    15976,
+    23241,
+    528,
+    532,
+    17149,
+    42077,
+    532,
+    38862,
+    236761,
+    2625,
+    23241,
+    1447,
+    872,
+    531,
+    1091,
+    236764,
+    45585,
+    657,
+    42077,
+    236764,
+    532,
+    1299,
+    5724,
+    657,
+    38862,
+    236761,
+    4298,
+    1304,
+    3189,
+    600,
+    1304,
+    1093,
+    2765,
+    531,
+    817,
+    580,
+    496,
+    3433,
+    607,
+    38862,
+    236761,
+    108,
+    138090,
+    9665,
+    13068,
+    10018,
+    1131,
+    38862,
+    1447,
+    1299,
+    532,
+    993,
+    236764,
+    532,
+    77024,
+    96564,
+    236761,
+    2625,
+    8784,
+    3121,
+    236764,
+    12489,
+    531,
+    2264,
+    2891,
+    236764,
+    532,
+    42077,
+    2752,
+    17149,
+    1116,
+    1570,
+    236761,
+    42077,
+    563,
+    160206,
+    3097,
+    668,
+    17149,
+    496,
+    6083,
+    529,
+    77024,
+    607,
+    38862,
+    580,
+    506,
+    2890,
+    529,
+    9432,
+    26194,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 395,
+  "prompt_token_ids_sha256": "99a13e17b75d3d48362748b4ef118590db8d3780c35e362706dc5217d256462f",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nA woman has been dating guy after guy, but it never seems to work out. She's unaware that she's actually been dating the same guy over and over; a shapeshifter who's fallen for her, and is certain he's going to get it right this time.\n\nHis name is Kyle and he gets all of his advice from his friend, Billy. Billy is also a shapeshifter. A bear shapeshifter who has been in love with the same woman for years. \n\nBoth men have a plan. A plan that they hope will help them win their true loves.  Kyle has been going to the gym everyday, as he knows that Samantha, the apple of his eye, loves a strong man. Sure, he could just shapeshift into a buff guy, but that doesn't solve the problem with muscle memory. He needs to be able to show Samantha that he's got proper form and can lift the heaviest of weights.\n\nBilly is also working out, but he's been doing it for a different reason. He wants to see Kyle succeed. Then Kyle can help him with his ideal love, Patricia. Patricia is a model who doesn't know how beautiful she really is.\n\nOne day, Billy and Kyle are lifting weights in the gym. Samatha walks in and sees Kyle and Billy. She walks right up to them, smiles at Kyle, and then looks at Billy. Then she says that she would love to go on a date with Billy.\n\nKyle shapeshifts into Billy right then and there, and Samantha screams. She runs away, moves to another country, and Kyle never sees her again. Kyle is heartbroken until he sees a picture of Samantha with Billy on the cover of People Magazine.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 374,
+  "source_prompt_token_ids_sha256": "4bf16809a4244491c58d26817c7aeb4e97a736c413608ff440a96ec6cca8b7a2",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nA woman has been dating guy after guy, but it never seems to work out. She's unaware that she's actually been dating the same guy over and over; a shapeshifter who's fallen for her, and is certain he's going to get it right this time.\n\nHis name is Kyle and he gets all of his advice from his friend, Billy. Billy is also a shapeshifter. A bear shapeshifter who has been in love with the same woman for years. \n\nBoth men have a plan. A plan that they hope will help them win their true loves.  Kyle has been going to the gym everyday, as he knows that Samantha, the apple of his eye, loves a strong man. Sure, he could just shapeshift into a buff guy, but that doesn't solve the problem with muscle memory. He needs to be able to show Samantha that he's got proper form and can lift the heaviest of weights.\n\nBilly is also working out, but he's been doing it for a different reason. He wants to see Kyle succeed. Then Kyle can help him with his ideal love, Patricia. Patricia is a model who doesn't know how beautiful she really is.\n\nOne day, Billy and Kyle are lifting weights in the gym. Samatha walks in and sees Kyle and Billy. She walks right up to them, smiles at Kyle, and then looks at Billy. Then she says that she would love to go on a date with Billy.\n\nKyle shapeshifts into Billy right then and there, and Samantha screams. She runs away, moves to another country, and Kyle never sees her again. Kyle is heartbroken until he sees a picture of Samantha with Billy on the cover of People Magazine.",
+  "task_prompt_text_utf8_sha256": "ac586fa9fcc6162a660669e9e1f7a9c09eb75f964a7e6099b98c2d8b5b7a6b87",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      47585
+    ],
+    "piece_001": [
+      7889
+    ],
+    "piece_002": [
+      83839
+    ],
+    "piece_003": [
+      32239
+    ],
+    "piece_004": [
+      17786
+    ],
+    "piece_005": [
+      11092
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 47585,
+  "distinct_tracked_piece_tokens": 6,
+  "nfa_states": 20,
+  "unrolled_states": 1253,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 20,
+      "alphabet_size": 9,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          17
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          1,
+          17
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          0,
+          2,
+          17
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          3,
+          17
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          4,
+          15
+        ],
+        [
+          0,
+          4,
+          17
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          5
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          11
+        ],
+        [
+          0,
+          5,
+          14
+        ],
+        [
+          0,
+          5,
+          18
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          5
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          6,
+          14
+        ],
+        [
+          0,
+          6,
+          17
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          5
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          11
+        ],
+        [
+          0,
+          7,
+          14
+        ],
+        [
+          0,
+          7,
+          17
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          6
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          7,
+          8,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          9
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          10,
+          8,
+          1
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          12
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          13,
+          8,
+          1
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          14,
+          7,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          6,
+          15
+        ],
+        [
+          15,
+          7,
+          15
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          15
+        ],
+        [
+          16,
+          5,
+          16
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          16,
+          7,
+          16
+        ],
+        [
+          16,
+          8,
+          1
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          17
+        ],
+        [
+          17,
+          5,
+          18
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          17,
+          7,
+          17
+        ],
+        [
+          18,
+          0,
+          18
+        ],
+        [
+          18,
+          1,
+          18
+        ],
+        [
+          18,
+          2,
+          18
+        ],
+        [
+          18,
+          3,
+          18
+        ],
+        [
+          18,
+          4,
+          18
+        ],
+        [
+          18,
+          5,
+          19
+        ],
+        [
+          18,
+          6,
+          18
+        ],
+        [
+          18,
+          7,
+          18
+        ],
+        [
+          19,
+          0,
+          19
+        ],
+        [
+          19,
+          1,
+          19
+        ],
+        [
+          19,
+          2,
+          19
+        ],
+        [
+          19,
+          3,
+          19
+        ],
+        [
+          19,
+          4,
+          19
+        ],
+        [
+          19,
+          5,
+          18
+        ],
+        [
+          19,
+          6,
+          19
+        ],
+        [
+          19,
+          7,
+          19
+        ],
+        [
+          19,
+          8,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          47585
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          7889
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          83839
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          32239
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          17786
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          11092
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 6,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 7,
+    "stop_symbol_id": 8,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      236776,
+      3875,
+      815,
+      1010,
+      20566,
+      9865,
+      1308,
+      9865,
+      236764,
+      840,
+      625,
+      2752,
+      5072,
+      531,
+      981,
+      855,
+      236761,
+      2625,
+      236789,
+      236751,
+      56164,
+      600,
+      1304,
+      236789,
+      236751,
+      3643,
+      1010,
+      20566,
+      506,
+      1638,
+      9865,
+      1024,
+      532,
+      1024,
+      236793,
+      496,
+      9665,
+      13068,
+      66890,
+      1015,
+      236789,
+      236751,
+      22303,
+      573,
+      1116,
+      236764,
+      532,
+      563,
+      2953,
+      668,
+      236789,
+      236751,
+      1771,
+      531,
+      974,
+      625,
+      1447,
+      672,
+      990,
+      236761,
+      108,
+      15989,
+      1463,
+      563,
+      42077,
+      532,
+      668,
+      6757,
+      784,
+      529,
+      914,
+      9106,
+      699,
+      914,
+      4389,
+      236764,
+      38862,
+      236761,
+      38862,
+      563,
+      992,
+      496,
+      9665,
+      13068,
+      66890,
+      236761,
+      562,
+      10591,
+      9665,
+      13068,
+      66890,
+      1015,
+      815,
+      1010,
+      528,
+      2765,
+      607,
+      506,
+      1638,
+      3875,
+      573,
+      1518,
+      236761,
+      236743,
+      108,
+      22186,
+      1758,
+      735,
+      496,
+      2731,
+      236761,
+      562,
+      2731,
+      600,
+      901,
+      4614,
+      795,
+      1601,
+      1091,
+      3345,
+      910,
+      1847,
+      18178,
+      236761,
+      138,
+      138090,
+      815,
+      1010,
+      1771,
+      531,
+      506,
+      15346,
+      17872,
+      236764,
+      618,
+      668,
+      10077,
+      600,
+      77024,
+      236764,
+      506,
+      17810,
+      529,
+      914,
+      7068,
+      236764,
+      18178,
+      496,
+      3188,
+      880,
+      236761,
+      26145,
+      236764,
+      668,
+      1451,
+      1164,
+      9665,
+      13068,
+      2458,
+      1131,
+      496,
+      8190,
+      9865,
+      236764,
+      840,
+      600,
+      4038,
+      236789,
+      236745,
+      8974,
+      506,
+      2608,
+      607,
+      11103,
+      6571,
+      236761,
+      1293,
+      3548,
+      531,
+      577,
+      2735,
+      531,
+      1407,
+      77024,
+      600,
+      668,
+      236789,
+      236751,
+      2506,
+      2005,
+      1183,
+      532,
+      740,
+      12693,
+      506,
+      111353,
+      529,
+      18710,
+      236761,
+      108,
+      108258,
+      563,
+      992,
+      2844,
+      855,
+      236764,
+      840,
+      668,
+      236789,
+      236751,
+      1010,
+      3490,
+      625,
+      573,
+      496,
+      1607,
+      3282,
+      236761,
+      1293,
+      8150,
+      531,
+      1460,
+      42077,
+      13113,
+      236761,
+      4298,
+      42077,
+      740,
+      1601,
+      1515,
+      607,
+      914,
+      7436,
+      2765,
+      236764,
+      47545,
+      236761,
+      47545,
+      563,
+      496,
+      2028,
+      1015,
+      4038,
+      236789,
+      236745,
+      1281,
+      1217,
+      4148,
+      1304,
+      2126,
+      563,
+      236761,
+      108,
+      4906,
+      1719,
+      236764,
+      38862,
+      532,
+      42077,
+      659,
+      31342,
+      18710,
+      528,
+      506,
+      15346,
+      236761,
+      6687,
+      15976,
+      23241,
+      528,
+      532,
+      17149,
+      42077,
+      532,
+      38862,
+      236761,
+      2625,
+      23241,
+      1447,
+      872,
+      531,
+      1091,
+      236764,
+      45585,
+      657,
+      42077,
+      236764,
+      532,
+      1299,
+      5724,
+      657,
+      38862,
+      236761,
+      4298,
+      1304,
+      3189,
+      600,
+      1304,
+      1093,
+      2765,
+      531,
+      817,
+      580,
+      496,
+      3433,
+      607,
+      38862,
+      236761,
+      108,
+      138090,
+      9665,
+      13068,
+      10018,
+      1131,
+      38862,
+      1447,
+      1299,
+      532,
+      993,
+      236764,
+      532,
+      77024,
+      96564,
+      236761,
+      2625,
+      8784,
+      3121,
+      236764,
+      12489,
+      531,
+      2264,
+      2891,
+      236764,
+      532,
+      42077,
+      2752,
+      17149,
+      1116,
+      1570,
+      236761,
+      42077,
+      563,
+      160206,
+      3097,
+      668,
+      17149,
+      496,
+      6083,
+      529,
+      77024,
+      607,
+      38862,
+      580,
+      506,
+      2890,
+      529,
+      9432,
+      26194,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "even_count",
+      "label": "positive even count",
+      "rule": "At least one tracked phrase ('crush', 'billion', 'lavish', 'girlfriend', 'hell', 'dollars') must have a positive even number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "126_coauthor_even_count_kna_t6",
+      "design_index": 126,
+      "structural_cell_index": 126,
+      "replicate_index": 0,
+      "seed": 579586806,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "4304dd30081e0fb2c53a54a7eb98d10115793f7a68331e08f6501e1334136d65"
+  }
+}

@@ -1,0 +1,1618 @@
+{
+  "base_instance_id": "coauthor:creative:057b11be0cbb400ea2cfda2cf75292b2",
+  "constraint": "left_not_right",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 84,
+  "family_index": 4,
+  "job_id": "084_coauthor_left_not_right_kna_t5",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nOnce upon a time there was an old mother pig who had one hundred little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes. You know the story about the first three little pigs. This is a story about the 92nd little pig.\n\nThe 92nd little pig built a house out of depleted uranium. And the wolf was like, \"dude.\"\n\n\nThe wolf came to the 92nd little pig's house and said, \"Little pig, little pig, let me come in.\"  The pig, not expecting any visitors, told the wolf to come back another time.  \"My house is a mess right now!\".  The wolf could smell its prey.  It wouldn't back down now.  \n\n\"Little pig, little pig, let me come in or I'll huff and I'll puff and I'll blow your house down!\", the wolf said.  Perplexed, the pig peered out of its window at the wolf.  \"My house is rated for hurricane-level winds\", the pig thought to himself.",
+  "reference_single_token_nfa_states": 17,
+  "reference_text": "  \"I would like to see you try!\", the pig yelled out of the window.\n\nThe wolf snarled at the comment.  He positioned himself right in front of the depleted uranium house.  He started to take a very deep breath.  It seemed like he was inhaling for five minutes.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 1387539645,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "positioned",
+      "token_ids": [
+        33095
+      ],
+      "token_length": 1,
+      "token_text": " positioned"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "comment",
+      "token_ids": [
+        3847
+      ],
+      "token_length": 1,
+      "token_text": " comment"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "breath",
+      "token_ids": [
+        11155
+      ],
+      "token_length": 1,
+      "token_text": " breath"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "deep",
+      "token_ids": [
+        5365
+      ],
+      "token_length": 1,
+      "token_text": " deep"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "five",
+      "token_ids": [
+        4097
+      ],
+      "token_length": 1,
+      "token_text": " five"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "dc12e8593c3e188e5b068b982f59417c7007c779cbb760444d259dee2c2a0d07",
+  "source_split": "train",
+  "structural_cell_index": 84,
+  "t": 5,
+  "total_tracked_keyword_tokens": 5,
+  "tracked_keyword_token_ids": [
+    [
+      33095
+    ],
+    [
+      3847
+    ],
+    [
+      11155
+    ],
+    [
+      5365
+    ],
+    [
+      4097
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    33095,
+    3847,
+    11155,
+    5365,
+    4097
+  ],
+  "tracked_token_texts": [
+    " positioned",
+    " comment",
+    " breath",
+    " deep",
+    " five"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    1414,
+    3559,
+    440,
+    6681,
+    799,
+    2716,
+    11,
+    5629,
+    11,
+    53916,
+    6163,
+    11316,
+    13,
+    3301,
+    1132,
+    279,
+    39811,
+    11,
+    440,
+    874,
+    86377,
+    466,
+    15673,
+    25,
+    198,
+    12162,
+    5028,
+    264,
+    854,
+    1017,
+    557,
+    449,
+    2235,
+    6351,
+    22952,
+    852,
+    995,
+    799,
+    7493,
+    2545,
+    47177,
+    321,
+    524,
+    3213,
+    3487,
+    310,
+    5227,
+    1070,
+    13,
+    1987,
+    948,
+    781,
+    998,
+    2235,
+    3213,
+    11,
+    1292,
+    3106,
+    1070,
+    680,
+    1083,
+    279,
+    1814,
+    310,
+    5746,
+    836,
+    65225,
+    13,
+    1394,
+    1366,
+    279,
+    3255,
+    883,
+    279,
+    1118,
+    2250,
+    2545,
+    47177,
+    13,
+    1061,
+    369,
+    264,
+    3255,
+    883,
+    279,
+    220,
+    24,
+    17,
+    302,
+    2545,
+    22952,
+    13,
+    271,
+    760,
+    220,
+    24,
+    17,
+    302,
+    2545,
+    22952,
+    5617,
+    264,
+    3626,
+    680,
+    314,
+    75488,
+    52038,
+    13,
+    1541,
+    279,
+    35336,
+    557,
+    1040,
+    11,
+    328,
+    67,
+    768,
+    1149,
+    1358,
+    760,
+    35336,
+    3571,
+    310,
+    279,
+    220,
+    24,
+    17,
+    302,
+    2545,
+    22952,
+    579,
+    3626,
+    321,
+    1018,
+    11,
+    328,
+    36843,
+    22952,
+    11,
+    2545,
+    22952,
+    11,
+    1042,
+    728,
+    2445,
+    303,
+    1149,
+    220,
+    561,
+    22952,
+    11,
+    524,
+    21637,
+    866,
+    14811,
+    11,
+    3125,
+    279,
+    35336,
+    310,
+    2445,
+    1142,
+    2361,
+    854,
+    13,
+    220,
+    328,
+    4888,
+    3626,
+    369,
+    264,
+    9156,
+    1245,
+    1381,
+    89792,
+    220,
+    561,
+    35336,
+    1362,
+    21388,
+    1141,
+    35383,
+    13,
+    220,
+    1049,
+    8012,
+    914,
+    1142,
+    1441,
+    1381,
+    13,
+    18050,
+    1,
+    36843,
+    22952,
+    11,
+    2545,
+    22952,
+    11,
+    1042,
+    728,
+    2445,
+    303,
+    466,
+    353,
+    3172,
+    304,
+    1314,
+    321,
+    353,
+    3172,
+    59980,
+    321,
+    353,
+    3172,
+    11894,
+    678,
+    3626,
+    1441,
+    18222,
+    279,
+    35336,
+    1018,
+    13,
+    220,
+    3495,
+    8838,
+    290,
+    11,
+    279,
+    22952,
+    1016,
+    11983,
+    680,
+    314,
+    1141,
+    3136,
+    506,
+    279,
+    35336,
+    13,
+    220,
+    328,
+    4888,
+    3626,
+    369,
+    20965,
+    364,
+    47059,
+    11258,
+    27562,
+    487,
+    279,
+    22952,
+    3272,
+    310,
+    5387,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 272,
+  "prompt_token_ids_sha256": "dba44706684711b2b09afcc568ecb3fb9cd74f77e258df1dd3382f8e29bb5bf4",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nOnce upon a time there was an old mother pig who had one hundred little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes. You know the story about the first three little pigs. This is a story about the 92nd little pig.\n\nThe 92nd little pig built a house out of depleted uranium. And the wolf was like, \"dude.\"\n\n\nThe wolf came to the 92nd little pig's house and said, \"Little pig, little pig, let me come in.\"  The pig, not expecting any visitors, told the wolf to come back another time.  \"My house is a mess right now!\".  The wolf could smell its prey.  It wouldn't back down now.  \n\n\"Little pig, little pig, let me come in or I'll huff and I'll puff and I'll blow your house down!\", the wolf said.  Perplexed, the pig peered out of its window at the wolf.  \"My house is rated for hurricane-level winds\", the pig thought to himself.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 251,
+  "source_prompt_token_ids_sha256": "6418489567ef01f4b4abfb6cbad4c09a4f37615dfe76fac65b075fd0b9538a64",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nOnce upon a time there was an old mother pig who had one hundred little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes. You know the story about the first three little pigs. This is a story about the 92nd little pig.\n\nThe 92nd little pig built a house out of depleted uranium. And the wolf was like, \"dude.\"\n\n\nThe wolf came to the 92nd little pig's house and said, \"Little pig, little pig, let me come in.\"  The pig, not expecting any visitors, told the wolf to come back another time.  \"My house is a mess right now!\".  The wolf could smell its prey.  It wouldn't back down now.  \n\n\"Little pig, little pig, let me come in or I'll huff and I'll puff and I'll blow your house down!\", the wolf said.  Perplexed, the pig peered out of its window at the wolf.  \"My house is rated for hurricane-level winds\", the pig thought to himself.",
+  "task_prompt_text_utf8_sha256": "74e35656782d37971e4ccc771b824106ea9418ae935501bee05737e07a8739e6",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      33095
+    ],
+    "piece_001": [
+      3847
+    ],
+    "piece_002": [
+      11155
+    ],
+    "piece_003": [
+      5365
+    ],
+    "piece_004": [
+      4097
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 33095,
+  "distinct_tracked_piece_tokens": 5,
+  "nfa_states": 18,
+  "unrolled_states": 1065,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 18,
+      "alphabet_size": 8,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          15
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          2,
+          15
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          3,
+          15
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          4,
+          16
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          9
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          15
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          5,
+          0,
+          4
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          4
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          8
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          1
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          4
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          11
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          4
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          4
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          14
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          4
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          14,
+          7,
+          1
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          15,
+          5,
+          4
+        ],
+        [
+          15,
+          6,
+          15
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          16
+        ],
+        [
+          16,
+          5,
+          17
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          4
+        ],
+        [
+          17,
+          5,
+          17
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          17,
+          7,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          33095
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          3847
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          11155
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          5365
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          4097
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 5,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 6,
+    "stop_symbol_id": 7,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      1414,
+      3559,
+      440,
+      6681,
+      799,
+      2716,
+      11,
+      5629,
+      11,
+      53916,
+      6163,
+      11316,
+      13,
+      3301,
+      1132,
+      279,
+      39811,
+      11,
+      440,
+      874,
+      86377,
+      466,
+      15673,
+      25,
+      198,
+      12162,
+      5028,
+      264,
+      854,
+      1017,
+      557,
+      449,
+      2235,
+      6351,
+      22952,
+      852,
+      995,
+      799,
+      7493,
+      2545,
+      47177,
+      321,
+      524,
+      3213,
+      3487,
+      310,
+      5227,
+      1070,
+      13,
+      1987,
+      948,
+      781,
+      998,
+      2235,
+      3213,
+      11,
+      1292,
+      3106,
+      1070,
+      680,
+      1083,
+      279,
+      1814,
+      310,
+      5746,
+      836,
+      65225,
+      13,
+      1394,
+      1366,
+      279,
+      3255,
+      883,
+      279,
+      1118,
+      2250,
+      2545,
+      47177,
+      13,
+      1061,
+      369,
+      264,
+      3255,
+      883,
+      279,
+      220,
+      24,
+      17,
+      302,
+      2545,
+      22952,
+      13,
+      271,
+      760,
+      220,
+      24,
+      17,
+      302,
+      2545,
+      22952,
+      5617,
+      264,
+      3626,
+      680,
+      314,
+      75488,
+      52038,
+      13,
+      1541,
+      279,
+      35336,
+      557,
+      1040,
+      11,
+      328,
+      67,
+      768,
+      1149,
+      1358,
+      760,
+      35336,
+      3571,
+      310,
+      279,
+      220,
+      24,
+      17,
+      302,
+      2545,
+      22952,
+      579,
+      3626,
+      321,
+      1018,
+      11,
+      328,
+      36843,
+      22952,
+      11,
+      2545,
+      22952,
+      11,
+      1042,
+      728,
+      2445,
+      303,
+      1149,
+      220,
+      561,
+      22952,
+      11,
+      524,
+      21637,
+      866,
+      14811,
+      11,
+      3125,
+      279,
+      35336,
+      310,
+      2445,
+      1142,
+      2361,
+      854,
+      13,
+      220,
+      328,
+      4888,
+      3626,
+      369,
+      264,
+      9156,
+      1245,
+      1381,
+      89792,
+      220,
+      561,
+      35336,
+      1362,
+      21388,
+      1141,
+      35383,
+      13,
+      220,
+      1049,
+      8012,
+      914,
+      1142,
+      1441,
+      1381,
+      13,
+      18050,
+      1,
+      36843,
+      22952,
+      11,
+      2545,
+      22952,
+      11,
+      1042,
+      728,
+      2445,
+      303,
+      466,
+      353,
+      3172,
+      304,
+      1314,
+      321,
+      353,
+      3172,
+      59980,
+      321,
+      353,
+      3172,
+      11894,
+      678,
+      3626,
+      1441,
+      18222,
+      279,
+      35336,
+      1018,
+      13,
+      220,
+      3495,
+      8838,
+      290,
+      11,
+      279,
+      22952,
+      1016,
+      11983,
+      680,
+      314,
+      1141,
+      3136,
+      506,
+      279,
+      35336,
+      13,
+      220,
+      328,
+      4888,
+      3626,
+      369,
+      20965,
+      364,
+      47059,
+      11258,
+      27562,
+      487,
+      279,
+      22952,
+      3272,
+      310,
+      5387,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "left_not_right",
+      "label": "left but not right",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('positioned', 'comment', 'breath', 'deep', 'five') must occur on the left and not on the right."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "084_coauthor_left_not_right_kna_t5",
+      "design_index": 84,
+      "structural_cell_index": 84,
+      "replicate_index": 0,
+      "seed": 1387539645,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "c2b22ec6f38a529908291c72e51d90fe3f4b2c6f3d163ba24d64075d049b9c60"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "d956ab0cd29613f48ef6806b1f713a46d923b7cf2d211f6935de492048e88f81"
+        },
+        "model_provenance_sha256": "cfd6a360eebcc16aed47b50f895c7e79463b2e7941c0ce27f0377f4ff7bfb710"
+      }
+    },
+    "sha256": "5d98483f5af5ad486b6afe60e21c36e4cc269bc56bdb911939131d8ddaa482c4"
+  }
+}

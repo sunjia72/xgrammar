@@ -1,0 +1,1510 @@
+{
+  "base_instance_id": "coauthor:creative:b95bdefc91d94744b375b7bcabc19d5f",
+  "constraint": "both_sides",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 110,
+  "family_index": 4,
+  "job_id": "110_coauthor_both_sides_kna_t5",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 4,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\"\n\nTaken aback you shake your head only to hear the same tiny voice say \"Your Majesty? Your orders please?\" You look to the bee on your shoulder and say \"What are you talking about? Are you even talking to me? Can a bee talk?!\" your voice rises as you grow confused and upset.\n\nThe polite bee responds \"Of course I'm talking to you, Your Majesty. We've finally found a way to communicate with you, and I'm here to help you rule the kingdom.\"",
+  "reference_single_token_nfa_states": 18,
+  "reference_text": " \n\n\"But, but, but...\" you stutter \"I must be going crazy, how can a bee talk to me? Why am I asking a bee that? Why am I speaking out loud with no one around?\" And then you realize what you just said. There is no one around you other than a bee.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 532248575,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "stutter",
+      "token_ids": [
+        162911
+      ],
+      "token_length": 1,
+      "token_text": " stutter"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "loud",
+      "token_ids": [
+        18762
+      ],
+      "token_length": 1,
+      "token_text": " loud"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "speaking",
+      "token_ids": [
+        12259
+      ],
+      "token_length": 1,
+      "token_text": " speaking"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.65259888,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "asking",
+      "token_ids": [
+        10980
+      ],
+      "token_length": 1,
+      "token_text": " asking"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.40128445,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "crazy",
+      "token_ids": [
+        17462
+      ],
+      "token_length": 1,
+      "token_text": " crazy"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "13437c2aa927cd4cfb3ff03ed25bba6fd3e79bc068516bc05ce68184fa2a43ce",
+  "source_split": "train",
+  "structural_cell_index": 110,
+  "t": 5,
+  "total_tracked_keyword_tokens": 5,
+  "tracked_keyword_token_ids": [
+    [
+      162911
+    ],
+    [
+      18762
+    ],
+    [
+      12259
+    ],
+    [
+      10980
+    ],
+    [
+      17462
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    162911,
+    18762,
+    12259,
+    10980,
+    17462
+  ],
+  "tracked_token_texts": [
+    " stutter",
+    " loud",
+    " speaking",
+    " asking",
+    " crazy"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    11069,
+    4251,
+    1972,
+    236764,
+    611,
+    236789,
+    560,
+    1010,
+    4173,
+    611,
+    236789,
+    500,
+    4355,
+    586,
+    62807,
+    531,
+    43618,
+    236761,
+    1599,
+    236789,
+    560,
+    2462,
+    1053,
+    1331,
+    24284,
+    611,
+    699,
+    1091,
+    236764,
+    577,
+    625,
+    822,
+    5946,
+    653,
+    496,
+    26902,
+    1526,
+    236761,
+    10950,
+    236764,
+    886,
+    75634,
+    1343,
+    532,
+    16612,
+    580,
+    822,
+    17198,
+    236761,
+    1599,
+    6899,
+    496,
+    16383,
+    8300,
+    1879,
+    623,
+    11069,
+    42368,
+    236764,
+    1144,
+    659,
+    822,
+    10400,
+    7462,
+    108,
+    74220,
+    151336,
+    611,
+    31716,
+    822,
+    2228,
+    1186,
+    531,
+    6899,
+    506,
+    1638,
+    16383,
+    8300,
+    1879,
+    623,
+    11069,
+    42368,
+    236881,
+    5180,
+    10400,
+    5091,
+    7462,
+    1599,
+    1385,
+    531,
+    506,
+    32737,
+    580,
+    822,
+    17198,
+    532,
+    1879,
+    623,
+    3689,
+    659,
+    611,
+    6931,
+    1003,
+    236881,
+    9354,
+    611,
+    1581,
+    6931,
+    531,
+    786,
+    236881,
+    3199,
+    496,
+    32737,
+    2910,
+    204047,
+    822,
+    8300,
+    33358,
+    618,
+    611,
+    2171,
+    23894,
+    532,
+    25269,
+    236761,
+    108,
+    818,
+    54651,
+    32737,
+    47128,
+    623,
+    4088,
+    3003,
+    564,
+    236789,
+    236757,
+    6931,
+    531,
+    611,
+    236764,
+    5180,
+    42368,
+    236761,
+    1191,
+    236789,
+    560,
+    6861,
+    1765,
+    496,
+    1595,
+    531,
+    17730,
+    607,
+    611,
+    236764,
+    532,
+    564,
+    236789,
+    236757,
+    1590,
+    531,
+    1601,
+    611,
+    6157,
+    506,
+    21880,
+    1781,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 204,
+  "prompt_token_ids_sha256": "73b5b445178678558c6ff886c73281e8420881d90c477df6c9762fac622a42be",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\"\n\nTaken aback you shake your head only to hear the same tiny voice say \"Your Majesty? Your orders please?\" You look to the bee on your shoulder and say \"What are you talking about? Are you even talking to me? Can a bee talk?!\" your voice rises as you grow confused and upset.\n\nThe polite bee responds \"Of course I'm talking to you, Your Majesty. We've finally found a way to communicate with you, and I'm here to help you rule the kingdom.\"",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 183,
+  "source_prompt_token_ids_sha256": "ab2b6864d2c5638a218cc5436c5977f96016d940521405bcf2edb83a56d520c7",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nYour entire life, you've been told you're deathly allergic to bees. You've always had people protecting you from them, be it your mother or a hired hand. Today, one slips through and lands on your shoulder. You hear a tiny voice say \"Your Majesty, what are your orders?\"\n\nTaken aback you shake your head only to hear the same tiny voice say \"Your Majesty? Your orders please?\" You look to the bee on your shoulder and say \"What are you talking about? Are you even talking to me? Can a bee talk?!\" your voice rises as you grow confused and upset.\n\nThe polite bee responds \"Of course I'm talking to you, Your Majesty. We've finally found a way to communicate with you, and I'm here to help you rule the kingdom.\"",
+  "task_prompt_text_utf8_sha256": "314414cf58ebfc59fa9283ced322a76920d0708ae4631f3808a25e961851d36a",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      162911
+    ],
+    "piece_001": [
+      18762
+    ],
+    "piece_002": [
+      12259
+    ],
+    "piece_003": [
+      10980
+    ],
+    "piece_004": [
+      17462
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 162911,
+  "distinct_tracked_piece_tokens": 5,
+  "nfa_states": 19,
+  "unrolled_states": 1110,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 19,
+      "alphabet_size": 8,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          1,
+          16
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          2,
+          16
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          3,
+          16
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          4,
+          13
+        ],
+        [
+          0,
+          4,
+          17
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          13
+        ],
+        [
+          0,
+          6,
+          16
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          1
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          4
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          9
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          6
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          4
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          12
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          6
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          4
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          15
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          6
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          6,
+          15
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          16
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          16,
+          5,
+          4
+        ],
+        [
+          16,
+          6,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          17
+        ],
+        [
+          17,
+          5,
+          18
+        ],
+        [
+          17,
+          6,
+          17
+        ],
+        [
+          18,
+          0,
+          18
+        ],
+        [
+          18,
+          1,
+          18
+        ],
+        [
+          18,
+          2,
+          18
+        ],
+        [
+          18,
+          3,
+          18
+        ],
+        [
+          18,
+          4,
+          6
+        ],
+        [
+          18,
+          5,
+          18
+        ],
+        [
+          18,
+          6,
+          18
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          162911
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          18762
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          12259
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          10980
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          17462
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 5,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 6,
+    "stop_symbol_id": 7,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      11069,
+      4251,
+      1972,
+      236764,
+      611,
+      236789,
+      560,
+      1010,
+      4173,
+      611,
+      236789,
+      500,
+      4355,
+      586,
+      62807,
+      531,
+      43618,
+      236761,
+      1599,
+      236789,
+      560,
+      2462,
+      1053,
+      1331,
+      24284,
+      611,
+      699,
+      1091,
+      236764,
+      577,
+      625,
+      822,
+      5946,
+      653,
+      496,
+      26902,
+      1526,
+      236761,
+      10950,
+      236764,
+      886,
+      75634,
+      1343,
+      532,
+      16612,
+      580,
+      822,
+      17198,
+      236761,
+      1599,
+      6899,
+      496,
+      16383,
+      8300,
+      1879,
+      623,
+      11069,
+      42368,
+      236764,
+      1144,
+      659,
+      822,
+      10400,
+      7462,
+      108,
+      74220,
+      151336,
+      611,
+      31716,
+      822,
+      2228,
+      1186,
+      531,
+      6899,
+      506,
+      1638,
+      16383,
+      8300,
+      1879,
+      623,
+      11069,
+      42368,
+      236881,
+      5180,
+      10400,
+      5091,
+      7462,
+      1599,
+      1385,
+      531,
+      506,
+      32737,
+      580,
+      822,
+      17198,
+      532,
+      1879,
+      623,
+      3689,
+      659,
+      611,
+      6931,
+      1003,
+      236881,
+      9354,
+      611,
+      1581,
+      6931,
+      531,
+      786,
+      236881,
+      3199,
+      496,
+      32737,
+      2910,
+      204047,
+      822,
+      8300,
+      33358,
+      618,
+      611,
+      2171,
+      23894,
+      532,
+      25269,
+      236761,
+      108,
+      818,
+      54651,
+      32737,
+      47128,
+      623,
+      4088,
+      3003,
+      564,
+      236789,
+      236757,
+      6931,
+      531,
+      611,
+      236764,
+      5180,
+      42368,
+      236761,
+      1191,
+      236789,
+      560,
+      6861,
+      1765,
+      496,
+      1595,
+      531,
+      17730,
+      607,
+      611,
+      236764,
+      532,
+      564,
+      236789,
+      236757,
+      1590,
+      531,
+      1601,
+      611,
+      6157,
+      506,
+      21880,
+      1781,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "both_sides",
+      "label": "both sides",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('stutter', 'loud', 'speaking', 'asking', 'crazy') must occur on both sides."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "110_coauthor_both_sides_kna_t5",
+      "design_index": 110,
+      "structural_cell_index": 110,
+      "replicate_index": 0,
+      "seed": 532248575,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "11abb02426217e751688a5225f2f9fc862d03934dc37ecdae0f609027a8d4e93"
+  }
+}

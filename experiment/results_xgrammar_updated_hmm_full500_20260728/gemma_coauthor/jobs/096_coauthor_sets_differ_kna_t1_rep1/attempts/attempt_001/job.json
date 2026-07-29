@@ -1,0 +1,563 @@
+{
+  "base_instance_id": "coauthor:creative:5ff4b3f9999047f6858c878df9638bc3",
+  "constraint": "sets_differ",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 246,
+  "family_index": 0,
+  "job_id": "096_coauthor_sets_differ_kna_t1_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. Since the U.S. already had a large underground infrastructure, it was much quicker and easier for them to go underground into isolation then the rest of the world.",
+  "reference_single_token_nfa_states": 8,
+  "reference_text": "  As the rest of the world struggled to go into isolation, circumstances beyond most countries control were keeping them at war with each other. The main governments originally settled on a cease fire but that did not last because of certain factions that would not comply. They would attack other nations only to see them respond in kind.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 1122122241,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "circumstances",
+      "token_ids": [
+        10409
+      ],
+      "token_length": 1,
+      "token_text": " circumstances"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "869f58cfb0b50aa8215e132f552a4cfb3ec231c5493b2c306c468d7dde18df9a",
+  "source_split": "train",
+  "structural_cell_index": 96,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      10409
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    10409
+  ],
+  "tracked_token_texts": [
+    " circumstances"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    25221,
+    4109,
+    5289,
+    8488,
+    236764,
+    784,
+    506,
+    17835,
+    529,
+    506,
+    1902,
+    10344,
+    531,
+    236743,
+    236810,
+    236771,
+    1518,
+    529,
+    10346,
+    23049,
+    699,
+    886,
+    2264,
+    528,
+    1900,
+    531,
+    5001,
+    4767,
+    28847,
+    236761,
+    236743,
+    236810,
+    236771,
+    1518,
+    3209,
+    236764,
+    506,
+    3640,
+    4184,
+    3952,
+    855,
+    529,
+    74627,
+    236764,
+    1186,
+    531,
+    3449,
+    600,
+    951,
+    886,
+    1663,
+    3939,
+    1131,
+    23049,
+    236761,
+    5612,
+    506,
+    749,
+    236761,
+    236773,
+    236761,
+    3016,
+    1053,
+    496,
+    2455,
+    26407,
+    12308,
+    236764,
+    625,
+    691,
+    1623,
+    43806,
+    532,
+    8722,
+    573,
+    1091,
+    531,
+    817,
+    26407,
+    1131,
+    23049,
+    1299,
+    506,
+    1884,
+    529,
+    506,
+    1902,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 124,
+  "prompt_token_ids_sha256": "2ab7ffc914aa8540630c36f787018b5178abce5e9687dee172523376e52e89d4",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. Since the U.S. already had a large underground infrastructure, it was much quicker and easier for them to go underground into isolation then the rest of the world.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 103,
+  "source_prompt_token_ids_sha256": "de8741cef3686610808c162c6103b74070cdb9a7b6a2836527a761218b2217ee",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. Since the U.S. already had a large underground infrastructure, it was much quicker and easier for them to go underground into isolation then the rest of the world.",
+  "task_prompt_text_utf8_sha256": "f81aa617b97ae19e9bc87b306e2747a94abd53afdcf7fdacb48608e985561f1a",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      10409
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 10409,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 7,
+  "unrolled_states": 439,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 7,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          0,
+          5
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          10409
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      25221,
+      4109,
+      5289,
+      8488,
+      236764,
+      784,
+      506,
+      17835,
+      529,
+      506,
+      1902,
+      10344,
+      531,
+      236743,
+      236810,
+      236771,
+      1518,
+      529,
+      10346,
+      23049,
+      699,
+      886,
+      2264,
+      528,
+      1900,
+      531,
+      5001,
+      4767,
+      28847,
+      236761,
+      236743,
+      236810,
+      236771,
+      1518,
+      3209,
+      236764,
+      506,
+      3640,
+      4184,
+      3952,
+      855,
+      529,
+      74627,
+      236764,
+      1186,
+      531,
+      3449,
+      600,
+      951,
+      886,
+      1663,
+      3939,
+      1131,
+      23049,
+      236761,
+      5612,
+      506,
+      749,
+      236761,
+      236773,
+      236761,
+      3016,
+      1053,
+      496,
+      2455,
+      26407,
+      12308,
+      236764,
+      625,
+      691,
+      1623,
+      43806,
+      532,
+      8722,
+      573,
+      1091,
+      531,
+      817,
+      26407,
+      1131,
+      23049,
+      1299,
+      506,
+      1884,
+      529,
+      506,
+      1902,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "sets_differ",
+      "label": "different side sets",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('circumstances') must occur on exactly one side."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "096_coauthor_sets_differ_kna_t1_rep1",
+      "design_index": 246,
+      "structural_cell_index": 96,
+      "replicate_index": 1,
+      "seed": 1122122241,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "4f8126b83ed15a1c4c8e3971cdc701818aa4fe7cbf74c27f636d4f73b989b4cc"
+  }
+}

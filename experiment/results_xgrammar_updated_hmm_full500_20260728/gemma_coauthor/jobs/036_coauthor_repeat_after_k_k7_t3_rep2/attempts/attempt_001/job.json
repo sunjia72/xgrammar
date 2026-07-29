@@ -1,0 +1,1240 @@
+{
+  "base_instance_id": "coauthor:creative:17e61e6248cb4b1fae8ea73dc6bd70f7",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 336,
+  "family_index": 6,
+  "job_id": "036_coauthor_repeat_after_k_k7_t3_rep2",
+  "k": 7,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 9,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nA woman has been dating guy after guy, but it never seems to work out. She's unaware that she's actually been dating the same guy over and over; a shapeshifter who's fallen for her, and is certain he's going to get it right this time. She wonders why she can't make a long term connection even after trying with so many guys. Each man seems different at first but after a while they all seem to show the same deep-seated character flaws that she despises. She starts to think that all men are basically the same. She's right. At least she's right about all the men she's been dating, they are all the same. She starts the think that maybe she should try dating women. She experimented a bit with lesbian relationships in college, and they weren't that bad.",
+  "reference_single_token_nfa_states": 24,
+  "reference_text": " She wonders if she should try it again. After awhile she decides to go for it. After all these failed relationships with men perhaps she just can't get along with men at all, she thinks. She starts dating local women. When the shapeshifter sees this he realizes that he must know be a she.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 881157313,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "awhile",
+      "token_ids": [
+        74951
+      ],
+      "token_length": 1,
+      "token_text": " awhile"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "local",
+      "token_ids": [
+        2263
+      ],
+      "token_length": 1,
+      "token_text": " local"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "perhaps",
+      "token_ids": [
+        8229
+      ],
+      "token_length": 1,
+      "token_text": " perhaps"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "ee4c2a6aea3228c233f3a0b7a2411db556ab20d80c25b5cc50a762cd24ae3385",
+  "source_split": "test",
+  "structural_cell_index": 36,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      74951
+    ],
+    [
+      2263
+    ],
+    [
+      8229
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    74951,
+    2263,
+    8229
+  ],
+  "tracked_token_texts": [
+    " awhile",
+    " local",
+    " perhaps"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    236776,
+    3875,
+    815,
+    1010,
+    20566,
+    9865,
+    1308,
+    9865,
+    236764,
+    840,
+    625,
+    2752,
+    5072,
+    531,
+    981,
+    855,
+    236761,
+    2625,
+    236789,
+    236751,
+    56164,
+    600,
+    1304,
+    236789,
+    236751,
+    3643,
+    1010,
+    20566,
+    506,
+    1638,
+    9865,
+    1024,
+    532,
+    1024,
+    236793,
+    496,
+    9665,
+    13068,
+    66890,
+    1015,
+    236789,
+    236751,
+    22303,
+    573,
+    1116,
+    236764,
+    532,
+    563,
+    2953,
+    668,
+    236789,
+    236751,
+    1771,
+    531,
+    974,
+    625,
+    1447,
+    672,
+    990,
+    236761,
+    2625,
+    41761,
+    3217,
+    1304,
+    740,
+    236789,
+    236745,
+    1386,
+    496,
+    1440,
+    1941,
+    5603,
+    1581,
+    1308,
+    4875,
+    607,
+    834,
+    1551,
+    7612,
+    236761,
+    7714,
+    880,
+    5072,
+    1607,
+    657,
+    1171,
+    840,
+    1308,
+    496,
+    1651,
+    901,
+    784,
+    4483,
+    531,
+    1407,
+    506,
+    1638,
+    5268,
+    236772,
+    172776,
+    2872,
+    60010,
+    600,
+    1304,
+    43858,
+    3708,
+    236761,
+    2625,
+    9857,
+    531,
+    1751,
+    600,
+    784,
+    1758,
+    659,
+    11874,
+    506,
+    1638,
+    236761,
+    2625,
+    236789,
+    236751,
+    1447,
+    236761,
+    2640,
+    3198,
+    1304,
+    236789,
+    236751,
+    1447,
+    1003,
+    784,
+    506,
+    1758,
+    1304,
+    236789,
+    236751,
+    1010,
+    20566,
+    236764,
+    901,
+    659,
+    784,
+    506,
+    1638,
+    236761,
+    2625,
+    9857,
+    506,
+    1751,
+    600,
+    7463,
+    1304,
+    1374,
+    2056,
+    20566,
+    3607,
+    236761,
+    2625,
+    112442,
+    496,
+    3103,
+    607,
+    80244,
+    9994,
+    528,
+    8672,
+    236764,
+    532,
+    901,
+    19310,
+    236789,
+    236745,
+    600,
+    4287,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 212,
+  "prompt_token_ids_sha256": "a6783b3e2749ccc9aef22b3ccc5a6435c387543037e1d8ef0af4829cdb74808f",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nA woman has been dating guy after guy, but it never seems to work out. She's unaware that she's actually been dating the same guy over and over; a shapeshifter who's fallen for her, and is certain he's going to get it right this time. She wonders why she can't make a long term connection even after trying with so many guys. Each man seems different at first but after a while they all seem to show the same deep-seated character flaws that she despises. She starts to think that all men are basically the same. She's right. At least she's right about all the men she's been dating, they are all the same. She starts the think that maybe she should try dating women. She experimented a bit with lesbian relationships in college, and they weren't that bad.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 191,
+  "source_prompt_token_ids_sha256": "325c7b845945f49eeee791fa94f7b3d4d561f6896eb35dad9d55cf44937a116c",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nA woman has been dating guy after guy, but it never seems to work out. She's unaware that she's actually been dating the same guy over and over; a shapeshifter who's fallen for her, and is certain he's going to get it right this time. She wonders why she can't make a long term connection even after trying with so many guys. Each man seems different at first but after a while they all seem to show the same deep-seated character flaws that she despises. She starts to think that all men are basically the same. She's right. At least she's right about all the men she's been dating, they are all the same. She starts the think that maybe she should try dating women. She experimented a bit with lesbian relationships in college, and they weren't that bad.",
+  "task_prompt_text_utf8_sha256": "960a66e8fa7ee8982cc21e6e89e068c297105855583cb4043758d8b4aeab5ab8",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      74951
+    ],
+    "piece_001": [
+      2263
+    ],
+    "piece_002": [
+      8229
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 74951,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 24,
+  "unrolled_states": 1423,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 24,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          17
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          9,
+          0,
+          2
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          14,
+          3,
+          15
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          15,
+          3,
+          16
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          16,
+          1,
+          2
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          17,
+          3,
+          18
+        ],
+        [
+          17,
+          4,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          18,
+          3,
+          19
+        ],
+        [
+          18,
+          4,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          19,
+          3,
+          20
+        ],
+        [
+          19,
+          4,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          20,
+          3,
+          21
+        ],
+        [
+          20,
+          4,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          21,
+          3,
+          22
+        ],
+        [
+          21,
+          4,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          22,
+          3,
+          23
+        ],
+        [
+          22,
+          4,
+          23
+        ],
+        [
+          23,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          74951
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          2263
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          8229
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      236776,
+      3875,
+      815,
+      1010,
+      20566,
+      9865,
+      1308,
+      9865,
+      236764,
+      840,
+      625,
+      2752,
+      5072,
+      531,
+      981,
+      855,
+      236761,
+      2625,
+      236789,
+      236751,
+      56164,
+      600,
+      1304,
+      236789,
+      236751,
+      3643,
+      1010,
+      20566,
+      506,
+      1638,
+      9865,
+      1024,
+      532,
+      1024,
+      236793,
+      496,
+      9665,
+      13068,
+      66890,
+      1015,
+      236789,
+      236751,
+      22303,
+      573,
+      1116,
+      236764,
+      532,
+      563,
+      2953,
+      668,
+      236789,
+      236751,
+      1771,
+      531,
+      974,
+      625,
+      1447,
+      672,
+      990,
+      236761,
+      2625,
+      41761,
+      3217,
+      1304,
+      740,
+      236789,
+      236745,
+      1386,
+      496,
+      1440,
+      1941,
+      5603,
+      1581,
+      1308,
+      4875,
+      607,
+      834,
+      1551,
+      7612,
+      236761,
+      7714,
+      880,
+      5072,
+      1607,
+      657,
+      1171,
+      840,
+      1308,
+      496,
+      1651,
+      901,
+      784,
+      4483,
+      531,
+      1407,
+      506,
+      1638,
+      5268,
+      236772,
+      172776,
+      2872,
+      60010,
+      600,
+      1304,
+      43858,
+      3708,
+      236761,
+      2625,
+      9857,
+      531,
+      1751,
+      600,
+      784,
+      1758,
+      659,
+      11874,
+      506,
+      1638,
+      236761,
+      2625,
+      236789,
+      236751,
+      1447,
+      236761,
+      2640,
+      3198,
+      1304,
+      236789,
+      236751,
+      1447,
+      1003,
+      784,
+      506,
+      1758,
+      1304,
+      236789,
+      236751,
+      1010,
+      20566,
+      236764,
+      901,
+      659,
+      784,
+      506,
+      1638,
+      236761,
+      2625,
+      9857,
+      506,
+      1751,
+      600,
+      7463,
+      1304,
+      1374,
+      2056,
+      20566,
+      3607,
+      236761,
+      2625,
+      112442,
+      496,
+      3103,
+      607,
+      80244,
+      9994,
+      528,
+      8672,
+      236764,
+      532,
+      901,
+      19310,
+      236789,
+      236745,
+      600,
+      4287,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('awhile', 'local', 'perhaps') must occur twice with start positions exactly 7 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "036_coauthor_repeat_after_k_k7_t3_rep2",
+      "design_index": 336,
+      "structural_cell_index": 36,
+      "replicate_index": 2,
+      "seed": 881157313,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "58b1961248f1d159e5bafe4c1653be4ea3742580f21baea3418cee10c267bbcc"
+  }
+}

@@ -1,0 +1,1333 @@
+{
+  "base_instance_id": "coauthor:creative:ea11db08c0dd4477add459779396a29e",
+  "constraint": "any_token_at_least_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 348,
+  "family_index": 3,
+  "job_id": "048_coauthor_any_token_at_least_k_k3_t4_rep2",
+  "k": 3,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 4,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. Wouldn't that cause mayhem. dad's are so darn competitive. They would be trying to influence the ranking with charm, power, and money. Most dads, anyway. \n\nBut what is a Dad? There are as many definitions are there are dads. In today's society, dad's are almost on an even keel with moms. They provide, nourish, educate, and spend time with their offspring. There are also many types of dad's including step dads, gay dads, single dads, and granddads. Their roles are quite essential in the raising of children. The better ones keep a sense of humor, spend time listening to their children, and model respect and kindness. \n\nBack to the mug rankings, in a society that swipes right or left, it is hard to pinpoint what makes someone the best or of a high ranking. The best parents are what their children need because that is how individualized relationships need to be.",
+  "reference_single_token_nfa_states": 15,
+  "reference_text": " There are no two people or relationships that are the same. To girls, a dad needs to portray the behaviors that the girl deserves. She learns how to be treated by a man. To boys, a dad needs to portary the behaviors that he wants his girls to receive. \n\nRankings. Oh rankings.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 1382260424,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "portray",
+      "token_ids": [
+        28078
+      ],
+      "token_length": 1,
+      "token_text": " portray"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "behaviors",
+      "token_ids": [
+        30122
+      ],
+      "token_length": 1,
+      "token_text": " behaviors"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "deserves",
+      "token_ids": [
+        34904
+      ],
+      "token_length": 1,
+      "token_text": " deserves"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "boys",
+      "token_ids": [
+        12958
+      ],
+      "token_length": 1,
+      "token_text": " boys"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "a431d3a868a2f8d587d3a543fd40ddf1f6fdc5e7f6334fde948c9d883132fc35",
+  "source_split": "train",
+  "structural_cell_index": 48,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      28078
+    ],
+    [
+      30122
+    ],
+    [
+      34904
+    ],
+    [
+      12958
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    28078,
+    30122,
+    34904,
+    12958
+  ],
+  "tracked_token_texts": [
+    " portray",
+    " behaviors",
+    " deserves",
+    " boys"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    125362,
+    236789,
+    236745,
+    600,
+    4400,
+    163241,
+    236761,
+    15030,
+    236789,
+    236751,
+    659,
+    834,
+    104967,
+    13128,
+    236761,
+    2195,
+    1093,
+    577,
+    4875,
+    531,
+    7630,
+    506,
+    27672,
+    607,
+    28605,
+    236764,
+    2066,
+    236764,
+    532,
+    3273,
+    236761,
+    7660,
+    140698,
+    236764,
+    17498,
+    236761,
+    236743,
+    108,
+    4573,
+    1144,
+    563,
+    496,
+    30702,
+    236881,
+    2085,
+    659,
+    618,
+    1551,
+    22414,
+    659,
+    993,
+    659,
+    140698,
+    236761,
+    799,
+    3124,
+    236789,
+    236751,
+    7299,
+    236764,
+    15030,
+    236789,
+    236751,
+    659,
+    4180,
+    580,
+    614,
+    1581,
+    96370,
+    607,
+    75621,
+    236761,
+    2195,
+    2847,
+    236764,
+    114419,
+    236764,
+    39138,
+    236764,
+    532,
+    8559,
+    990,
+    607,
+    910,
+    51759,
+    236761,
+    2085,
+    659,
+    992,
+    1551,
+    4458,
+    529,
+    15030,
+    236789,
+    236751,
+    2440,
+    2918,
+    140698,
+    236764,
+    22174,
+    140698,
+    236764,
+    3161,
+    140698,
+    236764,
+    532,
+    4159,
+    236753,
+    10328,
+    236761,
+    9963,
+    13616,
+    659,
+    4346,
+    5250,
+    528,
+    506,
+    18494,
+    529,
+    2940,
+    236761,
+    669,
+    2480,
+    5906,
+    2514,
+    496,
+    5113,
+    529,
+    29024,
+    236764,
+    8559,
+    990,
+    13723,
+    531,
+    910,
+    2940,
+    236764,
+    532,
+    2028,
+    2833,
+    532,
+    42057,
+    236761,
+    236743,
+    108,
+    5566,
+    531,
+    506,
+    24199,
+    47551,
+    236764,
+    528,
+    496,
+    7299,
+    600,
+    163393,
+    1447,
+    653,
+    2378,
+    236764,
+    625,
+    563,
+    2651,
+    531,
+    82387,
+    1144,
+    3590,
+    5026,
+    506,
+    1791,
+    653,
+    529,
+    496,
+    1494,
+    27672,
+    236761,
+    669,
+    1791,
+    6296,
+    659,
+    1144,
+    910,
+    2940,
+    1202,
+    1547,
+    600,
+    563,
+    1217,
+    104370,
+    9994,
+    1202,
+    531,
+    577,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 252,
+  "prompt_token_ids_sha256": "6b58efec8653041f2a44ae5726165d76bdacae61fc63956ff6c7e62577164006",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. Wouldn't that cause mayhem. dad's are so darn competitive. They would be trying to influence the ranking with charm, power, and money. Most dads, anyway. \n\nBut what is a Dad? There are as many definitions are there are dads. In today's society, dad's are almost on an even keel with moms. They provide, nourish, educate, and spend time with their offspring. There are also many types of dad's including step dads, gay dads, single dads, and granddads. Their roles are quite essential in the raising of children. The better ones keep a sense of humor, spend time listening to their children, and model respect and kindness. \n\nBack to the mug rankings, in a society that swipes right or left, it is hard to pinpoint what makes someone the best or of a high ranking. The best parents are what their children need because that is how individualized relationships need to be.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 231,
+  "source_prompt_token_ids_sha256": "07e2fb269cadaba4ec2cff98161e0da41023a7161f8f8f1c878efd04e2b90e58",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. Wouldn't that cause mayhem. dad's are so darn competitive. They would be trying to influence the ranking with charm, power, and money. Most dads, anyway. \n\nBut what is a Dad? There are as many definitions are there are dads. In today's society, dad's are almost on an even keel with moms. They provide, nourish, educate, and spend time with their offspring. There are also many types of dad's including step dads, gay dads, single dads, and granddads. Their roles are quite essential in the raising of children. The better ones keep a sense of humor, spend time listening to their children, and model respect and kindness. \n\nBack to the mug rankings, in a society that swipes right or left, it is hard to pinpoint what makes someone the best or of a high ranking. The best parents are what their children need because that is how individualized relationships need to be.",
+  "task_prompt_text_utf8_sha256": "2598a20ee15c0252c4157c89f99abe278a7c7f621d889bce43e3b6f4ea91cb46",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      28078
+    ],
+    "piece_001": [
+      30122
+    ],
+    "piece_002": [
+      34904
+    ],
+    "piece_003": [
+      12958
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 28078,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 15,
+  "unrolled_states": 925,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 15,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          0,
+          5,
+          12
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          5
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          5
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          5
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          28078
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          30122
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          34904
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          12958
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      125362,
+      236789,
+      236745,
+      600,
+      4400,
+      163241,
+      236761,
+      15030,
+      236789,
+      236751,
+      659,
+      834,
+      104967,
+      13128,
+      236761,
+      2195,
+      1093,
+      577,
+      4875,
+      531,
+      7630,
+      506,
+      27672,
+      607,
+      28605,
+      236764,
+      2066,
+      236764,
+      532,
+      3273,
+      236761,
+      7660,
+      140698,
+      236764,
+      17498,
+      236761,
+      236743,
+      108,
+      4573,
+      1144,
+      563,
+      496,
+      30702,
+      236881,
+      2085,
+      659,
+      618,
+      1551,
+      22414,
+      659,
+      993,
+      659,
+      140698,
+      236761,
+      799,
+      3124,
+      236789,
+      236751,
+      7299,
+      236764,
+      15030,
+      236789,
+      236751,
+      659,
+      4180,
+      580,
+      614,
+      1581,
+      96370,
+      607,
+      75621,
+      236761,
+      2195,
+      2847,
+      236764,
+      114419,
+      236764,
+      39138,
+      236764,
+      532,
+      8559,
+      990,
+      607,
+      910,
+      51759,
+      236761,
+      2085,
+      659,
+      992,
+      1551,
+      4458,
+      529,
+      15030,
+      236789,
+      236751,
+      2440,
+      2918,
+      140698,
+      236764,
+      22174,
+      140698,
+      236764,
+      3161,
+      140698,
+      236764,
+      532,
+      4159,
+      236753,
+      10328,
+      236761,
+      9963,
+      13616,
+      659,
+      4346,
+      5250,
+      528,
+      506,
+      18494,
+      529,
+      2940,
+      236761,
+      669,
+      2480,
+      5906,
+      2514,
+      496,
+      5113,
+      529,
+      29024,
+      236764,
+      8559,
+      990,
+      13723,
+      531,
+      910,
+      2940,
+      236764,
+      532,
+      2028,
+      2833,
+      532,
+      42057,
+      236761,
+      236743,
+      108,
+      5566,
+      531,
+      506,
+      24199,
+      47551,
+      236764,
+      528,
+      496,
+      7299,
+      600,
+      163393,
+      1447,
+      653,
+      2378,
+      236764,
+      625,
+      563,
+      2651,
+      531,
+      82387,
+      1144,
+      3590,
+      5026,
+      506,
+      1791,
+      653,
+      529,
+      496,
+      1494,
+      27672,
+      236761,
+      669,
+      1791,
+      6296,
+      659,
+      1144,
+      910,
+      2940,
+      1202,
+      1547,
+      600,
+      563,
+      1217,
+      104370,
+      9994,
+      1202,
+      531,
+      577,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "any_token_at_least_k",
+      "label": "at least k occurrences",
+      "rule": "At least one tracked phrase ('portray', 'behaviors', 'deserves', 'boys') must occur at least 3 times."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "048_coauthor_any_token_at_least_k_k3_t4_rep2",
+      "design_index": 348,
+      "structural_cell_index": 48,
+      "replicate_index": 2,
+      "seed": 1382260424,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "1c05c822145b3fe21cf2622a92e2f4aa5df085f0f94c9e4c906787405672ea1a"
+  }
+}

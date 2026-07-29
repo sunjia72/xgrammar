@@ -1,0 +1,1903 @@
+{
+  "base_instance_id": "coauthor:creative:cf41b69d79a14f2ea9c8179de2f84479",
+  "constraint": "right_not_left",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 455,
+  "family_index": 5,
+  "job_id": "155_coauthor_right_not_left_kna_t6",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. Instead, Earth is populated by a number of different tribes and clans.  The United States had continued its democratic traditions and technological advancements while in isolation.  It combated environmental issues, done space flights to Mars, perfected self driving cars and many other technologies while the rest of the world had simply gone downhill.\n\nAmerica is therefore a new and exciting place to live, while the rest of the world has become more primitive.  While border security had been an issue before, now that people throughout the world found out what strides America had made, people started flocking to the borders.  The president, Will Young, wanted to interact with the rest of the world, but knew he had to manage that carefully.  He first had to make sure no one from the outside world could attack America, then he was going to try and open up trade with the rest of the world.  While the US hadn't invested a lot in weaponry during the 50 years of isolation, it still had a strong military and powerful weapons.  He made sure that was known around the world.  He surrounded America with the military to ensure no one could get in or out, while his government started working with other countries to bring trade back.  He was not going to let anyone flood into America and destroy the way of life that had been worked on for the past 50 years.\n\nBut then President Young thought back to the days of the Donald Trump presidency, when he had built a wall with Mexico and not shown empathy with those who had good reason to escape their countries.",
+  "reference_single_token_nfa_states": 15,
+  "reference_text": "  He challenged his senior staff and aides to create a plan to allow some immigration without detriment to what the US had enjoyed the past 50 years.  He was going to make sure that those entering the US were from countries that were allied with America and who's people would contribute to the country.",
+  "reference_token_count": 61,
+  "replicate_index": 0,
+  "seed": 856383930,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "entering",
+      "token_ids": [
+        16232
+      ],
+      "token_length": 1,
+      "token_text": " entering"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "allied",
+      "token_ids": [
+        58467
+      ],
+      "token_length": 1,
+      "token_text": " allied"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "detriment",
+      "token_ids": [
+        102829
+      ],
+      "token_length": 1,
+      "token_text": " detriment"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "senior",
+      "token_ids": [
+        9550
+      ],
+      "token_length": 1,
+      "token_text": " senior"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "contribute",
+      "token_ids": [
+        13157
+      ],
+      "token_length": 1,
+      "token_text": " contribute"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "immigration",
+      "token_ids": [
+        34126
+      ],
+      "token_length": 1,
+      "token_text": " immigration"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "3719fa5fc571188b90d4522c4073c580574e032ed6907ba42532a2568a59d3cb",
+  "source_split": "train",
+  "structural_cell_index": 155,
+  "t": 6,
+  "total_tracked_keyword_tokens": 6,
+  "tracked_keyword_token_ids": [
+    [
+      16232
+    ],
+    [
+      58467
+    ],
+    [
+      102829
+    ],
+    [
+      9550
+    ],
+    [
+      13157
+    ],
+    [
+      34126
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    16232,
+    58467,
+    102829,
+    9550,
+    13157,
+    34126
+  ],
+  "tracked_token_texts": [
+    " entering",
+    " allied",
+    " detriment",
+    " senior",
+    " contribute",
+    " immigration"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    25221,
+    4109,
+    5289,
+    8488,
+    236764,
+    784,
+    506,
+    17835,
+    529,
+    506,
+    1902,
+    10344,
+    531,
+    236743,
+    236810,
+    236771,
+    1518,
+    529,
+    10346,
+    23049,
+    699,
+    886,
+    2264,
+    528,
+    1900,
+    531,
+    5001,
+    4767,
+    28847,
+    236761,
+    236743,
+    236810,
+    236771,
+    1518,
+    3209,
+    236764,
+    506,
+    3640,
+    4184,
+    3952,
+    855,
+    529,
+    74627,
+    236764,
+    1186,
+    531,
+    3449,
+    600,
+    951,
+    886,
+    1663,
+    3939,
+    1131,
+    23049,
+    236761,
+    13884,
+    236764,
+    10824,
+    563,
+    52475,
+    684,
+    496,
+    1548,
+    529,
+    1607,
+    42608,
+    532,
+    101083,
+    236761,
+    138,
+    818,
+    3640,
+    4184,
+    1053,
+    7245,
+    1061,
+    29810,
+    28968,
+    532,
+    22351,
+    82483,
+    1651,
+    528,
+    23049,
+    236761,
+    138,
+    1509,
+    2905,
+    774,
+    8646,
+    4342,
+    236764,
+    3028,
+    2557,
+    22344,
+    531,
+    23156,
+    236764,
+    93709,
+    1265,
+    9204,
+    9371,
+    532,
+    1551,
+    1032,
+    10952,
+    1651,
+    506,
+    1884,
+    529,
+    506,
+    1902,
+    1053,
+    5181,
+    8731,
+    81302,
+    236761,
+    108,
+    47158,
+    563,
+    5233,
+    496,
+    861,
+    532,
+    12615,
+    1977,
+    531,
+    3892,
+    236764,
+    1651,
+    506,
+    1884,
+    529,
+    506,
+    1902,
+    815,
+    3291,
+    919,
+    34986,
+    236761,
+    138,
+    8409,
+    5334,
+    5052,
+    1053,
+    1010,
+    614,
+    4186,
+    1680,
+    236764,
+    1492,
+    600,
+    1331,
+    5459,
+    506,
+    1902,
+    1765,
+    855,
+    1144,
+    67595,
+    5711,
+    1053,
+    1603,
+    236764,
+    1331,
+    3931,
+    45034,
+    522,
+    531,
+    506,
+    27367,
+    236761,
+    138,
+    818,
+    6207,
+    236764,
+    4291,
+    11853,
+    236764,
+    5048,
+    531,
+    12740,
+    607,
+    506,
+    1884,
+    529,
+    506,
+    1902,
+    236764,
+    840,
+    7261,
+    668,
+    1053,
+    531,
+    9688,
+    600,
+    13058,
+    236761,
+    138,
+    2209,
+    1171,
+    1053,
+    531,
+    1386,
+    2889,
+    951,
+    886,
+    699,
+    506,
+    4782,
+    1902,
+    1451,
+    4657,
+    5711,
+    236764,
+    1299,
+    668,
+    691,
+    1771,
+    531,
+    2056,
+    532,
+    1932,
+    872,
+    5754,
+    607,
+    506,
+    1884,
+    529,
+    506,
+    1902,
+    236761,
+    138,
+    8409,
+    506,
+    2590,
+    26180,
+    236789,
+    236745,
+    25676,
+    496,
+    2606,
+    528,
+    168069,
+    1913,
+    506,
+    236743,
+    236810,
+    236771,
+    1518,
+    529,
+    23049,
+    236764,
+    625,
+    2036,
+    1053,
+    496,
+    3188,
+    7820,
+    532,
+    8632,
+    17105,
+    236761,
+    138,
+    2209,
+    1603,
+    2889,
+    600,
+    691,
+    3224,
+    2101,
+    506,
+    1902,
+    236761,
+    138,
+    2209,
+    18211,
+    5711,
+    607,
+    506,
+    7820,
+    531,
+    5330,
+    951,
+    886,
+    1451,
+    974,
+    528,
+    653,
+    855,
+    236764,
+    1651,
+    914,
+    3251,
+    3931,
+    2844,
+    607,
+    1032,
+    4808,
+    531,
+    3437,
+    5754,
+    1063,
+    236761,
+    138,
+    2209,
+    691,
+    711,
+    1771,
+    531,
+    1531,
+    6533,
+    18226,
+    1131,
+    5711,
+    532,
+    9867,
+    506,
+    1595,
+    529,
+    1972,
+    600,
+    1053,
+    1010,
+    5934,
+    580,
+    573,
+    506,
+    3068,
+    236743,
+    236810,
+    236771,
+    1518,
+    236761,
+    108,
+    4573,
+    1299,
+    5376,
+    11853,
+    3305,
+    1063,
+    531,
+    506,
+    2668,
+    529,
+    506,
+    19812,
+    10337,
+    60616,
+    236764,
+    1056,
+    668,
+    1053,
+    5284,
+    496,
+    3549,
+    607,
+    13251,
+    532,
+    711,
+    3505,
+    58203,
+    607,
+    1724,
+    1015,
+    1053,
+    1535,
+    3282,
+    531,
+    14317,
+    910,
+    4808,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 409,
+  "prompt_token_ids_sha256": "4f6f648add1fa46243d6157005db7fb3fc9845873e8db129458ee930e4fca6c6",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. Instead, Earth is populated by a number of different tribes and clans.  The United States had continued its democratic traditions and technological advancements while in isolation.  It combated environmental issues, done space flights to Mars, perfected self driving cars and many other technologies while the rest of the world had simply gone downhill.\n\nAmerica is therefore a new and exciting place to live, while the rest of the world has become more primitive.  While border security had been an issue before, now that people throughout the world found out what strides America had made, people started flocking to the borders.  The president, Will Young, wanted to interact with the rest of the world, but knew he had to manage that carefully.  He first had to make sure no one from the outside world could attack America, then he was going to try and open up trade with the rest of the world.  While the US hadn't invested a lot in weaponry during the 50 years of isolation, it still had a strong military and powerful weapons.  He made sure that was known around the world.  He surrounded America with the military to ensure no one could get in or out, while his government started working with other countries to bring trade back.  He was not going to let anyone flood into America and destroy the way of life that had been worked on for the past 50 years.\n\nBut then President Young thought back to the days of the Donald Trump presidency, when he had built a wall with Mexico and not shown empathy with those who had good reason to escape their countries.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 388,
+  "source_prompt_token_ids_sha256": "403657807b3e909dee50b8938396137224c539b95b14a9ef686d477c2b901a95",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. Instead, Earth is populated by a number of different tribes and clans.  The United States had continued its democratic traditions and technological advancements while in isolation.  It combated environmental issues, done space flights to Mars, perfected self driving cars and many other technologies while the rest of the world had simply gone downhill.\n\nAmerica is therefore a new and exciting place to live, while the rest of the world has become more primitive.  While border security had been an issue before, now that people throughout the world found out what strides America had made, people started flocking to the borders.  The president, Will Young, wanted to interact with the rest of the world, but knew he had to manage that carefully.  He first had to make sure no one from the outside world could attack America, then he was going to try and open up trade with the rest of the world.  While the US hadn't invested a lot in weaponry during the 50 years of isolation, it still had a strong military and powerful weapons.  He made sure that was known around the world.  He surrounded America with the military to ensure no one could get in or out, while his government started working with other countries to bring trade back.  He was not going to let anyone flood into America and destroy the way of life that had been worked on for the past 50 years.\n\nBut then President Young thought back to the days of the Donald Trump presidency, when he had built a wall with Mexico and not shown empathy with those who had good reason to escape their countries.",
+  "task_prompt_text_utf8_sha256": "fb3eb6507b44690e9ebfd1f7ac6eaa498428b68a8d0721be7d4758125f0afd67",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      16232
+    ],
+    "piece_001": [
+      58467
+    ],
+    "piece_002": [
+      102829
+    ],
+    "piece_003": [
+      9550
+    ],
+    "piece_004": [
+      13157
+    ],
+    "piece_005": [
+      34126
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 16232,
+  "distinct_tracked_piece_tokens": 6,
+  "nfa_states": 15,
+  "unrolled_states": 938,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 15,
+      "alphabet_size": 9,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          0,
+          3,
+          11
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          0,
+          4,
+          13
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          5
+        ],
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          0,
+          5,
+          11
+        ],
+        [
+          0,
+          6,
+          3
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          14
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          5
+        ],
+        [
+          0,
+          7,
+          7
+        ],
+        [
+          0,
+          7,
+          9
+        ],
+        [
+          0,
+          7,
+          11
+        ],
+        [
+          0,
+          7,
+          13
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          3
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          8
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          4
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          10
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          4
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          12
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          4
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          6,
+          14
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          4
+        ],
+        [
+          14,
+          6,
+          14
+        ],
+        [
+          14,
+          7,
+          14
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          16232
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          58467
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          102829
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          9550
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          13157
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          34126
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 6,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 7,
+    "stop_symbol_id": 8,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      25221,
+      4109,
+      5289,
+      8488,
+      236764,
+      784,
+      506,
+      17835,
+      529,
+      506,
+      1902,
+      10344,
+      531,
+      236743,
+      236810,
+      236771,
+      1518,
+      529,
+      10346,
+      23049,
+      699,
+      886,
+      2264,
+      528,
+      1900,
+      531,
+      5001,
+      4767,
+      28847,
+      236761,
+      236743,
+      236810,
+      236771,
+      1518,
+      3209,
+      236764,
+      506,
+      3640,
+      4184,
+      3952,
+      855,
+      529,
+      74627,
+      236764,
+      1186,
+      531,
+      3449,
+      600,
+      951,
+      886,
+      1663,
+      3939,
+      1131,
+      23049,
+      236761,
+      13884,
+      236764,
+      10824,
+      563,
+      52475,
+      684,
+      496,
+      1548,
+      529,
+      1607,
+      42608,
+      532,
+      101083,
+      236761,
+      138,
+      818,
+      3640,
+      4184,
+      1053,
+      7245,
+      1061,
+      29810,
+      28968,
+      532,
+      22351,
+      82483,
+      1651,
+      528,
+      23049,
+      236761,
+      138,
+      1509,
+      2905,
+      774,
+      8646,
+      4342,
+      236764,
+      3028,
+      2557,
+      22344,
+      531,
+      23156,
+      236764,
+      93709,
+      1265,
+      9204,
+      9371,
+      532,
+      1551,
+      1032,
+      10952,
+      1651,
+      506,
+      1884,
+      529,
+      506,
+      1902,
+      1053,
+      5181,
+      8731,
+      81302,
+      236761,
+      108,
+      47158,
+      563,
+      5233,
+      496,
+      861,
+      532,
+      12615,
+      1977,
+      531,
+      3892,
+      236764,
+      1651,
+      506,
+      1884,
+      529,
+      506,
+      1902,
+      815,
+      3291,
+      919,
+      34986,
+      236761,
+      138,
+      8409,
+      5334,
+      5052,
+      1053,
+      1010,
+      614,
+      4186,
+      1680,
+      236764,
+      1492,
+      600,
+      1331,
+      5459,
+      506,
+      1902,
+      1765,
+      855,
+      1144,
+      67595,
+      5711,
+      1053,
+      1603,
+      236764,
+      1331,
+      3931,
+      45034,
+      522,
+      531,
+      506,
+      27367,
+      236761,
+      138,
+      818,
+      6207,
+      236764,
+      4291,
+      11853,
+      236764,
+      5048,
+      531,
+      12740,
+      607,
+      506,
+      1884,
+      529,
+      506,
+      1902,
+      236764,
+      840,
+      7261,
+      668,
+      1053,
+      531,
+      9688,
+      600,
+      13058,
+      236761,
+      138,
+      2209,
+      1171,
+      1053,
+      531,
+      1386,
+      2889,
+      951,
+      886,
+      699,
+      506,
+      4782,
+      1902,
+      1451,
+      4657,
+      5711,
+      236764,
+      1299,
+      668,
+      691,
+      1771,
+      531,
+      2056,
+      532,
+      1932,
+      872,
+      5754,
+      607,
+      506,
+      1884,
+      529,
+      506,
+      1902,
+      236761,
+      138,
+      8409,
+      506,
+      2590,
+      26180,
+      236789,
+      236745,
+      25676,
+      496,
+      2606,
+      528,
+      168069,
+      1913,
+      506,
+      236743,
+      236810,
+      236771,
+      1518,
+      529,
+      23049,
+      236764,
+      625,
+      2036,
+      1053,
+      496,
+      3188,
+      7820,
+      532,
+      8632,
+      17105,
+      236761,
+      138,
+      2209,
+      1603,
+      2889,
+      600,
+      691,
+      3224,
+      2101,
+      506,
+      1902,
+      236761,
+      138,
+      2209,
+      18211,
+      5711,
+      607,
+      506,
+      7820,
+      531,
+      5330,
+      951,
+      886,
+      1451,
+      974,
+      528,
+      653,
+      855,
+      236764,
+      1651,
+      914,
+      3251,
+      3931,
+      2844,
+      607,
+      1032,
+      4808,
+      531,
+      3437,
+      5754,
+      1063,
+      236761,
+      138,
+      2209,
+      691,
+      711,
+      1771,
+      531,
+      1531,
+      6533,
+      18226,
+      1131,
+      5711,
+      532,
+      9867,
+      506,
+      1595,
+      529,
+      1972,
+      600,
+      1053,
+      1010,
+      5934,
+      580,
+      573,
+      506,
+      3068,
+      236743,
+      236810,
+      236771,
+      1518,
+      236761,
+      108,
+      4573,
+      1299,
+      5376,
+      11853,
+      3305,
+      1063,
+      531,
+      506,
+      2668,
+      529,
+      506,
+      19812,
+      10337,
+      60616,
+      236764,
+      1056,
+      668,
+      1053,
+      5284,
+      496,
+      3549,
+      607,
+      13251,
+      532,
+      711,
+      3505,
+      58203,
+      607,
+      1724,
+      1015,
+      1053,
+      1535,
+      3282,
+      531,
+      14317,
+      910,
+      4808,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "right_not_left",
+      "label": "right but not left",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('entering', 'allied', 'detriment', 'senior', 'contribute', 'immigration') must occur on the right and not on the left."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "155_coauthor_right_not_left_kna_t6",
+      "design_index": 455,
+      "structural_cell_index": 155,
+      "replicate_index": 0,
+      "seed": 856383930,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "132f98700fafb5cabc732b18620ee130a9b844f048d7270f71625a1427b323d1"
+  }
+}

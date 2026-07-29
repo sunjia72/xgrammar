@@ -1,0 +1,1267 @@
+{
+  "base_instance_id": "coauthor:creative:adac0650634f4228bdd483b8ce1f52ea",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 319,
+  "family_index": 19,
+  "job_id": "019_coauthor_kth_last_k32_t1_rep2",
+  "k": 32,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 33,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nA woman has been dating guy after guy, but it never seems to work out. She’s unaware that she’s actually been dating the same guy over and over; a shapeshifter who’s fallen for her, and is certain he’s going to get it right this time.\n\nOne day, he decided to shop for an engagement ring.   He came upon a beautiful ring and fell in love with it. He bought it and kept it waiting for the right time to propose. Before he could propose, the woman left him to marry another man.\n\nThe shapeshifter could not stand the thought of his true love marrying another man. He decided to use his shapeshifting ability to switch places with the groom at the altar. The woman never knew what happened. Many years went by and then she one day ran into what she thought was her ex boyfriend but it was really the man she thought she was marrying who was now in the form of her ex boyfriend. Over the years, he had grown into a real playboy and had left his true love for another.\n\nShe felt very fortunate to have married her current husband who always treated her well. They went on to have a child.",
+  "reference_single_token_nfa_states": 34,
+  "reference_text": " One day, when the child was around five the woman noticed something.  He was a very creative child that got very immersed in play and one day she felt he had actually become the things he pretended. It was as if the child had real world experiences. She went to her husband and told him about it.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 163077706,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "experiences",
+      "token_ids": [
+        9871
+      ],
+      "token_length": 1,
+      "token_text": " experiences"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "4953150b851d4d4c984627934ae404bdbeb9ff9a5535b049a495938e3d44af70",
+  "source_split": "test",
+  "structural_cell_index": 19,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      9871
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    9871
+  ],
+  "tracked_token_texts": [
+    " experiences"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    236776,
+    3875,
+    815,
+    1010,
+    20566,
+    9865,
+    1308,
+    9865,
+    236764,
+    840,
+    625,
+    2752,
+    5072,
+    531,
+    981,
+    855,
+    236761,
+    2625,
+    236858,
+    236751,
+    56164,
+    600,
+    1304,
+    236858,
+    236751,
+    3643,
+    1010,
+    20566,
+    506,
+    1638,
+    9865,
+    1024,
+    532,
+    1024,
+    236793,
+    496,
+    9665,
+    13068,
+    66890,
+    1015,
+    236858,
+    236751,
+    22303,
+    573,
+    1116,
+    236764,
+    532,
+    563,
+    2953,
+    668,
+    236858,
+    236751,
+    1771,
+    531,
+    974,
+    625,
+    1447,
+    672,
+    990,
+    236761,
+    108,
+    4906,
+    1719,
+    236764,
+    668,
+    6544,
+    531,
+    7805,
+    573,
+    614,
+    15154,
+    7610,
+    236761,
+    139,
+    2209,
+    3588,
+    3324,
+    496,
+    4148,
+    7610,
+    532,
+    11561,
+    528,
+    2765,
+    607,
+    625,
+    236761,
+    1293,
+    10636,
+    625,
+    532,
+    7953,
+    625,
+    9495,
+    573,
+    506,
+    1447,
+    990,
+    531,
+    20017,
+    236761,
+    13677,
+    668,
+    1451,
+    20017,
+    236764,
+    506,
+    3875,
+    2378,
+    1515,
+    531,
+    36542,
+    2264,
+    880,
+    236761,
+    108,
+    818,
+    9665,
+    13068,
+    66890,
+    1451,
+    711,
+    1975,
+    506,
+    3305,
+    529,
+    914,
+    1847,
+    2765,
+    94663,
+    2264,
+    880,
+    236761,
+    1293,
+    6544,
+    531,
+    1161,
+    914,
+    9665,
+    13068,
+    17466,
+    5596,
+    531,
+    5702,
+    6666,
+    607,
+    506,
+    31903,
+    657,
+    506,
+    59652,
+    236761,
+    669,
+    3875,
+    2752,
+    7261,
+    1144,
+    8432,
+    236761,
+    8732,
+    1518,
+    3939,
+    684,
+    532,
+    1299,
+    1304,
+    886,
+    1719,
+    11536,
+    1131,
+    1144,
+    1304,
+    3305,
+    691,
+    1116,
+    652,
+    34138,
+    840,
+    625,
+    691,
+    2126,
+    506,
+    880,
+    1304,
+    3305,
+    1304,
+    691,
+    94663,
+    1015,
+    691,
+    1492,
+    528,
+    506,
+    1183,
+    529,
+    1116,
+    652,
+    34138,
+    236761,
+    7178,
+    506,
+    1518,
+    236764,
+    668,
+    1053,
+    12530,
+    1131,
+    496,
+    1759,
+    1441,
+    19286,
+    532,
+    1053,
+    2378,
+    914,
+    1847,
+    2765,
+    573,
+    2264,
+    236761,
+    108,
+    5778,
+    6345,
+    1401,
+    37129,
+    531,
+    735,
+    11578,
+    1116,
+    1873,
+    8705,
+    1015,
+    2462,
+    9050,
+    1116,
+    1388,
+    236761,
+    2195,
+    3939,
+    580,
+    531,
+    735,
+    496,
+    1919,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 281,
+  "prompt_token_ids_sha256": "bf5a5f0a6b16b63c07324c8a43ee1a6c930c3fa7be6470c0c47514e69d9fb470",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nA woman has been dating guy after guy, but it never seems to work out. She’s unaware that she’s actually been dating the same guy over and over; a shapeshifter who’s fallen for her, and is certain he’s going to get it right this time.\n\nOne day, he decided to shop for an engagement ring.   He came upon a beautiful ring and fell in love with it. He bought it and kept it waiting for the right time to propose. Before he could propose, the woman left him to marry another man.\n\nThe shapeshifter could not stand the thought of his true love marrying another man. He decided to use his shapeshifting ability to switch places with the groom at the altar. The woman never knew what happened. Many years went by and then she one day ran into what she thought was her ex boyfriend but it was really the man she thought she was marrying who was now in the form of her ex boyfriend. Over the years, he had grown into a real playboy and had left his true love for another.\n\nShe felt very fortunate to have married her current husband who always treated her well. They went on to have a child.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 260,
+  "source_prompt_token_ids_sha256": "8790ac2d0ff4d942632503eee04beeb97e9d892896807b908a05a8e9e7de4794",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nA woman has been dating guy after guy, but it never seems to work out. She’s unaware that she’s actually been dating the same guy over and over; a shapeshifter who’s fallen for her, and is certain he’s going to get it right this time.\n\nOne day, he decided to shop for an engagement ring.   He came upon a beautiful ring and fell in love with it. He bought it and kept it waiting for the right time to propose. Before he could propose, the woman left him to marry another man.\n\nThe shapeshifter could not stand the thought of his true love marrying another man. He decided to use his shapeshifting ability to switch places with the groom at the altar. The woman never knew what happened. Many years went by and then she one day ran into what she thought was her ex boyfriend but it was really the man she thought she was marrying who was now in the form of her ex boyfriend. Over the years, he had grown into a real playboy and had left his true love for another.\n\nShe felt very fortunate to have married her current husband who always treated her well. They went on to have a child.",
+  "task_prompt_text_utf8_sha256": "c50e55312e1960e2c44b91e21b7ebb1399cb2a51b8fd9cdd6a6cfb2e87946b78",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      9871
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 9871,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 34,
+  "unrolled_states": 1153,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 34,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          28,
+          0,
+          29
+        ],
+        [
+          28,
+          1,
+          29
+        ],
+        [
+          28,
+          2,
+          29
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          32,
+          0,
+          33
+        ],
+        [
+          32,
+          1,
+          33
+        ],
+        [
+          32,
+          2,
+          33
+        ],
+        [
+          33,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          9871
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      236776,
+      3875,
+      815,
+      1010,
+      20566,
+      9865,
+      1308,
+      9865,
+      236764,
+      840,
+      625,
+      2752,
+      5072,
+      531,
+      981,
+      855,
+      236761,
+      2625,
+      236858,
+      236751,
+      56164,
+      600,
+      1304,
+      236858,
+      236751,
+      3643,
+      1010,
+      20566,
+      506,
+      1638,
+      9865,
+      1024,
+      532,
+      1024,
+      236793,
+      496,
+      9665,
+      13068,
+      66890,
+      1015,
+      236858,
+      236751,
+      22303,
+      573,
+      1116,
+      236764,
+      532,
+      563,
+      2953,
+      668,
+      236858,
+      236751,
+      1771,
+      531,
+      974,
+      625,
+      1447,
+      672,
+      990,
+      236761,
+      108,
+      4906,
+      1719,
+      236764,
+      668,
+      6544,
+      531,
+      7805,
+      573,
+      614,
+      15154,
+      7610,
+      236761,
+      139,
+      2209,
+      3588,
+      3324,
+      496,
+      4148,
+      7610,
+      532,
+      11561,
+      528,
+      2765,
+      607,
+      625,
+      236761,
+      1293,
+      10636,
+      625,
+      532,
+      7953,
+      625,
+      9495,
+      573,
+      506,
+      1447,
+      990,
+      531,
+      20017,
+      236761,
+      13677,
+      668,
+      1451,
+      20017,
+      236764,
+      506,
+      3875,
+      2378,
+      1515,
+      531,
+      36542,
+      2264,
+      880,
+      236761,
+      108,
+      818,
+      9665,
+      13068,
+      66890,
+      1451,
+      711,
+      1975,
+      506,
+      3305,
+      529,
+      914,
+      1847,
+      2765,
+      94663,
+      2264,
+      880,
+      236761,
+      1293,
+      6544,
+      531,
+      1161,
+      914,
+      9665,
+      13068,
+      17466,
+      5596,
+      531,
+      5702,
+      6666,
+      607,
+      506,
+      31903,
+      657,
+      506,
+      59652,
+      236761,
+      669,
+      3875,
+      2752,
+      7261,
+      1144,
+      8432,
+      236761,
+      8732,
+      1518,
+      3939,
+      684,
+      532,
+      1299,
+      1304,
+      886,
+      1719,
+      11536,
+      1131,
+      1144,
+      1304,
+      3305,
+      691,
+      1116,
+      652,
+      34138,
+      840,
+      625,
+      691,
+      2126,
+      506,
+      880,
+      1304,
+      3305,
+      1304,
+      691,
+      94663,
+      1015,
+      691,
+      1492,
+      528,
+      506,
+      1183,
+      529,
+      1116,
+      652,
+      34138,
+      236761,
+      7178,
+      506,
+      1518,
+      236764,
+      668,
+      1053,
+      12530,
+      1131,
+      496,
+      1759,
+      1441,
+      19286,
+      532,
+      1053,
+      2378,
+      914,
+      1847,
+      2765,
+      573,
+      2264,
+      236761,
+      108,
+      5778,
+      6345,
+      1401,
+      37129,
+      531,
+      735,
+      11578,
+      1116,
+      1873,
+      8705,
+      1015,
+      2462,
+      9050,
+      1116,
+      1388,
+      236761,
+      2195,
+      3939,
+      580,
+      531,
+      735,
+      496,
+      1919,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('experiences') must end at the 32-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "019_coauthor_kth_last_k32_t1_rep2",
+      "design_index": 319,
+      "structural_cell_index": 19,
+      "replicate_index": 2,
+      "seed": 163077706,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "368817c1546a80a63b5b44d54737d8413e0b3ac6e993d744ac8aec11de5c5b7e"
+  }
+}

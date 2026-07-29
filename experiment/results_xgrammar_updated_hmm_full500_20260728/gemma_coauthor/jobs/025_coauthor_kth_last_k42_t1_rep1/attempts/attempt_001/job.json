@@ -1,0 +1,1289 @@
+{
+  "base_instance_id": "coauthor:creative:2a078f5a483346d283b90b5df863f87d",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 175,
+  "family_index": 25,
+  "job_id": "025_coauthor_kth_last_k42_t1_rep1",
+  "k": 42,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 43,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. All the dads in the world become very competitive in order to be ranked #1 Dad in the world. It is very rare for a man to be ranked #1 Dad, but if he does, it's worth his weight in gold. The notion of a man being ranked #1 Dad in the world is a very serious matter and will cause a multitude of people to go out of their way to be the best dad. Many of the dads do not sleep at all in order to help their kids and wives out at home. They want to be ranked #1 Dad by doing all of the chores around the house and helping to take care of their family, besides their normal job during the daytime. They have become more patient and gentle to their family members in order to get rated better.",
+  "reference_single_token_nfa_states": 44,
+  "reference_text": " Kids get more play time with their dads and wives are treated and impressed by their husbands like before they get married. Both the kids and the wives become happier. All of the kids and wives start to think that their dad should be the best in the world and want him to get ranked #1 Dad.",
+  "reference_token_count": 61,
+  "replicate_index": 1,
+  "seed": 1308630757,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "treated",
+      "token_ids": [
+        9050
+      ],
+      "token_length": 1,
+      "token_text": " treated"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "601d085e4048211a1a275ffe6059846049b68a70505b770a1bec633628e6853a",
+  "source_split": "train",
+  "structural_cell_index": 25,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      9050
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    9050
+  ],
+  "tracked_token_texts": [
+    " treated"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    2343,
+    506,
+    140698,
+    528,
+    506,
+    1902,
+    3291,
+    1401,
+    13128,
+    528,
+    1900,
+    531,
+    577,
+    25847,
+    997,
+    236770,
+    30702,
+    528,
+    506,
+    1902,
+    236761,
+    1030,
+    563,
+    1401,
+    8401,
+    573,
+    496,
+    880,
+    531,
+    577,
+    25847,
+    997,
+    236770,
+    30702,
+    236764,
+    840,
+    768,
+    668,
+    1677,
+    236764,
+    625,
+    236789,
+    236751,
+    5367,
+    914,
+    3825,
+    528,
+    5122,
+    236761,
+    669,
+    19596,
+    529,
+    496,
+    880,
+    1646,
+    25847,
+    997,
+    236770,
+    30702,
+    528,
+    506,
+    1902,
+    563,
+    496,
+    1401,
+    6205,
+    4217,
+    532,
+    795,
+    4400,
+    496,
+    48859,
+    529,
+    1331,
+    531,
+    817,
+    855,
+    529,
+    910,
+    1595,
+    531,
+    577,
+    506,
+    1791,
+    15030,
+    236761,
+    8732,
+    529,
+    506,
+    140698,
+    776,
+    711,
+    6745,
+    657,
+    784,
+    528,
+    1900,
+    531,
+    1601,
+    910,
+    6214,
+    532,
+    51582,
+    855,
+    657,
+    2033,
+    236761,
+    2195,
+    1461,
+    531,
+    577,
+    25847,
+    997,
+    236770,
+    30702,
+    684,
+    3490,
+    784,
+    529,
+    506,
+    95205,
+    2101,
+    506,
+    3155,
+    532,
+    9795,
+    531,
+    1769,
+    2065,
+    529,
+    910,
+    2523,
+    236764,
+    25253,
+    910,
+    3867,
+    3195,
+    1913,
+    506,
+    49157,
+    236761,
+    2195,
+    735,
+    3291,
+    919,
+    6213,
+    532,
+    14617,
+    531,
+    910,
+    2523,
+    3295,
+    528,
+    1900,
+    531,
+    974,
+    25118,
+    2480,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 217,
+  "prompt_token_ids_sha256": "e8c61c724699c0755130b932ac111afd9f8fd16512911329bb493aad8801160b",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. All the dads in the world become very competitive in order to be ranked #1 Dad in the world. It is very rare for a man to be ranked #1 Dad, but if he does, it's worth his weight in gold. The notion of a man being ranked #1 Dad in the world is a very serious matter and will cause a multitude of people to go out of their way to be the best dad. Many of the dads do not sleep at all in order to help their kids and wives out at home. They want to be ranked #1 Dad by doing all of the chores around the house and helping to take care of their family, besides their normal job during the daytime. They have become more patient and gentle to their family members in order to get rated better.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 196,
+  "source_prompt_token_ids_sha256": "b8a6b94ae13a75dbe2e88bcf8277934a49956957b87fb7002674d2c2007ab7e7",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. All the dads in the world become very competitive in order to be ranked #1 Dad in the world. It is very rare for a man to be ranked #1 Dad, but if he does, it's worth his weight in gold. The notion of a man being ranked #1 Dad in the world is a very serious matter and will cause a multitude of people to go out of their way to be the best dad. Many of the dads do not sleep at all in order to help their kids and wives out at home. They want to be ranked #1 Dad by doing all of the chores around the house and helping to take care of their family, besides their normal job during the daytime. They have become more patient and gentle to their family members in order to get rated better.",
+  "task_prompt_text_utf8_sha256": "1e38b045de14ecbb7f6a63b3b0db181c2a671910ebf2508d5641220e1768ee45",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      9050
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 9050,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 44,
+  "unrolled_states": 1033,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 44,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          28,
+          0,
+          29
+        ],
+        [
+          28,
+          1,
+          29
+        ],
+        [
+          28,
+          2,
+          29
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          32,
+          0,
+          33
+        ],
+        [
+          32,
+          1,
+          33
+        ],
+        [
+          32,
+          2,
+          33
+        ],
+        [
+          33,
+          0,
+          34
+        ],
+        [
+          33,
+          1,
+          34
+        ],
+        [
+          33,
+          2,
+          34
+        ],
+        [
+          34,
+          0,
+          35
+        ],
+        [
+          34,
+          1,
+          35
+        ],
+        [
+          34,
+          2,
+          35
+        ],
+        [
+          35,
+          0,
+          36
+        ],
+        [
+          35,
+          1,
+          36
+        ],
+        [
+          35,
+          2,
+          36
+        ],
+        [
+          36,
+          0,
+          37
+        ],
+        [
+          36,
+          1,
+          37
+        ],
+        [
+          36,
+          2,
+          37
+        ],
+        [
+          37,
+          0,
+          38
+        ],
+        [
+          37,
+          1,
+          38
+        ],
+        [
+          37,
+          2,
+          38
+        ],
+        [
+          38,
+          0,
+          39
+        ],
+        [
+          38,
+          1,
+          39
+        ],
+        [
+          38,
+          2,
+          39
+        ],
+        [
+          39,
+          0,
+          40
+        ],
+        [
+          39,
+          1,
+          40
+        ],
+        [
+          39,
+          2,
+          40
+        ],
+        [
+          40,
+          0,
+          41
+        ],
+        [
+          40,
+          1,
+          41
+        ],
+        [
+          40,
+          2,
+          41
+        ],
+        [
+          41,
+          0,
+          42
+        ],
+        [
+          41,
+          1,
+          42
+        ],
+        [
+          41,
+          2,
+          42
+        ],
+        [
+          42,
+          0,
+          43
+        ],
+        [
+          42,
+          1,
+          43
+        ],
+        [
+          42,
+          2,
+          43
+        ],
+        [
+          43,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          9050
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      2343,
+      506,
+      140698,
+      528,
+      506,
+      1902,
+      3291,
+      1401,
+      13128,
+      528,
+      1900,
+      531,
+      577,
+      25847,
+      997,
+      236770,
+      30702,
+      528,
+      506,
+      1902,
+      236761,
+      1030,
+      563,
+      1401,
+      8401,
+      573,
+      496,
+      880,
+      531,
+      577,
+      25847,
+      997,
+      236770,
+      30702,
+      236764,
+      840,
+      768,
+      668,
+      1677,
+      236764,
+      625,
+      236789,
+      236751,
+      5367,
+      914,
+      3825,
+      528,
+      5122,
+      236761,
+      669,
+      19596,
+      529,
+      496,
+      880,
+      1646,
+      25847,
+      997,
+      236770,
+      30702,
+      528,
+      506,
+      1902,
+      563,
+      496,
+      1401,
+      6205,
+      4217,
+      532,
+      795,
+      4400,
+      496,
+      48859,
+      529,
+      1331,
+      531,
+      817,
+      855,
+      529,
+      910,
+      1595,
+      531,
+      577,
+      506,
+      1791,
+      15030,
+      236761,
+      8732,
+      529,
+      506,
+      140698,
+      776,
+      711,
+      6745,
+      657,
+      784,
+      528,
+      1900,
+      531,
+      1601,
+      910,
+      6214,
+      532,
+      51582,
+      855,
+      657,
+      2033,
+      236761,
+      2195,
+      1461,
+      531,
+      577,
+      25847,
+      997,
+      236770,
+      30702,
+      684,
+      3490,
+      784,
+      529,
+      506,
+      95205,
+      2101,
+      506,
+      3155,
+      532,
+      9795,
+      531,
+      1769,
+      2065,
+      529,
+      910,
+      2523,
+      236764,
+      25253,
+      910,
+      3867,
+      3195,
+      1913,
+      506,
+      49157,
+      236761,
+      2195,
+      735,
+      3291,
+      919,
+      6213,
+      532,
+      14617,
+      531,
+      910,
+      2523,
+      3295,
+      528,
+      1900,
+      531,
+      974,
+      25118,
+      2480,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('treated') must end at the 42-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "025_coauthor_kth_last_k42_t1_rep1",
+      "design_index": 175,
+      "structural_cell_index": 25,
+      "replicate_index": 1,
+      "seed": 1308630757,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "76affec5dec63bbb757aba01bebd071e20b6f557c2a265bf4994d9c931f07073"
+  }
+}

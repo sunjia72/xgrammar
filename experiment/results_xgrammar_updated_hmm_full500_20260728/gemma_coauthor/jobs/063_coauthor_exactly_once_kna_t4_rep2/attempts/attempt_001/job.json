@@ -1,0 +1,1062 @@
+{
+  "base_instance_id": "coauthor:creative:9750cd5d84274f9b8135be2e8fa8cc6d",
+  "constraint": "exactly_once",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 363,
+  "family_index": 3,
+  "job_id": "063_coauthor_exactly_once_kna_t4_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing.\n\nThe aliens have been abducting humans for years, but no one has ever noticed. They take people now and again when it suits them. They are not interested in the humans themselves, but in their technology. They think Matt Damon will be of value to them.\n\nThe aliens are a little disappointed when they find out that Matt Damon is not a scientist or a physicist. They have bee watching him for a long time and expected him be like he is in the movies. They are also disappointed to learn that Matt Damon is not a good fighter. Matt Damon is not of much value to the aliens and now humanity is on to the aliens because they want Matt Damon back.",
+  "reference_single_token_nfa_states": 10,
+  "reference_text": "\n\nThe aliens have to return Matt Damon which is fine really because he is of little value to them. But first they have to wipe his memory so he will not tell the humans of the aliens.\n\nMatt Damon is returned to the human race, but he has no memory of what happened to him.",
+  "reference_token_count": 61,
+  "replicate_index": 2,
+  "seed": 167184041,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "memory",
+      "token_ids": [
+        6571
+      ],
+      "token_length": 1,
+      "token_text": " memory"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "fine",
+      "token_ids": [
+        5851
+      ],
+      "token_length": 1,
+      "token_text": " fine"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "wipe",
+      "token_ids": [
+        49616
+      ],
+      "token_length": 1,
+      "token_text": " wipe"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "return",
+      "token_ids": [
+        994
+      ],
+      "token_length": 1,
+      "token_text": " return"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "a11e85de4956a5ae6f2bbd3c4a4fb606a0d93bb29daaffabd2b9f0f46d8db84a",
+  "source_split": "test",
+  "structural_cell_index": 63,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      6571
+    ],
+    [
+      5851
+    ],
+    [
+      49616
+    ],
+    [
+      994
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    6571,
+    5851,
+    49616,
+    994
+  ],
+  "tracked_token_texts": [
+    " memory",
+    " fine",
+    " wipe",
+    " return"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    2267,
+    24622,
+    815,
+    94489,
+    18554,
+    111326,
+    236764,
+    711,
+    14111,
+    1144,
+    25565,
+    27069,
+    5899,
+    1343,
+    531,
+    33205,
+    1515,
+    15501,
+    668,
+    5899,
+    9724,
+    236761,
+    108,
+    818,
+    63928,
+    735,
+    1010,
+    763,
+    196319,
+    14464,
+    573,
+    1518,
+    236764,
+    840,
+    951,
+    886,
+    815,
+    3785,
+    14275,
+    236761,
+    2195,
+    1769,
+    1331,
+    1492,
+    532,
+    1570,
+    1056,
+    625,
+    26818,
+    1091,
+    236761,
+    2195,
+    659,
+    711,
+    7467,
+    528,
+    506,
+    14464,
+    5507,
+    236764,
+    840,
+    528,
+    910,
+    4181,
+    236761,
+    2195,
+    1751,
+    18554,
+    111326,
+    795,
+    577,
+    529,
+    1550,
+    531,
+    1091,
+    236761,
+    108,
+    818,
+    63928,
+    659,
+    496,
+    2268,
+    27781,
+    1056,
+    901,
+    1586,
+    855,
+    600,
+    18554,
+    111326,
+    563,
+    711,
+    496,
+    30892,
+    653,
+    496,
+    116544,
+    236761,
+    2195,
+    735,
+    32737,
+    10685,
+    1515,
+    573,
+    496,
+    1440,
+    990,
+    532,
+    4275,
+    1515,
+    577,
+    1133,
+    668,
+    563,
+    528,
+    506,
+    13154,
+    236761,
+    2195,
+    659,
+    992,
+    27781,
+    531,
+    3449,
+    600,
+    18554,
+    111326,
+    563,
+    711,
+    496,
+    1535,
+    38856,
+    236761,
+    18554,
+    111326,
+    563,
+    711,
+    529,
+    1623,
+    1550,
+    531,
+    506,
+    63928,
+    532,
+    1492,
+    27069,
+    563,
+    580,
+    531,
+    506,
+    63928,
+    1547,
+    901,
+    1461,
+    18554,
+    111326,
+    1063,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 194,
+  "prompt_token_ids_sha256": "6e9dfe344a85b9d719ebb7884a1463840356a6d4cf7839a904fd5f83b1de4919",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing.\n\nThe aliens have been abducting humans for years, but no one has ever noticed. They take people now and again when it suits them. They are not interested in the humans themselves, but in their technology. They think Matt Damon will be of value to them.\n\nThe aliens are a little disappointed when they find out that Matt Damon is not a scientist or a physicist. They have bee watching him for a long time and expected him be like he is in the movies. They are also disappointed to learn that Matt Damon is not a good fighter. Matt Damon is not of much value to the aliens and now humanity is on to the aliens because they want Matt Damon back.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 173,
+  "source_prompt_token_ids_sha256": "163d6fc8397f1d4c03b495913ce58c773b187feac6878452338983969b8e03c0",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAn alien has kidnapped Matt Damon, not knowing what lengths humanity goes through to retrieve him whenever he goes missing.\n\nThe aliens have been abducting humans for years, but no one has ever noticed. They take people now and again when it suits them. They are not interested in the humans themselves, but in their technology. They think Matt Damon will be of value to them.\n\nThe aliens are a little disappointed when they find out that Matt Damon is not a scientist or a physicist. They have bee watching him for a long time and expected him be like he is in the movies. They are also disappointed to learn that Matt Damon is not a good fighter. Matt Damon is not of much value to the aliens and now humanity is on to the aliens because they want Matt Damon back.",
+  "task_prompt_text_utf8_sha256": "45a1cbe450fcda0039ed0fd2f03d7b7f062214b4b432da50948b2046b2ec6fab",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      6571
+    ],
+    "piece_001": [
+      5851
+    ],
+    "piece_002": [
+      49616
+    ],
+    "piece_003": [
+      994
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 6571,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 10,
+  "unrolled_states": 635,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 10,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          6571
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          5851
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          49616
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          994
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      2267,
+      24622,
+      815,
+      94489,
+      18554,
+      111326,
+      236764,
+      711,
+      14111,
+      1144,
+      25565,
+      27069,
+      5899,
+      1343,
+      531,
+      33205,
+      1515,
+      15501,
+      668,
+      5899,
+      9724,
+      236761,
+      108,
+      818,
+      63928,
+      735,
+      1010,
+      763,
+      196319,
+      14464,
+      573,
+      1518,
+      236764,
+      840,
+      951,
+      886,
+      815,
+      3785,
+      14275,
+      236761,
+      2195,
+      1769,
+      1331,
+      1492,
+      532,
+      1570,
+      1056,
+      625,
+      26818,
+      1091,
+      236761,
+      2195,
+      659,
+      711,
+      7467,
+      528,
+      506,
+      14464,
+      5507,
+      236764,
+      840,
+      528,
+      910,
+      4181,
+      236761,
+      2195,
+      1751,
+      18554,
+      111326,
+      795,
+      577,
+      529,
+      1550,
+      531,
+      1091,
+      236761,
+      108,
+      818,
+      63928,
+      659,
+      496,
+      2268,
+      27781,
+      1056,
+      901,
+      1586,
+      855,
+      600,
+      18554,
+      111326,
+      563,
+      711,
+      496,
+      30892,
+      653,
+      496,
+      116544,
+      236761,
+      2195,
+      735,
+      32737,
+      10685,
+      1515,
+      573,
+      496,
+      1440,
+      990,
+      532,
+      4275,
+      1515,
+      577,
+      1133,
+      668,
+      563,
+      528,
+      506,
+      13154,
+      236761,
+      2195,
+      659,
+      992,
+      27781,
+      531,
+      3449,
+      600,
+      18554,
+      111326,
+      563,
+      711,
+      496,
+      1535,
+      38856,
+      236761,
+      18554,
+      111326,
+      563,
+      711,
+      529,
+      1623,
+      1550,
+      531,
+      506,
+      63928,
+      532,
+      1492,
+      27069,
+      563,
+      580,
+      531,
+      506,
+      63928,
+      1547,
+      901,
+      1461,
+      18554,
+      111326,
+      1063,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "exactly_once",
+      "label": "exactly once",
+      "rule": "At least one tracked phrase ('memory', 'fine', 'wipe', 'return') must occur exactly once."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "063_coauthor_exactly_once_kna_t4_rep2",
+      "design_index": 363,
+      "structural_cell_index": 63,
+      "replicate_index": 2,
+      "seed": 167184041,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "9264daca6ec52f557aed46a598cce4afb2e6510edefefb35ce92e7e68c8a1647"
+  }
+}

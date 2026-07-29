@@ -1,0 +1,825 @@
+{
+  "base_instance_id": "coauthor:creative:1da7eb35b68842dc9b5017abaf1359d4",
+  "constraint": "sets_differ",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 247,
+  "family_index": 1,
+  "job_id": "097_coauthor_sets_differ_kna_t2_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. This is a very harmful time for dads everywhere. Nobody wants to be ranked except for the dads in the top 1%. Tons of dads everywhere are ranked as top 1 million dads. This hurts their self esteem and makes them feel guilty. This is a very bad time for dads. \n\nThe government decides to make a new law that says that all dads have to be ranked. That is what caused these changes to be made. The dads are furious and believe that the government is overstepping their boundary.",
+  "reference_single_token_nfa_states": 13,
+  "reference_text": " Rankings like this do not need to happen. All they are doing is causing distress and sadness from dads everywhere. \n\nDads worldwide start to make petitions online for a reversal of the law. Millions of dads sign the petition. Even mothers and children are upset as the dads have changed and aren't their normal self.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 2048344142,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "distress",
+      "token_ids": [
+        33011
+      ],
+      "token_length": 1,
+      "token_text": " distress"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "petition",
+      "token_ids": [
+        14071
+      ],
+      "token_length": 1,
+      "token_text": " petition"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "395aea9f017a2f7244ee11cb4802cce0fbf0772b9cd4244c38fc6095a42b3533",
+  "source_split": "train",
+  "structural_cell_index": 97,
+  "t": 2,
+  "total_tracked_keyword_tokens": 2,
+  "tracked_keyword_token_ids": [
+    [
+      33011
+    ],
+    [
+      14071
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    33011,
+    14071
+  ],
+  "tracked_token_texts": [
+    " distress",
+    " petition"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    1174,
+    563,
+    496,
+    1401,
+    27583,
+    990,
+    573,
+    140698,
+    17134,
+    236761,
+    53705,
+    8150,
+    531,
+    577,
+    25847,
+    4533,
+    573,
+    506,
+    140698,
+    528,
+    506,
+    1903,
+    236743,
+    236770,
+    9525,
+    181149,
+    529,
+    140698,
+    17134,
+    659,
+    25847,
+    618,
+    1903,
+    236743,
+    236770,
+    3625,
+    140698,
+    236761,
+    1174,
+    58893,
+    910,
+    1265,
+    78114,
+    532,
+    3590,
+    1091,
+    2597,
+    17975,
+    236761,
+    1174,
+    563,
+    496,
+    1401,
+    4287,
+    990,
+    573,
+    140698,
+    236761,
+    236743,
+    108,
+    818,
+    3251,
+    35141,
+    531,
+    1386,
+    496,
+    861,
+    2621,
+    600,
+    3189,
+    600,
+    784,
+    140698,
+    735,
+    531,
+    577,
+    25847,
+    236761,
+    2981,
+    563,
+    1144,
+    7321,
+    1239,
+    3731,
+    531,
+    577,
+    1603,
+    236761,
+    669,
+    140698,
+    659,
+    69590,
+    532,
+    4646,
+    600,
+    506,
+    3251,
+    563,
+    1024,
+    214799,
+    910,
+    10134,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 161,
+  "prompt_token_ids_sha256": "f634aece1349896ef1287ed954b8684fe051ddafe408f9ac07699aeedbdb9328",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. This is a very harmful time for dads everywhere. Nobody wants to be ranked except for the dads in the top 1%. Tons of dads everywhere are ranked as top 1 million dads. This hurts their self esteem and makes them feel guilty. This is a very bad time for dads. \n\nThe government decides to make a new law that says that all dads have to be ranked. That is what caused these changes to be made. The dads are furious and believe that the government is overstepping their boundary.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 140,
+  "source_prompt_token_ids_sha256": "0f45d8ce7bee5c190c3f04e2e8d3fa3dbe0db185647c2b67c1ba12a51fd5fdd8",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. This is a very harmful time for dads everywhere. Nobody wants to be ranked except for the dads in the top 1%. Tons of dads everywhere are ranked as top 1 million dads. This hurts their self esteem and makes them feel guilty. This is a very bad time for dads. \n\nThe government decides to make a new law that says that all dads have to be ranked. That is what caused these changes to be made. The dads are furious and believe that the government is overstepping their boundary.",
+  "task_prompt_text_utf8_sha256": "0e1cf6e8f24d1ee37ca5934debe38b7b95345ebb6f59e0f2ebefa0bb39d97b40",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      33011
+    ],
+    "piece_001": [
+      14071
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 33011,
+  "distinct_tracked_piece_tokens": 2,
+  "nfa_states": 12,
+  "unrolled_states": 690,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 12,
+      "alphabet_size": 5,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          5
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          5,
+          0,
+          7
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          10
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          11
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          6
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          7
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          33011
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          14071
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 2,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 3,
+    "stop_symbol_id": 4,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      1174,
+      563,
+      496,
+      1401,
+      27583,
+      990,
+      573,
+      140698,
+      17134,
+      236761,
+      53705,
+      8150,
+      531,
+      577,
+      25847,
+      4533,
+      573,
+      506,
+      140698,
+      528,
+      506,
+      1903,
+      236743,
+      236770,
+      9525,
+      181149,
+      529,
+      140698,
+      17134,
+      659,
+      25847,
+      618,
+      1903,
+      236743,
+      236770,
+      3625,
+      140698,
+      236761,
+      1174,
+      58893,
+      910,
+      1265,
+      78114,
+      532,
+      3590,
+      1091,
+      2597,
+      17975,
+      236761,
+      1174,
+      563,
+      496,
+      1401,
+      4287,
+      990,
+      573,
+      140698,
+      236761,
+      236743,
+      108,
+      818,
+      3251,
+      35141,
+      531,
+      1386,
+      496,
+      861,
+      2621,
+      600,
+      3189,
+      600,
+      784,
+      140698,
+      735,
+      531,
+      577,
+      25847,
+      236761,
+      2981,
+      563,
+      1144,
+      7321,
+      1239,
+      3731,
+      531,
+      577,
+      1603,
+      236761,
+      669,
+      140698,
+      659,
+      69590,
+      532,
+      4646,
+      600,
+      506,
+      3251,
+      563,
+      1024,
+      214799,
+      910,
+      10134,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "sets_differ",
+      "label": "different side sets",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('distress', 'petition') must occur on exactly one side."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "097_coauthor_sets_differ_kna_t2_rep1",
+      "design_index": 247,
+      "structural_cell_index": 97,
+      "replicate_index": 1,
+      "seed": 2048344142,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "5905704515db39761afbce22a4309dd4a03c2340267c75f0442ee02333d2f52d"
+  }
+}

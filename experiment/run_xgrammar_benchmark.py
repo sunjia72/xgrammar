@@ -36,7 +36,12 @@ os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
 
 import torch
 import xgrammar as xgr
-from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
+from transformers import (
+    AutoConfig,
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    GenerationConfig,
+)
 
 
 SCRIPT = Path(__file__).resolve()
@@ -51,8 +56,8 @@ from nfa_fpras.automata import NFA, WILDCARD, make_nfa, unroll_nfa  # noqa: E402
 
 
 METHOD = "xgrammar"
-RUNNER_VERSION = 3
-RESULT_SCHEMA_VERSION = 1
+RUNNER_VERSION = 5
+RESULT_SCHEMA_VERSION = 2
 WORKLOAD_KIND = "compiled_keyword_dataset"
 WORKLOAD_SCHEMA_VERSION = 4
 COMPILED_KIND = "compiled_token_partition_nfa"
@@ -270,6 +275,20 @@ def _integer_tuple(value: Any, name: str, *, nonempty: bool = False) -> tuple[in
         raise ValueError(f"{name} must be a{' nonempty' if nonempty else ''} list")
     result = tuple(_integer(item, f"{name} item") for item in value)
     return result
+
+
+def _overlapping_occurrence_count(
+    sequence: Sequence[int],
+    pattern: Sequence[int],
+) -> int:
+    if not pattern or len(pattern) > len(sequence):
+        return 0
+    width = len(pattern)
+    target = list(pattern)
+    return sum(
+        list(sequence[start : start + width]) == target
+        for start in range(len(sequence) - width + 1)
+    )
 
 
 def _write_json(path: Path, value: Any) -> None:
@@ -638,6 +657,7 @@ class RuntimeArtifact:
     nfa: NFA
     model_vocab_size: int
     eos_token_id: int
+    terminal_token_ids: tuple[int, ...]
     token_symbol_ids: tuple[int, ...]
     symbol_token_ids: tuple[tuple[int, ...], ...]
     other_symbol_id: int
@@ -688,17 +708,123 @@ def _validate_tokenizer(tokenizer: Any, fingerprint: Mapping[str, Any]) -> None:
             raise ValueError(f"runtime tokenizer fingerprint differs: {field}")
 
 
+def _configured_terminal_token_ids(
+    tokenizer: Any,
+    config: Any,
+    generation_config: Any,
+    *,
+    model_vocab_size: int,
+) -> tuple[int, ...]:
+    """Collect the model-native STOP aliases used by the other decoders."""
+
+    if tokenizer.eos_token_id is None:
+        raise ValueError("target tokenizer must define EOS")
+    values: list[int] = [int(tokenizer.eos_token_id)]
+    sources = (
+        getattr(tokenizer, "eos_token_ids", None),
+        getattr(config, "eos_token_id", None),
+        getattr(getattr(config, "text_config", None), "eos_token_id", None),
+        getattr(generation_config, "eos_token_id", None),
+    )
+    for source in sources:
+        if source is None:
+            continue
+        candidates = (
+            source if isinstance(source, (list, tuple, set)) else (source,)
+        )
+        for candidate in candidates:
+            if isinstance(candidate, bool):
+                raise ValueError("terminal token IDs cannot be booleans")
+            token_id = int(candidate)
+            if not 0 <= token_id < model_vocab_size:
+                raise ValueError(
+                    f"configured terminal token_id={token_id} is outside the "
+                    "model vocabulary"
+                )
+            values.append(token_id)
+    terminal_ids = tuple(dict.fromkeys(values))
+    special_ids = {
+        int(token_id) for token_id in getattr(tokenizer, "all_special_ids", ())
+    }
+    if any(token_id not in special_ids for token_id in terminal_ids):
+        raise ValueError("model terminal IDs must be tokenizer special tokens")
+    return terminal_ids
+
+
+def _load_terminal_policy(
+    model_path: Path,
+    *,
+    trust_remote_code: bool,
+    local_files_only: bool,
+) -> dict[str, Any]:
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        trust_remote_code=trust_remote_code,
+        local_files_only=local_files_only,
+    )
+    config = AutoConfig.from_pretrained(
+        model_path,
+        trust_remote_code=trust_remote_code,
+        local_files_only=local_files_only,
+    )
+    try:
+        generation_config = GenerationConfig.from_pretrained(
+            model_path,
+            trust_remote_code=trust_remote_code,
+            local_files_only=local_files_only,
+        )
+    except OSError:
+        generation_config = GenerationConfig.from_model_config(config)
+    model_vocab_size = _config_vocab_size(config)
+    terminal_ids = _configured_terminal_token_ids(
+        tokenizer,
+        config,
+        generation_config,
+        model_vocab_size=model_vocab_size,
+    )
+    return {
+        "canonical_eos_token_id": int(tokenizer.eos_token_id),
+        "terminal_token_ids": list(terminal_ids),
+        "terminal_token_texts": [
+            str(tokenizer.convert_ids_to_tokens(token_id))
+            for token_id in terminal_ids
+        ],
+        "policy": (
+            "all model-native terminal aliases are one STOP class; terminal "
+            "identity is excluded from content"
+        ),
+    }
+
+
 def token_nfa_from_compiled(
-    tokenizer: Any, model_vocab_size: int, compiled: CompiledConstraint
+    tokenizer: Any,
+    model_vocab_size: int,
+    compiled: CompiledConstraint,
+    terminal_token_ids: Sequence[int] | None = None,
 ) -> RuntimeArtifact:
     _validate_tokenizer(tokenizer, compiled.tokenizer_fingerprint)
     eos = _integer(tokenizer.eos_token_id, "eos_token_id")
+    terminals = tuple(
+        dict.fromkeys(
+            _integer(token_id, "terminal token ID")
+            for token_id in (
+                (eos,) if terminal_token_ids is None else terminal_token_ids
+            )
+        )
+    )
+    if not terminals or terminals[0] != eos:
+        raise ValueError("terminal aliases must begin with canonical EOS")
     real = _real_vocab_ids(tokenizer, model_vocab_size)
+    real_set = set(real)
     special = {
         int(value)
         for value in tokenizer.all_special_ids
         if 0 <= int(value) < model_vocab_size
     }
+    if any(token not in real_set or token not in special for token in terminals):
+        raise ValueError(
+            "terminal aliases must be real tokenizer special tokens"
+        )
     valid = tuple(token for token in real if token not in special)
     valid_set = set(valid)
     explicit: dict[int, int] = {}
@@ -713,32 +839,35 @@ def token_nfa_from_compiled(
         symbols[token] = compiled.other_symbol_id
     for token, symbol in explicit.items():
         symbols[token] = symbol
-    symbols[eos] = compiled.stop_symbol_id
+    for terminal in terminals:
+        symbols[terminal] = compiled.stop_symbol_id
     symbol_tokens = (
         tuple(token_class.token_ids for token_class in compiled.token_classes)
-        + (other_ids, (eos,))
+        + (other_ids, terminals)
     )
     encoded_vocab = [""] * (max(real) + 1)
+    terminal_set = set(terminals)
     for token in real:
         symbol = symbols[token]
-        if token != eos and symbol >= 0:
+        if token not in terminal_set and symbol >= 0:
             encoded_vocab[token] = _symbol_char(symbol)
     tokenizer_info = xgr.TokenizerInfo(
         encoded_vocab,
         vocab_size=model_vocab_size,
-        stop_token_ids=[eos],
+        stop_token_ids=list(terminals),
     )
     return RuntimeArtifact(
         tokenizer_info,
         compiled.nfa,
         model_vocab_size,
         eos,
+        terminals,
         tuple(symbols),
         symbol_tokens,
         compiled.other_symbol_id,
         compiled.stop_symbol_id,
         valid,
-        tuple(sorted(special - {eos})),
+        tuple(sorted(special - set(terminals))),
     )
 
 
@@ -859,11 +988,16 @@ def audit_initial_mask(
         for token in artifact.symbol_token_ids[symbol]:
             expected[token] = True
     if metadata.initial_allows_eos:
-        expected[artifact.eos_token_id] = True
+        for terminal in artifact.terminal_token_ids:
+            expected[terminal] = True
     missing = (expected & ~actual).nonzero().flatten().tolist()
     unexpected = (actual & ~expected).nonzero().flatten().tolist()
     stops = sorted(int(value) for value in matcher.stop_token_ids)
-    ok = not missing and not unexpected and stops == [artifact.eos_token_id]
+    ok = (
+        not missing
+        and not unexpected
+        and stops == sorted(artifact.terminal_token_ids)
+    )
     result = {
         "ok": ok,
         "allowed_count": int(actual.sum()),
@@ -881,11 +1015,12 @@ def accepts_generation(
     artifact: RuntimeArtifact, token_ids: Sequence[int], n_low: int, n: int
 ) -> bool:
     ids = tuple(int(value) for value in token_ids)
+    terminals = set(artifact.terminal_token_ids)
     if (
         not n_low <= len(ids) <= n
         or not ids
-        or ids[-1] != artifact.eos_token_id
-        or artifact.eos_token_id in ids[:-1]
+        or ids[-1] not in terminals
+        or any(token in terminals for token in ids[:-1])
     ):
         return False
     active = set(artifact.nfa.initials)
@@ -941,6 +1076,7 @@ def _generate(
     compiled_grammar: Any,
     *,
     n: int,
+    terminal_token_ids: Sequence[int],
     temperature: float,
     top_p: float,
     top_k: int,
@@ -948,6 +1084,9 @@ def _generate(
 ) -> tuple[list[int], float]:
     inputs = torch.tensor([list(prompt_ids)], dtype=torch.long, device=device)
     processor = xgr.contrib.hf.LogitsProcessor(compiled_grammar)
+    terminals = [int(token_id) for token_id in terminal_token_ids]
+    if not terminals:
+        raise ValueError("generation requires at least one terminal token")
     if device.type == "cuda":
         torch.cuda.synchronize(device)
     started = time.perf_counter()
@@ -960,8 +1099,8 @@ def _generate(
         top_p=top_p,
         top_k=top_k,
         logits_processor=[processor],
-        eos_token_id=int(tokenizer.eos_token_id),
-        pad_token_id=int(tokenizer.eos_token_id),
+        eos_token_id=terminals[0] if len(terminals) == 1 else terminals,
+        pad_token_id=int(tokenizer.pad_token_id),
         use_cache=True,
     )
     if device.type == "cuda":
@@ -990,6 +1129,29 @@ def _worker(
         trust_remote_code=args.trust_remote_code,
         local_files_only=args.local_files_only,
     )
+    try:
+        generation_config = GenerationConfig.from_pretrained(
+            args.base_model_path,
+            trust_remote_code=args.trust_remote_code,
+            local_files_only=args.local_files_only,
+        )
+    except OSError:
+        generation_config = GenerationConfig.from_model_config(config)
+    terminal_ids = _configured_terminal_token_ids(
+        tokenizer,
+        config,
+        generation_config,
+        model_vocab_size=_config_vocab_size(config),
+    )
+    expected_terminal_ids = tuple(
+        _integer(value, "expected terminal token ID")
+        for value in args.terminal_token_ids.split(",")
+        if value
+    )
+    if terminal_ids != expected_terminal_ids:
+        raise ValueError(
+            "worker model-native terminal aliases differ from launch contract"
+        )
     tokenizer_config_load_s = time.perf_counter() - tokenizer_started
     seed = int(job.source["seed"])
     random.seed(seed)
@@ -1002,6 +1164,7 @@ def _worker(
         tokenizer,
         _config_vocab_size(config),
         job.compiled,
+        terminal_ids,
     )
     ebnf, metadata = nfa_to_bounded_ebnf(
         artifact, job.compiled.n_low, job.compiled.n
@@ -1083,6 +1246,7 @@ def _worker(
         job.compiled.prompt_token_ids,
         compiled_grammar,
         n=job.compiled.n,
+        terminal_token_ids=artifact.terminal_token_ids,
         temperature=args.temperature,
         top_p=args.top_p,
         top_k=args.top_k,
@@ -1092,6 +1256,11 @@ def _worker(
         artifact, generated, job.compiled.n_low, job.compiled.n
     ):
         raise RuntimeError("XGrammar generated outside the compiled token NFA")
+    content_ids = generated[:-1]
+    keyword_occurrence_counts = [
+        _overlapping_occurrence_count(content_ids, pattern)
+        for pattern in job.source["tracked_keyword_token_ids"]
+    ]
     return {
         **job.identity(),
         "method": METHOD,
@@ -1103,10 +1272,19 @@ def _worker(
         "generation_runtime_s": generation_s,
         "prompt_token_count": len(job.compiled.prompt_token_ids),
         "generated_total_len": len(generated),
+        "generated_content_len": len(content_ids),
         "generated_token_ids": generated,
+        "generated_content_token_ids": content_ids,
+        "canonical_eos_token_id": int(artifact.eos_token_id),
+        "terminal_token_ids": list(artifact.terminal_token_ids),
+        "terminal_eos_token_id": int(generated[-1]),
+        "terminal_eos_count": 1,
+        "terminated_with_eos": True,
+        "hit_content_token_cap": len(content_ids) == job.compiled.n - 1,
+        "keyword_occurrence_counts": keyword_occurrence_counts,
         "generated_text": tokenizer.decode(
-            generated,
-            skip_special_tokens=False,
+            content_ids,
+            skip_special_tokens=True,
             clean_up_tokenization_spaces=False,
         ),
         "valid_generation": True,
@@ -1124,6 +1302,7 @@ def _worker_parser() -> argparse.ArgumentParser:
     parser.add_argument("--job_json", type=Path, required=True)
     parser.add_argument("--output_dir", type=Path, required=True)
     parser.add_argument("--base_model_path", required=True)
+    parser.add_argument("--terminal_token_ids", required=True)
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--dtype", default="auto")
     parser.add_argument("--cpu_threads", type=int, default=8)
@@ -1210,6 +1389,7 @@ def _next_attempt(job_dir: Path) -> tuple[int, Path]:
 def _validate_worker_result(
     job: Job,
     result: Mapping[str, Any],
+    terminal_token_ids: Sequence[int] | None = None,
 ) -> dict[str, Any]:
     normalized = dict(result)
     for field, expected in job.identity().items():
@@ -1269,7 +1449,29 @@ def _validate_worker_result(
     ):
         raise ValueError("worker result runtime contract is invalid")
     generated = normalized.get("generated_token_ids")
-    validation_artifact = token_nfa_from_compiled_for_validation(job.compiled)
+    expected_terminals = tuple(
+        int(token_id)
+        for token_id in (
+            (
+                job.compiled.tokenizer_fingerprint.get("eos_token_id"),
+            )
+            if terminal_token_ids is None
+            else terminal_token_ids
+        )
+    )
+    validation_artifact = token_nfa_from_compiled_for_validation(
+        job.compiled,
+        expected_terminals,
+    )
+    content = generated[:-1] if isinstance(generated, list) else None
+    expected_occurrence_counts = (
+        [
+            _overlapping_occurrence_count(content, pattern)
+            for pattern in job.source["tracked_keyword_token_ids"]
+        ]
+        if content is not None
+        else None
+    )
     if (
         not isinstance(generated, list)
         or any(
@@ -1286,6 +1488,20 @@ def _validate_worker_result(
             job.compiled.n,
         )
         or normalized.get("generated_total_len") != len(generated)
+        or normalized.get("generated_content_len") != len(generated) - 1
+        or normalized.get("generated_content_token_ids") != generated[:-1]
+        or normalized.get("canonical_eos_token_id")
+        != validation_artifact.eos_token_id
+        or normalized.get("terminal_token_ids")
+        != list(validation_artifact.terminal_token_ids)
+        or normalized.get("terminal_eos_token_id")
+        != generated[-1]
+        or normalized.get("terminal_eos_count") != 1
+        or normalized.get("terminated_with_eos") is not True
+        or normalized.get("hit_content_token_cap")
+        is not (len(generated) - 1 == job.compiled.n - 1)
+        or normalized.get("keyword_occurrence_counts")
+        != expected_occurrence_counts
         or not isinstance(normalized.get("generated_text"), str)
     ):
         raise ValueError("worker result token sequence is invalid")
@@ -1294,6 +1510,7 @@ def _validate_worker_result(
 
 def token_nfa_from_compiled_for_validation(
     compiled: CompiledConstraint,
+    terminal_token_ids: Sequence[int] | None = None,
 ) -> RuntimeArtifact:
     """Return the token-symbol portion needed to recheck a worker sequence."""
 
@@ -1306,30 +1523,49 @@ def token_nfa_from_compiled_for_validation(
         compiled.tokenizer_fingerprint.get("eos_token_id"),
         "compiled eos_token_id",
     )
+    terminals = tuple(
+        dict.fromkeys(
+            _integer(token_id, "terminal token ID")
+            for token_id in (
+                (eos,) if terminal_token_ids is None else terminal_token_ids
+            )
+        )
+    )
+    if not terminals or terminals[0] != eos:
+        raise ValueError("terminal aliases must begin with canonical EOS")
     tokenizer_size = _integer(
         compiled.tokenizer_fingerprint.get("vocab_size"),
         "compiled tokenizer vocab_size",
     )
-    width = max(tokenizer_size, max_token + 1, eos + 1)
+    width = max(tokenizer_size, max_token + 1, max(terminals) + 1)
     symbols = [compiled.other_symbol_id] * width
-    for token in compiled.tokenizer_fingerprint.get("all_special_ids", ()):
-        special = _integer(token, "compiled special token ID")
+    specials = {
+        _integer(token, "compiled special token ID")
+        for token in compiled.tokenizer_fingerprint.get("all_special_ids", ())
+    }
+    if any(token not in specials or not 0 <= token < width for token in terminals):
+        raise ValueError(
+            "terminal aliases must be compiled tokenizer special tokens"
+        )
+    for special in specials:
         if 0 <= special < width:
             symbols[special] = -1
     for token_class in compiled.token_classes:
         for token in token_class.token_ids:
             symbols[token] = token_class.symbol_id
-    symbols[eos] = compiled.stop_symbol_id
+    for terminal in terminals:
+        symbols[terminal] = compiled.stop_symbol_id
     return RuntimeArtifact(
         tokenizer_info=None,
         nfa=compiled.nfa,
         model_vocab_size=width,
         eos_token_id=eos,
+        terminal_token_ids=terminals,
         token_symbol_ids=tuple(symbols),
         symbol_token_ids=tuple(
             token_class.token_ids for token_class in compiled.token_classes
         )
-        + ((), (eos,)),
+        + ((), terminals),
         other_symbol_id=compiled.other_symbol_id,
         stop_symbol_id=compiled.stop_symbol_id,
         valid_content_token_ids=(),
@@ -1473,6 +1709,8 @@ def _run_one(
         str(output_dir),
         "--base_model_path",
         args.base_model_path,
+        "--terminal_token_ids",
+        ",".join(str(token_id) for token_id in args.terminal_token_ids),
         "--dtype",
         args.dtype,
         "--cpu_threads",
@@ -1605,7 +1843,11 @@ def _run_one(
                 payload.get("result"), Mapping
             ):
                 raise ValueError("worker result envelope is incomplete")
-            result = _validate_worker_result(job, payload["result"])
+            result = _validate_worker_result(
+                job,
+                payload["result"],
+                args.terminal_token_ids,
+            )
             if progress is None:
                 raise ValueError("worker result lacks progress checkpoint")
             _crosscheck_progress_result(progress, result)
@@ -1660,6 +1902,7 @@ def _load_statuses(
     jobs: Sequence[Job],
     run_contract_sha256: str,
     expected_timeouts: Mapping[str, float] | None = None,
+    terminal_token_ids: Sequence[int] | None = None,
 ) -> dict[str, dict[str, Any]]:
     statuses: dict[str, dict[str, Any]] = {}
     for job in jobs:
@@ -1726,7 +1969,11 @@ def _load_statuses(
                 raise ValueError(
                     f"{job.job_id}: saved success result is incomplete"
                 )
-            status["result"] = _validate_worker_result(job, result)
+            status["result"] = _validate_worker_result(
+                job,
+                result,
+                terminal_token_ids,
+            )
             _crosscheck_progress_result(progress, status["result"])
         elif (
             status.get("result") is not None
@@ -1967,9 +2214,12 @@ def _pilot(workload: Workload, args: argparse.Namespace) -> dict[str, Any]:
         trust_remote_code=args.trust_remote_code,
         local_files_only=args.local_files_only,
     )
-    config = json.loads((Path(args.base_model_path) / "config.json").read_text())
-    text_config = config.get("text_config", config)
-    width = _integer(text_config.get("vocab_size"), "model vocabulary size")
+    config = AutoConfig.from_pretrained(
+        args.base_model_path,
+        trust_remote_code=args.trust_remote_code,
+        local_files_only=args.local_files_only,
+    )
+    width = _config_vocab_size(config)
     endpoints = [
         max(
             (job for job in workload.jobs if job.source["constraint"] == family),
@@ -1979,7 +2229,12 @@ def _pilot(workload: Workload, args: argparse.Namespace) -> dict[str, Any]:
     ]
     results = []
     for job in endpoints:
-        artifact = token_nfa_from_compiled(tokenizer, width, job.compiled)
+        artifact = token_nfa_from_compiled(
+            tokenizer,
+            width,
+            job.compiled,
+            args.terminal_token_ids,
+        )
         ebnf, metadata = nfa_to_bounded_ebnf(
             artifact, job.compiled.n_low, job.compiled.n
         )
@@ -2103,6 +2358,12 @@ def _launcher(args: argparse.Namespace) -> int:
             model_path,
             workload.jobs[0].compiled.tokenizer_fingerprint,
         )
+        terminal_policy = _load_terminal_policy(
+            model_path,
+            trust_remote_code=args.trust_remote_code,
+            local_files_only=args.local_files_only,
+        )
+        args.terminal_token_ids = terminal_policy["terminal_token_ids"]
         print(json.dumps(_pilot(workload, args), indent=2))
         return 0
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
@@ -2124,6 +2385,12 @@ def _launcher(args: argparse.Namespace) -> int:
         model_path,
         workload.jobs[0].compiled.tokenizer_fingerprint,
     )
+    terminal_policy = _load_terminal_policy(
+        model_path,
+        trust_remote_code=args.trust_remote_code,
+        local_files_only=args.local_files_only,
+    )
+    args.terminal_token_ids = terminal_policy["terminal_token_ids"]
     frozen = {
         "runner_version": RUNNER_VERSION,
         "result_schema_version": RESULT_SCHEMA_VERSION,
@@ -2139,6 +2406,7 @@ def _launcher(args: argparse.Namespace) -> int:
         "base_model_path": str(model_path),
         "base_model_identity": model_identity,
         "tokenizer_fingerprint_sha256": tokenizer_fingerprint_sha256,
+        "terminal_policy": terminal_policy,
         "python": str(args.python),
         "runtime_identity": runtime_identity,
         "worker_gpus": gpus,
@@ -2200,6 +2468,7 @@ def _launcher(args: argparse.Namespace) -> int:
             "precompute_timeout_s": args.precompute_timeout_s,
             "generation_timeout_s": args.generation_timeout_s,
         },
+        args.terminal_token_ids,
     )
     if args.aggregate_only:
         print(json.dumps(_aggregate(run_dir, workload.jobs, statuses), indent=2))

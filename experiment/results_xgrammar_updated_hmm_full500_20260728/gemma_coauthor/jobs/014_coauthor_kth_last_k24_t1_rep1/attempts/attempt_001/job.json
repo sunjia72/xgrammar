@@ -1,0 +1,977 @@
+{
+  "base_instance_id": "coauthor:creative:e29599231e66474b8a524c23db775e47",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 164,
+  "family_index": 14,
+  "job_id": "014_coauthor_kth_last_k24_t1_rep1",
+  "k": 24,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 25,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nOnce upon a time there was an old mother pig who had one hundred little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes. You know the story about the first three little pigs. This is a story about the 92nd little pig.\n\nThe 92nd little pig built a house out of depleted uranium. And the wolf was like, \"dude.\" \n\nThe wolf came and huffed and puffed, but his lungs got cancer from all the uranium. The wolf was sent to stay in the hospital, and no one came to visit him because he was so scary. He thought he would die alone, but the 92nd little pig visited him and was like, \"dude.\"",
+  "reference_single_token_nfa_states": 26,
+  "reference_text": " The wolf never thought he would get a visit from someone he once tried to eat. \n\nAnd the wolf said, \"I'm sorry I tried to eat you.\" The pig shrugged. \"Don't sweat it. Besides, I've lived in my house long enough that you'd get sick if you ate me.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 524432951,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "shrugged",
+      "token_ids": [
+        108187
+      ],
+      "token_length": 1,
+      "token_text": " shrugged"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "f93eeca5f74645e07815a2d3aee991def2df5661f324087531a229f511505103",
+  "source_split": "train",
+  "structural_cell_index": 14,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      108187
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    108187
+  ],
+  "tracked_token_texts": [
+    " shrugged"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    14946,
+    3324,
+    496,
+    990,
+    993,
+    691,
+    614,
+    2255,
+    5946,
+    12931,
+    1015,
+    1053,
+    886,
+    7549,
+    2268,
+    43012,
+    532,
+    711,
+    3487,
+    2780,
+    531,
+    4387,
+    1091,
+    236761,
+    1593,
+    1056,
+    901,
+    964,
+    2255,
+    3487,
+    236764,
+    1304,
+    3265,
+    1091,
+    855,
+    1131,
+    506,
+    1902,
+    531,
+    6370,
+    910,
+    86530,
+    236761,
+    1599,
+    1281,
+    506,
+    3925,
+    1003,
+    506,
+    1171,
+    1806,
+    2268,
+    43012,
+    236761,
+    1174,
+    563,
+    496,
+    3925,
+    1003,
+    506,
+    236743,
+    236819,
+    236778,
+    523,
+    2268,
+    12931,
+    236761,
+    108,
+    818,
+    236743,
+    236819,
+    236778,
+    523,
+    2268,
+    12931,
+    5284,
+    496,
+    3155,
+    855,
+    529,
+    75179,
+    37949,
+    236761,
+    1452,
+    506,
+    41897,
+    691,
+    1133,
+    236764,
+    623,
+    232907,
+    1781,
+    236743,
+    108,
+    818,
+    41897,
+    3588,
+    532,
+    534,
+    60565,
+    532,
+    230465,
+    236764,
+    840,
+    914,
+    38464,
+    2506,
+    7923,
+    699,
+    784,
+    506,
+    37949,
+    236761,
+    669,
+    41897,
+    691,
+    3265,
+    531,
+    4196,
+    528,
+    506,
+    6634,
+    236764,
+    532,
+    951,
+    886,
+    3588,
+    531,
+    3517,
+    1515,
+    1547,
+    668,
+    691,
+    834,
+    32738,
+    236761,
+    1293,
+    3305,
+    668,
+    1093,
+    1778,
+    7057,
+    236764,
+    840,
+    506,
+    236743,
+    236819,
+    236778,
+    523,
+    2268,
+    12931,
+    13896,
+    1515,
+    532,
+    691,
+    1133,
+    236764,
+    623,
+    232907,
+    1781,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 196,
+  "prompt_token_ids_sha256": "944c58da6732f2a7e903c3456f808887be131256cf4270774f1db8e9f935997b",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nOnce upon a time there was an old mother pig who had one hundred little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes. You know the story about the first three little pigs. This is a story about the 92nd little pig.\n\nThe 92nd little pig built a house out of depleted uranium. And the wolf was like, \"dude.\" \n\nThe wolf came and huffed and puffed, but his lungs got cancer from all the uranium. The wolf was sent to stay in the hospital, and no one came to visit him because he was so scary. He thought he would die alone, but the 92nd little pig visited him and was like, \"dude.\"",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 175,
+  "source_prompt_token_ids_sha256": "bf5e79ba1d9da0ebdd305122014bef9a09f68bc758ffeb66a0ef6dfbb744272c",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nOnce upon a time there was an old mother pig who had one hundred little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes. You know the story about the first three little pigs. This is a story about the 92nd little pig.\n\nThe 92nd little pig built a house out of depleted uranium. And the wolf was like, \"dude.\" \n\nThe wolf came and huffed and puffed, but his lungs got cancer from all the uranium. The wolf was sent to stay in the hospital, and no one came to visit him because he was so scary. He thought he would die alone, but the 92nd little pig visited him and was like, \"dude.\"",
+  "task_prompt_text_utf8_sha256": "90913bbe93b0c26b878a31efbad82c7d0272110dad1ccd46ed53c36071819cd0",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      108187
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 108187,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 26,
+  "unrolled_states": 1105,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 26,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          22,
+          0,
+          23
+        ],
+        [
+          22,
+          1,
+          23
+        ],
+        [
+          22,
+          2,
+          23
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          25,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          108187
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      14946,
+      3324,
+      496,
+      990,
+      993,
+      691,
+      614,
+      2255,
+      5946,
+      12931,
+      1015,
+      1053,
+      886,
+      7549,
+      2268,
+      43012,
+      532,
+      711,
+      3487,
+      2780,
+      531,
+      4387,
+      1091,
+      236761,
+      1593,
+      1056,
+      901,
+      964,
+      2255,
+      3487,
+      236764,
+      1304,
+      3265,
+      1091,
+      855,
+      1131,
+      506,
+      1902,
+      531,
+      6370,
+      910,
+      86530,
+      236761,
+      1599,
+      1281,
+      506,
+      3925,
+      1003,
+      506,
+      1171,
+      1806,
+      2268,
+      43012,
+      236761,
+      1174,
+      563,
+      496,
+      3925,
+      1003,
+      506,
+      236743,
+      236819,
+      236778,
+      523,
+      2268,
+      12931,
+      236761,
+      108,
+      818,
+      236743,
+      236819,
+      236778,
+      523,
+      2268,
+      12931,
+      5284,
+      496,
+      3155,
+      855,
+      529,
+      75179,
+      37949,
+      236761,
+      1452,
+      506,
+      41897,
+      691,
+      1133,
+      236764,
+      623,
+      232907,
+      1781,
+      236743,
+      108,
+      818,
+      41897,
+      3588,
+      532,
+      534,
+      60565,
+      532,
+      230465,
+      236764,
+      840,
+      914,
+      38464,
+      2506,
+      7923,
+      699,
+      784,
+      506,
+      37949,
+      236761,
+      669,
+      41897,
+      691,
+      3265,
+      531,
+      4196,
+      528,
+      506,
+      6634,
+      236764,
+      532,
+      951,
+      886,
+      3588,
+      531,
+      3517,
+      1515,
+      1547,
+      668,
+      691,
+      834,
+      32738,
+      236761,
+      1293,
+      3305,
+      668,
+      1093,
+      1778,
+      7057,
+      236764,
+      840,
+      506,
+      236743,
+      236819,
+      236778,
+      523,
+      2268,
+      12931,
+      13896,
+      1515,
+      532,
+      691,
+      1133,
+      236764,
+      623,
+      232907,
+      1781,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('shrugged') must end at the 24-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "014_coauthor_kth_last_k24_t1_rep1",
+      "design_index": 164,
+      "structural_cell_index": 14,
+      "replicate_index": 1,
+      "seed": 524432951,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "39185f342c373f6a171d016b32b74c1336b9552a6e308d1be8082c8e3cd3bb84"
+  }
+}

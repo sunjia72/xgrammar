@@ -1,0 +1,844 @@
+{
+  "base_instance_id": "coauthor:creative:43fef1ea6c6342f490c991f230acdf1b",
+  "constraint": "right_not_left",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 452,
+  "family_index": 2,
+  "job_id": "152_coauthor_right_not_left_kna_t3",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen.\n\nAs you watch your next life play out, you can't help but notice that the person playing your future self is being an idiot. There are clearly issues with future self's decision making abilities. When you would have turned right, they turned left. When you would have stopped, they continue forward. They also appear to be missing some very important information. Mainly, the ability to make a decision before missing a great opportunity!",
+  "reference_single_token_nfa_states": 9,
+  "reference_text": "\n\nYou glance at the past versions of you seated throughout the theatre , and you see them shaking their heads in disgust at the decisions future self is making, which if nothing else, makes you feel a little more comfortable with your opinions. \n\n\"Is it always like this?\" you ask previous you seated beside you.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 612206476,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "disgust",
+      "token_ids": [
+        56107
+      ],
+      "token_length": 1,
+      "token_text": " disgust"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "seated",
+      "token_ids": [
+        45212
+      ],
+      "token_length": 1,
+      "token_text": " seated"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "heads",
+      "token_ids": [
+        15005
+      ],
+      "token_length": 1,
+      "token_text": " heads"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "f59d835fc5b2777e9a5b5449ec7cff3d9b70214cb1bcd3b7d7cca8789e914b7f",
+  "source_split": "train",
+  "structural_cell_index": 152,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      56107
+    ],
+    [
+      45212
+    ],
+    [
+      15005
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    56107,
+    45212,
+    15005
+  ],
+  "tracked_token_texts": [
+    " disgust",
+    " seated",
+    " heads"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    4420,
+    611,
+    1778,
+    236764,
+    611,
+    3196,
+    528,
+    496,
+    29729,
+    607,
+    496,
+    1548,
+    529,
+    1032,
+    1331,
+    1015,
+    1385,
+    1133,
+    611,
+    236761,
+    1599,
+    1586,
+    855,
+    600,
+    901,
+    659,
+    822,
+    3527,
+    128179,
+    847,
+    236764,
+    532,
+    4949,
+    611,
+    784,
+    3654,
+    10685,
+    822,
+    2148,
+    1972,
+    580,
+    506,
+    2563,
+    4322,
+    236761,
+    108,
+    2205,
+    611,
+    4526,
+    822,
+    2148,
+    1972,
+    1441,
+    855,
+    236764,
+    611,
+    740,
+    236789,
+    236745,
+    1601,
+    840,
+    6303,
+    600,
+    506,
+    1589,
+    5662,
+    822,
+    3402,
+    1265,
+    563,
+    1646,
+    614,
+    76646,
+    236761,
+    2085,
+    659,
+    8207,
+    4342,
+    607,
+    3402,
+    1265,
+    236789,
+    236751,
+    4893,
+    3043,
+    22234,
+    236761,
+    3026,
+    611,
+    1093,
+    735,
+    6812,
+    1447,
+    236764,
+    901,
+    6812,
+    2378,
+    236761,
+    3026,
+    611,
+    1093,
+    735,
+    12280,
+    236764,
+    901,
+    4102,
+    4448,
+    236761,
+    2195,
+    992,
+    3196,
+    531,
+    577,
+    9724,
+    1070,
+    1401,
+    2132,
+    1938,
+    236761,
+    165999,
+    236764,
+    506,
+    5596,
+    531,
+    1386,
+    496,
+    4893,
+    1680,
+    9724,
+    496,
+    1822,
+    5506,
+    236888,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 169,
+  "prompt_token_ids_sha256": "1525e04fd4c454cb145113029d9872cd98a2ba6a9775caa9f1c4dafbff586af1",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen.\n\nAs you watch your next life play out, you can't help but notice that the person playing your future self is being an idiot. There are clearly issues with future self's decision making abilities. When you would have turned right, they turned left. When you would have stopped, they continue forward. They also appear to be missing some very important information. Mainly, the ability to make a decision before missing a great opportunity!",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 148,
+  "source_prompt_token_ids_sha256": "8e43570e3b3bd8a4362bfe75613df5ebd2af5f0ecfdbf4ceea9d5953ba5f03c2",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen.\n\nAs you watch your next life play out, you can't help but notice that the person playing your future self is being an idiot. There are clearly issues with future self's decision making abilities. When you would have turned right, they turned left. When you would have stopped, they continue forward. They also appear to be missing some very important information. Mainly, the ability to make a decision before missing a great opportunity!",
+  "task_prompt_text_utf8_sha256": "7bfaf5fbab99bd18a892beaad4bf20addf78604c59c49c4d9bec7823f346a3d0",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      56107
+    ],
+    "piece_001": [
+      45212
+    ],
+    "piece_002": [
+      15005
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 56107,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 9,
+  "unrolled_states": 563,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 9,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          1
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          4
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          56107
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          45212
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          15005
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      4420,
+      611,
+      1778,
+      236764,
+      611,
+      3196,
+      528,
+      496,
+      29729,
+      607,
+      496,
+      1548,
+      529,
+      1032,
+      1331,
+      1015,
+      1385,
+      1133,
+      611,
+      236761,
+      1599,
+      1586,
+      855,
+      600,
+      901,
+      659,
+      822,
+      3527,
+      128179,
+      847,
+      236764,
+      532,
+      4949,
+      611,
+      784,
+      3654,
+      10685,
+      822,
+      2148,
+      1972,
+      580,
+      506,
+      2563,
+      4322,
+      236761,
+      108,
+      2205,
+      611,
+      4526,
+      822,
+      2148,
+      1972,
+      1441,
+      855,
+      236764,
+      611,
+      740,
+      236789,
+      236745,
+      1601,
+      840,
+      6303,
+      600,
+      506,
+      1589,
+      5662,
+      822,
+      3402,
+      1265,
+      563,
+      1646,
+      614,
+      76646,
+      236761,
+      2085,
+      659,
+      8207,
+      4342,
+      607,
+      3402,
+      1265,
+      236789,
+      236751,
+      4893,
+      3043,
+      22234,
+      236761,
+      3026,
+      611,
+      1093,
+      735,
+      6812,
+      1447,
+      236764,
+      901,
+      6812,
+      2378,
+      236761,
+      3026,
+      611,
+      1093,
+      735,
+      12280,
+      236764,
+      901,
+      4102,
+      4448,
+      236761,
+      2195,
+      992,
+      3196,
+      531,
+      577,
+      9724,
+      1070,
+      1401,
+      2132,
+      1938,
+      236761,
+      165999,
+      236764,
+      506,
+      5596,
+      531,
+      1386,
+      496,
+      4893,
+      1680,
+      9724,
+      496,
+      1822,
+      5506,
+      236888,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "right_not_left",
+      "label": "right but not left",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('disgust', 'seated', 'heads') must occur on the right and not on the left."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "152_coauthor_right_not_left_kna_t3",
+      "design_index": 452,
+      "structural_cell_index": 152,
+      "replicate_index": 0,
+      "seed": 612206476,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "9a5f0e329e2013d1388a5e7df0de4a87d1c764ac847d4da983b0c8fa774e38b3"
+  }
+}

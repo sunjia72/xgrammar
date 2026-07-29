@@ -1,0 +1,834 @@
+{
+  "base_instance_id": "common_gen:validation:142",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "common_gen",
+  "design_index": 335,
+  "family_index": 5,
+  "job_id": "035_common_gen_repeat_after_k_k6_t3_rep2",
+  "k": 6,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 8,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "tracked_concepts_short_sentence",
+  "prompt_text": "Write exactly one short, natural, coherent English sentence that uses all of the following concepts: [\"drive\", \"phone\", \"car\"]. Return only the sentence, with no preamble or explanation: ",
+  "reference_single_token_nfa_states": 21,
+  "reference_text": "A man drives a car while on the phone.",
+  "reference_token_count": 10,
+  "replicate_index": 2,
+  "seed": 1243592523,
+  "selected_keywords": [
+    {
+      "idf": 7.89715383,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "drive",
+      "token_ids": [
+        5697
+      ],
+      "token_length": 1,
+      "token_text": " drive"
+    },
+    {
+      "idf": 9.44775124,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0,
+        2
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "phone",
+      "token_ids": [
+        5154
+      ],
+      "token_length": 1,
+      "token_text": " phone"
+    },
+    {
+      "idf": 5.62847029,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0,
+        2
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "car",
+      "token_ids": [
+        1295
+      ],
+      "token_length": 1,
+      "token_text": " car"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "9c030c2c8d78eb0dad9aa191a08d29c46aeee422a6dd01e91a86869a9134fd76",
+  "source_split": "validation",
+  "structural_cell_index": 35,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      5697
+    ],
+    [
+      5154
+    ],
+    [
+      1295
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    5697,
+    5154,
+    1295
+  ],
+  "tracked_token_texts": [
+    " drive",
+    " phone",
+    " car"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    6974,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    600,
+    6178,
+    784,
+    529,
+    506,
+    2269,
+    14485,
+    236787,
+    11058,
+    32676,
+    827,
+    623,
+    5275,
+    827,
+    623,
+    4554,
+    24594,
+    9657,
+    1186,
+    506,
+    13315,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 47,
+  "prompt_token_ids_sha256": "8ca75c0d675418329e0a1c444a7156e0f8b1a81b841d671ca5fd27111906b079",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "empty_chat",
+  "source_prompt_text": "",
+  "source_prompt_render_policy": "explicit_empty_user_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 9,
+  "source_prompt_token_ids_sha256": "fd686a90332dde362f6f417a46f0a615a9cc67c8a66c8ce601f8c339f5170a5b",
+  "task_prompt_mode": "tracked_concepts_short_sentence",
+  "task_prompt_text": "Write exactly one short, natural, coherent English sentence that uses all of the following concepts: [\"drive\", \"phone\", \"car\"]. Return only the sentence, with no preamble or explanation: ",
+  "task_prompt_text_utf8_sha256": "6fb0032083ec39bc3469c2979b0e054f0e5f453c1971391a2aeac10e714c25c7",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      5697
+    ],
+    "piece_001": [
+      5154
+    ],
+    "piece_002": [
+      1295
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 5697,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 21,
+  "unrolled_states": 1274,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 21,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          15
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          8,
+          0,
+          2
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          1,
+          2
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          15,
+          3,
+          16
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          17,
+          3,
+          18
+        ],
+        [
+          17,
+          4,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          18,
+          3,
+          19
+        ],
+        [
+          18,
+          4,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          19,
+          3,
+          20
+        ],
+        [
+          19,
+          4,
+          20
+        ],
+        [
+          20,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          5697
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          5154
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          1295
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      6974,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      600,
+      6178,
+      784,
+      529,
+      506,
+      2269,
+      14485,
+      236787,
+      11058,
+      32676,
+      827,
+      623,
+      5275,
+      827,
+      623,
+      4554,
+      24594,
+      9657,
+      1186,
+      506,
+      13315,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('drive', 'phone', 'car') must occur twice with start positions exactly 6 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "common_gen",
+      "job_id": "035_common_gen_repeat_after_k_k6_t3_rep2",
+      "design_index": 335,
+      "structural_cell_index": 35,
+      "replicate_index": 2,
+      "seed": 1243592523,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CommonGen",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CommonGen",
+          "identity_sha256": "a303dbfefbf42f0293e9e00464ab228f225e16dae8c24fda7f379b055dbeddea"
+        },
+        "model_provenance_sha256": "3fc7887153ec66cf6fb43be66da189b8436db32bdf63029dd4898175254ed639"
+      }
+    },
+    "sha256": "51288803a0a6acadf1ba5449a6204a3c6de44ab51c02c0a5021e49fe0760a3d2"
+  }
+}

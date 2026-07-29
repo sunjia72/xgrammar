@@ -1,0 +1,762 @@
+{
+  "base_instance_id": "common_gen:validation:826",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "common_gen",
+  "design_index": 184,
+  "family_index": 4,
+  "job_id": "034_common_gen_repeat_after_k_k5_t3_rep1",
+  "k": 5,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 7,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "tracked_concepts_short_sentence",
+  "prompt_text": "Write exactly one short, natural, coherent English sentence that uses all of the following concepts: [\"page\", \"couch\", \"newspaper\"]. Return only the sentence, with no preamble or explanation: ",
+  "reference_single_token_nfa_states": 18,
+  "reference_text": "A man sits on the couch holding a newspaper as he turns the page to continue reading.",
+  "reference_token_count": 18,
+  "replicate_index": 1,
+  "seed": 1498384170,
+  "selected_keywords": [
+    {
+      "idf": 8.90875474,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        1,
+        3
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "page",
+      "token_ids": [
+        3104
+      ],
+      "token_length": 1,
+      "token_text": " page"
+    },
+    {
+      "idf": 6.47368046,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0,
+        1,
+        3
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "couch",
+      "token_ids": [
+        29919
+      ],
+      "token_length": 1,
+      "token_text": " couch"
+    },
+    {
+      "idf": 11.39366139,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0,
+        1,
+        3
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "newspaper",
+      "token_ids": [
+        16985
+      ],
+      "token_length": 1,
+      "token_text": " newspaper"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "fb1f3aaae70404acc2125c7c0bba30c00dde241a94865db783d377cf0e8e5c62",
+  "source_split": "validation",
+  "structural_cell_index": 34,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      3104
+    ],
+    [
+      29919
+    ],
+    [
+      16985
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    3104,
+    29919,
+    16985
+  ],
+  "tracked_token_texts": [
+    " page",
+    " couch",
+    " newspaper"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    6974,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    600,
+    6178,
+    784,
+    529,
+    506,
+    2269,
+    14485,
+    236787,
+    11058,
+    4000,
+    827,
+    623,
+    122214,
+    827,
+    623,
+    157904,
+    24594,
+    9657,
+    1186,
+    506,
+    13315,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 47,
+  "prompt_token_ids_sha256": "cfd56644c9a18c7504e3b3275f1282386bb9665b9745a243b4aaa07093a9005e",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "empty_chat",
+  "source_prompt_text": "",
+  "source_prompt_render_policy": "explicit_empty_user_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 9,
+  "source_prompt_token_ids_sha256": "fd686a90332dde362f6f417a46f0a615a9cc67c8a66c8ce601f8c339f5170a5b",
+  "task_prompt_mode": "tracked_concepts_short_sentence",
+  "task_prompt_text": "Write exactly one short, natural, coherent English sentence that uses all of the following concepts: [\"page\", \"couch\", \"newspaper\"]. Return only the sentence, with no preamble or explanation: ",
+  "task_prompt_text_utf8_sha256": "856cf02404f85bbb8155999efb866e3624a0a53bde6f826f79e9a93de12600c6",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      3104
+    ],
+    "piece_001": [
+      29919
+    ],
+    "piece_002": [
+      16985
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 3104,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 18,
+  "unrolled_states": 1119,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 18,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          2
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          1,
+          2
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          14,
+          3,
+          15
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          15,
+          3,
+          16
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          17,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          3104
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          29919
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          16985
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      6974,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      600,
+      6178,
+      784,
+      529,
+      506,
+      2269,
+      14485,
+      236787,
+      11058,
+      4000,
+      827,
+      623,
+      122214,
+      827,
+      623,
+      157904,
+      24594,
+      9657,
+      1186,
+      506,
+      13315,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('page', 'couch', 'newspaper') must occur twice with start positions exactly 5 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "common_gen",
+      "job_id": "034_common_gen_repeat_after_k_k5_t3_rep1",
+      "design_index": 184,
+      "structural_cell_index": 34,
+      "replicate_index": 1,
+      "seed": 1498384170,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CommonGen",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CommonGen",
+          "identity_sha256": "a303dbfefbf42f0293e9e00464ab228f225e16dae8c24fda7f379b055dbeddea"
+        },
+        "model_provenance_sha256": "3fc7887153ec66cf6fb43be66da189b8436db32bdf63029dd4898175254ed639"
+      }
+    },
+    "sha256": "9e58ed64c2413145bd4b3103d1b2bc4e28a8028324e72959a070c75048158e69"
+  }
+}

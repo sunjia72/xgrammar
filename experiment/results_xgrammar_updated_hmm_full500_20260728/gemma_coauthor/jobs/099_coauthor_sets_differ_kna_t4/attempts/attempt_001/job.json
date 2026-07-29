@@ -1,0 +1,1547 @@
+{
+  "base_instance_id": "coauthor:creative:e90a5ce2d98548a997fb8c3ab2213483",
+  "constraint": "sets_differ",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 99,
+  "family_index": 3,
+  "job_id": "099_coauthor_sets_differ_kna_t4",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the “Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered. The citizens that were given the drug have awful side effects.  It is the first time sine the drug came out that you have not felt resentful about not being given the drug yourself.\n\nSuddenly, you get a job offer by an unknown source. You're offered enough money for a lifetime of happiness. It won't come easy though because you have to figure out how to help the people with side effects. \n\nYou have 48 hours to accept the job, and if you don't take it within that time, there will be no other offers. So you take the job not sure yet what your plan will be. When you arrive at the destination, a man meets you with a folder in his hands.  He has all of the research on the drug and the reason people are having side effects.",
+  "reference_single_token_nfa_states": 23,
+  "reference_text": " The drug keeps people from aging but its also a mental suppressant, making people forget. \n\nThe man offers you a way to help the people by giving them back their memories. He then tells you that it's up to you decide if the people will remember everything, or will they only remember bits and pieces.",
+  "reference_token_count": 63,
+  "replicate_index": 0,
+  "seed": 1920720594,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 7.59850903,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "bits",
+      "token_ids": [
+        18060
+      ],
+      "token_length": 1,
+      "token_text": " bits"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "keeps",
+      "token_ids": [
+        15033
+      ],
+      "token_length": 1,
+      "token_text": " keeps"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "memories",
+      "token_ids": [
+        19239
+      ],
+      "token_length": 1,
+      "token_text": " memories"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "mental",
+      "token_ids": [
+        9069
+      ],
+      "token_length": 1,
+      "token_text": " mental"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "28f4c1fe434c0d313c9ba7a1eee93e3b2023de966f95a89f95abb4cc8399768b",
+  "source_split": "test",
+  "structural_cell_index": 99,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      18060
+    ],
+    [
+      15033
+    ],
+    [
+      19239
+    ],
+    [
+      9069
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    18060,
+    15033,
+    19239,
+    9069
+  ],
+  "tracked_token_texts": [
+    " bits",
+    " keeps",
+    " memories",
+    " mental"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    4420,
+    611,
+    236789,
+    500,
+    236743,
+    236778,
+    236828,
+    236764,
+    6647,
+    77828,
+    496,
+    5290,
+    600,
+    20627,
+    784,
+    4518,
+    529,
+    27942,
+    236764,
+    7107,
+    123739,
+    236761,
+    5180,
+    3251,
+    35141,
+    531,
+    2583,
+    506,
+    5290,
+    531,
+    784,
+    11838,
+    1208,
+    236743,
+    236778,
+    236825,
+    236764,
+    840,
+    611,
+    532,
+    506,
+    1884,
+    529,
+    506,
+    999,
+    70678,
+    179048,
+    236775,
+    659,
+    24897,
+    2311,
+    1494,
+    236772,
+    37716,
+    236761,
+    3026,
+    611,
+    236789,
+    500,
+    236743,
+    236828,
+    236810,
+    236764,
+    506,
+    2678,
+    4518,
+    659,
+    6861,
+    11788,
+    236761,
+    669,
+    11838,
+    600,
+    964,
+    2238,
+    506,
+    5290,
+    735,
+    38599,
+    2678,
+    4518,
+    236761,
+    138,
+    1509,
+    563,
+    506,
+    1171,
+    990,
+    36172,
+    506,
+    5290,
+    3588,
+    855,
+    600,
+    611,
+    735,
+    711,
+    6345,
+    57186,
+    1275,
+    1003,
+    711,
+    1646,
+    2238,
+    506,
+    5290,
+    5869,
+    236761,
+    108,
+    132026,
+    236764,
+    611,
+    974,
+    496,
+    3195,
+    2729,
+    684,
+    614,
+    11908,
+    3738,
+    236761,
+    1599,
+    236789,
+    500,
+    8375,
+    3487,
+    3273,
+    573,
+    496,
+    19418,
+    529,
+    20121,
+    236761,
+    1030,
+    2810,
+    236789,
+    236745,
+    2229,
+    3735,
+    3635,
+    1547,
+    611,
+    735,
+    531,
+    5811,
+    855,
+    1217,
+    531,
+    1601,
+    506,
+    1331,
+    607,
+    2678,
+    4518,
+    236761,
+    236743,
+    108,
+    3048,
+    735,
+    236743,
+    236812,
+    236828,
+    3885,
+    531,
+    4242,
+    506,
+    3195,
+    236764,
+    532,
+    768,
+    611,
+    1537,
+    236789,
+    236745,
+    1769,
+    625,
+    2351,
+    600,
+    990,
+    236764,
+    993,
+    795,
+    577,
+    951,
+    1032,
+    5469,
+    236761,
+    1593,
+    611,
+    1769,
+    506,
+    3195,
+    711,
+    2889,
+    3819,
+    1144,
+    822,
+    2731,
+    795,
+    577,
+    236761,
+    3026,
+    611,
+    15074,
+    657,
+    506,
+    12892,
+    236764,
+    496,
+    880,
+    20239,
+    611,
+    607,
+    496,
+    11709,
+    528,
+    914,
+    4916,
+    236761,
+    138,
+    2209,
+    815,
+    784,
+    529,
+    506,
+    2958,
+    580,
+    506,
+    5290,
+    532,
+    506,
+    3282,
+    1331,
+    659,
+    2963,
+    2678,
+    4518,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 274,
+  "prompt_token_ids_sha256": "fcb6eb81441ee397f8271a1b1c164d6870887383ff73e04fba95b3dd3763979b",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the “Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered. The citizens that were given the drug have awful side effects.  It is the first time sine the drug came out that you have not felt resentful about not being given the drug yourself.\n\nSuddenly, you get a job offer by an unknown source. You're offered enough money for a lifetime of happiness. It won't come easy though because you have to figure out how to help the people with side effects. \n\nYou have 48 hours to accept the job, and if you don't take it within that time, there will be no other offers. So you take the job not sure yet what your plan will be. When you arrive at the destination, a man meets you with a folder in his hands.  He has all of the research on the drug and the reason people are having side effects.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 253,
+  "source_prompt_token_ids_sha256": "e745222d1892966820121b69caabdb6e4c35576f7585e16220e237048415aefc",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you're 28, science discovers a drug that stops all effects of aging, creating immortality. Your government decides to give the drug to all citizens under 26, but you and the rest of the “Lost Generations\" are deemed too high-risk. When you're 85, the side effects are finally discovered. The citizens that were given the drug have awful side effects.  It is the first time sine the drug came out that you have not felt resentful about not being given the drug yourself.\n\nSuddenly, you get a job offer by an unknown source. You're offered enough money for a lifetime of happiness. It won't come easy though because you have to figure out how to help the people with side effects. \n\nYou have 48 hours to accept the job, and if you don't take it within that time, there will be no other offers. So you take the job not sure yet what your plan will be. When you arrive at the destination, a man meets you with a folder in his hands.  He has all of the research on the drug and the reason people are having side effects.",
+  "task_prompt_text_utf8_sha256": "f616878ad40504744e5fe841d57cbbec6082d930a3c3282d01a9f40aeeaffaf0",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      18060
+    ],
+    "piece_001": [
+      15033
+    ],
+    "piece_002": [
+      19239
+    ],
+    "piece_003": [
+      9069
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 18060,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 20,
+  "unrolled_states": 1192,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 20,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          16
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          2,
+          16
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          3,
+          17
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          4,
+          14
+        ],
+        [
+          0,
+          4,
+          18
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          12
+        ],
+        [
+          0,
+          5,
+          16
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          7
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          1
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          10
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          11
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          6
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          7
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          14
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          15
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          6
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          7
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          6,
+          1
+        ],
+        [
+          16,
+          0,
+          16
+        ],
+        [
+          16,
+          1,
+          16
+        ],
+        [
+          16,
+          2,
+          16
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          18
+        ],
+        [
+          16,
+          5,
+          16
+        ],
+        [
+          17,
+          0,
+          17
+        ],
+        [
+          17,
+          1,
+          17
+        ],
+        [
+          17,
+          2,
+          17
+        ],
+        [
+          17,
+          3,
+          17
+        ],
+        [
+          17,
+          4,
+          19
+        ],
+        [
+          17,
+          5,
+          17
+        ],
+        [
+          18,
+          0,
+          18
+        ],
+        [
+          18,
+          1,
+          18
+        ],
+        [
+          18,
+          2,
+          18
+        ],
+        [
+          18,
+          3,
+          6
+        ],
+        [
+          18,
+          4,
+          18
+        ],
+        [
+          18,
+          5,
+          18
+        ],
+        [
+          19,
+          0,
+          19
+        ],
+        [
+          19,
+          1,
+          19
+        ],
+        [
+          19,
+          2,
+          19
+        ],
+        [
+          19,
+          3,
+          7
+        ],
+        [
+          19,
+          4,
+          19
+        ],
+        [
+          19,
+          5,
+          19
+        ],
+        [
+          19,
+          6,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          18060
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          15033
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          19239
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          9069
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      4420,
+      611,
+      236789,
+      500,
+      236743,
+      236778,
+      236828,
+      236764,
+      6647,
+      77828,
+      496,
+      5290,
+      600,
+      20627,
+      784,
+      4518,
+      529,
+      27942,
+      236764,
+      7107,
+      123739,
+      236761,
+      5180,
+      3251,
+      35141,
+      531,
+      2583,
+      506,
+      5290,
+      531,
+      784,
+      11838,
+      1208,
+      236743,
+      236778,
+      236825,
+      236764,
+      840,
+      611,
+      532,
+      506,
+      1884,
+      529,
+      506,
+      999,
+      70678,
+      179048,
+      236775,
+      659,
+      24897,
+      2311,
+      1494,
+      236772,
+      37716,
+      236761,
+      3026,
+      611,
+      236789,
+      500,
+      236743,
+      236828,
+      236810,
+      236764,
+      506,
+      2678,
+      4518,
+      659,
+      6861,
+      11788,
+      236761,
+      669,
+      11838,
+      600,
+      964,
+      2238,
+      506,
+      5290,
+      735,
+      38599,
+      2678,
+      4518,
+      236761,
+      138,
+      1509,
+      563,
+      506,
+      1171,
+      990,
+      36172,
+      506,
+      5290,
+      3588,
+      855,
+      600,
+      611,
+      735,
+      711,
+      6345,
+      57186,
+      1275,
+      1003,
+      711,
+      1646,
+      2238,
+      506,
+      5290,
+      5869,
+      236761,
+      108,
+      132026,
+      236764,
+      611,
+      974,
+      496,
+      3195,
+      2729,
+      684,
+      614,
+      11908,
+      3738,
+      236761,
+      1599,
+      236789,
+      500,
+      8375,
+      3487,
+      3273,
+      573,
+      496,
+      19418,
+      529,
+      20121,
+      236761,
+      1030,
+      2810,
+      236789,
+      236745,
+      2229,
+      3735,
+      3635,
+      1547,
+      611,
+      735,
+      531,
+      5811,
+      855,
+      1217,
+      531,
+      1601,
+      506,
+      1331,
+      607,
+      2678,
+      4518,
+      236761,
+      236743,
+      108,
+      3048,
+      735,
+      236743,
+      236812,
+      236828,
+      3885,
+      531,
+      4242,
+      506,
+      3195,
+      236764,
+      532,
+      768,
+      611,
+      1537,
+      236789,
+      236745,
+      1769,
+      625,
+      2351,
+      600,
+      990,
+      236764,
+      993,
+      795,
+      577,
+      951,
+      1032,
+      5469,
+      236761,
+      1593,
+      611,
+      1769,
+      506,
+      3195,
+      711,
+      2889,
+      3819,
+      1144,
+      822,
+      2731,
+      795,
+      577,
+      236761,
+      3026,
+      611,
+      15074,
+      657,
+      506,
+      12892,
+      236764,
+      496,
+      880,
+      20239,
+      611,
+      607,
+      496,
+      11709,
+      528,
+      914,
+      4916,
+      236761,
+      138,
+      2209,
+      815,
+      784,
+      529,
+      506,
+      2958,
+      580,
+      506,
+      5290,
+      532,
+      506,
+      3282,
+      1331,
+      659,
+      2963,
+      2678,
+      4518,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "sets_differ",
+      "label": "different side sets",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('bits', 'keeps', 'memories', 'mental') must occur on exactly one side."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "099_coauthor_sets_differ_kna_t4",
+      "design_index": 99,
+      "structural_cell_index": 99,
+      "replicate_index": 0,
+      "seed": 1920720594,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "13e61b84ee891333fda6b7439c5ceacba83ef03f88ef7e02146cb9be88f7ba57"
+  }
+}

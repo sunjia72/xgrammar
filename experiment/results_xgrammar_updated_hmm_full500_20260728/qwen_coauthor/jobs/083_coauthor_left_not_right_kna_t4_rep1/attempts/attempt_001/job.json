@@ -1,0 +1,1464 @@
+{
+  "base_instance_id": "coauthor:creative:543ec3b66b0c47269e9737a650da21b5",
+  "constraint": "left_not_right",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 233,
+  "family_index": 3,
+  "job_id": "083_coauthor_left_not_right_kna_t4_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen. It starts off with your birth which is not the best opening scene in your opinion. The audience gasps over and over as my previous mother gives birth to me. You feel your heart sink as you witness what feels like the pain of childbirth. I am glad I was not able to remember that as an adult. \nNext the story moved on to show my parents taking care of me as a newborn. They were very caring and supportive, beyond what I could have imagined. I was a quite kid who like to play with educational toys. My parents picked up on this and started to buy more and more of these toys so I could continue to learn. As a result I became very smart and capable. I was in gifted right away in 1st grade. I excelled in almost every area of my studies. Then all of a sudden while I was in 4 grade my parents got a divorce. This would send me on a downward trajectory that would shape the rest of my life.\nAt age 10 I moved in with my father and step mother. She was literally and evil step mother. She abused me and my sister which later on gave us PTSD and anxiety issues.",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": " We did not know this until we were adults and diagnosed. I struggled through my teens, still doing okay in school but my grades had taken a dive. \nI graduated finally and moved out right away. I went a little crazy with the partying at first but finally smartened up and went back to school.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 714953310,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "grades",
+      "token_ids": [
+        26716
+      ],
+      "token_length": 1,
+      "token_text": " grades"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "dive",
+      "token_ids": [
+        28886
+      ],
+      "token_length": 1,
+      "token_text": " dive"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "teens",
+      "token_ids": [
+        25366
+      ],
+      "token_length": 1,
+      "token_text": " teens"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "diagnosed",
+      "token_ids": [
+        27670
+      ],
+      "token_length": 1,
+      "token_text": " diagnosed"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "3c92705c83bebe5f5adada4c366083eca79ad422a3adc88dd38d1adebcdf99ab",
+  "source_split": "train",
+  "structural_cell_index": 83,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      26716
+    ],
+    [
+      28886
+    ],
+    [
+      25366
+    ],
+    [
+      27670
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    26716,
+    28886,
+    25366,
+    27670
+  ],
+  "tracked_token_texts": [
+    " grades",
+    " dive",
+    " teens",
+    " diagnosed"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    1414,
+    3559,
+    440,
+    6681,
+    799,
+    2716,
+    11,
+    5629,
+    11,
+    53916,
+    6163,
+    11316,
+    13,
+    3301,
+    1132,
+    279,
+    39811,
+    11,
+    440,
+    874,
+    86377,
+    466,
+    15673,
+    25,
+    198,
+    4350,
+    488,
+    2659,
+    11,
+    488,
+    4833,
+    303,
+    264,
+    32090,
+    440,
+    264,
+    1324,
+    314,
+    975,
+    1208,
+    852,
+    1353,
+    1040,
+    488,
+    13,
+    1394,
+    1423,
+    680,
+    421,
+    781,
+    513,
+    678,
+    3555,
+    91436,
+    1820,
+    778,
+    11,
+    321,
+    4970,
+    488,
+    660,
+    3060,
+    9799,
+    678,
+    1727,
+    2199,
+    383,
+    279,
+    2330,
+    4034,
+    13,
+    1049,
+    8211,
+    974,
+    440,
+    678,
+    6968,
+    864,
+    369,
+    524,
+    279,
+    1786,
+    8306,
+    5918,
+    303,
+    678,
+    9180,
+    13,
+    561,
+    10335,
+    6605,
+    1630,
+    888,
+    321,
+    888,
+    430,
+    821,
+    3555,
+    6351,
+    6486,
+    6968,
+    310,
+    728,
+    13,
+    1394,
+    2579,
+    678,
+    4593,
+    18725,
+    430,
+    488,
+    10971,
+    1092,
+    10751,
+    1040,
+    279,
+    6437,
+    314,
+    92868,
+    13,
+    353,
+    1044,
+    15252,
+    353,
+    557,
+    524,
+    2858,
+    310,
+    5909,
+    421,
+    430,
+    449,
+    6474,
+    13,
+    695,
+    5666,
+    279,
+    3255,
+    7481,
+    383,
+    310,
+    1420,
+    821,
+    6357,
+    4483,
+    2373,
+    314,
+    728,
+    430,
+    264,
+    43787,
+    13,
+    2302,
+    998,
+    1546,
+    28536,
+    321,
+    31277,
+    11,
+    7551,
+    1092,
+    353,
+    1362,
+    599,
+    33461,
+    13,
+    353,
+    557,
+    264,
+    4847,
+    10061,
+    852,
+    1040,
+    310,
+    1432,
+    440,
+    15751,
+    22351,
+    13,
+    2921,
+    6357,
+    12405,
+    685,
+    383,
+    411,
+    321,
+    3727,
+    310,
+    3569,
+    777,
+    321,
+    777,
+    314,
+    1439,
+    22351,
+    748,
+    353,
+    1362,
+    2962,
+    310,
+    3827,
+    13,
+    1577,
+    264,
+    1067,
+    353,
+    5924,
+    1546,
+    7539,
+    321,
+    12506,
+    13,
+    353,
+    557,
+    303,
+    45216,
+    1245,
+    3023,
+    303,
+    220,
+    16,
+    267,
+    11633,
+    13,
+    353,
+    3328,
+    14759,
+    303,
+    4409,
+    1396,
+    2982,
+    314,
+    821,
+    7574,
+    13,
+    4844,
+    660,
+    314,
+    264,
+    10647,
+    1345,
+    353,
+    557,
+    303,
+    220,
+    19,
+    11633,
+    821,
+    6357,
+    2597,
+    264,
+    23757,
+    13,
+    1061,
+    1000,
+    3502,
+    728,
+    383,
+    264,
+    43001,
+    33534,
+    421,
+    1000,
+    5893,
+    279,
+    2645,
+    314,
+    821,
+    2199,
+    13,
+    198,
+    1597,
+    4092,
+    220,
+    16,
+    15,
+    353,
+    7481,
+    303,
+    440,
+    821,
+    6764,
+    321,
+    2923,
+    6351,
+    13,
+    2838,
+    557,
+    15433,
+    321,
+    13561,
+    2923,
+    6351,
+    13,
+    2838,
+    34389,
+    728,
+    321,
+    821,
+    12553,
+    864,
+    2843,
+    383,
+    6348,
+    586,
+    59249,
+    321,
+    17517,
+    4562,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 324,
+  "prompt_token_ids_sha256": "392be0781781e2d09a3f59268a97b771863d98d50bbb96fef7f1c3392f97a867",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen. It starts off with your birth which is not the best opening scene in your opinion. The audience gasps over and over as my previous mother gives birth to me. You feel your heart sink as you witness what feels like the pain of childbirth. I am glad I was not able to remember that as an adult. \nNext the story moved on to show my parents taking care of me as a newborn. They were very caring and supportive, beyond what I could have imagined. I was a quite kid who like to play with educational toys. My parents picked up on this and started to buy more and more of these toys so I could continue to learn. As a result I became very smart and capable. I was in gifted right away in 1st grade. I excelled in almost every area of my studies. Then all of a sudden while I was in 4 grade my parents got a divorce. This would send me on a downward trajectory that would shape the rest of my life.\nAt age 10 I moved in with my father and step mother. She was literally and evil step mother. She abused me and my sister which later on gave us PTSD and anxiety issues.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 303,
+  "source_prompt_token_ids_sha256": "dcd49d206dcc471095fc142fe7a25dd207f0a12dc5f744e9a3aa372c5d5a5936",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nWhen you die, you appear in a cinema with a number of other people who look like you. You find out that they are your previous reincarnations, and soon you all begin watching your next life on the big screen. It starts off with your birth which is not the best opening scene in your opinion. The audience gasps over and over as my previous mother gives birth to me. You feel your heart sink as you witness what feels like the pain of childbirth. I am glad I was not able to remember that as an adult. \nNext the story moved on to show my parents taking care of me as a newborn. They were very caring and supportive, beyond what I could have imagined. I was a quite kid who like to play with educational toys. My parents picked up on this and started to buy more and more of these toys so I could continue to learn. As a result I became very smart and capable. I was in gifted right away in 1st grade. I excelled in almost every area of my studies. Then all of a sudden while I was in 4 grade my parents got a divorce. This would send me on a downward trajectory that would shape the rest of my life.\nAt age 10 I moved in with my father and step mother. She was literally and evil step mother. She abused me and my sister which later on gave us PTSD and anxiety issues.",
+  "task_prompt_text_utf8_sha256": "c0cadda02d0d92cd49a0764751e7917d64da89612fd786f9d7f8c827f4211787",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      26716
+    ],
+    "piece_001": [
+      28886
+    ],
+    "piece_002": [
+      25366
+    ],
+    "piece_003": [
+      27670
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 26716,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 15,
+  "unrolled_states": 877,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 15,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          0,
+          5,
+          12
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          4
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          4
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          1
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          4
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          4
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          4
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          4
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          26716
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          28886
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          25366
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          27670
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      1414,
+      3559,
+      440,
+      6681,
+      799,
+      2716,
+      11,
+      5629,
+      11,
+      53916,
+      6163,
+      11316,
+      13,
+      3301,
+      1132,
+      279,
+      39811,
+      11,
+      440,
+      874,
+      86377,
+      466,
+      15673,
+      25,
+      198,
+      4350,
+      488,
+      2659,
+      11,
+      488,
+      4833,
+      303,
+      264,
+      32090,
+      440,
+      264,
+      1324,
+      314,
+      975,
+      1208,
+      852,
+      1353,
+      1040,
+      488,
+      13,
+      1394,
+      1423,
+      680,
+      421,
+      781,
+      513,
+      678,
+      3555,
+      91436,
+      1820,
+      778,
+      11,
+      321,
+      4970,
+      488,
+      660,
+      3060,
+      9799,
+      678,
+      1727,
+      2199,
+      383,
+      279,
+      2330,
+      4034,
+      13,
+      1049,
+      8211,
+      974,
+      440,
+      678,
+      6968,
+      864,
+      369,
+      524,
+      279,
+      1786,
+      8306,
+      5918,
+      303,
+      678,
+      9180,
+      13,
+      561,
+      10335,
+      6605,
+      1630,
+      888,
+      321,
+      888,
+      430,
+      821,
+      3555,
+      6351,
+      6486,
+      6968,
+      310,
+      728,
+      13,
+      1394,
+      2579,
+      678,
+      4593,
+      18725,
+      430,
+      488,
+      10971,
+      1092,
+      10751,
+      1040,
+      279,
+      6437,
+      314,
+      92868,
+      13,
+      353,
+      1044,
+      15252,
+      353,
+      557,
+      524,
+      2858,
+      310,
+      5909,
+      421,
+      430,
+      449,
+      6474,
+      13,
+      695,
+      5666,
+      279,
+      3255,
+      7481,
+      383,
+      310,
+      1420,
+      821,
+      6357,
+      4483,
+      2373,
+      314,
+      728,
+      430,
+      264,
+      43787,
+      13,
+      2302,
+      998,
+      1546,
+      28536,
+      321,
+      31277,
+      11,
+      7551,
+      1092,
+      353,
+      1362,
+      599,
+      33461,
+      13,
+      353,
+      557,
+      264,
+      4847,
+      10061,
+      852,
+      1040,
+      310,
+      1432,
+      440,
+      15751,
+      22351,
+      13,
+      2921,
+      6357,
+      12405,
+      685,
+      383,
+      411,
+      321,
+      3727,
+      310,
+      3569,
+      777,
+      321,
+      777,
+      314,
+      1439,
+      22351,
+      748,
+      353,
+      1362,
+      2962,
+      310,
+      3827,
+      13,
+      1577,
+      264,
+      1067,
+      353,
+      5924,
+      1546,
+      7539,
+      321,
+      12506,
+      13,
+      353,
+      557,
+      303,
+      45216,
+      1245,
+      3023,
+      303,
+      220,
+      16,
+      267,
+      11633,
+      13,
+      353,
+      3328,
+      14759,
+      303,
+      4409,
+      1396,
+      2982,
+      314,
+      821,
+      7574,
+      13,
+      4844,
+      660,
+      314,
+      264,
+      10647,
+      1345,
+      353,
+      557,
+      303,
+      220,
+      19,
+      11633,
+      821,
+      6357,
+      2597,
+      264,
+      23757,
+      13,
+      1061,
+      1000,
+      3502,
+      728,
+      383,
+      264,
+      43001,
+      33534,
+      421,
+      1000,
+      5893,
+      279,
+      2645,
+      314,
+      821,
+      2199,
+      13,
+      198,
+      1597,
+      4092,
+      220,
+      16,
+      15,
+      353,
+      7481,
+      303,
+      440,
+      821,
+      6764,
+      321,
+      2923,
+      6351,
+      13,
+      2838,
+      557,
+      15433,
+      321,
+      13561,
+      2923,
+      6351,
+      13,
+      2838,
+      34389,
+      728,
+      321,
+      821,
+      12553,
+      864,
+      2843,
+      383,
+      6348,
+      586,
+      59249,
+      321,
+      17517,
+      4562,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "left_not_right",
+      "label": "left but not right",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('grades', 'dive', 'teens', 'diagnosed') must occur on the left and not on the right."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "083_coauthor_left_not_right_kna_t4_rep1",
+      "design_index": 233,
+      "structural_cell_index": 83,
+      "replicate_index": 1,
+      "seed": 714953310,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "c2b22ec6f38a529908291c72e51d90fe3f4b2c6f3d163ba24d64075d049b9c60"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "d956ab0cd29613f48ef6806b1f713a46d923b7cf2d211f6935de492048e88f81"
+        },
+        "model_provenance_sha256": "cfd6a360eebcc16aed47b50f895c7e79463b2e7941c0ce27f0377f4ff7bfb710"
+      }
+    },
+    "sha256": "525f5edbc3dbb5ff7ff1d5d00127d817caf7b754406b5b31ba966c9bf58c1e7a"
+  }
+}

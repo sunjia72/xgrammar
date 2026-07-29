@@ -1,0 +1,1239 @@
+{
+  "base_instance_id": "coauthor:creative:2bb646dbeedc487c9bab6b1d5db5b5fc",
+  "constraint": "left_not_right",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 383,
+  "family_index": 3,
+  "job_id": "083_coauthor_left_not_right_kna_t4_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation.\n\nWhat kind of a trick was this, Americans thought. They were left to their own devices and decided to explore space instead. The technology they advanced in was nothing short of groundbreaking.\nStill, they felt slighted because they didn't even start the war. They tried to stay out of it. The rest of the world should have done the same. None of this would have happened.\n\nNone the less, it was time to set aside the past, and figure out why the world forced them into isolation alone. Was it a fear of the Americans?",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": " Was it the rest of the world wanting to be the superpower? who knows.\n\nOnce Americans figured it out that they were alone in isolation, they decided to use their knowledge of space travel that no one else had quite mastered yet to just move all of America of the planet and settle on another planet.",
+  "reference_token_count": 62,
+  "replicate_index": 2,
+  "seed": 557666619,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "settle",
+      "token_ids": [
+        26068
+      ],
+      "token_length": 1,
+      "token_text": " settle"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "mastered",
+      "token_ids": [
+        83949
+      ],
+      "token_length": 1,
+      "token_text": " mastered"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "knowledge",
+      "token_ids": [
+        4654
+      ],
+      "token_length": 1,
+      "token_text": " knowledge"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "wanting",
+      "token_ids": [
+        23021
+      ],
+      "token_length": 1,
+      "token_text": " wanting"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "8bf68e13422e2f7d96a1165a396d2beab233d102c14049eb1fe8eda74670f5c4",
+  "source_split": "train",
+  "structural_cell_index": 83,
+  "t": 4,
+  "total_tracked_keyword_tokens": 4,
+  "tracked_keyword_token_ids": [
+    [
+      26068
+    ],
+    [
+      83949
+    ],
+    [
+      4654
+    ],
+    [
+      23021
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    26068,
+    83949,
+    4654,
+    23021
+  ],
+  "tracked_token_texts": [
+    " settle",
+    " mastered",
+    " knowledge",
+    " wanting"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    25221,
+    4109,
+    5289,
+    8488,
+    236764,
+    784,
+    506,
+    17835,
+    529,
+    506,
+    1902,
+    10344,
+    531,
+    236743,
+    236810,
+    236771,
+    1518,
+    529,
+    10346,
+    23049,
+    699,
+    886,
+    2264,
+    528,
+    1900,
+    531,
+    5001,
+    4767,
+    28847,
+    236761,
+    236743,
+    236810,
+    236771,
+    1518,
+    3209,
+    236764,
+    506,
+    3640,
+    4184,
+    3952,
+    855,
+    529,
+    74627,
+    236764,
+    1186,
+    531,
+    3449,
+    600,
+    951,
+    886,
+    1663,
+    3939,
+    1131,
+    23049,
+    236761,
+    108,
+    3689,
+    2712,
+    529,
+    496,
+    16568,
+    691,
+    672,
+    236764,
+    14522,
+    3305,
+    236761,
+    2195,
+    964,
+    2378,
+    531,
+    910,
+    1852,
+    7359,
+    532,
+    6544,
+    531,
+    11327,
+    2557,
+    5205,
+    236761,
+    669,
+    4181,
+    901,
+    9691,
+    528,
+    691,
+    5017,
+    2822,
+    529,
+    78683,
+    236761,
+    107,
+    31717,
+    236764,
+    901,
+    6345,
+    6495,
+    524,
+    1547,
+    901,
+    3782,
+    236789,
+    236745,
+    1581,
+    1502,
+    506,
+    3653,
+    236761,
+    2195,
+    6956,
+    531,
+    4196,
+    855,
+    529,
+    625,
+    236761,
+    669,
+    1884,
+    529,
+    506,
+    1902,
+    1374,
+    735,
+    3028,
+    506,
+    1638,
+    236761,
+    5450,
+    529,
+    672,
+    1093,
+    735,
+    8432,
+    236761,
+    108,
+    9336,
+    506,
+    2344,
+    236764,
+    625,
+    691,
+    990,
+    531,
+    1076,
+    16551,
+    506,
+    3068,
+    236764,
+    532,
+    5811,
+    855,
+    3217,
+    506,
+    1902,
+    11724,
+    1091,
+    1131,
+    23049,
+    7057,
+    236761,
+    15141,
+    625,
+    496,
+    9891,
+    529,
+    506,
+    14522,
+    236881,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 205,
+  "prompt_token_ids_sha256": "25fd33d55762130679d421d2cf0a3d8f7294ad16363543c76088758ec15f8590",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation.\n\nWhat kind of a trick was this, Americans thought. They were left to their own devices and decided to explore space instead. The technology they advanced in was nothing short of groundbreaking.\nStill, they felt slighted because they didn't even start the war. They tried to stay out of it. The rest of the world should have done the same. None of this would have happened.\n\nNone the less, it was time to set aside the past, and figure out why the world forced them into isolation alone. Was it a fear of the Americans?",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 184,
+  "source_prompt_token_ids_sha256": "e86141a19da805b5368b6a3c2a446b862f4f30cadad0bf08e9592a0470729a11",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation.\n\nWhat kind of a trick was this, Americans thought. They were left to their own devices and decided to explore space instead. The technology they advanced in was nothing short of groundbreaking.\nStill, they felt slighted because they didn't even start the war. They tried to stay out of it. The rest of the world should have done the same. None of this would have happened.\n\nNone the less, it was time to set aside the past, and figure out why the world forced them into isolation alone. Was it a fear of the Americans?",
+  "task_prompt_text_utf8_sha256": "1d1f964aa6491843cf88b2004ddb0202722e74bc654bfdd6a5195f93f470f870",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      26068
+    ],
+    "piece_001": [
+      83949
+    ],
+    "piece_002": [
+      4654
+    ],
+    "piece_003": [
+      23021
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 26068,
+  "distinct_tracked_piece_tokens": 4,
+  "nfa_states": 15,
+  "unrolled_states": 877,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 15,
+      "alphabet_size": 7,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          0,
+          5,
+          12
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          5,
+          0,
+          4
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          4
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          1
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          9
+        ],
+        [
+          9,
+          4,
+          4
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          4
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          13
+        ],
+        [
+          12,
+          4,
+          4
+        ],
+        [
+          12,
+          5,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          13,
+          5,
+          13
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          4
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          26068
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          83949
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          4654
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          23021
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 4,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 5,
+    "stop_symbol_id": 6,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      25221,
+      4109,
+      5289,
+      8488,
+      236764,
+      784,
+      506,
+      17835,
+      529,
+      506,
+      1902,
+      10344,
+      531,
+      236743,
+      236810,
+      236771,
+      1518,
+      529,
+      10346,
+      23049,
+      699,
+      886,
+      2264,
+      528,
+      1900,
+      531,
+      5001,
+      4767,
+      28847,
+      236761,
+      236743,
+      236810,
+      236771,
+      1518,
+      3209,
+      236764,
+      506,
+      3640,
+      4184,
+      3952,
+      855,
+      529,
+      74627,
+      236764,
+      1186,
+      531,
+      3449,
+      600,
+      951,
+      886,
+      1663,
+      3939,
+      1131,
+      23049,
+      236761,
+      108,
+      3689,
+      2712,
+      529,
+      496,
+      16568,
+      691,
+      672,
+      236764,
+      14522,
+      3305,
+      236761,
+      2195,
+      964,
+      2378,
+      531,
+      910,
+      1852,
+      7359,
+      532,
+      6544,
+      531,
+      11327,
+      2557,
+      5205,
+      236761,
+      669,
+      4181,
+      901,
+      9691,
+      528,
+      691,
+      5017,
+      2822,
+      529,
+      78683,
+      236761,
+      107,
+      31717,
+      236764,
+      901,
+      6345,
+      6495,
+      524,
+      1547,
+      901,
+      3782,
+      236789,
+      236745,
+      1581,
+      1502,
+      506,
+      3653,
+      236761,
+      2195,
+      6956,
+      531,
+      4196,
+      855,
+      529,
+      625,
+      236761,
+      669,
+      1884,
+      529,
+      506,
+      1902,
+      1374,
+      735,
+      3028,
+      506,
+      1638,
+      236761,
+      5450,
+      529,
+      672,
+      1093,
+      735,
+      8432,
+      236761,
+      108,
+      9336,
+      506,
+      2344,
+      236764,
+      625,
+      691,
+      990,
+      531,
+      1076,
+      16551,
+      506,
+      3068,
+      236764,
+      532,
+      5811,
+      855,
+      3217,
+      506,
+      1902,
+      11724,
+      1091,
+      1131,
+      23049,
+      7057,
+      236761,
+      15141,
+      625,
+      496,
+      9891,
+      529,
+      506,
+      14522,
+      236881,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "left_not_right",
+      "label": "left but not right",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('settle', 'mastered', 'knowledge', 'wanting') must occur on the left and not on the right."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "083_coauthor_left_not_right_kna_t4_rep2",
+      "design_index": 383,
+      "structural_cell_index": 83,
+      "replicate_index": 2,
+      "seed": 557666619,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "5c34162df68c3d6ffb2660c1b658996af27337be50c08e9f48cda7cea1dc94ce"
+  }
+}

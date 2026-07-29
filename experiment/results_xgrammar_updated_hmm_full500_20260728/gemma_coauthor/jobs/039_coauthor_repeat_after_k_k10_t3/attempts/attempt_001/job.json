@@ -1,0 +1,1581 @@
+{
+  "base_instance_id": "coauthor:creative:ae05e585f42146a283168fdee429ddea",
+  "constraint": "repeat_after_k",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 39,
+  "family_index": 9,
+  "job_id": "039_coauthor_repeat_after_k_k10_t3",
+  "k": 10,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 12,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "short_sentence_continuation",
+  "prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. This has caused some issues for families. The Dads whose mugs are ranked very low has offended them. They're taking it personally and feel as if they are a failure. The funny thing is they don't even know what the ranking system is. They just know that their mug doesn't say #1 Dad anymore and that has hurt their confidence.\n\nThe next morning something interesting happens. All of the #1 Mom mugs have also changed to show their actual ranking. The moms are also offended and their confidence seems to be shook too. Again, neither parent even knows what these rankings actually mean. They just know that their mug no longer says #1 Mom or Dad on it.\n\nA news brief covers the story and goes on about the effects that this change in mugs has had on families. Stress levels and anxiety were increased. The video also reported that social media is flooded with posts from parents, upset that a mug they bought has changed. Mug companies were getting called each day with complaints as if they had anything to do with it.",
+  "reference_single_token_nfa_states": 33,
+  "reference_text": "\n\nThe next day another news brief hits that explains that an alien ended up hacking the planet which changed all of the mugs. The alien hacks into the news brief and tells everyone that he wanted to show all humans how much they care about what others think. He wanted to teach human beings a lesson.",
+  "reference_token_count": 61,
+  "replicate_index": 0,
+  "seed": 1838216032,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "hacks",
+      "token_ids": [
+        100057
+      ],
+      "token_length": 1,
+      "token_text": " hacks"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "hacking",
+      "token_ids": [
+        79164
+      ],
+      "token_length": 1,
+      "token_text": " hacking"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.49989674,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "hits",
+      "token_ids": [
+        16737
+      ],
+      "token_length": 1,
+      "token_text": " hits"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 532,
+  "source_record_sha256": "dcb1d7d9c0b4fd6b110154eb1e3854ced2c1bb751ac179d2b8938fd6f1018be9",
+  "source_split": "train",
+  "structural_cell_index": 39,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      100057
+    ],
+    [
+      79164
+    ],
+    [
+      16737
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    100057,
+    79164,
+    16737
+  ],
+  "tracked_token_texts": [
+    " hacks",
+    " hacking",
+    " hits"
+  ],
+  "prompt_token_ids": [
+    2,
+    105,
+    2364,
+    107,
+    34230,
+    506,
+    1816,
+    3426,
+    607,
+    7121,
+    886,
+    2822,
+    236764,
+    3756,
+    236764,
+    40137,
+    5422,
+    13315,
+    236761,
+    9657,
+    1186,
+    506,
+    40591,
+    236764,
+    607,
+    951,
+    170711,
+    653,
+    15569,
+    236787,
+    107,
+    3243,
+    529,
+    506,
+    13659,
+    236770,
+    30702,
+    236775,
+    96138,
+    528,
+    506,
+    1902,
+    2352,
+    531,
+    1407,
+    506,
+    5396,
+    27672,
+    529,
+    622,
+    10328,
+    15937,
+    236761,
+    1174,
+    815,
+    7321,
+    1070,
+    4342,
+    573,
+    7965,
+    236761,
+    669,
+    622,
+    10328,
+    5769,
+    96138,
+    659,
+    25847,
+    1401,
+    2708,
+    815,
+    86636,
+    1091,
+    236761,
+    2195,
+    236789,
+    500,
+    4030,
+    625,
+    16909,
+    532,
+    2597,
+    618,
+    768,
+    901,
+    659,
+    496,
+    8800,
+    236761,
+    669,
+    12274,
+    3210,
+    563,
+    901,
+    1537,
+    236789,
+    236745,
+    1581,
+    1281,
+    1144,
+    506,
+    27672,
+    1458,
+    563,
+    236761,
+    2195,
+    1164,
+    1281,
+    600,
+    910,
+    24199,
+    4038,
+    236789,
+    236745,
+    1879,
+    997,
+    236770,
+    30702,
+    18602,
+    532,
+    600,
+    815,
+    16131,
+    910,
+    10805,
+    236761,
+    108,
+    818,
+    2148,
+    5597,
+    2613,
+    6121,
+    9439,
+    236761,
+    2343,
+    529,
+    506,
+    997,
+    236770,
+    28489,
+    96138,
+    735,
+    992,
+    6692,
+    531,
+    1407,
+    910,
+    5396,
+    27672,
+    236761,
+    669,
+    75621,
+    659,
+    992,
+    86636,
+    532,
+    910,
+    10805,
+    5072,
+    531,
+    577,
+    42058,
+    2311,
+    236761,
+    14276,
+    236764,
+    13637,
+    3724,
+    1581,
+    10077,
+    1144,
+    1239,
+    47551,
+    3643,
+    2689,
+    236761,
+    2195,
+    1164,
+    1281,
+    600,
+    910,
+    24199,
+    951,
+    4890,
+    3189,
+    997,
+    236770,
+    28489,
+    653,
+    30702,
+    580,
+    625,
+    236761,
+    108,
+    236776,
+    4668,
+    8652,
+    13526,
+    506,
+    3925,
+    532,
+    5899,
+    580,
+    1003,
+    506,
+    4518,
+    600,
+    672,
+    2352,
+    528,
+    96138,
+    815,
+    1053,
+    580,
+    7965,
+    236761,
+    43378,
+    4535,
+    532,
+    17660,
+    964,
+    4869,
+    236761,
+    669,
+    2948,
+    992,
+    4785,
+    600,
+    2777,
+    4009,
+    563,
+    60447,
+    607,
+    12714,
+    699,
+    6296,
+    236764,
+    25269,
+    600,
+    496,
+    24199,
+    901,
+    10636,
+    815,
+    6692,
+    236761,
+    61396,
+    4699,
+    964,
+    3978,
+    2760,
+    1546,
+    1719,
+    607,
+    24764,
+    618,
+    768,
+    901,
+    1053,
+    4658,
+    531,
+    776,
+    607,
+    625,
+    236761,
+    106,
+    107,
+    105,
+    4368,
+    107
+  ],
+  "prompt_token_count": 270,
+  "prompt_token_ids_sha256": "da1a3c6f8fa535daf4b063f706bc50f9e07f5fe6cff20190ee131d1f725fa8d6",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "chat_continuation",
+  "source_prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. This has caused some issues for families. The Dads whose mugs are ranked very low has offended them. They're taking it personally and feel as if they are a failure. The funny thing is they don't even know what the ranking system is. They just know that their mug doesn't say #1 Dad anymore and that has hurt their confidence.\n\nThe next morning something interesting happens. All of the #1 Mom mugs have also changed to show their actual ranking. The moms are also offended and their confidence seems to be shook too. Again, neither parent even knows what these rankings actually mean. They just know that their mug no longer says #1 Mom or Dad on it.\n\nA news brief covers the story and goes on about the effects that this change in mugs has had on families. Stress levels and anxiety were increased. The video also reported that social media is flooded with posts from parents, upset that a mug they bought has changed. Mug companies were getting called each day with complaints as if they had anything to do with it.",
+  "source_prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 249,
+  "source_prompt_token_ids_sha256": "abdb939caca7ca42d4e894194348b2f5958ac58ace5b5cd4feea45cf85e94928",
+  "task_prompt_mode": "short_sentence_continuation",
+  "task_prompt_text": "Continue the text below with exactly one short, natural, coherent English sentence. Return only the continuation, with no preamble or explanation:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. This has caused some issues for families. The Dads whose mugs are ranked very low has offended them. They're taking it personally and feel as if they are a failure. The funny thing is they don't even know what the ranking system is. They just know that their mug doesn't say #1 Dad anymore and that has hurt their confidence.\n\nThe next morning something interesting happens. All of the #1 Mom mugs have also changed to show their actual ranking. The moms are also offended and their confidence seems to be shook too. Again, neither parent even knows what these rankings actually mean. They just know that their mug no longer says #1 Mom or Dad on it.\n\nA news brief covers the story and goes on about the effects that this change in mugs has had on families. Stress levels and anxiety were increased. The video also reported that social media is flooded with posts from parents, upset that a mug they bought has changed. Mug companies were getting called each day with complaints as if they had anything to do with it.",
+  "task_prompt_text_utf8_sha256": "a85a94cace90490cd0f05cff5df383b5b248bff09fd9eb845d2e09eeb32d85e6",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      100057
+    ],
+    "piece_001": [
+      79164
+    ],
+    "piece_002": [
+      16737
+    ],
+    "sep": [
+      532
+    ]
+  },
+  "target_token_id": 100057,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 33,
+  "unrolled_states": 1834,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 33,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          23
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          5,
+          4,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          6,
+          4,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          9,
+          4,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          11,
+          3,
+          12
+        ],
+        [
+          11,
+          4,
+          12
+        ],
+        [
+          12,
+          0,
+          2
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          13,
+          3,
+          14
+        ],
+        [
+          13,
+          4,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          14,
+          3,
+          15
+        ],
+        [
+          14,
+          4,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          15,
+          3,
+          16
+        ],
+        [
+          15,
+          4,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          16,
+          3,
+          17
+        ],
+        [
+          16,
+          4,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          17,
+          3,
+          18
+        ],
+        [
+          17,
+          4,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          18,
+          3,
+          19
+        ],
+        [
+          18,
+          4,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          19,
+          3,
+          20
+        ],
+        [
+          19,
+          4,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          20,
+          3,
+          21
+        ],
+        [
+          20,
+          4,
+          21
+        ],
+        [
+          21,
+          0,
+          22
+        ],
+        [
+          21,
+          1,
+          22
+        ],
+        [
+          21,
+          2,
+          22
+        ],
+        [
+          21,
+          3,
+          22
+        ],
+        [
+          21,
+          4,
+          22
+        ],
+        [
+          22,
+          1,
+          2
+        ],
+        [
+          23,
+          0,
+          24
+        ],
+        [
+          23,
+          1,
+          24
+        ],
+        [
+          23,
+          2,
+          24
+        ],
+        [
+          23,
+          3,
+          24
+        ],
+        [
+          23,
+          4,
+          24
+        ],
+        [
+          24,
+          0,
+          25
+        ],
+        [
+          24,
+          1,
+          25
+        ],
+        [
+          24,
+          2,
+          25
+        ],
+        [
+          24,
+          3,
+          25
+        ],
+        [
+          24,
+          4,
+          25
+        ],
+        [
+          25,
+          0,
+          26
+        ],
+        [
+          25,
+          1,
+          26
+        ],
+        [
+          25,
+          2,
+          26
+        ],
+        [
+          25,
+          3,
+          26
+        ],
+        [
+          25,
+          4,
+          26
+        ],
+        [
+          26,
+          0,
+          27
+        ],
+        [
+          26,
+          1,
+          27
+        ],
+        [
+          26,
+          2,
+          27
+        ],
+        [
+          26,
+          3,
+          27
+        ],
+        [
+          26,
+          4,
+          27
+        ],
+        [
+          27,
+          0,
+          28
+        ],
+        [
+          27,
+          1,
+          28
+        ],
+        [
+          27,
+          2,
+          28
+        ],
+        [
+          27,
+          3,
+          28
+        ],
+        [
+          27,
+          4,
+          28
+        ],
+        [
+          28,
+          0,
+          29
+        ],
+        [
+          28,
+          1,
+          29
+        ],
+        [
+          28,
+          2,
+          29
+        ],
+        [
+          28,
+          3,
+          29
+        ],
+        [
+          28,
+          4,
+          29
+        ],
+        [
+          29,
+          0,
+          30
+        ],
+        [
+          29,
+          1,
+          30
+        ],
+        [
+          29,
+          2,
+          30
+        ],
+        [
+          29,
+          3,
+          30
+        ],
+        [
+          29,
+          4,
+          30
+        ],
+        [
+          30,
+          0,
+          31
+        ],
+        [
+          30,
+          1,
+          31
+        ],
+        [
+          30,
+          2,
+          31
+        ],
+        [
+          30,
+          3,
+          31
+        ],
+        [
+          30,
+          4,
+          31
+        ],
+        [
+          31,
+          0,
+          32
+        ],
+        [
+          31,
+          1,
+          32
+        ],
+        [
+          31,
+          2,
+          32
+        ],
+        [
+          31,
+          3,
+          32
+        ],
+        [
+          31,
+          4,
+          32
+        ],
+        [
+          32,
+          2,
+          2
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          100057
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          79164
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          16737
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          532
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      2,
+      105,
+      2364,
+      107,
+      34230,
+      506,
+      1816,
+      3426,
+      607,
+      7121,
+      886,
+      2822,
+      236764,
+      3756,
+      236764,
+      40137,
+      5422,
+      13315,
+      236761,
+      9657,
+      1186,
+      506,
+      40591,
+      236764,
+      607,
+      951,
+      170711,
+      653,
+      15569,
+      236787,
+      107,
+      3243,
+      529,
+      506,
+      13659,
+      236770,
+      30702,
+      236775,
+      96138,
+      528,
+      506,
+      1902,
+      2352,
+      531,
+      1407,
+      506,
+      5396,
+      27672,
+      529,
+      622,
+      10328,
+      15937,
+      236761,
+      1174,
+      815,
+      7321,
+      1070,
+      4342,
+      573,
+      7965,
+      236761,
+      669,
+      622,
+      10328,
+      5769,
+      96138,
+      659,
+      25847,
+      1401,
+      2708,
+      815,
+      86636,
+      1091,
+      236761,
+      2195,
+      236789,
+      500,
+      4030,
+      625,
+      16909,
+      532,
+      2597,
+      618,
+      768,
+      901,
+      659,
+      496,
+      8800,
+      236761,
+      669,
+      12274,
+      3210,
+      563,
+      901,
+      1537,
+      236789,
+      236745,
+      1581,
+      1281,
+      1144,
+      506,
+      27672,
+      1458,
+      563,
+      236761,
+      2195,
+      1164,
+      1281,
+      600,
+      910,
+      24199,
+      4038,
+      236789,
+      236745,
+      1879,
+      997,
+      236770,
+      30702,
+      18602,
+      532,
+      600,
+      815,
+      16131,
+      910,
+      10805,
+      236761,
+      108,
+      818,
+      2148,
+      5597,
+      2613,
+      6121,
+      9439,
+      236761,
+      2343,
+      529,
+      506,
+      997,
+      236770,
+      28489,
+      96138,
+      735,
+      992,
+      6692,
+      531,
+      1407,
+      910,
+      5396,
+      27672,
+      236761,
+      669,
+      75621,
+      659,
+      992,
+      86636,
+      532,
+      910,
+      10805,
+      5072,
+      531,
+      577,
+      42058,
+      2311,
+      236761,
+      14276,
+      236764,
+      13637,
+      3724,
+      1581,
+      10077,
+      1144,
+      1239,
+      47551,
+      3643,
+      2689,
+      236761,
+      2195,
+      1164,
+      1281,
+      600,
+      910,
+      24199,
+      951,
+      4890,
+      3189,
+      997,
+      236770,
+      28489,
+      653,
+      30702,
+      580,
+      625,
+      236761,
+      108,
+      236776,
+      4668,
+      8652,
+      13526,
+      506,
+      3925,
+      532,
+      5899,
+      580,
+      1003,
+      506,
+      4518,
+      600,
+      672,
+      2352,
+      528,
+      96138,
+      815,
+      1053,
+      580,
+      7965,
+      236761,
+      43378,
+      4535,
+      532,
+      17660,
+      964,
+      4869,
+      236761,
+      669,
+      2948,
+      992,
+      4785,
+      600,
+      2777,
+      4009,
+      563,
+      60447,
+      607,
+      12714,
+      699,
+      6296,
+      236764,
+      25269,
+      600,
+      496,
+      24199,
+      901,
+      10636,
+      815,
+      6692,
+      236761,
+      61396,
+      4699,
+      964,
+      3978,
+      2760,
+      1546,
+      1719,
+      607,
+      24764,
+      618,
+      768,
+      901,
+      1053,
+      4658,
+      531,
+      776,
+      607,
+      625,
+      236761,
+      106,
+      107,
+      105,
+      4368,
+      107
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+      "vocab_size": 262144,
+      "eos_token_id": 1,
+      "pad_token_id": 0,
+      "all_special_ids": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        258881,
+        256000,
+        255999,
+        258883,
+        101,
+        258882,
+        106,
+        52,
+        49,
+        47,
+        51,
+        258880,
+        100,
+        105,
+        48,
+        46,
+        50,
+        98,
+        258884
+      ],
+      "files": {
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "3ab5c7b94dc97d65ca7064496fa69b88ff875378e1cb7ee3e43070c3a8170999",
+        "chat_template.jinja": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5"
+      },
+      "combined_sha256": "1bce662c5844364038bb97243f47c25a33a186e3d3bf48489c7bdff146ee6a34"
+    },
+    "instruction": {
+      "family": "repeat_after_k",
+      "label": "repeat after k",
+      "rule": "At least one tracked phrase ('hacks', 'hacking', 'hits') must occur twice with start positions exactly 10 tokens apart."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "039_coauthor_repeat_after_k_k10_t3",
+      "design_index": 39,
+      "structural_cell_index": 39,
+      "replicate_index": 0,
+      "seed": 1838216032,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "gemma-4-e2b-it",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-E2B-it",
+          "identity_sha256": "9c9e17590a6f234928762481be14fa453733ff65f72dc4e43fc94309ebe65622"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/gemma-4-e2b-it-HMM-128-Sparse-CoAuthor/checkpoint-70",
+          "identity_sha256": "9360f405d478b62477af5e2079f592f9b7661cbf7ad6784d28a146d72b82e594"
+        },
+        "model_provenance_sha256": "c55c11f4bc02ee407c9004c6849c508dfccc51feff397d505b5e7ee8aecc6b2e"
+      }
+    },
+    "sha256": "d77f33f976765578304ec7da31d0f2e20a6ae059bc6650fba1bf094620c0633d"
+  }
+}

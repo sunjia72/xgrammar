@@ -132,6 +132,8 @@ def _job_payload(
         "unrolled_states": TINY_UNROLLED_STATES,
         "seed": index,
         "dataset": "tiny",
+        "tracked_keyword_token_ids": [[1]],
+        "selected_keywords": [{"surface": "keyword", "token_ids": [1]}],
         "compiled_constraint": _compiled_payload(provenance=provenance),
     }
 
@@ -269,7 +271,16 @@ def _successful_worker_result(job: Any) -> dict[str, Any]:
         "prompt_token_count": len(job.compiled.prompt_token_ids),
         "generated_token_ids": [1, 3],
         "generated_total_len": 2,
-        "generated_text": "keyword<eos>",
+        "generated_content_token_ids": [1],
+        "generated_content_len": 1,
+        "canonical_eos_token_id": 3,
+        "terminal_token_ids": [3],
+        "terminal_eos_token_id": 3,
+        "terminal_eos_count": 1,
+        "terminated_with_eos": True,
+        "hit_content_token_cap": False,
+        "keyword_occurrence_counts": [1],
+        "generated_text": "keyword",
         "initial_mask_audit": {"ok": True},
     }
 
@@ -374,6 +385,47 @@ def test_token_partition_bounded_grammar_acceptance_and_full_initial_mask() -> N
         [3, 1],
     ):
         assert not runner.accepts_generation(artifact, token_ids, 2, 2)
+
+
+def test_model_native_terminal_aliases_share_the_stop_class() -> None:
+    class AliasTokenizer(TinyTokenizer):
+        all_special_ids = [3, 4, 5]
+
+        def __len__(self) -> int:
+            return 6
+
+        def get_vocab(self) -> dict[str, int]:
+            return {
+                **super().get_vocab(),
+                "<end_of_turn>": 5,
+            }
+
+    payload = _compiled_payload()
+    payload["tokenizer_fingerprint"] = {
+        "vocab_size": 6,
+        "eos_token_id": 3,
+        "pad_token_id": 4,
+        "all_special_ids": [3, 4, 5],
+    }
+    payload["sha256"] = _digest(
+        {key: value for key, value in payload.items() if key != "sha256"}
+    )
+    compiled = runner.CompiledConstraint.parse(payload)
+    artifact = runner.token_nfa_from_compiled(
+        AliasTokenizer(),
+        model_vocab_size=7,
+        compiled=compiled,
+        terminal_token_ids=(3, 5),
+    )
+
+    assert artifact.terminal_token_ids == (3, 5)
+    assert artifact.token_symbol_ids == (1, 0, 1, 2, -1, 2, -1)
+    assert artifact.symbol_token_ids == ((1,), (0, 2), (3, 5))
+    assert artifact.valid_content_token_ids == (0, 1, 2)
+    assert artifact.non_eos_special_token_ids == (4,)
+    assert runner.accepts_generation(artifact, [1, 3], 2, 2)
+    assert runner.accepts_generation(artifact, [1, 5], 2, 2)
+    assert not runner.accepts_generation(artifact, [5, 3], 2, 2)
 
 
 def test_current_500_job_workload_loads_and_rejects_reauthenticated_tamper(
@@ -527,7 +579,13 @@ def test_load_statuses_validates_nested_success_and_rejects_corruption(
     with pytest.raises(ValueError, match="saved failure result is invalid"):
         runner._load_statuses(
             tmp_path, [job], run_contract_sha256=contract_sha256
-        )
+    )
+
+
+def test_overlapping_occurrence_count() -> None:
+    assert runner._overlapping_occurrence_count([1, 1, 1], [1, 1]) == 2
+    assert runner._overlapping_occurrence_count([1, 2], [3]) == 0
+    assert runner._overlapping_occurrence_count([1, 2], []) == 0
 
 
 def test_load_statuses_rejects_corrupt_failed_resume_checkpoint_and_timeout(

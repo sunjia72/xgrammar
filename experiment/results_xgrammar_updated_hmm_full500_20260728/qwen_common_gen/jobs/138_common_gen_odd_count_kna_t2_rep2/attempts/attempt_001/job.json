@@ -1,0 +1,461 @@
+{
+  "base_instance_id": "common_gen:validation:779",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "common_gen",
+  "design_index": 438,
+  "family_index": 1,
+  "job_id": "138_common_gen_odd_count_kna_t2_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 65,
+  "n_low": 2,
+  "prompt_mode": "tracked_concepts_short_sentence",
+  "prompt_text": "Write exactly one short, natural, coherent English sentence that uses all of the following concepts: [\"type\", \"use\"]. Return only the sentence, with no preamble or explanation: ",
+  "reference_single_token_nfa_states": 10,
+  "reference_text": "The design team consisting of two men and one woman discussed the design of a wood pipe as part of their design assissment, they then used their computer to type in the design dementions and their thoughts on the pipe design for their assignment.",
+  "reference_token_count": 50,
+  "replicate_index": 2,
+  "seed": 1648646265,
+  "selected_keywords": [
+    {
+      "idf": 5.8602719,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0,
+        2,
+        3
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "type",
+      "token_ids": [
+        913
+      ],
+      "token_length": 1,
+      "token_text": " type"
+    },
+    {
+      "idf": 6.63148745,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "concept",
+      "source_reference_indices": [
+        0,
+        2,
+        3
+      ],
+      "source_token_pattern_status": "concept_origin_exempt",
+      "surface": "use",
+      "token_ids": [
+        958
+      ],
+      "token_length": 1,
+      "token_text": " use"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "38c2a06c8c06619434dbae65cd8449d393fd73eaf0d5aed97053a3c24a8c17a2",
+  "source_split": "validation",
+  "structural_cell_index": 138,
+  "t": 2,
+  "total_tracked_keyword_tokens": 2,
+  "tracked_keyword_token_ids": [
+    [
+      913
+    ],
+    [
+      958
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    913,
+    958
+  ],
+  "tracked_token_texts": [
+    " type",
+    " use"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    7734,
+    6681,
+    799,
+    2716,
+    11,
+    5629,
+    11,
+    53916,
+    6163,
+    11316,
+    421,
+    5533,
+    660,
+    314,
+    279,
+    2614,
+    18369,
+    25,
+    4241,
+    1267,
+    487,
+    328,
+    784,
+    5348,
+    3301,
+    1132,
+    279,
+    11316,
+    11,
+    440,
+    874,
+    86377,
+    466,
+    15673,
+    25,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 47,
+  "prompt_token_ids_sha256": "96465f73a965b4f50d296d32bf8955267c4d06acd7e27b54bc67e720eae30e27",
+  "prompt_render_policy": "one_user_no_system_native_chat_template_generation_prompt_thinking_disabled_v1",
+  "source_prompt_mode": "empty_chat",
+  "source_prompt_text": "",
+  "source_prompt_render_policy": "explicit_empty_user_no_system_thinking_disabled_v1",
+  "source_prompt_token_count": 12,
+  "source_prompt_token_ids_sha256": "a87577cd6bcb4b76c13aa3d549b9f90c47f54707cb032c704fbcdea1e6083167",
+  "task_prompt_mode": "tracked_concepts_short_sentence",
+  "task_prompt_text": "Write exactly one short, natural, coherent English sentence that uses all of the following concepts: [\"type\", \"use\"]. Return only the sentence, with no preamble or explanation: ",
+  "task_prompt_text_utf8_sha256": "602dc98fc72a9a98e17e6eb567c72ea54ee37132bfc3d055b67e462b40551875",
+  "task_prompt_contract_id": "dataset_conditioned_one_short_natural_sentence_v2",
+  "task_prompt_contract_sha256": "e2ca796997e06a4493931e863836da2e7b8ebe5383302b87c0a4e9d9715412e4",
+  "min_content_tokens": 1,
+  "max_content_tokens": 64,
+  "terminal_eos_tokens": 1,
+  "token_classes": {
+    "piece_000": [
+      913
+    ],
+    "piece_001": [
+      958
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 913,
+  "distinct_tracked_piece_tokens": 2,
+  "nfa_states": 6,
+  "unrolled_states": 381,
+  "compiled_constraint": {
+    "schema_version": 2,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 6,
+      "alphabet_size": 5,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          913
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          958
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 2,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 3,
+    "stop_symbol_id": 4,
+    "n_low": 2,
+    "n": 65,
+    "length_contract": {
+      "schema_version": 1,
+      "content_token_interval": [
+        1,
+        64
+      ],
+      "total_token_interval_including_eos": [
+        2,
+        65
+      ],
+      "terminal_eos_tokens": 1,
+      "eos_counts_toward_total": true,
+      "eos_counts_toward_content": false
+    },
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      7734,
+      6681,
+      799,
+      2716,
+      11,
+      5629,
+      11,
+      53916,
+      6163,
+      11316,
+      421,
+      5533,
+      660,
+      314,
+      279,
+      2614,
+      18369,
+      25,
+      4241,
+      1267,
+      487,
+      328,
+      784,
+      5348,
+      3301,
+      1132,
+      279,
+      11316,
+      11,
+      440,
+      874,
+      86377,
+      466,
+      15673,
+      25,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('type', 'use') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "common_gen",
+      "job_id": "138_common_gen_odd_count_kna_t2_rep2",
+      "design_index": 438,
+      "structural_cell_index": 138,
+      "replicate_index": 2,
+      "seed": 1648646265,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "c2b22ec6f38a529908291c72e51d90fe3f4b2c6f3d163ba24d64075d049b9c60"
+        },
+        "hmm_model": {
+          "source": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CommonGen/checkpoint-150",
+          "local": true,
+          "resolved_path": "/project/6101842/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse-CommonGen/checkpoint-150",
+          "identity_sha256": "8500c33d5bc5c8016b57609e9015300cb0d5548942596df14b73d4eb7c472343"
+        },
+        "model_provenance_sha256": "e43f45bf33c5957d93e59d04a36e008a0f75946646756b072655705b7c2b1c92"
+      }
+    },
+    "sha256": "6d67c99ce835d729e88aaa6f347078c9e03d7cf9fd37150d9d14a3d10495f2eb"
+  }
+}
