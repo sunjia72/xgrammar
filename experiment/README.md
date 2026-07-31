@@ -1,7 +1,7 @@
 # XGrammar compiled-workload benchmark
 
 `run_xgrammar_benchmark.py` runs XGrammar against one current 500-instance,
-schema-v3 compiled workload. It contains no constraint-family dispatch:
+schema-v4 compiled workload. It contains no constraint-family dispatch:
 every job is driven exclusively by its authenticated `compiled_constraint`
 (token partition, NFA, length bounds, and exact prompt token IDs).
 
@@ -12,13 +12,16 @@ PYTHON=/project/aip-ksmeel/sunjia72/miniconda3/envs/nfa/bin/python
 NFA=/project/aip-ksmeel/sunjia72/constraint_decoding/nfa_fpras
 
 $PYTHON experiment/run_xgrammar_benchmark.py \
-  --workload "$NFA/experiment/results_nfa_common_gen_all10_n64/nfa_fpras_common_gen_qwen35_500_20260726_delta1/workload.json" \
+  --workload "$NFA/experiment/results_nfa_updated_hmm_full500_20260728/qwen_common_gen/workload.json" \
   --local_files_only --gpus 0,1,2,3 --timeout_s 256
 
 $PYTHON experiment/run_xgrammar_benchmark.py \
-  --workload "$NFA/experiment/results_nfa_coauthor_continuation_all10_n64/nfa_fpras_coauthor_qwen35_500_20260726_delta1/workload.json" \
+  --workload "$NFA/experiment/results_nfa_updated_hmm_full500_20260728/qwen_coauthor/workload.json" \
   --local_files_only --gpus 0,1,2,3 --timeout_s 256
 ```
+
+Replace the two `qwen_*` workload directories with `gemma_*` (and pass the
+matching Gemma model path) for the Gemma runs.
 
 The output run contains a byte-identical `workload.json`, `manifest.json`,
 `plan.csv`, `results.csv`, `summary.json`, and isolated per-job attempt logs.
