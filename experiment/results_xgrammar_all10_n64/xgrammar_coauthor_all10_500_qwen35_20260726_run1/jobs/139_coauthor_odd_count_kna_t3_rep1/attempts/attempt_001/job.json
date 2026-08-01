@@ -1,0 +1,779 @@
+{
+  "base_instance_id": "coauthor:creative:48058b31f2ea4797bc9dcc40ab9ee2f1",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 289,
+  "family_index": 2,
+  "job_id": "139_coauthor_odd_count_kna_t3_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 64,
+  "n_low": 2,
+  "prompt_mode": "chat_continuation",
+  "prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. One day, Murray wakes up to find his mug says, \"#47 Dad\". He is devastated, and goes to the store to buy a new mug. He scans the shelves hoping to find one just like his kids got him last year. The shelf is full of mugs for dads, and they all say #1.  He spots the exact mug he wants to get. It's perfect. It's the same one he got last year. He picks up the mug from the shelf and carries it over to the cash register.",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": " He looks at the price tag. The clerk tries to scan the mug, but the register makes an alert sound. The clerk looks at the screen and says, \"Sir, this mug is already registered to another customer. If you tell me your name, I'd be happy to match you to the right mug.\"",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 427978413,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "alert",
+      "token_ids": [
+        4953
+      ],
+      "token_length": 1,
+      "token_text": " alert"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "scan",
+      "token_ids": [
+        8307
+      ],
+      "token_length": 1,
+      "token_text": " scan"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "clerk",
+      "token_ids": [
+        42787
+      ],
+      "token_length": 1,
+      "token_text": " clerk"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "5a3d383eac8ac7afcbba6c1f060116e5fd0b178358084f7d52d7620c4cb8c60a",
+  "source_split": "train",
+  "structural_cell_index": 139,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      4953
+    ],
+    [
+      8307
+    ],
+    [
+      42787
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    4953,
+    8307,
+    42787
+  ],
+  "tracked_token_texts": [
+    " alert",
+    " scan",
+    " clerk"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    2574,
+    1414,
+    25,
+    198,
+    2324,
+    314,
+    279,
+    5687,
+    16,
+    31448,
+    1,
+    295,
+    12914,
+    303,
+    279,
+    1814,
+    2222,
+    310,
+    1420,
+    279,
+    4880,
+    22284,
+    314,
+    414,
+    7421,
+    14413,
+    13,
+    3648,
+    1834,
+    11,
+    26280,
+    59489,
+    685,
+    310,
+    1423,
+    780,
+    49755,
+    2640,
+    11,
+    5687,
+    19,
+    22,
+    31448,
+    3158,
+    1216,
+    369,
+    56051,
+    11,
+    321,
+    5601,
+    310,
+    279,
+    3436,
+    310,
+    3569,
+    264,
+    491,
+    49755,
+    13,
+    1216,
+    41224,
+    279,
+    34044,
+    15193,
+    310,
+    1423,
+    799,
+    1066,
+    1040,
+    780,
+    6623,
+    2597,
+    1384,
+    1483,
+    1007,
+    13,
+    561,
+    26748,
+    369,
+    2400,
+    314,
+    295,
+    12914,
+    364,
+    85707,
+    11,
+    321,
+    781,
+    660,
+    1910,
+    653,
+    16,
+    13,
+    220,
+    1216,
+    18206,
+    279,
+    4581,
+    49755,
+    551,
+    6587,
+    310,
+    615,
+    13,
+    1049,
+    579,
+    4574,
+    13,
+    1049,
+    579,
+    279,
+    1788,
+    799,
+    551,
+    2597,
+    1483,
+    1007,
+    13,
+    1216,
+    21220,
+    685,
+    279,
+    49755,
+    494,
+    279,
+    26748,
+    321,
+    22651,
+    424,
+    888,
+    310,
+    279,
+    8091,
+    4025,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 149,
+  "prompt_token_ids_sha256": "db1718c81c3cc6d3f31c76f1a246d70bb27a7d0c1d231feb54e8cb39e60f68d2",
+  "prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "token_classes": {
+    "piece_000": [
+      4953
+    ],
+    "piece_001": [
+      8307
+    ],
+    "piece_002": [
+      42787
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 4953,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 8,
+  "unrolled_states": 500,
+  "compiled_constraint": {
+    "schema_version": 1,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 8,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          4953
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          8307
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          42787
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 64,
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      2574,
+      1414,
+      25,
+      198,
+      2324,
+      314,
+      279,
+      5687,
+      16,
+      31448,
+      1,
+      295,
+      12914,
+      303,
+      279,
+      1814,
+      2222,
+      310,
+      1420,
+      279,
+      4880,
+      22284,
+      314,
+      414,
+      7421,
+      14413,
+      13,
+      3648,
+      1834,
+      11,
+      26280,
+      59489,
+      685,
+      310,
+      1423,
+      780,
+      49755,
+      2640,
+      11,
+      5687,
+      19,
+      22,
+      31448,
+      3158,
+      1216,
+      369,
+      56051,
+      11,
+      321,
+      5601,
+      310,
+      279,
+      3436,
+      310,
+      3569,
+      264,
+      491,
+      49755,
+      13,
+      1216,
+      41224,
+      279,
+      34044,
+      15193,
+      310,
+      1423,
+      799,
+      1066,
+      1040,
+      780,
+      6623,
+      2597,
+      1384,
+      1483,
+      1007,
+      13,
+      561,
+      26748,
+      369,
+      2400,
+      314,
+      295,
+      12914,
+      364,
+      85707,
+      11,
+      321,
+      781,
+      660,
+      1910,
+      653,
+      16,
+      13,
+      220,
+      1216,
+      18206,
+      279,
+      4581,
+      49755,
+      551,
+      6587,
+      310,
+      615,
+      13,
+      1049,
+      579,
+      4574,
+      13,
+      1049,
+      579,
+      279,
+      1788,
+      799,
+      551,
+      2597,
+      1483,
+      1007,
+      13,
+      1216,
+      21220,
+      685,
+      279,
+      49755,
+      494,
+      279,
+      26748,
+      321,
+      22651,
+      424,
+      888,
+      310,
+      279,
+      8091,
+      4025,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('alert', 'scan', 'clerk') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "139_coauthor_odd_count_kna_t3_rep1",
+      "design_index": 289,
+      "structural_cell_index": 139,
+      "replicate_index": 1,
+      "seed": 427978413,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "07c05d4d4fbaf2345ad11ccd8c7b6e9afaef89c6627bd6db2b16860005d92ab3"
+        },
+        "hmm_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "identity_sha256": "150780fa5392bdaaf9c2cdcad3fc1a0f9430542559d2aa3239de212a60c8d3d0"
+        },
+        "model_provenance_sha256": "c9fdbbef675b992502b19c6fa3169060a6c38735389465e75b2cff1d394ca231"
+      }
+    },
+    "sha256": "caa81581e8726b4901cccf53ed226afac715118b2eefefdcecfcdd0864263096"
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "base_instance_id": "coauthor:creative:b7687cecbf6c4c18a04b5b0b9b031cf4",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 162,
+  "family_index": 12,
+  "job_id": "012_coauthor_kth_last_k20_t1_rep1",
+  "k": 20,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 21,
+  "multi_token_keyword_count": 0,
+  "n": 64,
+  "n_low": 2,
+  "prompt_mode": "chat_continuation",
+  "prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly.\n\nI quickly scanned the mug to see if my name was on the list. I was not technically a dad, but still a step-dad. I figured i would still be on the list since i did all i could do to raise the kids in the best way i knew how. I wasnt sure if i was dreaming or if this was real, however in the moment all i cared about was looking at the list on my mug. I didnt even take a sip of the coffee. My mouth was open and my eyes were focused on the mug. I thought maybe i should make sure my eyes werent playing tricks on me.",
+  "reference_single_token_nfa_states": 22,
+  "reference_text": " Alas, there it was. I saw my name. I read the number beside my name.  I was #1 Dad. I wasnt sure if it was real or not. I didnt feel anything. I just....... looked.  I quickly began to look at the rankings of all the other dads.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 828242263,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 5.98907112,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "beside",
+      "token_ids": [
+        28428
+      ],
+      "token_length": 1,
+      "token_text": " beside"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "6f785f06be8788f65f55c1759ad997ede1be489bfd3877e3147d922f4e03ae93",
+  "source_split": "train",
+  "structural_cell_index": 12,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      28428
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    28428
+  ],
+  "tracked_token_texts": [
+    " beside"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    2574,
+    1414,
+    25,
+    198,
+    2324,
+    314,
+    279,
+    5687,
+    16,
+    31448,
+    1,
+    295,
+    12914,
+    303,
+    279,
+    1814,
+    2222,
+    310,
+    1420,
+    279,
+    4880,
+    22284,
+    314,
+    414,
+    7421,
+    14413,
+    13,
+    271,
+    40,
+    5964,
+    45867,
+    279,
+    49755,
+    310,
+    1436,
+    413,
+    821,
+    803,
+    557,
+    383,
+    279,
+    1103,
+    13,
+    353,
+    557,
+    524,
+    30515,
+    264,
+    17230,
+    11,
+    694,
+    1990,
+    264,
+    2923,
+    1676,
+    327,
+    13,
+    353,
+    23914,
+    585,
+    1000,
+    1990,
+    381,
+    383,
+    279,
+    1103,
+    2394,
+    585,
+    1467,
+    660,
+    585,
+    1362,
+    635,
+    310,
+    4673,
+    279,
+    6623,
+    303,
+    279,
+    1786,
+    1560,
+    585,
+    6661,
+    1204,
+    13,
+    353,
+    557,
+    398,
+    2617,
+    413,
+    585,
+    557,
+    53805,
+    466,
+    413,
+    411,
+    557,
+    1865,
+    11,
+    4611,
+    303,
+    279,
+    4299,
+    660,
+    585,
+    40300,
+    883,
+    557,
+    3221,
+    506,
+    279,
+    1103,
+    383,
+    821,
+    49755,
+    13,
+    353,
+    46020,
+    1442,
+    1831,
+    264,
+    45057,
+    314,
+    279,
+    10482,
+    13,
+    2921,
+    10463,
+    557,
+    1724,
+    321,
+    821,
+    6213,
+    998,
+    10419,
+    383,
+    279,
+    49755,
+    13,
+    353,
+    3272,
+    6970,
+    585,
+    1220,
+    1236,
+    2617,
+    821,
+    6213,
+    6840,
+    305,
+    5442,
+    27820,
+    383,
+    728,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 169,
+  "prompt_token_ids_sha256": "3c341a9d1491fdf9592f0dc0f5f2d416378e83e91b9bd0720f0d18c25eb951a7",
+  "prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "token_classes": {
+    "piece_000": [
+      28428
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 28428,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 22,
+  "unrolled_states": 1010,
+  "compiled_constraint": {
+    "schema_version": 1,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 22,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          0,
+          14
+        ],
+        [
+          13,
+          1,
+          14
+        ],
+        [
+          13,
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          15
+        ],
+        [
+          14,
+          1,
+          15
+        ],
+        [
+          14,
+          2,
+          15
+        ],
+        [
+          15,
+          0,
+          16
+        ],
+        [
+          15,
+          1,
+          16
+        ],
+        [
+          15,
+          2,
+          16
+        ],
+        [
+          16,
+          0,
+          17
+        ],
+        [
+          16,
+          1,
+          17
+        ],
+        [
+          16,
+          2,
+          17
+        ],
+        [
+          17,
+          0,
+          18
+        ],
+        [
+          17,
+          1,
+          18
+        ],
+        [
+          17,
+          2,
+          18
+        ],
+        [
+          18,
+          0,
+          19
+        ],
+        [
+          18,
+          1,
+          19
+        ],
+        [
+          18,
+          2,
+          19
+        ],
+        [
+          19,
+          0,
+          20
+        ],
+        [
+          19,
+          1,
+          20
+        ],
+        [
+          19,
+          2,
+          20
+        ],
+        [
+          20,
+          0,
+          21
+        ],
+        [
+          20,
+          1,
+          21
+        ],
+        [
+          20,
+          2,
+          21
+        ],
+        [
+          21,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          28428
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 64,
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      2574,
+      1414,
+      25,
+      198,
+      2324,
+      314,
+      279,
+      5687,
+      16,
+      31448,
+      1,
+      295,
+      12914,
+      303,
+      279,
+      1814,
+      2222,
+      310,
+      1420,
+      279,
+      4880,
+      22284,
+      314,
+      414,
+      7421,
+      14413,
+      13,
+      271,
+      40,
+      5964,
+      45867,
+      279,
+      49755,
+      310,
+      1436,
+      413,
+      821,
+      803,
+      557,
+      383,
+      279,
+      1103,
+      13,
+      353,
+      557,
+      524,
+      30515,
+      264,
+      17230,
+      11,
+      694,
+      1990,
+      264,
+      2923,
+      1676,
+      327,
+      13,
+      353,
+      23914,
+      585,
+      1000,
+      1990,
+      381,
+      383,
+      279,
+      1103,
+      2394,
+      585,
+      1467,
+      660,
+      585,
+      1362,
+      635,
+      310,
+      4673,
+      279,
+      6623,
+      303,
+      279,
+      1786,
+      1560,
+      585,
+      6661,
+      1204,
+      13,
+      353,
+      557,
+      398,
+      2617,
+      413,
+      585,
+      557,
+      53805,
+      466,
+      413,
+      411,
+      557,
+      1865,
+      11,
+      4611,
+      303,
+      279,
+      4299,
+      660,
+      585,
+      40300,
+      883,
+      557,
+      3221,
+      506,
+      279,
+      1103,
+      383,
+      821,
+      49755,
+      13,
+      353,
+      46020,
+      1442,
+      1831,
+      264,
+      45057,
+      314,
+      279,
+      10482,
+      13,
+      2921,
+      10463,
+      557,
+      1724,
+      321,
+      821,
+      6213,
+      998,
+      10419,
+      383,
+      279,
+      49755,
+      13,
+      353,
+      3272,
+      6970,
+      585,
+      1220,
+      1236,
+      2617,
+      821,
+      6213,
+      6840,
+      305,
+      5442,
+      27820,
+      383,
+      728,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('beside') must end at the 20-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "012_coauthor_kth_last_k20_t1_rep1",
+      "design_index": 162,
+      "structural_cell_index": 12,
+      "replicate_index": 1,
+      "seed": 828242263,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "07c05d4d4fbaf2345ad11ccd8c7b6e9afaef89c6627bd6db2b16860005d92ab3"
+        },
+        "hmm_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "identity_sha256": "150780fa5392bdaaf9c2cdcad3fc1a0f9430542559d2aa3239de212a60c8d3d0"
+        },
+        "model_provenance_sha256": "c9fdbbef675b992502b19c6fa3169060a6c38735389465e75b2cff1d394ca231"
+      }
+    },
+    "sha256": "2c60ce3d695e6edd9e8872dc1c132e83d051775c4ea1e469e8c482b06c02f3a8"
+  }
+}

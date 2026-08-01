@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "jobs": 500,
+  "succeeded": 500,
+  "failed": 0,
+  "pending": 0,
+  "failure_counts": {},
+  "valid_generations": 500,
+  "updated_at_utc": "2026-07-27T16:29:44.757920+00:00"
+}

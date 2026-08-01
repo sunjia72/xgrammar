@@ -1,0 +1,1117 @@
+{
+  "base_instance_id": "coauthor:creative:6938b4a468aa482ba459d2fbe140cb30",
+  "constraint": "left_not_right",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 232,
+  "family_index": 2,
+  "job_id": "082_coauthor_left_not_right_kna_t3_rep1",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 3,
+  "multi_token_keyword_count": 0,
+  "n": 64,
+  "n_low": 2,
+  "prompt_mode": "chat_continuation",
+  "prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly.  People were puzzled. \n\nThe next day, the news was all about the rankings. Who changed all the mugs? It was a mystery. Studies and investigations began. People began to worry that this was some sort of sign, like impending doom. \n\nThe next day, all of the \"#1 Mom\" mugs changed to show the actual ranking of Moms. People began to panic. This was proof that someone was paying attention to everything we do. This was not good. \n\nThe next day, all of the \"#1 Grandpa\" mugs changed to show the actual ranking of Grandpas. More evidence that we were being watched, and that there was indeed a lot of judgement going on, behind the scenes. The implications of this were such, that people began to analyze their own behavior.\n\nPeople weren't analyzing their behavior, when they were out in public and others could see them. They had already analyzed that to death. People were starting to analyze the behavior they only exhibit when they believe themselves to be alone. This behavior was far too often embarrassing, and this new revelation, that someone is watching and judging, was very scary.",
+  "reference_single_token_nfa_states": 11,
+  "reference_text": "\n\nPeople began doing things differently. Suddenly, just as suddenly as the Dad mugs had changed, food pantries filled with the best tasting foods. Shortly thereafter, a new policy came out of the Airbnb community. They would no longer be charging people who wish to stay in their extra houses. No more homelessness.",
+  "reference_token_count": 63,
+  "replicate_index": 1,
+  "seed": 813384807,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "thereafter",
+      "token_ids": [
+        43492
+      ],
+      "token_length": 1,
+      "token_text": " thereafter"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "tasting",
+      "token_ids": [
+        44854
+      ],
+      "token_length": 1,
+      "token_text": " tasting"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "foods",
+      "token_ids": [
+        14853
+      ],
+      "token_length": 1,
+      "token_text": " foods"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "59daca309d650057a2596ee10191f7f1cdc3d9593d2103728ee37618da50990d",
+  "source_split": "train",
+  "structural_cell_index": 82,
+  "t": 3,
+  "total_tracked_keyword_tokens": 3,
+  "tracked_keyword_token_ids": [
+    [
+      43492
+    ],
+    [
+      44854
+    ],
+    [
+      14853
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    43492,
+    44854,
+    14853
+  ],
+  "tracked_token_texts": [
+    " thereafter",
+    " tasting",
+    " foods"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    2574,
+    1414,
+    25,
+    198,
+    2324,
+    314,
+    279,
+    5687,
+    16,
+    31448,
+    1,
+    295,
+    12914,
+    303,
+    279,
+    1814,
+    2222,
+    310,
+    1420,
+    279,
+    4880,
+    22284,
+    314,
+    414,
+    7421,
+    14413,
+    13,
+    220,
+    8586,
+    998,
+    83339,
+    13,
+    4558,
+    760,
+    1727,
+    1834,
+    11,
+    279,
+    3543,
+    557,
+    660,
+    883,
+    279,
+    31242,
+    13,
+    10166,
+    5324,
+    660,
+    279,
+    295,
+    12914,
+    30,
+    1049,
+    557,
+    264,
+    21831,
+    13,
+    18157,
+    321,
+    25058,
+    5820,
+    13,
+    8586,
+    5820,
+    310,
+    10635,
+    421,
+    411,
+    557,
+    1010,
+    3269,
+    314,
+    1777,
+    11,
+    1040,
+    60356,
+    56634,
+    13,
+    4558,
+    760,
+    1727,
+    1834,
+    11,
+    660,
+    314,
+    279,
+    5687,
+    16,
+    21492,
+    1,
+    295,
+    12914,
+    5324,
+    310,
+    1420,
+    279,
+    4880,
+    22284,
+    314,
+    80422,
+    13,
+    8586,
+    5820,
+    310,
+    21297,
+    13,
+    1061,
+    557,
+    10741,
+    421,
+    4184,
+    557,
+    12156,
+    6326,
+    310,
+    4156,
+    567,
+    635,
+    13,
+    1061,
+    557,
+    524,
+    1603,
+    13,
+    4558,
+    760,
+    1727,
+    1834,
+    11,
+    660,
+    314,
+    279,
+    5687,
+    16,
+    9998,
+    6387,
+    1,
+    295,
+    12914,
+    5324,
+    310,
+    1420,
+    279,
+    4880,
+    22284,
+    314,
+    9998,
+    39744,
+    13,
+    4254,
+    5721,
+    421,
+    567,
+    998,
+    1602,
+    14936,
+    11,
+    321,
+    421,
+    1017,
+    557,
+    12456,
+    264,
+    2609,
+    314,
+    46224,
+    2019,
+    383,
+    11,
+    4661,
+    279,
+    15592,
+    13,
+    561,
+    23398,
+    314,
+    411,
+    998,
+    1680,
+    11,
+    421,
+    1208,
+    5820,
+    310,
+    22903,
+    836,
+    1765,
+    7465,
+    13,
+    271,
+    15450,
+    14290,
+    914,
+    39664,
+    836,
+    7465,
+    11,
+    948,
+    781,
+    998,
+    680,
+    303,
+    569,
+    321,
+    3672,
+    1362,
+    1436,
+    1070,
+    13,
+    2302,
+    995,
+    2582,
+    28186,
+    421,
+    310,
+    4397,
+    13,
+    8586,
+    998,
+    5732,
+    310,
+    22903,
+    279,
+    7465,
+    781,
+    1132,
+    29238,
+    948,
+    781,
+    4267,
+    5402,
+    310,
+    381,
+    7249,
+    13,
+    1061,
+    7465,
+    557,
+    2944,
+    2166,
+    3428,
+    42549,
+    11,
+    321,
+    411,
+    491,
+    37622,
+    11,
+    421,
+    4184,
+    369,
+    9799,
+    321,
+    48018,
+    11,
+    557,
+    1546,
+    27535,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 273,
+  "prompt_token_ids_sha256": "fa80433edf1da9bb9034324355a8bb7a34d8fe331f48bffc2a3e5a3bcc725361",
+  "prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "token_classes": {
+    "piece_000": [
+      43492
+    ],
+    "piece_001": [
+      44854
+    ],
+    "piece_002": [
+      14853
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 43492,
+  "distinct_tracked_piece_tokens": 3,
+  "nfa_states": 12,
+  "unrolled_states": 678,
+  "compiled_constraint": {
+    "schema_version": 1,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 12,
+      "alphabet_size": 6,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          9
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          5
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          5,
+          0,
+          4
+        ],
+        [
+          5,
+          1,
+          5
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          4
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          7
+        ],
+        [
+          7,
+          3,
+          8
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          4
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          8
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          1
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          9,
+          3,
+          4
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          11
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          4
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          11
+        ],
+        [
+          11,
+          5,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          43492
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          44854
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          14853
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 3,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 4,
+    "stop_symbol_id": 5,
+    "n_low": 2,
+    "n": 64,
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      2574,
+      1414,
+      25,
+      198,
+      2324,
+      314,
+      279,
+      5687,
+      16,
+      31448,
+      1,
+      295,
+      12914,
+      303,
+      279,
+      1814,
+      2222,
+      310,
+      1420,
+      279,
+      4880,
+      22284,
+      314,
+      414,
+      7421,
+      14413,
+      13,
+      220,
+      8586,
+      998,
+      83339,
+      13,
+      4558,
+      760,
+      1727,
+      1834,
+      11,
+      279,
+      3543,
+      557,
+      660,
+      883,
+      279,
+      31242,
+      13,
+      10166,
+      5324,
+      660,
+      279,
+      295,
+      12914,
+      30,
+      1049,
+      557,
+      264,
+      21831,
+      13,
+      18157,
+      321,
+      25058,
+      5820,
+      13,
+      8586,
+      5820,
+      310,
+      10635,
+      421,
+      411,
+      557,
+      1010,
+      3269,
+      314,
+      1777,
+      11,
+      1040,
+      60356,
+      56634,
+      13,
+      4558,
+      760,
+      1727,
+      1834,
+      11,
+      660,
+      314,
+      279,
+      5687,
+      16,
+      21492,
+      1,
+      295,
+      12914,
+      5324,
+      310,
+      1420,
+      279,
+      4880,
+      22284,
+      314,
+      80422,
+      13,
+      8586,
+      5820,
+      310,
+      21297,
+      13,
+      1061,
+      557,
+      10741,
+      421,
+      4184,
+      557,
+      12156,
+      6326,
+      310,
+      4156,
+      567,
+      635,
+      13,
+      1061,
+      557,
+      524,
+      1603,
+      13,
+      4558,
+      760,
+      1727,
+      1834,
+      11,
+      660,
+      314,
+      279,
+      5687,
+      16,
+      9998,
+      6387,
+      1,
+      295,
+      12914,
+      5324,
+      310,
+      1420,
+      279,
+      4880,
+      22284,
+      314,
+      9998,
+      39744,
+      13,
+      4254,
+      5721,
+      421,
+      567,
+      998,
+      1602,
+      14936,
+      11,
+      321,
+      421,
+      1017,
+      557,
+      12456,
+      264,
+      2609,
+      314,
+      46224,
+      2019,
+      383,
+      11,
+      4661,
+      279,
+      15592,
+      13,
+      561,
+      23398,
+      314,
+      411,
+      998,
+      1680,
+      11,
+      421,
+      1208,
+      5820,
+      310,
+      22903,
+      836,
+      1765,
+      7465,
+      13,
+      271,
+      15450,
+      14290,
+      914,
+      39664,
+      836,
+      7465,
+      11,
+      948,
+      781,
+      998,
+      680,
+      303,
+      569,
+      321,
+      3672,
+      1362,
+      1436,
+      1070,
+      13,
+      2302,
+      995,
+      2582,
+      28186,
+      421,
+      310,
+      4397,
+      13,
+      8586,
+      998,
+      5732,
+      310,
+      22903,
+      279,
+      7465,
+      781,
+      1132,
+      29238,
+      948,
+      781,
+      4267,
+      5402,
+      310,
+      381,
+      7249,
+      13,
+      1061,
+      7465,
+      557,
+      2944,
+      2166,
+      3428,
+      42549,
+      11,
+      321,
+      411,
+      491,
+      37622,
+      11,
+      421,
+      4184,
+      369,
+      9799,
+      321,
+      48018,
+      11,
+      557,
+      1546,
+      27535,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "left_not_right",
+      "label": "left but not right",
+      "rule": "Using the first separator as the split, at least one tracked phrase ('thereafter', 'tasting', 'foods') must occur on the left and not on the right."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "082_coauthor_left_not_right_kna_t3_rep1",
+      "design_index": 232,
+      "structural_cell_index": 82,
+      "replicate_index": 1,
+      "seed": 813384807,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "07c05d4d4fbaf2345ad11ccd8c7b6e9afaef89c6627bd6db2b16860005d92ab3"
+        },
+        "hmm_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "identity_sha256": "150780fa5392bdaaf9c2cdcad3fc1a0f9430542559d2aa3239de212a60c8d3d0"
+        },
+        "model_provenance_sha256": "c9fdbbef675b992502b19c6fa3169060a6c38735389465e75b2cff1d394ca231"
+      }
+    },
+    "sha256": "f8dbf627e17e41aa286c8ff085d12d13dd59d472b54c8452ad270048e3037865"
+  }
+}

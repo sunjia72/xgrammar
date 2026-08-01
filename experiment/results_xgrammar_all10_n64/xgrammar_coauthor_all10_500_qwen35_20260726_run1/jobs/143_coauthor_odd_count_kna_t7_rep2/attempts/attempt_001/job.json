@@ -1,0 +1,1949 @@
+{
+  "base_instance_id": "coauthor:creative:e04ccf1a440045bd92bf1ac66489b158",
+  "constraint": "odd_count",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 443,
+  "family_index": 6,
+  "job_id": "143_coauthor_odd_count_kna_t7_rep2",
+  "k": null,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 2,
+  "multi_token_keyword_count": 0,
+  "n": 64,
+  "n_low": 2,
+  "prompt_mode": "chat_continuation",
+  "prompt_text": "Continue the given text:\nAll of the \"#1 Dad\" mugs in the world change to show the actual ranking of Dads suddenly. It's a bit of a shock to the Dads who now find out that they are at the bottom of the barrel. They decide to start a support group to cope with it. It's a pitiful affair as they each week go to the meetings, feeling sorry for themselves. One Dad, however, is determined to make it better for all the Dads. He says that they can just go and change the number on their mugs. Then their families and friends will think they aren't the worst dads anymore. \n\nThe other Dads cheer, get up, and begin to leave the meeting. They go home and use pens to change the number on their mugs. The next week, they all go to the support group. They share their experiences of what has happened since. The first Dad says he went home and changed the number on the mug. He says that it resulted in his wife being impressed. She thought he must have been trying harder so he was thrilled. He got recognition without changing anything. \n\nOne dad suggested that they just try and be better fathers and they wouldn't have to lie like this. All of the dads laughed and said that was a good joke. They then went back to stories of how changing the numbers had been such a success.",
+  "reference_single_token_nfa_states": 30,
+  "reference_text": " \n\nThey then started to get greedy. They began changing the numbers over and over, giving themselves a higher ranking. They talked about how much more praise and attention they had gotten from their families. It was becoming an addiction. Finally, one week they realize they had all now ranked themselves as the #1 dad.",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 779302175,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "praise",
+      "token_ids": [
+        27463
+      ],
+      "token_length": 1,
+      "token_text": " praise"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "addiction",
+      "token_ids": [
+        25531
+      ],
+      "token_length": 1,
+      "token_text": " addiction"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "greedy",
+      "token_ids": [
+        54102
+      ],
+      "token_length": 1,
+      "token_text": " greedy"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "gotten",
+      "token_ids": [
+        16521
+      ],
+      "token_length": 1,
+      "token_text": " gotten"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 6.21221467,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "higher",
+      "token_ids": [
+        4918
+      ],
+      "token_length": 1,
+      "token_text": " higher"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.80674956,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "talked",
+      "token_ids": [
+        14466
+      ],
+      "token_length": 1,
+      "token_text": " talked"
+    },
+    {
+      "appears_in_prompt": false,
+      "idf": 5.65259888,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "attention",
+      "token_ids": [
+        6326
+      ],
+      "token_length": 1,
+      "token_text": " attention"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "895d44a3ba23217e2ccc1104ef035ae0d0a9cb27ebdc3c41413aade1a9d9e418",
+  "source_split": "train",
+  "structural_cell_index": 143,
+  "t": 7,
+  "total_tracked_keyword_tokens": 7,
+  "tracked_keyword_token_ids": [
+    [
+      27463
+    ],
+    [
+      25531
+    ],
+    [
+      54102
+    ],
+    [
+      16521
+    ],
+    [
+      4918
+    ],
+    [
+      14466
+    ],
+    [
+      6326
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tracked_token_ids": [
+    27463,
+    25531,
+    54102,
+    16521,
+    4918,
+    14466,
+    6326
+  ],
+  "tracked_token_texts": [
+    " praise",
+    " addiction",
+    " greedy",
+    " gotten",
+    " higher",
+    " talked",
+    " attention"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    2574,
+    1414,
+    25,
+    198,
+    2324,
+    314,
+    279,
+    5687,
+    16,
+    31448,
+    1,
+    295,
+    12914,
+    303,
+    279,
+    1814,
+    2222,
+    310,
+    1420,
+    279,
+    4880,
+    22284,
+    314,
+    414,
+    7421,
+    14413,
+    13,
+    1049,
+    579,
+    264,
+    2612,
+    314,
+    264,
+    10439,
+    310,
+    279,
+    414,
+    7421,
+    852,
+    1381,
+    1423,
+    680,
+    421,
+    781,
+    513,
+    506,
+    279,
+    5445,
+    314,
+    279,
+    19694,
+    13,
+    2302,
+    9973,
+    310,
+    1151,
+    264,
+    1761,
+    1809,
+    310,
+    35281,
+    440,
+    424,
+    13,
+    1049,
+    579,
+    264,
+    19233,
+    4824,
+    28940,
+    430,
+    781,
+    1754,
+    1936,
+    708,
+    310,
+    279,
+    15782,
+    11,
+    8008,
+    14169,
+    364,
+    5402,
+    13,
+    3648,
+    31448,
+    11,
+    4611,
+    11,
+    369,
+    10521,
+    310,
+    1236,
+    424,
+    2577,
+    364,
+    660,
+    279,
+    414,
+    7421,
+    13,
+    1216,
+    2640,
+    421,
+    781,
+    628,
+    1066,
+    708,
+    321,
+    2222,
+    279,
+    1324,
+    383,
+    836,
+    295,
+    12914,
+    13,
+    4844,
+    836,
+    8259,
+    321,
+    4627,
+    668,
+    1683,
+    781,
+    7386,
+    914,
+    279,
+    11447,
+    85707,
+    14164,
+    13,
+    4558,
+    760,
+    975,
+    414,
+    7421,
+    24239,
+    11,
+    615,
+    685,
+    11,
+    321,
+    3060,
+    310,
+    5106,
+    279,
+    6236,
+    13,
+    2302,
+    708,
+    2046,
+    321,
+    958,
+    21900,
+    310,
+    2222,
+    279,
+    1324,
+    383,
+    836,
+    295,
+    12914,
+    13,
+    561,
+    1727,
+    1936,
+    11,
+    781,
+    660,
+    708,
+    310,
+    279,
+    1761,
+    1809,
+    13,
+    2302,
+    4191,
+    836,
+    11120,
+    314,
+    1092,
+    682,
+    6716,
+    2394,
+    13,
+    561,
+    1118,
+    31448,
+    2640,
+    551,
+    3804,
+    2046,
+    321,
+    5324,
+    279,
+    1324,
+    383,
+    279,
+    49755,
+    13,
+    1216,
+    2640,
+    421,
+    424,
+    18433,
+    303,
+    780,
+    7168,
+    1602,
+    23632,
+    13,
+    2838,
+    3272,
+    551,
+    1902,
+    599,
+    978,
+    4313,
+    15288,
+    748,
+    551,
+    557,
+    36224,
+    13,
+    1216,
+    2597,
+    17310,
+    1973,
+    9722,
+    3977,
+    13,
+    4558,
+    3833,
+    17230,
+    11488,
+    421,
+    781,
+    1066,
+    1380,
+    321,
+    381,
+    2577,
+    37919,
+    321,
+    781,
+    8012,
+    914,
+    599,
+    310,
+    9940,
+    1040,
+    411,
+    13,
+    1942,
+    314,
+    279,
+    85707,
+    30489,
+    321,
+    1018,
+    421,
+    557,
+    264,
+    1603,
+    20983,
+    13,
+    2302,
+    1179,
+    3804,
+    1142,
+    310,
+    7112,
+    314,
+    1204,
+    9722,
+    279,
+    4947,
+    995,
+    978,
+    1680,
+    264,
+    2316,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 298,
+  "prompt_token_ids_sha256": "721a0515082342ca8ee0fe36ee908dcc9c135b70b85976621686e8ef76cc6e42",
+  "prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "token_classes": {
+    "piece_000": [
+      27463
+    ],
+    "piece_001": [
+      25531
+    ],
+    "piece_002": [
+      54102
+    ],
+    "piece_003": [
+      16521
+    ],
+    "piece_004": [
+      4918
+    ],
+    "piece_005": [
+      14466
+    ],
+    "piece_006": [
+      6326
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 27463,
+  "distinct_tracked_piece_tokens": 7,
+  "nfa_states": 16,
+  "unrolled_states": 1000,
+  "compiled_constraint": {
+    "schema_version": 1,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 16,
+      "alphabet_size": 10,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          2,
+          12
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          0,
+          4,
+          11
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          4,
+          14
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          0,
+          5,
+          13
+        ],
+        [
+          0,
+          5,
+          14
+        ],
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          6,
+          12
+        ],
+        [
+          0,
+          6,
+          15
+        ],
+        [
+          0,
+          7,
+          2
+        ],
+        [
+          0,
+          7,
+          4
+        ],
+        [
+          0,
+          7,
+          6
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          0,
+          7,
+          10
+        ],
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          0,
+          7,
+          14
+        ],
+        [
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          8,
+          4
+        ],
+        [
+          0,
+          8,
+          6
+        ],
+        [
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          8,
+          10
+        ],
+        [
+          0,
+          8,
+          12
+        ],
+        [
+          0,
+          8,
+          14
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          7,
+          2
+        ],
+        [
+          2,
+          8,
+          2
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          8,
+          3
+        ],
+        [
+          3,
+          9,
+          1
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          7,
+          4
+        ],
+        [
+          4,
+          8,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          6,
+          5
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          5,
+          8,
+          5
+        ],
+        [
+          5,
+          9,
+          1
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          7,
+          6
+        ],
+        [
+          6,
+          8,
+          6
+        ],
+        [
+          7,
+          0,
+          7
+        ],
+        [
+          7,
+          1,
+          7
+        ],
+        [
+          7,
+          2,
+          6
+        ],
+        [
+          7,
+          3,
+          7
+        ],
+        [
+          7,
+          4,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ],
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          7,
+          7,
+          7
+        ],
+        [
+          7,
+          8,
+          7
+        ],
+        [
+          7,
+          9,
+          1
+        ],
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          1,
+          8
+        ],
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          5,
+          8
+        ],
+        [
+          8,
+          6,
+          8
+        ],
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          9,
+          0,
+          9
+        ],
+        [
+          9,
+          1,
+          9
+        ],
+        [
+          9,
+          2,
+          9
+        ],
+        [
+          9,
+          3,
+          8
+        ],
+        [
+          9,
+          4,
+          9
+        ],
+        [
+          9,
+          5,
+          9
+        ],
+        [
+          9,
+          6,
+          9
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          9
+        ],
+        [
+          9,
+          9,
+          1
+        ],
+        [
+          10,
+          0,
+          10
+        ],
+        [
+          10,
+          1,
+          10
+        ],
+        [
+          10,
+          2,
+          10
+        ],
+        [
+          10,
+          3,
+          10
+        ],
+        [
+          10,
+          4,
+          11
+        ],
+        [
+          10,
+          5,
+          10
+        ],
+        [
+          10,
+          6,
+          10
+        ],
+        [
+          10,
+          7,
+          10
+        ],
+        [
+          10,
+          8,
+          10
+        ],
+        [
+          11,
+          0,
+          11
+        ],
+        [
+          11,
+          1,
+          11
+        ],
+        [
+          11,
+          2,
+          11
+        ],
+        [
+          11,
+          3,
+          11
+        ],
+        [
+          11,
+          4,
+          10
+        ],
+        [
+          11,
+          5,
+          11
+        ],
+        [
+          11,
+          6,
+          11
+        ],
+        [
+          11,
+          7,
+          11
+        ],
+        [
+          11,
+          8,
+          11
+        ],
+        [
+          11,
+          9,
+          1
+        ],
+        [
+          12,
+          0,
+          12
+        ],
+        [
+          12,
+          1,
+          12
+        ],
+        [
+          12,
+          2,
+          12
+        ],
+        [
+          12,
+          3,
+          12
+        ],
+        [
+          12,
+          4,
+          12
+        ],
+        [
+          12,
+          5,
+          13
+        ],
+        [
+          12,
+          6,
+          12
+        ],
+        [
+          12,
+          7,
+          12
+        ],
+        [
+          12,
+          8,
+          12
+        ],
+        [
+          13,
+          0,
+          13
+        ],
+        [
+          13,
+          1,
+          13
+        ],
+        [
+          13,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          13
+        ],
+        [
+          13,
+          4,
+          13
+        ],
+        [
+          13,
+          5,
+          12
+        ],
+        [
+          13,
+          6,
+          13
+        ],
+        [
+          13,
+          7,
+          13
+        ],
+        [
+          13,
+          8,
+          13
+        ],
+        [
+          13,
+          9,
+          1
+        ],
+        [
+          14,
+          0,
+          14
+        ],
+        [
+          14,
+          1,
+          14
+        ],
+        [
+          14,
+          2,
+          14
+        ],
+        [
+          14,
+          3,
+          14
+        ],
+        [
+          14,
+          4,
+          14
+        ],
+        [
+          14,
+          5,
+          14
+        ],
+        [
+          14,
+          6,
+          15
+        ],
+        [
+          14,
+          7,
+          14
+        ],
+        [
+          14,
+          8,
+          14
+        ],
+        [
+          15,
+          0,
+          15
+        ],
+        [
+          15,
+          1,
+          15
+        ],
+        [
+          15,
+          2,
+          15
+        ],
+        [
+          15,
+          3,
+          15
+        ],
+        [
+          15,
+          4,
+          15
+        ],
+        [
+          15,
+          5,
+          15
+        ],
+        [
+          15,
+          6,
+          14
+        ],
+        [
+          15,
+          7,
+          15
+        ],
+        [
+          15,
+          8,
+          15
+        ],
+        [
+          15,
+          9,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          27463
+        ]
+      },
+      {
+        "name": "piece_001",
+        "symbol_id": 1,
+        "token_ids": [
+          25531
+        ]
+      },
+      {
+        "name": "piece_002",
+        "symbol_id": 2,
+        "token_ids": [
+          54102
+        ]
+      },
+      {
+        "name": "piece_003",
+        "symbol_id": 3,
+        "token_ids": [
+          16521
+        ]
+      },
+      {
+        "name": "piece_004",
+        "symbol_id": 4,
+        "token_ids": [
+          4918
+        ]
+      },
+      {
+        "name": "piece_005",
+        "symbol_id": 5,
+        "token_ids": [
+          14466
+        ]
+      },
+      {
+        "name": "piece_006",
+        "symbol_id": 6,
+        "token_ids": [
+          6326
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 7,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 8,
+    "stop_symbol_id": 9,
+    "n_low": 2,
+    "n": 64,
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      2574,
+      1414,
+      25,
+      198,
+      2324,
+      314,
+      279,
+      5687,
+      16,
+      31448,
+      1,
+      295,
+      12914,
+      303,
+      279,
+      1814,
+      2222,
+      310,
+      1420,
+      279,
+      4880,
+      22284,
+      314,
+      414,
+      7421,
+      14413,
+      13,
+      1049,
+      579,
+      264,
+      2612,
+      314,
+      264,
+      10439,
+      310,
+      279,
+      414,
+      7421,
+      852,
+      1381,
+      1423,
+      680,
+      421,
+      781,
+      513,
+      506,
+      279,
+      5445,
+      314,
+      279,
+      19694,
+      13,
+      2302,
+      9973,
+      310,
+      1151,
+      264,
+      1761,
+      1809,
+      310,
+      35281,
+      440,
+      424,
+      13,
+      1049,
+      579,
+      264,
+      19233,
+      4824,
+      28940,
+      430,
+      781,
+      1754,
+      1936,
+      708,
+      310,
+      279,
+      15782,
+      11,
+      8008,
+      14169,
+      364,
+      5402,
+      13,
+      3648,
+      31448,
+      11,
+      4611,
+      11,
+      369,
+      10521,
+      310,
+      1236,
+      424,
+      2577,
+      364,
+      660,
+      279,
+      414,
+      7421,
+      13,
+      1216,
+      2640,
+      421,
+      781,
+      628,
+      1066,
+      708,
+      321,
+      2222,
+      279,
+      1324,
+      383,
+      836,
+      295,
+      12914,
+      13,
+      4844,
+      836,
+      8259,
+      321,
+      4627,
+      668,
+      1683,
+      781,
+      7386,
+      914,
+      279,
+      11447,
+      85707,
+      14164,
+      13,
+      4558,
+      760,
+      975,
+      414,
+      7421,
+      24239,
+      11,
+      615,
+      685,
+      11,
+      321,
+      3060,
+      310,
+      5106,
+      279,
+      6236,
+      13,
+      2302,
+      708,
+      2046,
+      321,
+      958,
+      21900,
+      310,
+      2222,
+      279,
+      1324,
+      383,
+      836,
+      295,
+      12914,
+      13,
+      561,
+      1727,
+      1936,
+      11,
+      781,
+      660,
+      708,
+      310,
+      279,
+      1761,
+      1809,
+      13,
+      2302,
+      4191,
+      836,
+      11120,
+      314,
+      1092,
+      682,
+      6716,
+      2394,
+      13,
+      561,
+      1118,
+      31448,
+      2640,
+      551,
+      3804,
+      2046,
+      321,
+      5324,
+      279,
+      1324,
+      383,
+      279,
+      49755,
+      13,
+      1216,
+      2640,
+      421,
+      424,
+      18433,
+      303,
+      780,
+      7168,
+      1602,
+      23632,
+      13,
+      2838,
+      3272,
+      551,
+      1902,
+      599,
+      978,
+      4313,
+      15288,
+      748,
+      551,
+      557,
+      36224,
+      13,
+      1216,
+      2597,
+      17310,
+      1973,
+      9722,
+      3977,
+      13,
+      4558,
+      3833,
+      17230,
+      11488,
+      421,
+      781,
+      1066,
+      1380,
+      321,
+      381,
+      2577,
+      37919,
+      321,
+      781,
+      8012,
+      914,
+      599,
+      310,
+      9940,
+      1040,
+      411,
+      13,
+      1942,
+      314,
+      279,
+      85707,
+      30489,
+      321,
+      1018,
+      421,
+      557,
+      264,
+      1603,
+      20983,
+      13,
+      2302,
+      1179,
+      3804,
+      1142,
+      310,
+      7112,
+      314,
+      1204,
+      9722,
+      279,
+      4947,
+      995,
+      978,
+      1680,
+      264,
+      2316,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "odd_count",
+      "label": "odd count",
+      "rule": "At least one tracked phrase ('praise', 'addiction', 'greedy', 'gotten', 'higher', 'talked', 'attention') must have an odd number of occurrences."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "143_coauthor_odd_count_kna_t7_rep2",
+      "design_index": 443,
+      "structural_cell_index": 143,
+      "replicate_index": 2,
+      "seed": 779302175,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "07c05d4d4fbaf2345ad11ccd8c7b6e9afaef89c6627bd6db2b16860005d92ab3"
+        },
+        "hmm_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "identity_sha256": "150780fa5392bdaaf9c2cdcad3fc1a0f9430542559d2aa3239de212a60c8d3d0"
+        },
+        "model_provenance_sha256": "c9fdbbef675b992502b19c6fa3169060a6c38735389465e75b2cff1d394ca231"
+      }
+    },
+    "sha256": "961faf2702d57ba6d8e72867a49e50f0b3741a2723540d664d9f963885af10f1"
+  }
+}

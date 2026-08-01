@@ -1,0 +1,539 @@
+{
+  "base_instance_id": "coauthor:creative:95a0ce79d7ed4a77a0981c522b3deda7",
+  "constraint": "kth_last",
+  "constraint_constructor": "phrase_kmp_nfa_v2",
+  "dataset": "coauthor",
+  "design_index": 307,
+  "family_index": 7,
+  "job_id": "007_coauthor_kth_last_k12_t1_rep2",
+  "k": 12,
+  "max_tracked_keyword_tokens": 1,
+  "minimum_total_length": 13,
+  "multi_token_keyword_count": 0,
+  "n": 64,
+  "n_low": 2,
+  "prompt_mode": "chat_continuation",
+  "prompt_text": "Continue the given text:\nFollowing World War III, all the nations of the world agreed to 50 years of strict isolation from one another in order to prevent additional conflicts. 50 years later, the United States comes out of exile, only to learn that no one else went into isolation. The US learned the hard way, not to trust other political powers.",
+  "reference_single_token_nfa_states": 14,
+  "reference_text": " It is difficult to imagine the CIA without operatives in other nations. What was the government thinking?\n\nThe author takes the reader through a whirlwind of emotions, while keeping the reader on his toes with action and surprises. You find out that the US did have operatives in other nations, but they were bought off!",
+  "reference_token_count": 63,
+  "replicate_index": 2,
+  "seed": 758370561,
+  "selected_keywords": [
+    {
+      "appears_in_prompt": false,
+      "idf": 6.90536185,
+      "is_atomic": true,
+      "is_stopword": false,
+      "origin": "reference",
+      "source_reference_indices": [
+        0
+      ],
+      "source_token_pattern_status": "verified_in_source_reference",
+      "surface": "author",
+      "token_ids": [
+        3049
+      ],
+      "token_length": 1,
+      "token_text": " author"
+    }
+  ],
+  "separator_text": " and",
+  "separator_token_id": 321,
+  "source_record_sha256": "46be3c397c2ca8065e578a89e6ac061b82b4bc6de7dfe77219aa7c7b0066baf5",
+  "source_split": "train",
+  "structural_cell_index": 7,
+  "t": 1,
+  "total_tracked_keyword_tokens": 1,
+  "tracked_keyword_token_ids": [
+    [
+      3049
+    ]
+  ],
+  "tracked_keyword_token_lengths": [
+    1
+  ],
+  "tracked_token_ids": [
+    3049
+  ],
+  "tracked_token_texts": [
+    " author"
+  ],
+  "prompt_token_ids": [
+    248045,
+    846,
+    198,
+    22791,
+    279,
+    2574,
+    1414,
+    25,
+    198,
+    26093,
+    4196,
+    4843,
+    14016,
+    11,
+    660,
+    279,
+    16185,
+    314,
+    279,
+    1814,
+    7003,
+    310,
+    220,
+    20,
+    15,
+    1578,
+    314,
+    7077,
+    29310,
+    494,
+    799,
+    2361,
+    303,
+    1906,
+    310,
+    5190,
+    4945,
+    24979,
+    13,
+    220,
+    20,
+    15,
+    1578,
+    2843,
+    11,
+    279,
+    3516,
+    4042,
+    3905,
+    680,
+    314,
+    57962,
+    11,
+    1132,
+    310,
+    3827,
+    421,
+    874,
+    799,
+    745,
+    3804,
+    1083,
+    29310,
+    13,
+    561,
+    2201,
+    9218,
+    279,
+    2503,
+    1560,
+    11,
+    524,
+    310,
+    6734,
+    975,
+    4788,
+    13043,
+    13,
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+  ],
+  "prompt_token_count": 87,
+  "prompt_token_ids_sha256": "6f8004bc79ee083d16beb6f96296ccf1e7c54829ed94ce9b535a02f1282f9e3a",
+  "prompt_render_policy": "exact_user_text_once_no_system_thinking_disabled_v1",
+  "token_classes": {
+    "piece_000": [
+      3049
+    ],
+    "sep": [
+      321
+    ]
+  },
+  "target_token_id": 3049,
+  "distinct_tracked_piece_tokens": 1,
+  "nfa_states": 14,
+  "unrolled_states": 778,
+  "compiled_constraint": {
+    "schema_version": 1,
+    "kind": "compiled_token_partition_nfa",
+    "nfa": {
+      "num_states": 14,
+      "alphabet_size": 4,
+      "initials": [
+        0
+      ],
+      "finals": [
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          5,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          6,
+          1,
+          7
+        ],
+        [
+          6,
+          2,
+          7
+        ],
+        [
+          7,
+          0,
+          8
+        ],
+        [
+          7,
+          1,
+          8
+        ],
+        [
+          7,
+          2,
+          8
+        ],
+        [
+          8,
+          0,
+          9
+        ],
+        [
+          8,
+          1,
+          9
+        ],
+        [
+          8,
+          2,
+          9
+        ],
+        [
+          9,
+          0,
+          10
+        ],
+        [
+          9,
+          1,
+          10
+        ],
+        [
+          9,
+          2,
+          10
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          10,
+          1,
+          11
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          12
+        ],
+        [
+          11,
+          1,
+          12
+        ],
+        [
+          11,
+          2,
+          12
+        ],
+        [
+          12,
+          0,
+          13
+        ],
+        [
+          12,
+          1,
+          13
+        ],
+        [
+          12,
+          2,
+          13
+        ],
+        [
+          13,
+          3,
+          1
+        ]
+      ],
+      "wildcard_transitions": []
+    },
+    "token_classes": [
+      {
+        "name": "piece_000",
+        "symbol_id": 0,
+        "token_ids": [
+          3049
+        ]
+      },
+      {
+        "name": "sep",
+        "symbol_id": 1,
+        "token_ids": [
+          321
+        ]
+      }
+    ],
+    "other_symbol_id": 2,
+    "stop_symbol_id": 3,
+    "n_low": 2,
+    "n": 64,
+    "prompt_token_ids": [
+      248045,
+      846,
+      198,
+      22791,
+      279,
+      2574,
+      1414,
+      25,
+      198,
+      26093,
+      4196,
+      4843,
+      14016,
+      11,
+      660,
+      279,
+      16185,
+      314,
+      279,
+      1814,
+      7003,
+      310,
+      220,
+      20,
+      15,
+      1578,
+      314,
+      7077,
+      29310,
+      494,
+      799,
+      2361,
+      303,
+      1906,
+      310,
+      5190,
+      4945,
+      24979,
+      13,
+      220,
+      20,
+      15,
+      1578,
+      2843,
+      11,
+      279,
+      3516,
+      4042,
+      3905,
+      680,
+      314,
+      57962,
+      11,
+      1132,
+      310,
+      3827,
+      421,
+      874,
+      799,
+      745,
+      3804,
+      1083,
+      29310,
+      13,
+      561,
+      2201,
+      9218,
+      279,
+      2503,
+      1560,
+      11,
+      524,
+      310,
+      6734,
+      975,
+      4788,
+      13043,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "tokenizer_fingerprint": {
+      "path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+      "vocab_size": 248077,
+      "eos_token_id": 248046,
+      "pad_token_id": 248044,
+      "all_special_ids": [
+        248046,
+        248044,
+        248070,
+        248071,
+        248076,
+        248056,
+        248057,
+        248053,
+        248054
+      ],
+      "files": {
+        "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+      },
+      "combined_sha256": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+    },
+    "instruction": {
+      "family": "kth_last",
+      "label": "k-th last",
+      "rule": "At least one tracked phrase ('author') must end at the 12-th-last content token."
+    },
+    "provenance": {
+      "constraint_constructor": "phrase_kmp_nfa_v2",
+      "dataset": "coauthor",
+      "job_id": "007_coauthor_kth_last_k12_t1_rep2",
+      "design_index": 307,
+      "structural_cell_index": 7,
+      "replicate_index": 2,
+      "seed": 758370561,
+      "model_provenance": {
+        "schema_version": 1,
+        "model_profile": "qwen3.5-2b",
+        "base_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B",
+          "identity_sha256": "07c05d4d4fbaf2345ad11ccd8c7b6e9afaef89c6627bd6db2b16860005d92ab3"
+        },
+        "hmm_model": {
+          "source": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "local": true,
+          "resolved_path": "/project/aip-ksmeel/sunjia72/models/Qwen3.5-2B-HMM-128-Sparse",
+          "identity_sha256": "150780fa5392bdaaf9c2cdcad3fc1a0f9430542559d2aa3239de212a60c8d3d0"
+        },
+        "model_provenance_sha256": "c9fdbbef675b992502b19c6fa3169060a6c38735389465e75b2cff1d394ca231"
+      }
+    },
+    "sha256": "f67a64f1b3ad8b78babf01f85cb30a877da70f367741b390cfe2c3ea05484f5b"
+  }
+}
